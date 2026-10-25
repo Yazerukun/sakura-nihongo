@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CBTQuestion, LevelType, ExamHistoryRecord } from '../types';
+import { CBTQuestion, LevelType, ExamHistoryRecord, UserProfile } from '../types';
 import jftCbtExams from '../data/jft_cbt_exams.json';
 import jlptN4CbtExams from '../data/jlpt_n4_cbt_exams.json';
 import { japaneseVoice } from '../utils/audio';
@@ -28,10 +28,11 @@ import {
 
 interface CBTExamSimulatorProps {
   level: LevelType;
+  user?: UserProfile | null;
   onFinish?: () => void;
 }
 
-export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => {
+export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user }) => {
   const [activeExamType, setActiveExamType] = useState<'JFT' | 'N4'>(level === 'N4' ? 'N4' : 'JFT');
   const [examStarted, setExamStarted] = useState(false);
   const [examCompleted, setExamCompleted] = useState(false);
@@ -379,7 +380,9 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8 text-center relative z-10">
             <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
               <div className="text-xs text-slate-400">Examinee Name (受験者)</div>
-              <div className="text-lg font-bold text-slate-800 dark:text-white font-japanese">さくら (Sakura)</div>
+              <div className="text-lg font-bold text-slate-800 dark:text-white font-japanese">
+                {user?.displayName || 'Mariel (マリエル)'}
+              </div>
               <div className="text-[10px] text-slate-400 font-mono">ID: {activeExamType}-2026-8892</div>
             </div>
 
@@ -434,16 +437,22 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             })}
           </div>
 
-          {/* Sweet Encouragement Note from Ian */}
+          {/* Sweet Encouragement Note */}
           <div className="p-5 rounded-2xl bg-sakura-50/80 dark:bg-slate-800/80 border border-sakura-200 dark:border-slate-700 text-center relative z-10 mb-8">
             <Heart className="w-5 h-5 text-sakura-500 fill-sakura-500 mx-auto mb-1 animate-pulse" />
             <div className="font-bold text-sm text-sakura-900 dark:text-sakura-200 font-japanese">
-              To Ian's Beloved Sakura (さくらへ):
+              {user?.username === 'mariel' 
+                ? "To Ian's Beloved Mariel (マリエルへ):" 
+                : `To ${user?.displayName || 'Examinee'}:`}
             </div>
             <p className="text-xs text-slate-600 dark:text-slate-300 mt-1 max-w-lg mx-auto leading-relaxed">
               {isPassed 
-                ? "You did so extraordinarily well! Ian is so immensely proud of you. With scores like this, the official 2025/2026 examination will be a breeze for you! 🌸❤️" 
-                : "Do not be discouraged at all! Every question you practice today makes you stronger tomorrow. Ian believes in you 100% and will support you every single step! 🌸💪"}
+                ? (user?.username === 'mariel' 
+                    ? "Mariel, you did so extraordinarily well! Ian is so immensely proud of you. With scores like this, the official 2025/2026 examination will be a breeze for you! 🌸❤️" 
+                    : "You did extraordinarily well! With scores like this, the official 2025/2026 examination will be a breeze! 🌸")
+                : (user?.username === 'mariel' 
+                    ? "Do not be discouraged at all, Mariel! Every question you practice today makes you stronger tomorrow. Ian believes in you 100% and will support you every single step! 🌸💪" 
+                    : "Do not be discouraged at all! Every question you practice today makes you stronger tomorrow. Keep up the great effort! 🌸💪")}
             </p>
           </div>
 
@@ -560,7 +569,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
                 Prometric Live CBT Proctored Session
               </span>
               <span className="text-xs text-slate-400 font-mono">
-                Examinee: Sakura (さくら様)
+                Examinee: {user?.displayName || 'Mariel (マリエル様)'}
               </span>
             </div>
             <div className="text-sm font-bold text-slate-200 mt-0.5">

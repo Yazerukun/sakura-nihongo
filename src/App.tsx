@@ -146,7 +146,7 @@ export const App: React.FC = () => {
           {/* Active View */}
           <main className="flex-grow">
             {currentMode === 'lms' && <LMSReviewer level={currentLevel} />}
-            {currentMode === 'cbt' && <CBTExamSimulator level={currentLevel} />}
+            {currentMode === 'cbt' && <CBTExamSimulator level={currentLevel} user={user} />}
             {currentMode === 'realtime-voice' && <RealTimeVoiceTrainer level={currentLevel} />}
             {currentMode === 'ai-tutor' && <RealTimeAITutor level={currentLevel} />}
             {currentMode === 'flashcards' && <FlashcardDeck level={currentLevel} />}

@@ -23,6 +23,7 @@ export interface UserProfile {
   dailyGoalCards: number;
   dailyGoalMinutes: number;
   sweetNote: string;
+  role?: 'admin' | 'student';
 }
 
 export interface CBTQuestion {
