@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { LevelType } from '../types';
 import jftVocab from '../data/jft_vocab.json';
+import jlptN4Vocab from '../data/jlpt_n4_vocab.json';
 import jlptN5Vocab from '../data/jlpt_n5_vocab.json';
 import { japaneseVoice } from '../utils/audio';
 import { toggleBookmark, getBookmarks } from '../utils/storage';
@@ -11,7 +12,7 @@ interface VocabExplorerProps {
 }
 
 export const VocabExplorer: React.FC<VocabExplorerProps> = ({ currentLevel }) => {
-  const [activeTab, setActiveTab] = useState<'all' | 'jft' | 'n5'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'jft' | 'n4' | 'n5'>('all');
   const [search, setSearch] = useState('');
   const [showFurigana, setShowFurigana] = useState(true);
   const [bookmarks, setBookmarks] = useState<string[]>(getBookmarks());
@@ -26,6 +27,14 @@ export const VocabExplorer: React.FC<VocabExplorerProps> = ({ currentLevel }) =>
       source: 'JFT-A2 Irodori',
       category: v.category
     })),
+    ...(jlptN4Vocab as any[]).map((v, i) => ({
+      id: v.id || `jlpt_n4_${i}`,
+      kanji: v.japanese,
+      furigana: v.reading,
+      meaning: v.meanings.join(', '),
+      source: 'JLPT N4 Official',
+      category: v.type || 'N4'
+    })),
     ...(jlptN5Vocab as any[]).map((v, i) => ({
       id: `jlpt_n5_${i}`,
       kanji: v.japanese,
@@ -38,6 +47,7 @@ export const VocabExplorer: React.FC<VocabExplorerProps> = ({ currentLevel }) =>
 
   const filtered = allVocab.filter(item => {
     if (activeTab === 'jft' && !item.source.includes('JFT')) return false;
+    if (activeTab === 'n4' && !item.source.includes('N4')) return false;
     if (activeTab === 'n5' && !item.source.includes('N5')) return false;
 
     if (!search.trim()) return true;
@@ -95,6 +105,16 @@ export const VocabExplorer: React.FC<VocabExplorerProps> = ({ currentLevel }) =>
               }`}
             >
               JFT A2 (613)
+            </button>
+            <button
+              onClick={() => setActiveTab('n4')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                activeTab === 'n4'
+                  ? 'bg-sakura-500 text-white shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+            >
+              JLPT N4 ({jlptN4Vocab.length})
             </button>
             <button
               onClick={() => setActiveTab('n5')}

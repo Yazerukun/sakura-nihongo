@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { CBTQuestion, LevelType, ExamHistoryRecord } from '../types';
 import jftCbtExams from '../data/jft_cbt_exams.json';
-import jlptQuizzes from '../data/jlpt_quizzes.json';
+import jlptN4CbtExams from '../data/jlpt_n4_cbt_exams.json';
 import { japaneseVoice } from '../utils/audio';
 import { saveExamResult, recordStudySession } from '../utils/storage';
 import confetti from 'canvas-confetti';
@@ -32,6 +32,7 @@ interface CBTExamSimulatorProps {
 }
 
 export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => {
+  const [activeExamType, setActiveExamType] = useState<'JFT' | 'N4'>(level === 'N4' ? 'N4' : 'JFT');
   const [examStarted, setExamStarted] = useState(false);
   const [examCompleted, setExamCompleted] = useState(false);
   const [questions, setQuestions] = useState<CBTQuestion[]>([]);
@@ -45,38 +46,27 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
   const [audioPlayCount, setAudioPlayCount] = useState<Record<number, number>>({});
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
 
-  // Initialize questions based on level & selected test
+  // Sync activeExamType when level changes externally
+  useEffect(() => {
+    setActiveExamType(level === 'N4' ? 'N4' : 'JFT');
+  }, [level]);
+
+  // Initialize questions based on activeExamType & selected test
   useEffect(() => {
     loadExamQuestions();
-  }, [level, selectedSimulationTest]);
+  }, [activeExamType, selectedSimulationTest]);
 
   const loadExamQuestions = () => {
-    if (level === 'JFT') {
+    if (activeExamType === 'JFT') {
       const jftList = (jftCbtExams as CBTQuestion[]).filter(
         q => q.testNum === selectedSimulationTest
       );
-      if (jftList.length > 0) {
-        setQuestions(jftList);
-      } else {
-        setQuestions((jftCbtExams as CBTQuestion[]).slice(0, 60));
-      }
+      setQuestions(jftList.length > 0 ? jftList : (jftCbtExams as CBTQuestion[]).slice(0, 60));
     } else {
-      const rawJlpt = (jlptQuizzes as Record<string, any[]>)[level] || [];
-      const formatted: CBTQuestion[] = rawJlpt.slice(0, 50).map((q, i) => ({
-        id: q.id || `jlpt_${level}_${i}`,
-        testNum: 1,
-        sectionId: i < 15 ? 1 : i < 30 ? 2 : i < 40 ? 3 : 4,
-        sectionName: 
-          i < 15 ? 'Script and Vocabulary (文字・語彙)' : 
-          i < 30 ? 'Conversation and Expression (会話・表現)' : 
-          i < 40 ? 'Listening Comprehension (聴解)' : 
-          'Reading Comprehension (読解)',
-        question: q.question,
-        options: q.options,
-        correctAnswerIndex: q.correctAnswerIndex,
-        explanation: q.explanation || 'Official JLPT test question'
-      }));
-      setQuestions(formatted);
+      const n4List = (jlptN4CbtExams as CBTQuestion[]).filter(
+        q => q.testNum === selectedSimulationTest
+      );
+      setQuestions(n4List.length > 0 ? n4List : (jlptN4CbtExams as CBTQuestion[]).slice(0, 60));
     }
   };
 
@@ -135,6 +125,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
     const sectionBreakdown: Record<string, { correct: number; total: number }> = {
       'Script and Vocabulary (文字・語彙)': { correct: 0, total: 0 },
       'Conversation and Expression (会話・表現)': { correct: 0, total: 0 },
+      'Grammar and Expressions (文法・表現)': { correct: 0, total: 0 },
       'Listening Comprehension (聴解)': { correct: 0, total: 0 },
       'Reading Comprehension (読解)': { correct: 0, total: 0 }
     };
@@ -160,30 +151,23 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
     let maxScore = 0;
     let passed = false;
 
-    if (level === 'JFT') {
+    if (activeExamType === 'JFT') {
       // JFT-Basic Official IRT Scaled Score: 10 to 250 points, pass threshold = 200
       scaledScore = Math.round(10 + (correctCount / totalQuestions) * 240);
       maxScore = 250;
       passed = scaledScore >= 200;
     } else {
-      // JLPT official: 0 to 180 points
+      // JLPT N4 official: 0 to 180 points, passing mark = 90
       scaledScore = Math.round((correctCount / totalQuestions) * 180);
       maxScore = 180;
-      const passMarks: Record<string, number> = {
-        N5: 80,
-        N4: 90,
-        N3: 95,
-        N2: 90,
-        N1: 100
-      };
-      passed = scaledScore >= (passMarks[level] || 90);
+      passed = scaledScore >= 90;
     }
 
     const resultRecord: ExamHistoryRecord = {
       id: `exam_${Date.now()}`,
       date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-      examType: level === 'JFT' ? 'JFT' : 'JLPT',
-      level,
+      examType: activeExamType === 'JFT' ? 'JFT' : 'JLPT',
+      level: activeExamType,
       score: scaledScore,
       maxScore,
       passed,
@@ -232,7 +216,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
   const isReadingSec = currentQ?.sectionName.includes('Reading') || currentQ?.sectionId === 4;
 
   // -------------------------------------------------------------
-  // VIEW 1: START SCREEN
+  // VIEW 1: START SCREEN (Dual JFT-Basic & JLPT N4 Selector)
   // -------------------------------------------------------------
   if (!examStarted && !examCompleted) {
     return (
@@ -247,18 +231,51 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-800 dark:text-white font-japanese mb-2">
-            {level === 'JFT' 
-              ? 'Japan Foundation Test for Basic Japanese (JFT-Basic 2025/2026)' 
-              : `JLPT ${level} Official Real-Time Examination`}
+            {activeExamType === 'JFT' 
+              ? 'Japan Foundation Test for Basic Japanese (JFT-Basic A2)' 
+              : 'JLPT N4 Official Real-Time Examination (日本語能力試験 N4)'}
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base max-w-2xl mx-auto mb-6">
             Dedicated proctored environment mirroring the official Prometric test center. Features live 60-minute countdown, native listening audio dialogues, authentic reading texts, and official CEFR A2 / JLPT scaled grading.
           </p>
 
+          {/* Exam Type Switcher: JFT-Basic A2 vs JLPT N4 */}
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <button
+              onClick={() => {
+                setActiveExamType('JFT');
+                setSelectedSimulationTest(1);
+              }}
+              className={`px-5 py-2.5 rounded-2xl text-sm font-bold transition-all flex items-center gap-2 ${
+                activeExamType === 'JFT'
+                  ? 'bg-sakura-500 text-white shadow-lg shadow-sakura-500/30 scale-102 ring-2 ring-sakura-400/40'
+                  : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 border border-slate-200 dark:border-slate-700'
+              }`}
+            >
+              <span>🌸 JFT-Basic A2 (国際交流基金)</span>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-mono bg-white/20">6 Exams</span>
+            </button>
+
+            <button
+              onClick={() => {
+                setActiveExamType('N4');
+                setSelectedSimulationTest(1);
+              }}
+              className={`px-5 py-2.5 rounded-2xl text-sm font-bold transition-all flex items-center gap-2 ${
+                activeExamType === 'N4'
+                  ? 'bg-sakura-500 text-white shadow-lg shadow-sakura-500/30 scale-102 ring-2 ring-sakura-400/40'
+                  : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 border border-slate-200 dark:border-slate-700'
+              }`}
+            >
+              <span>🌸 JLPT N4 (公式本番試験)</span>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-mono bg-white/20">6 Exams</span>
+            </button>
+          </div>
+
           {/* Test Selector Grid */}
           <div className="mb-8">
             <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">
-              Select Official Real-Time Examination Set:
+              Select {activeExamType === 'JFT' ? 'JFT-Basic A2' : 'JLPT N4'} Examination Set:
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 max-w-3xl mx-auto">
               {[1, 2, 3, 4, 5, 6].map(testNum => (
@@ -267,7 +284,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
                   onClick={() => setSelectedSimulationTest(testNum)}
                   className={`p-3 rounded-2xl border text-center transition-all ${
                     selectedSimulationTest === testNum
-                      ? 'bg-sakura-500 text-white border-sakura-600 shadow-md shadow-sakura-500/25 ring-2 ring-sakura-400/30 font-bold scale-102'
+                      ? 'bg-slate-900 dark:bg-white text-white dark:text-slate-900 border-slate-900 shadow-md font-bold scale-102'
                       : 'bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-100'
                   }`}
                 >
@@ -294,7 +311,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
                 <FileText className="w-3.5 h-3.5" />
                 <span>Section 2: 15 Qs</span>
               </div>
-              <div className="text-sm font-bold text-slate-800 dark:text-white">会話・表現</div>
+              <div className="text-sm font-bold text-slate-800 dark:text-white">会話・表現 / 文法</div>
               <div className="text-[11px] text-slate-500 dark:text-slate-400">Grammar & Dialogues</div>
             </div>
 
@@ -323,7 +340,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             className="px-10 py-4 rounded-2xl font-bold text-base text-white bg-gradient-to-r from-sakura-500 via-rose-500 to-indigo-600 hover:from-sakura-600 hover:to-indigo-700 shadow-xl shadow-sakura-500/25 active:scale-95 transition-all inline-flex items-center gap-3"
           >
             <Timer className="w-5 h-5" />
-            <span>Launch Real-Time Live Exam #{selectedSimulationTest} (本番試験を開始する)</span>
+            <span>Launch {activeExamType === 'JFT' ? 'JFT-Basic' : 'JLPT N4'} Live Exam #{selectedSimulationTest} (本番試験を開始する)</span>
           </button>
         </div>
       </div>
@@ -351,7 +368,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
               Official Examination Results • 判定結果通知書
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-800 dark:text-white font-japanese mt-1">
-              {level === 'JFT' ? '国際交流基金 日本語基礎テスト (JFT-Basic)' : `日本語能力試験 (JLPT ${level})`}
+              {activeExamType === 'JFT' ? '国際交流基金 日本語基礎テスト (JFT-Basic)' : '日本語能力試験 N4 (JLPT N4)'}
             </h2>
             <div className="text-xs text-slate-500 mt-1">
               Certificate of Test Result • Real-Time Computer-Based Test
@@ -363,7 +380,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
               <div className="text-xs text-slate-400">Examinee Name (受験者)</div>
               <div className="text-lg font-bold text-slate-800 dark:text-white font-japanese">さくら (Sakura)</div>
-              <div className="text-[10px] text-slate-400 font-mono">ID: JFT-2026-8892</div>
+              <div className="text-[10px] text-slate-400 font-mono">ID: {activeExamType}-2026-8892</div>
             </div>
 
             <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
@@ -371,7 +388,9 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
               <div className="text-3xl font-extrabold text-slate-900 dark:text-white font-mono">
                 {finalScore.score} <span className="text-sm font-normal text-slate-400">/ {finalScore.maxScore}</span>
               </div>
-              <div className="text-[10px] text-slate-400">Passing Mark: 200 pts</div>
+              <div className="text-[10px] text-slate-400">
+                {activeExamType === 'JFT' ? 'Passing Mark: 200 pts' : 'Passing Mark: 90 / 180 pts'}
+              </div>
             </div>
 
             <div className={`p-4 rounded-2xl border ${
@@ -384,7 +403,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
                 {isPassed ? '【合格】 PASSED' : '【不合格】 KEEP FIGHTING'}
               </div>
               <div className="text-[10px] font-mono mt-0.5">
-                {isPassed ? 'CEFR A2.2 Certified' : 'Below 200 threshold'}
+                {activeExamType === 'JFT' ? (isPassed ? 'CEFR A2.2 Certified' : 'Below 200 threshold') : (isPassed ? 'JLPT N4 Certified' : 'Below 90 threshold')}
               </div>
             </div>
           </div>
@@ -394,7 +413,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             <div className="text-xs font-bold text-slate-500 uppercase tracking-wider">
               Sectional Competency Evaluation:
             </div>
-            {Object.entries(finalScore.sectionScores || {}).map(([secName, val]: [string, any]) => {
+            {Object.entries(finalScore.sectionScores || {}).filter(([_, val]: [string, any]) => val.total > 0).map(([secName, val]: [string, any]) => {
               const secPct = val.total > 0 ? Math.round((val.correct / val.total) * 100) : 0;
               return (
                 <div key={secName} className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
@@ -545,7 +564,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
               </span>
             </div>
             <div className="text-sm font-bold text-slate-200 mt-0.5">
-              {level === 'JFT' ? `JFT-Basic Official Exam #${selectedSimulationTest}` : `JLPT ${level} Official Exam`}
+              {activeExamType === 'JFT' ? `JFT-Basic Official Exam #${selectedSimulationTest}` : `JLPT N4 Official Exam #${selectedSimulationTest}`}
               <span className="text-xs font-normal text-slate-400 ml-2">
                 (Question {currentIndex + 1} of {questions.length})
               </span>
@@ -587,7 +606,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
         <div className="grid grid-cols-4 gap-2 mt-3 pt-3 border-t border-slate-800 text-[11px] font-semibold">
           {[
             { id: 1, name: '1. 文字・語彙 (Vocab)', range: [0, 14] },
-            { id: 2, name: '2. 会話・表現 (Grammar)', range: [15, 29] },
+            { id: 2, name: '2. 文法・表現 (Grammar)', range: [15, 29] },
             { id: 3, name: '3. 聴解 (Listening)', range: [30, 44] },
             { id: 4, name: '4. 読解 (Reading)', range: [45, 59] }
           ].map(sec => {
@@ -645,7 +664,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             {/* Flag Checkbox */}
             <button
               onClick={handleToggleFlag}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-colors ${
+              className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors ${
                 flagged[currentIndex]
                   ? 'bg-amber-100 text-amber-700 dark:bg-amber-950/60 dark:text-amber-400 border border-amber-300'
                   : 'bg-slate-100 dark:bg-slate-800 text-slate-500 hover:bg-amber-50'

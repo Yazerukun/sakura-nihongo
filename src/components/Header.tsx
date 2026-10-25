@@ -29,12 +29,9 @@ export const Header: React.FC<HeaderProps> = ({
   onLogout
 }) => {
   const levels: { id: LevelType; label: string; badge: string }[] = [
-    { id: 'JFT', label: 'JFT-Basic', badge: 'A2 2026' },
-    { id: 'N5', label: 'JLPT N5', badge: 'Beginner' },
-    { id: 'N4', label: 'JLPT N4', badge: 'Basic' },
-    { id: 'N3', label: 'JLPT N3', badge: 'Intermediate' },
-    { id: 'N2', label: 'JLPT N2', badge: 'Upper-Int' },
-    { id: 'N1', label: 'JLPT N1', badge: 'Master' }
+    { id: 'JFT', label: 'JFT-Basic A2', badge: 'Official A2' },
+    { id: 'N4', label: 'JLPT N4', badge: 'Official N4' },
+    { id: 'N5', label: 'JLPT N5', badge: 'Foundation' }
   ];
 
   const handleTestAudio = () => {

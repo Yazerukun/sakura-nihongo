@@ -1,0 +1,3924 @@
+[
+  {
+    "id": "n4_1",
+    "japanese": "案内する",
+    "reading": "あんないする",
+    "meanings": [
+      "to guide",
+      "to show around"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_2",
+    "japanese": "集まる",
+    "reading": "あつまる",
+    "meanings": [
+      "to gather",
+      "to assemble"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_3",
+    "japanese": "集める",
+    "reading": "あつめる",
+    "meanings": [
+      "to collect",
+      "to gather things"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_4",
+    "japanese": "謝る",
+    "reading": "あやまる",
+    "meanings": [
+      "to apologize"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_5",
+    "japanese": "生きる",
+    "reading": "いきる",
+    "meanings": [
+      "to live",
+      "to exist"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_6",
+    "japanese": "急ぐ",
+    "reading": "いそぐ",
+    "meanings": [
+      "to hurry",
+      "to rush"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_7",
+    "japanese": "祈る",
+    "reading": "いのる",
+    "meanings": [
+      "to pray",
+      "to wish"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_8",
+    "japanese": "植える",
+    "reading": "うえる",
+    "meanings": [
+      "to plant",
+      "to grow"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_9",
+    "japanese": "受ける",
+    "reading": "うける",
+    "meanings": [
+      "to take (an exam)",
+      "to receive"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_10",
+    "japanese": "動く",
+    "reading": "うごく",
+    "meanings": [
+      "to move",
+      "to operate"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_11",
+    "japanese": "選ぶ",
+    "reading": "えらぶ",
+    "meanings": [
+      "to choose",
+      "to select"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_12",
+    "japanese": "送る",
+    "reading": "おくる",
+    "meanings": [
+      "to send",
+      "to see off"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_13",
+    "japanese": "遅れる",
+    "reading": "おくれる",
+    "meanings": [
+      "to be late",
+      "to lag behind"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_14",
+    "japanese": "起こす",
+    "reading": "おこす",
+    "meanings": [
+      "to wake someone up",
+      "to cause"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_15",
+    "japanese": "行う",
+    "reading": "おこなう",
+    "meanings": [
+      "to carry out",
+      "to conduct",
+      "to hold"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_16",
+    "japanese": "怒る",
+    "reading": "おこる",
+    "meanings": [
+      "to get angry"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_17",
+    "japanese": "落ちる",
+    "reading": "おちる",
+    "meanings": [
+      "to fall",
+      "to drop"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_18",
+    "japanese": "落とす",
+    "reading": "おとす",
+    "meanings": [
+      "to drop something"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_19",
+    "japanese": "思い出す",
+    "reading": "おもいだす",
+    "meanings": [
+      "to recall",
+      "to remember"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_20",
+    "japanese": "折る",
+    "reading": "おる",
+    "meanings": [
+      "to break",
+      "to fold"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_21",
+    "japanese": "折れる",
+    "reading": "おれる",
+    "meanings": [
+      "to be broken",
+      "to snap"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_22",
+    "japanese": "勝つ",
+    "reading": "かつ",
+    "meanings": [
+      "to win"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_23",
+    "japanese": "通う",
+    "reading": "かよう",
+    "meanings": [
+      "to commute",
+      "to attend regularly"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_24",
+    "japanese": "乾く",
+    "reading": "かわく",
+    "meanings": [
+      "to get dry"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_25",
+    "japanese": "変わる",
+    "reading": "かわる",
+    "meanings": [
+      "to change",
+      "to be transformed"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_26",
+    "japanese": "考える",
+    "reading": "かんがえる",
+    "meanings": [
+      "to think about",
+      "to consider"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_27",
+    "japanese": "頑張る",
+    "reading": "がんばる",
+    "meanings": [
+      "to do one's best",
+      "to persist"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_28",
+    "japanese": "聞こえる",
+    "reading": "きこえる",
+    "meanings": [
+      "to be heard",
+      "can hear"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_29",
+    "japanese": "決める",
+    "reading": "きめる",
+    "meanings": [
+      "to decide"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_30",
+    "japanese": "比べる",
+    "reading": "くらべる",
+    "meanings": [
+      "to compare"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_31",
+    "japanese": "暮らす",
+    "reading": "くらす",
+    "meanings": [
+      "to live",
+      "to make a living"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_32",
+    "japanese": "くれる",
+    "reading": "くれる",
+    "meanings": [
+      "to give (to me/my group)"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_33",
+    "japanese": "壊す",
+    "reading": "こわす",
+    "meanings": [
+      "to break",
+      "to destroy"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_34",
+    "japanese": "壊れる",
+    "reading": "こわれる",
+    "meanings": [
+      "to be broken",
+      "to break down"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_35",
+    "japanese": "下がる",
+    "reading": "さがる",
+    "meanings": [
+      "to go down",
+      "to drop"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_36",
+    "japanese": "下げる",
+    "reading": "さげる",
+    "meanings": [
+      "to lower",
+      "to hang"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_37",
+    "japanese": "探す",
+    "reading": "さがす",
+    "meanings": [
+      "to search for",
+      "to look for"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_38",
+    "japanese": "下りる",
+    "reading": "おりる",
+    "meanings": [
+      "to descend",
+      "to get off"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_39",
+    "japanese": "触る",
+    "reading": "さわる",
+    "meanings": [
+      "to touch"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_40",
+    "japanese": "叱る",
+    "reading": "しかる",
+    "meanings": [
+      "to scold"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_41",
+    "japanese": "調べる",
+    "reading": "しらべる",
+    "meanings": [
+      "to investigate",
+      "to check"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_42",
+    "japanese": "知らせる",
+    "reading": "しらせる",
+    "meanings": [
+      "to notify",
+      "to inform"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_43",
+    "japanese": "進む",
+    "reading": "すすむ",
+    "meanings": [
+      "to advance",
+      "to make progress"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_44",
+    "japanese": "捨てる",
+    "reading": "すてる",
+    "meanings": [
+      "to throw away",
+      "to discard"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_45",
+    "japanese": "滑る",
+    "reading": "すべる",
+    "meanings": [
+      "to slide",
+      "to slip"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_46",
+    "japanese": "育てる",
+    "reading": "そだてる",
+    "meanings": [
+      "to raise",
+      "to bring up",
+      "to rear"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_47",
+    "japanese": "倒れる",
+    "reading": "たおれる",
+    "meanings": [
+      "to fall down",
+      "to collapse"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_48",
+    "japanese": "足りる",
+    "reading": "たりる",
+    "meanings": [
+      "to be sufficient",
+      "to be enough"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_49",
+    "japanese": "尋ねる",
+    "reading": "たずねる",
+    "meanings": [
+      "to ask",
+      "to inquire"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_50",
+    "japanese": "訪ねる",
+    "reading": "たずねる",
+    "meanings": [
+      "to visit"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_51",
+    "japanese": "建てる",
+    "reading": "たてる",
+    "meanings": [
+      "to build",
+      "to construct"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_52",
+    "japanese": "楽しむ",
+    "reading": "たのしむ",
+    "meanings": [
+      "to enjoy oneself"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_53",
+    "japanese": "足りる",
+    "reading": "たりる",
+    "meanings": [
+      "to be enough"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_54",
+    "japanese": "捕まえる",
+    "reading": "つかまえる",
+    "meanings": [
+      "to catch",
+      "to arrest"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_55",
+    "japanese": "伝える",
+    "reading": "つたえる",
+    "meanings": [
+      "to convey",
+      "to report"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_56",
+    "japanese": "続く",
+    "reading": "つづく",
+    "meanings": [
+      "to continue (intransitive)"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_57",
+    "japanese": "続ける",
+    "reading": "つづける",
+    "meanings": [
+      "to continue (transitive)"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_58",
+    "japanese": "包む",
+    "reading": "つつむ",
+    "meanings": [
+      "to wrap",
+      "to pack"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_59",
+    "japanese": "手伝う",
+    "reading": "てつだう",
+    "meanings": [
+      "to help",
+      "to assist"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_60",
+    "japanese": "通る",
+    "reading": "とおる",
+    "meanings": [
+      "to pass through",
+      "to go by"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_61",
+    "japanese": "届く",
+    "reading": "とどく",
+    "meanings": [
+      "to reach",
+      "to be delivered"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_62",
+    "japanese": "届ける",
+    "reading": "とどける",
+    "meanings": [
+      "to deliver",
+      "to report"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_63",
+    "japanese": "泊まる",
+    "reading": "とまる",
+    "meanings": [
+      "to stay overnight"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_64",
+    "japanese": "止める",
+    "reading": "とめる",
+    "meanings": [
+      "to stop something",
+      "to park"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_65",
+    "japanese": "取り替える",
+    "reading": "とりかえる",
+    "meanings": [
+      "to exchange",
+      "to replace"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_66",
+    "japanese": "直す",
+    "reading": "なおす",
+    "meanings": [
+      "to fix",
+      "to repair",
+      "to correct"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_67",
+    "japanese": "治る",
+    "reading": "なおる",
+    "meanings": [
+      "to recover from illness",
+      "to get well"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_68",
+    "japanese": "直る",
+    "reading": "なおる",
+    "meanings": [
+      "to be repaired"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_69",
+    "japanese": "泣く",
+    "reading": "なく",
+    "meanings": [
+      "to cry",
+      "to weep"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_70",
+    "japanese": "亡くなる",
+    "reading": "なくなる",
+    "meanings": [
+      "to pass away",
+      "to die"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_71",
+    "japanese": "投げる",
+    "reading": "なげる",
+    "meanings": [
+      "to throw"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_72",
+    "japanese": "慣れる",
+    "reading": "なれる",
+    "meanings": [
+      "to get used to",
+      "to become accustomed"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_73",
+    "japanese": "逃げる",
+    "reading": "にげる",
+    "meanings": [
+      "to escape",
+      "to run away"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_74",
+    "japanese": "似る",
+    "reading": "にる",
+    "meanings": [
+      "to resemble",
+      "to be similar"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_75",
+    "japanese": "盗む",
+    "reading": "ぬすむ",
+    "meanings": [
+      "to steal"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_76",
+    "japanese": "塗る",
+    "reading": "ぬる",
+    "meanings": [
+      "to paint",
+      "to apply"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_77",
+    "japanese": "濡れる",
+    "reading": "ぬれる",
+    "meanings": [
+      "to get wet"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_78",
+    "japanese": "眠る",
+    "reading": "ねむる",
+    "meanings": [
+      "to sleep"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_79",
+    "japanese": "残る",
+    "reading": "のこる",
+    "meanings": [
+      "to remain",
+      "to be left over"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_80",
+    "japanese": "乗り換える",
+    "reading": "のりかえる",
+    "meanings": [
+      "to transfer (trains/buses)"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_81",
+    "japanese": "運ぶ",
+    "reading": "はこぶ",
+    "meanings": [
+      "to carry",
+      "to transport"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_82",
+    "japanese": "始める",
+    "reading": "はじめる",
+    "meanings": [
+      "to start",
+      "to begin"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_83",
+    "japanese": "払う",
+    "reading": "はらう",
+    "meanings": [
+      "to pay"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_84",
+    "japanese": "冷える",
+    "reading": "ひえる",
+    "meanings": [
+      "to grow cold"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_85",
+    "japanese": "冷やす",
+    "reading": "ひやす",
+    "meanings": [
+      "to cool down",
+      "to chill"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_86",
+    "japanese": "拾う",
+    "reading": "ひろう",
+    "meanings": [
+      "to pick up",
+      "to gather"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_87",
+    "japanese": "増える",
+    "reading": "ふえる",
+    "meanings": [
+      "to increase"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_88",
+    "japanese": "褒める",
+    "reading": "ほめる",
+    "meanings": [
+      "to praise",
+      "to compliment"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_89",
+    "japanese": "曲がる",
+    "reading": "まがる",
+    "meanings": [
+      "to bend",
+      "to turn"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_90",
+    "japanese": "間に合う",
+    "reading": "まにあう",
+    "meanings": [
+      "to be in time for"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_91",
+    "japanese": "見つかる",
+    "reading": "みつかる",
+    "meanings": [
+      "to be found"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_92",
+    "japanese": "見つける",
+    "reading": "みつける",
+    "meanings": [
+      "to discover",
+      "to find"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_93",
+    "japanese": "迎える",
+    "reading": "むかえる",
+    "meanings": [
+      "to welcome",
+      "to greet"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_94",
+    "japanese": "申し上げる",
+    "reading": "もうしあげる",
+    "meanings": [
+      "to say (humble)"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_95",
+    "japanese": "焼く",
+    "reading": "やく",
+    "meanings": [
+      "to grill",
+      "to bake"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_96",
+    "japanese": "焼ける",
+    "reading": "やける",
+    "meanings": [
+      "to be roasted",
+      "to be baked"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_97",
+    "japanese": "役に立つ",
+    "reading": "やくにたつ",
+    "meanings": [
+      "to be helpful",
+      "to be useful"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_98",
+    "japanese": "辞める",
+    "reading": "やめる",
+    "meanings": [
+      "to resign",
+      "to quit work"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_99",
+    "japanese": "汚れる",
+    "reading": "よごれる",
+    "meanings": [
+      "to become dirty"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_100",
+    "japanese": "喜ぶ",
+    "reading": "よろこぶ",
+    "meanings": [
+      "to be glad",
+      "to be pleased"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_101",
+    "japanese": "沸く",
+    "reading": "わく",
+    "meanings": [
+      "to boil",
+      "to get hot"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_102",
+    "japanese": "沸かす",
+    "reading": "わかす",
+    "meanings": [
+      "to boil water"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_103",
+    "japanese": "別れる",
+    "reading": "わかれる",
+    "meanings": [
+      "to part from",
+      "to separate"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_104",
+    "japanese": "割る",
+    "reading": "わる",
+    "meanings": [
+      "to divide",
+      "to break"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_105",
+    "japanese": "割れる",
+    "reading": "われる",
+    "meanings": [
+      "to smash",
+      "to crack"
+    ],
+    "jlpt_level": "N4",
+    "type": "verb",
+    "tags": [
+      "N4 Core",
+      "verb"
+    ]
+  },
+  {
+    "id": "n4_106",
+    "japanese": "浅い",
+    "reading": "あさい",
+    "meanings": [
+      "shallow"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_107",
+    "japanese": "厚い",
+    "reading": "あつい",
+    "meanings": [
+      "thick"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_108",
+    "japanese": "薄い",
+    "reading": "うすい",
+    "meanings": [
+      "thin",
+      "weak (flavor/color)"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_109",
+    "japanese": "美しい",
+    "reading": "うつくしい",
+    "meanings": [
+      "beautiful",
+      "lovely"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_110",
+    "japanese": "美味しい",
+    "reading": "おいしい",
+    "meanings": [
+      "delicious"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_111",
+    "japanese": "可笑しい",
+    "reading": "おかしい",
+    "meanings": [
+      "strange",
+      "funny",
+      "amusing"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_112",
+    "japanese": "硬い",
+    "reading": "かたい",
+    "meanings": [
+      "hard",
+      "stiff",
+      "solid"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_113",
+    "japanese": "厳しい",
+    "reading": "きびしい",
+    "meanings": [
+      "strict",
+      "severe"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_114",
+    "japanese": "悔しい",
+    "reading": "くやしい",
+    "meanings": [
+      "frustrating",
+      "regrettable"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_115",
+    "japanese": "詳しい",
+    "reading": "くわしい",
+    "meanings": [
+      "detailed",
+      "knowledgeable"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_116",
+    "japanese": "細かい",
+    "reading": "こまかい",
+    "meanings": [
+      "fine",
+      "minute",
+      "small change"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_117",
+    "japanese": "寂しい",
+    "reading": "さびしい",
+    "meanings": [
+      "lonely"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_118",
+    "japanese": "凄い",
+    "reading": "すごい",
+    "meanings": [
+      "terrific",
+      "amazing"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_119",
+    "japanese": "素晴らしい",
+    "reading": "すばらしい",
+    "meanings": [
+      "wonderful",
+      "splendid"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_120",
+    "japanese": "正しい",
+    "reading": "ただしい",
+    "meanings": [
+      "correct",
+      "righteous"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_121",
+    "japanese": "苦い",
+    "reading": "にがい",
+    "meanings": [
+      "bitter"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_122",
+    "japanese": "恥ずかしい",
+    "reading": "はずかしい",
+    "meanings": [
+      "embarrassed",
+      "shy"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_123",
+    "japanese": "深い",
+    "reading": "ふかい",
+    "meanings": [
+      "deep"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_124",
+    "japanese": "珍しい",
+    "reading": "めずらしい",
+    "meanings": [
+      "rare",
+      "unusual"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_125",
+    "japanese": "優しい",
+    "reading": "やさしい",
+    "meanings": [
+      "gentle",
+      "kind"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_126",
+    "japanese": "柔らかい",
+    "reading": "やわらかい",
+    "meanings": [
+      "soft",
+      "tender"
+    ],
+    "jlpt_level": "N4",
+    "type": "adjective",
+    "tags": [
+      "N4 Core",
+      "adjective"
+    ]
+  },
+  {
+    "id": "n4_127",
+    "japanese": "丁寧（な）",
+    "reading": "ていねい（な）",
+    "meanings": [
+      "polite",
+      "courteous"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_128",
+    "japanese": "親切（な）",
+    "reading": "しんせつ（な）",
+    "meanings": [
+      "kind",
+      "gentle"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_129",
+    "japanese": "複雑（な）",
+    "reading": "ふくざつ（な）",
+    "meanings": [
+      "complicated",
+      "complex"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_130",
+    "japanese": "安全（な）",
+    "reading": "あんぜん（な）",
+    "meanings": [
+      "safe",
+      "secure"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_131",
+    "japanese": "危険（な）",
+    "reading": "きけん（な）",
+    "meanings": [
+      "dangerous",
+      "hazardous"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_132",
+    "japanese": "便利（な）",
+    "reading": "べんり（な）",
+    "meanings": [
+      "convenient"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_133",
+    "japanese": "不便（な）",
+    "reading": "ふべん（な）",
+    "meanings": [
+      "inconvenient"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_134",
+    "japanese": "盛ん（な）",
+    "reading": "さかん（な）",
+    "meanings": [
+      "prosperous",
+      "popular",
+      "active"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_135",
+    "japanese": "邪魔（な）",
+    "reading": "じゃま（な）",
+    "meanings": [
+      "hindrance",
+      "obstacle",
+      "in the way"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_136",
+    "japanese": "十分（な）",
+    "reading": "じゅうぶん（な）",
+    "meanings": [
+      "sufficient",
+      "plenty"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_137",
+    "japanese": "適当（な）",
+    "reading": "てきとう（な）",
+    "meanings": [
+      "suitable",
+      "proper"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_138",
+    "japanese": "特別（な）",
+    "reading": "とくべつ（な）",
+    "meanings": [
+      "special"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_139",
+    "japanese": "熱心（な）",
+    "reading": "ねっしん（な）",
+    "meanings": [
+      "enthusiastic",
+      "eager"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_140",
+    "japanese": "必要な",
+    "reading": "ひつような",
+    "meanings": [
+      "necessary",
+      "essential"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_141",
+    "japanese": "真面目（な）",
+    "reading": "まじめ（な）",
+    "meanings": [
+      "serious",
+      "diligent",
+      "earnest"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_142",
+    "japanese": "無理（な）",
+    "reading": "むり（な）",
+    "meanings": [
+      "impossible",
+      "unreasonable"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_143",
+    "japanese": "立派（な）",
+    "reading": "りっぱ（な）",
+    "meanings": [
+      "splendid",
+      "fine",
+      "respectable"
+    ],
+    "jlpt_level": "N4",
+    "type": "na-adjective",
+    "tags": [
+      "N4 Core",
+      "na-adjective"
+    ]
+  },
+  {
+    "id": "n4_144",
+    "japanese": "挨拶",
+    "reading": "あいさつ",
+    "meanings": [
+      "greeting"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_145",
+    "japanese": "案内",
+    "reading": "あんない",
+    "meanings": [
+      "guidance",
+      "information"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_146",
+    "japanese": "意見",
+    "reading": "いけん",
+    "meanings": [
+      "opinion",
+      "view"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_147",
+    "japanese": "急須",
+    "reading": "きゅうす",
+    "meanings": [
+      "small teapot"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_148",
+    "japanese": "受付",
+    "reading": "うけつけ",
+    "meanings": [
+      "reception desk",
+      "front desk"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_149",
+    "japanese": "枝",
+    "reading": "えだ",
+    "meanings": [
+      "branch",
+      "twig"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_150",
+    "japanese": "遠慮",
+    "reading": "えんりょ",
+    "meanings": [
+      "hesitation",
+      "holding back"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_151",
+    "japanese": "お祝い",
+    "reading": "おいわい",
+    "meanings": [
+      "celebration",
+      "gift"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_152",
+    "japanese": "億",
+    "reading": "おく",
+    "meanings": [
+      "hundred million"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_153",
+    "japanese": "屋上",
+    "reading": "おくじょう",
+    "meanings": [
+      "rooftop"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_154",
+    "japanese": "落とし物",
+    "reading": "おとしもの",
+    "meanings": [
+      "lost property",
+      "lost item"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_155",
+    "japanese": "海岸",
+    "reading": "かいがん",
+    "meanings": [
+      "coast",
+      "beach"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_156",
+    "japanese": "会議",
+    "reading": "かいぎ",
+    "meanings": [
+      "meeting",
+      "conference"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_157",
+    "japanese": "会議室",
+    "reading": "かいぎしつ",
+    "meanings": [
+      "conference room"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_158",
+    "japanese": "関係",
+    "reading": "かんけい",
+    "meanings": [
+      "relationship",
+      "relation"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_159",
+    "japanese": "看護師",
+    "reading": "かんごし",
+    "meanings": [
+      "nurse"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_160",
+    "japanese": "機会",
+    "reading": "きかい",
+    "meanings": [
+      "opportunity",
+      "chance"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_161",
+    "japanese": "危険",
+    "reading": "きけん",
+    "meanings": [
+      "danger",
+      "hazard"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_162",
+    "japanese": "技術",
+    "reading": "ぎじゅつ",
+    "meanings": [
+      "technique",
+      "technology",
+      "skill"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_163",
+    "japanese": "季節",
+    "reading": "きせつ",
+    "meanings": [
+      "season"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_164",
+    "japanese": "規則",
+    "reading": "きそく",
+    "meanings": [
+      "rule",
+      "regulation"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_165",
+    "japanese": "絹",
+    "reading": "きぬ",
+    "meanings": [
+      "silk"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_166",
+    "japanese": "急行",
+    "reading": "きゅうこう",
+    "meanings": [
+      "express train"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_167",
+    "japanese": "給料",
+    "reading": "きゅうりょう",
+    "meanings": [
+      "salary",
+      "wages"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_168",
+    "japanese": "興味",
+    "reading": "きょうみ",
+    "meanings": [
+      "interest (in something)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_169",
+    "japanese": "空気",
+    "reading": "くうき",
+    "meanings": [
+      "air",
+      "atmosphere"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_170",
+    "japanese": "空港",
+    "reading": "くうこう",
+    "meanings": [
+      "airport"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_171",
+    "japanese": "具合",
+    "reading": "ぐあい",
+    "meanings": [
+      "condition",
+      "state of health"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_172",
+    "japanese": "原因",
+    "reading": "げんいん",
+    "meanings": [
+      "cause",
+      "origin"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_173",
+    "japanese": "故障",
+    "reading": "こしょう",
+    "meanings": [
+      "breakdown",
+      "out of order"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_174",
+    "japanese": "ごみ箱",
+    "reading": "ごみばこ",
+    "meanings": [
+      "trash bin",
+      "dustbin"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_175",
+    "japanese": "財布",
+    "reading": "さいふ",
+    "meanings": [
+      "wallet",
+      "purse"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_176",
+    "japanese": "試合",
+    "reading": "しあい",
+    "meanings": [
+      "match",
+      "game"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_177",
+    "japanese": "事故",
+    "reading": "じこ",
+    "meanings": [
+      "accident"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_178",
+    "japanese": "地震",
+    "reading": "じしん",
+    "meanings": [
+      "earthquake"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_179",
+    "japanese": "時代",
+    "reading": "じだい",
+    "meanings": [
+      "period",
+      "era",
+      "age"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_180",
+    "japanese": "市役所",
+    "reading": "しやくしょ",
+    "meanings": [
+      "city hall",
+      "municipal office"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_181",
+    "japanese": "習慣",
+    "reading": "しゅうかん",
+    "meanings": [
+      "custom",
+      "habit"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_182",
+    "japanese": "住所",
+    "reading": "じゅうしょ",
+    "meanings": [
+      "address"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_183",
+    "japanese": "修理",
+    "reading": "しゅうり",
+    "meanings": [
+      "repair",
+      "mending"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_184",
+    "japanese": "出席",
+    "reading": "しゅっせき",
+    "meanings": [
+      "attendance"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_185",
+    "japanese": "出発",
+    "reading": "しゅっぱつ",
+    "meanings": [
+      "departure"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_186",
+    "japanese": "準備",
+    "reading": "じゅんび",
+    "meanings": [
+      "preparation"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_187",
+    "japanese": "紹介",
+    "reading": "しょうかい",
+    "meanings": [
+      "introduction"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_188",
+    "japanese": "将来",
+    "reading": "しょうらい",
+    "meanings": [
+      "future (prospects)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_189",
+    "japanese": "食事",
+    "reading": "しょくじ",
+    "meanings": [
+      "meal",
+      "dining"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_190",
+    "japanese": "食料品",
+    "reading": "しょくりょうひん",
+    "meanings": [
+      "groceries",
+      "food products"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_191",
+    "japanese": "書類",
+    "reading": "しょるい",
+    "meanings": [
+      "documents",
+      "official papers"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_192",
+    "japanese": "神社",
+    "reading": "じんじゃ",
+    "meanings": [
+      "Shinto shrine"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_193",
+    "japanese": "水泳",
+    "reading": "すいえい",
+    "meanings": [
+      "swimming"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_194",
+    "japanese": "水道",
+    "reading": "すいどう",
+    "meanings": [
+      "water service",
+      "tap water"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_195",
+    "japanese": "席",
+    "reading": "せき",
+    "meanings": [
+      "seat"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_196",
+    "japanese": "説明",
+    "reading": "せつめい",
+    "meanings": [
+      "explanation"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_197",
+    "japanese": "世話",
+    "reading": "せわ",
+    "meanings": [
+      "looking after",
+      "care"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_198",
+    "japanese": "専門",
+    "reading": "せんもん",
+    "meanings": [
+      "specialty",
+      "field of study"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_199",
+    "japanese": "相談",
+    "reading": "そうだん",
+    "meanings": [
+      "consultation",
+      "advice"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_200",
+    "japanese": "退院",
+    "reading": "たいいん",
+    "meanings": [
+      "leaving hospital",
+      "discharged"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_201",
+    "japanese": "台風",
+    "reading": "たいふう",
+    "meanings": [
+      "typhoon"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_202",
+    "japanese": "棚",
+    "reading": "たな",
+    "meanings": [
+      "shelf"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_203",
+    "japanese": "暖房",
+    "reading": "だんぼう",
+    "meanings": [
+      "heating"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_204",
+    "japanese": "冷房",
+    "reading": "れいぼう",
+    "meanings": [
+      "air conditioning",
+      "cooling"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_205",
+    "japanese": "中学校",
+    "reading": "ちゅうがっこう",
+    "meanings": [
+      "junior high school"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_206",
+    "japanese": "注射",
+    "reading": "ちゅうしゃ",
+    "meanings": [
+      "injection",
+      "shot"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_207",
+    "japanese": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "meanings": [
+      "parking lot"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_208",
+    "japanese": "地理",
+    "reading": "ちり",
+    "meanings": [
+      "geography"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_209",
+    "japanese": "道具",
+    "reading": "どうぐ",
+    "meanings": [
+      "tool",
+      "implement"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_210",
+    "japanese": "都合",
+    "reading": "つごう",
+    "meanings": [
+      "convenience",
+      "circumstances"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_211",
+    "japanese": "展覧会",
+    "reading": "てんらんかい",
+    "meanings": [
+      "exhibition"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_212",
+    "japanese": "伝統",
+    "reading": "でんとう",
+    "meanings": [
+      "tradition"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_213",
+    "japanese": "特別",
+    "reading": "とくべつ",
+    "meanings": [
+      "special"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_214",
+    "japanese": "特急",
+    "reading": "とっきゅう",
+    "meanings": [
+      "limited express train"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_215",
+    "japanese": "泥棒",
+    "reading": "どろぼう",
+    "meanings": [
+      "thief",
+      "burglar"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_216",
+    "japanese": "波",
+    "reading": "なみ",
+    "meanings": [
+      "wave"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_217",
+    "japanese": "日記",
+    "reading": "にっき",
+    "meanings": [
+      "diary"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_218",
+    "japanese": "入院",
+    "reading": "にゅういん",
+    "meanings": [
+      "hospitalization"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_219",
+    "japanese": "入学",
+    "reading": "にゅうがく",
+    "meanings": [
+      "school admission",
+      "enrollment"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_220",
+    "japanese": "熱",
+    "reading": "ねつ",
+    "meanings": [
+      "fever",
+      "heat"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_221",
+    "japanese": "値段",
+    "reading": "ねだん",
+    "meanings": [
+      "price",
+      "cost"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_222",
+    "japanese": "眠気",
+    "reading": "ねむけ",
+    "meanings": [
+      "sleepiness",
+      "drowsiness"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_223",
+    "japanese": "場所",
+    "reading": "ばしょ",
+    "meanings": [
+      "place",
+      "location"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_224",
+    "japanese": "発車",
+    "reading": "はっしゃ",
+    "meanings": [
+      "departure (of vehicle)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_225",
+    "japanese": "発表",
+    "reading": "はっぴょう",
+    "meanings": [
+      "presentation",
+      "announcement"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_226",
+    "japanese": "番組",
+    "reading": "ばんぐみ",
+    "meanings": [
+      "program (TV/radio)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_227",
+    "japanese": "反対",
+    "reading": "はんたい",
+    "meanings": [
+      "opposition",
+      "opposite"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_228",
+    "japanese": "日",
+    "reading": "ひ",
+    "meanings": [
+      "sun",
+      "day",
+      "sunlight"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_229",
+    "japanese": "火",
+    "reading": "ひ",
+    "meanings": [
+      "fire",
+      "flame"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_230",
+    "japanese": "被害",
+    "reading": "ひがい",
+    "meanings": [
+      "damage",
+      "injury"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_231",
+    "japanese": "髭",
+    "reading": "ひげ",
+    "meanings": [
+      "beard",
+      "mustache"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_232",
+    "japanese": "引越し",
+    "reading": "ひっこし",
+    "meanings": [
+      "moving house"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_233",
+    "japanese": "飛行場",
+    "reading": "ひこうじょう",
+    "meanings": [
+      "airfield",
+      "airport"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_234",
+    "japanese": "昼間",
+    "reading": "ひるま",
+    "meanings": [
+      "daytime",
+      "during the day"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_235",
+    "japanese": "昼休み",
+    "reading": "ひるやすみ",
+    "meanings": [
+      "lunch break"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_236",
+    "japanese": "復習",
+    "reading": "ふくしゅう",
+    "meanings": [
+      "review (of studies)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_237",
+    "japanese": "予習",
+    "reading": "よしゅう",
+    "meanings": [
+      "preparation for class"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_238",
+    "japanese": "普通",
+    "reading": "ふつう",
+    "meanings": [
+      "ordinary",
+      "local train"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_239",
+    "japanese": "葡萄",
+    "reading": "ぶどう",
+    "meanings": [
+      "grapes"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_240",
+    "japanese": "不満",
+    "reading": "ふまん",
+    "meanings": [
+      "dissatisfaction"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_241",
+    "japanese": "文化",
+    "reading": "ぶんか",
+    "meanings": [
+      "culture"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_242",
+    "japanese": "文学",
+    "reading": "ぶんがく",
+    "meanings": [
+      "literature"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_243",
+    "japanese": "文法",
+    "reading": "ぶんぽう",
+    "meanings": [
+      "grammar"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_244",
+    "japanese": "別",
+    "reading": "べつ",
+    "meanings": [
+      "different",
+      "separate"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_245",
+    "japanese": "返事",
+    "reading": "へんじ",
+    "meanings": [
+      "reply",
+      "response"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_246",
+    "japanese": "貿易",
+    "reading": "ぼうえき",
+    "meanings": [
+      "foreign trade"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_247",
+    "japanese": "放送",
+    "reading": "ほうそう",
+    "meanings": [
+      "broadcasting"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_248",
+    "japanese": "法律",
+    "reading": "ほうりつ",
+    "meanings": [
+      "law"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_249",
+    "japanese": "僕",
+    "reading": "ぼく",
+    "meanings": [
+      "I (used by males/casual)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_250",
+    "japanese": "翻訳",
+    "reading": "ほんやく",
+    "meanings": [
+      "translation (written)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_251",
+    "japanese": "通訳",
+    "reading": "つうやく",
+    "meanings": [
+      "interpretation (spoken)"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_252",
+    "japanese": "毎晩",
+    "reading": "まいばん",
+    "meanings": [
+      "every night"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_253",
+    "japanese": "真ん中",
+    "reading": "まんなか",
+    "meanings": [
+      "middle",
+      "exact center"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_254",
+    "japanese": "港",
+    "reading": "みなと",
+    "meanings": [
+      "port",
+      "harbor"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_255",
+    "japanese": "無理",
+    "reading": "むり",
+    "meanings": [
+      "impossible",
+      "overdoing it"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_256",
+    "japanese": "目的",
+    "reading": "もくてき",
+    "meanings": [
+      "purpose",
+      "objective"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_257",
+    "japanese": "約束",
+    "reading": "やくそく",
+    "meanings": [
+      "promise",
+      "appointment"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_258",
+    "japanese": "用事",
+    "reading": "ようじ",
+    "meanings": [
+      "errand",
+      "business to attend to"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_259",
+    "japanese": "用意",
+    "reading": "ようい",
+    "meanings": [
+      "preparation",
+      "arrangements"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_260",
+    "japanese": "予習",
+    "reading": "よしゅう",
+    "meanings": [
+      "preparation of study"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_261",
+    "japanese": "予定",
+    "reading": "よてい",
+    "meanings": [
+      "plan",
+      "schedule"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_262",
+    "japanese": "予約",
+    "reading": "よやく",
+    "meanings": [
+      "reservation",
+      "booking"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_263",
+    "japanese": "理由",
+    "reading": "りゆう",
+    "meanings": [
+      "reason",
+      "cause"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_264",
+    "japanese": "利用",
+    "reading": "りよう",
+    "meanings": [
+      "utilization",
+      "usage"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_265",
+    "japanese": "両親",
+    "reading": "りょうしん",
+    "meanings": [
+      "parents"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_266",
+    "japanese": "歴史",
+    "reading": "れきし",
+    "meanings": [
+      "history"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  },
+  {
+    "id": "n4_267",
+    "japanese": "連絡",
+    "reading": "れんらく",
+    "meanings": [
+      "contact",
+      "communication"
+    ],
+    "jlpt_level": "N4",
+    "type": "noun",
+    "tags": [
+      "N4 Core",
+      "noun"
+    ]
+  }
+]

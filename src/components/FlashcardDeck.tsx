@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { LevelType } from '../types';
 import jftVocab from '../data/jft_vocab.json';
+import jlptN4Vocab from '../data/jlpt_n4_vocab.json';
 import jlptN5Vocab from '../data/jlpt_n5_vocab.json';
 import { japaneseVoice } from '../utils/audio';
 import { updateSRSBox, getSRSBoxes, recordStudySession } from '../utils/storage';
@@ -54,6 +55,15 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
         meaning: v.meaning_id,
         category: v.category || 'JFT A2',
         level: 'JFT-A2'
+      }));
+    } else if (level === 'N4') {
+      items = (jlptN4Vocab as any[]).map((v, i) => ({
+        id: v.id || `jlpt_n4_${i}`,
+        kanji: v.japanese,
+        furigana: v.reading,
+        meaning: v.meanings.join(', '),
+        category: v.type || 'JLPT N4 Core',
+        level: 'N4'
       }));
     } else {
       items = (jlptN5Vocab as any[]).map((v, i) => ({
