@@ -24,18 +24,18 @@ interface NavigationProps {
 export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMode, targetLevel }) => {
   const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [
     {
+      id: 'cbt',
+      label: 'Real-Time Official CBT Exam',
+      icon: <Zap className="w-4 h-4 text-emerald-500 fill-emerald-500" />,
+      desc: 'Official 60-min Prometric terminal with audio & certificate',
+      badge: 'Live CBT'
+    },
+    {
       id: 'lms',
       label: 'LMS Reviewer & Mock Suite',
       icon: <GraduationCap className="w-4 h-4 text-sakura-500 fill-sakura-500" />,
       desc: '9 Patterns & 10 Mock Exams',
       badge: '2025/2026'
-    },
-    {
-      id: 'cbt',
-      label: 'Real-Time CBT Exam',
-      icon: <Zap className="w-4 h-4 text-emerald-500 fill-emerald-500" />,
-      desc: 'Official 60-min live exam',
-      badge: 'Live CBT'
     },
     {
       id: 'realtime-voice',
