@@ -1,75 +1,146 @@
-// Web Speech API wrapper for Japanese Text-to-Speech
+// Dual-Engine Japanese Audio Player (Cloudflare Edge Neural TTS + Web Speech API Fallback)
 
 class JapaneseAudioPlayer {
-  private synth: SpeechSynthesis | null = null;
-  private voice: SpeechSynthesisVoice | null = null;
-  private isInitialized = false;
+  private currentAudio: HTMLAudioElement | null = null;
+  private isSpeechSupported = false;
 
   constructor() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      this.synth = window.speechSynthesis;
-      this.initVoice();
-      if (this.synth.onvoiceschanged !== undefined) {
-        this.synth.onvoiceschanged = () => this.initVoice();
-      }
+      this.isSpeechSupported = true;
+      try {
+        window.speechSynthesis.getVoices();
+        if (window.speechSynthesis.onvoiceschanged !== undefined) {
+          window.speechSynthesis.onvoiceschanged = () => {
+            window.speechSynthesis.getVoices();
+          };
+        }
+      } catch {}
     }
   }
 
-  private initVoice() {
-    if (!this.synth) return;
-    const voices = this.synth.getVoices();
-    // Prioritize high-quality Japanese voice (e.g., Kyoko, Otoya, Google 日本語, etc.)
-    const jaVoice = voices.find(v => v.lang.startsWith('ja') || v.lang.includes('JP'));
-    if (jaVoice) {
-      this.voice = jaVoice;
-      this.isInitialized = true;
-    }
+  /**
+   * Main Speak function:
+   * 1. Attempts Cloudflare Edge Neural Voice (/api/tts)
+   * 2. Falls back automatically to device Web Speech API
+   */
+  public async speak(text: string, rate: number = 0.9): Promise<void> {
+    const cleanText = text.replace(/<[^>]*>/g, '').replace(/---/g, '').trim();
+    if (!cleanText) return;
+
+    this.stop();
+
+    // 1. Try Cloudflare Edge Function (/api/tts)
+    const playedEdge = await this.playEdgeAudio(cleanText);
+    if (playedEdge) return;
+
+    // 2. Fallback to Browser Native SpeechSynthesis
+    this.playSpeechSynthesis(cleanText, rate);
   }
 
-  public speak(text: string, rate: number = 0.9): Promise<void> {
+  private playEdgeAudio(text: string): Promise<boolean> {
     return new Promise((resolve) => {
-      if (!this.synth) {
-        console.warn('Speech synthesis not supported on this browser.');
-        resolve();
+      if (typeof window === 'undefined') {
+        resolve(false);
         return;
       }
 
-      // Stop any ongoing speech
-      this.synth.cancel();
+      const isLocalOrPages = window.location.hostname.includes('pages.dev') || window.location.hostname === 'localhost';
+      const edgeUrl = isLocalOrPages
+        ? `/api/tts?text=${encodeURIComponent(text)}`
+        : `https://sakura-nihongo.pages.dev/api/tts?text=${encodeURIComponent(text)}`;
 
-      if (!this.isInitialized) {
-        this.initVoice();
-      }
+      const audio = new Audio();
+      audio.preload = 'auto';
 
-      // Strip HTML or formatting tags if present
-      const cleanText = text.replace(/<[^>]*>/g, '').replace(/---/g, '').trim();
-      if (!cleanText) {
-        resolve();
-        return;
-      }
+      let resolved = false;
 
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = 'ja-JP';
-      utterance.rate = rate; // slightly slower for learners (0.9 by default)
-      utterance.pitch = 1.0;
-
-      if (this.voice) {
-        utterance.voice = this.voice;
-      }
-
-      utterance.onend = () => resolve();
-      utterance.onerror = (e) => {
-        console.warn('TTS playback issue:', e);
-        resolve();
+      const cleanup = () => {
+        audio.oncanplaythrough = null;
+        audio.onerror = null;
+        audio.onended = null;
       };
 
-      this.synth.speak(utterance);
+      const timer = setTimeout(() => {
+        if (!resolved) {
+          resolved = true;
+          cleanup();
+          resolve(false);
+        }
+      }, 3500);
+
+      audio.oncanplaythrough = () => {
+        if (!resolved) {
+          resolved = true;
+          clearTimeout(timer);
+          this.currentAudio = audio;
+          audio.play()
+            .then(() => resolve(true))
+            .catch(() => {
+              cleanup();
+              resolve(false);
+            });
+        }
+      };
+
+      audio.onended = () => {
+        cleanup();
+        this.currentAudio = null;
+      };
+
+      audio.onerror = () => {
+        if (!resolved) {
+          resolved = true;
+          clearTimeout(timer);
+          cleanup();
+          resolve(false);
+        }
+      };
+
+      audio.src = edgeUrl;
+      audio.load();
     });
   }
 
+  private playSpeechSynthesis(text: string, rate: number = 0.9) {
+    if (!this.isSpeechSupported || !window.speechSynthesis) return;
+
+    try {
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.resume();
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'ja-JP';
+      utterance.rate = rate;
+      utterance.pitch = 1.0;
+
+      const voices = window.speechSynthesis.getVoices();
+      const jaVoice = voices.find(
+        v => v.lang.startsWith('ja') || v.lang.includes('JP') || v.name.includes('Japanese') || v.name.includes('日本語')
+      );
+
+      if (jaVoice) {
+        utterance.voice = jaVoice;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    } catch (e) {
+      console.warn('Speech synthesis fallback error:', e);
+    }
+  }
+
   public stop() {
-    if (this.synth) {
-      this.synth.cancel();
+    if (this.currentAudio) {
+      try {
+        this.currentAudio.pause();
+        this.currentAudio.currentTime = 0;
+      } catch {}
+      this.currentAudio = null;
+    }
+
+    if (this.isSpeechSupported && window.speechSynthesis) {
+      try {
+        window.speechSynthesis.cancel();
+      } catch {}
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "routePath": "/api/tts",
+      "mountPath": "/api",
+      "method": "",
+      "module": [
+        "api/tts.ts:onRequest"
+      ]
+    }
+  ],
+  "baseURL": "/"
+}
