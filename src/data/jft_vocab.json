@@ -1,0 +1,4906 @@
+[
+  {
+    "id": "jft_v_1",
+    "kanji": "魚",
+    "furigana": "さかな",
+    "meaning_id": "Ikan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_2",
+    "kanji": "肉",
+    "furigana": "にく",
+    "meaning_id": "Daging",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_3",
+    "kanji": "卵",
+    "furigana": "たまご",
+    "meaning_id": "Telur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_4",
+    "kanji": "水",
+    "furigana": "みず",
+    "meaning_id": "Air",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_5",
+    "kanji": "食べます",
+    "furigana": "たべます",
+    "meaning_id": "Makan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_6",
+    "kanji": "飲みます",
+    "furigana": "のみます",
+    "meaning_id": "Minum",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_7",
+    "kanji": "大きい",
+    "furigana": "おおきい",
+    "meaning_id": "Besar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_8",
+    "kanji": "小さい",
+    "furigana": "ちいさい",
+    "meaning_id": "Kecil",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_9",
+    "kanji": "新しい",
+    "furigana": "あたらしい",
+    "meaning_id": "Baru",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_10",
+    "kanji": "古い",
+    "furigana": "ふるい",
+    "meaning_id": "Lama, usang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_11",
+    "kanji": "～時",
+    "furigana": "～じ",
+    "meaning_id": "~ jam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_12",
+    "kanji": "～分",
+    "furigana": "～ふん、ぷん、ぶん",
+    "meaning_id": "~ menit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_13",
+    "kanji": "～半",
+    "furigana": "～はん",
+    "meaning_id": "~ setengah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_14",
+    "kanji": "月曜日",
+    "furigana": "げつようび",
+    "meaning_id": "Senin",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_15",
+    "kanji": "火曜日",
+    "furigana": "かようび",
+    "meaning_id": "Selasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_16",
+    "kanji": "水曜日",
+    "furigana": "すいようび",
+    "meaning_id": "Rabo",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_17",
+    "kanji": "木曜日",
+    "furigana": "もくようび",
+    "meaning_id": "Kamis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_18",
+    "kanji": "金曜日",
+    "furigana": "きんようび",
+    "meaning_id": "Jumat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_19",
+    "kanji": "土曜日",
+    "furigana": "どようび",
+    "meaning_id": "Sabtu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_20",
+    "kanji": "日曜日",
+    "furigana": "にちようび",
+    "meaning_id": "Minggu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_21",
+    "kanji": "言います",
+    "furigana": "いいます",
+    "meaning_id": "Berkata",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_22",
+    "kanji": "話します",
+    "furigana": "はなします",
+    "meaning_id": "Berbicara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_23",
+    "kanji": "読みます",
+    "furigana": "よみます",
+    "meaning_id": "Membaca",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_24",
+    "kanji": "見ます",
+    "furigana": "みます",
+    "meaning_id": "Melihat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_25",
+    "kanji": "聞きます",
+    "furigana": "ききます",
+    "meaning_id": "Mendengarkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_26",
+    "kanji": "書きます",
+    "furigana": "かきます",
+    "meaning_id": "Menulis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_27",
+    "kanji": "一",
+    "furigana": "いち",
+    "meaning_id": "Satu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_28",
+    "kanji": "二",
+    "furigana": "に",
+    "meaning_id": "Dua",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_29",
+    "kanji": "三",
+    "furigana": "さん",
+    "meaning_id": "Tiga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_30",
+    "kanji": "四",
+    "furigana": "よん、し",
+    "meaning_id": "Empat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_31",
+    "kanji": "五",
+    "furigana": "ご",
+    "meaning_id": "Lima",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_32",
+    "kanji": "六",
+    "furigana": "ろく",
+    "meaning_id": "Enam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_33",
+    "kanji": "七",
+    "furigana": "なな、しち",
+    "meaning_id": "Tujuh",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_34",
+    "kanji": "八",
+    "furigana": "はち",
+    "meaning_id": "Delapan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_35",
+    "kanji": "九",
+    "furigana": "きゅう",
+    "meaning_id": "Sembilan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_36",
+    "kanji": "十",
+    "furigana": "じゅう",
+    "meaning_id": "Sepuluh",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_37",
+    "kanji": "～年",
+    "furigana": "～ねん",
+    "meaning_id": "~ tahun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_38",
+    "kanji": "～月",
+    "furigana": "～がつ",
+    "meaning_id": "~ bulan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_39",
+    "kanji": "～日",
+    "furigana": "～にち",
+    "meaning_id": "~ tanggal",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_40",
+    "kanji": "東",
+    "furigana": "ひがし",
+    "meaning_id": "Timur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_41",
+    "kanji": "西",
+    "furigana": "にし",
+    "meaning_id": "Barat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_42",
+    "kanji": "南",
+    "furigana": "みなみ",
+    "meaning_id": "Selatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_43",
+    "kanji": "北",
+    "furigana": "きた",
+    "meaning_id": "Utara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_44",
+    "kanji": "～口",
+    "furigana": "～ぐち",
+    "meaning_id": "~ pintu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_45",
+    "kanji": "東口",
+    "furigana": "ひがしぐち",
+    "meaning_id": "Pintu timur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_46",
+    "kanji": "西口",
+    "furigana": "にしぐち",
+    "meaning_id": "Pintu barat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_47",
+    "kanji": "南口",
+    "furigana": "みなみぐち",
+    "meaning_id": "Pintu selatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_48",
+    "kanji": "北口",
+    "furigana": "きたぐち",
+    "meaning_id": "Pintu utara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_49",
+    "kanji": "買います",
+    "furigana": "かいます",
+    "meaning_id": "Membeli",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_50",
+    "kanji": "買い物",
+    "furigana": "かいもの",
+    "meaning_id": "Belanja",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_51",
+    "kanji": "お金",
+    "furigana": "おかね",
+    "meaning_id": "Uang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_52",
+    "kanji": "～円",
+    "furigana": "～えん",
+    "meaning_id": "~ yen",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_53",
+    "kanji": "百",
+    "furigana": "ひゃく",
+    "meaning_id": "100",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_54",
+    "kanji": "千",
+    "furigana": "せん",
+    "meaning_id": "1000",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_55",
+    "kanji": "万",
+    "furigana": "まん",
+    "meaning_id": "10000",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_56",
+    "kanji": "百円",
+    "furigana": "ひゃくえん",
+    "meaning_id": "100 yen",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_57",
+    "kanji": "千円",
+    "furigana": "せんえん",
+    "meaning_id": "1000 yen",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_58",
+    "kanji": "一万円",
+    "furigana": "いちまんえん",
+    "meaning_id": "10000 yen",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_59",
+    "kanji": "行きます",
+    "furigana": "いきます",
+    "meaning_id": "Pergi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_60",
+    "kanji": "来ます",
+    "furigana": "きます",
+    "meaning_id": "Datang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_61",
+    "kanji": "会います",
+    "furigana": "あいます",
+    "meaning_id": "Bertemu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_62",
+    "kanji": "休みます",
+    "furigana": "やすみます",
+    "meaning_id": "Libur,istirahat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_63",
+    "kanji": "日本",
+    "furigana": "にほん",
+    "meaning_id": "Jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_64",
+    "kanji": "東京",
+    "furigana": "とうきょう",
+    "meaning_id": "Tokyo",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_65",
+    "kanji": "私",
+    "furigana": "わたし",
+    "meaning_id": "Saya",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_66",
+    "kanji": "父",
+    "furigana": "ちち",
+    "meaning_id": "Ayah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_67",
+    "kanji": "母",
+    "furigana": "はは",
+    "meaning_id": "Ibu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_68",
+    "kanji": "子供",
+    "furigana": "こども",
+    "meaning_id": "Anak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_69",
+    "kanji": "男",
+    "furigana": "おとこ",
+    "meaning_id": "Laki-laki",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_70",
+    "kanji": "女",
+    "furigana": "おんな",
+    "meaning_id": "Perempuan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_71",
+    "kanji": "人",
+    "furigana": "ひと",
+    "meaning_id": "Orang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_72",
+    "kanji": "お父さん",
+    "furigana": "おとうさん",
+    "meaning_id": "Ayah (orang lain)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_73",
+    "kanji": "お母さん",
+    "furigana": "おかあさん",
+    "meaning_id": "Ibu (orang lain)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_74",
+    "kanji": "何人",
+    "furigana": "なんにん",
+    "meaning_id": "Berapa orang?",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_75",
+    "kanji": "国",
+    "furigana": "くに",
+    "meaning_id": "Negara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_76",
+    "kanji": "外国",
+    "furigana": "がいこく",
+    "meaning_id": "Luar negri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_77",
+    "kanji": "～語",
+    "furigana": "～ご",
+    "meaning_id": "~ Bahasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_78",
+    "kanji": "日本語",
+    "furigana": "にほんご",
+    "meaning_id": "Bahasa jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_79",
+    "kanji": "英語",
+    "furigana": "えいご",
+    "meaning_id": "Bahasa inggris",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_80",
+    "kanji": "中国語",
+    "furigana": "ちゅうごくご",
+    "meaning_id": "Bahasa china",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_81",
+    "kanji": "～人",
+    "furigana": "～じん／～にん",
+    "meaning_id": "~ orang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_82",
+    "kanji": "日本人",
+    "furigana": "にほんじん",
+    "meaning_id": "Orang jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_83",
+    "kanji": "好き",
+    "furigana": "すき",
+    "meaning_id": "Suka",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_84",
+    "kanji": "本",
+    "furigana": "ほん",
+    "meaning_id": "Buku",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_85",
+    "kanji": "読書",
+    "furigana": "どくしょ",
+    "meaning_id": "Bacaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_86",
+    "kanji": "何",
+    "furigana": "なに",
+    "meaning_id": "Apa?",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_87",
+    "kanji": "春",
+    "furigana": "はる",
+    "meaning_id": "Musim semi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_88",
+    "kanji": "夏",
+    "furigana": "なつ",
+    "meaning_id": "Musim panas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_89",
+    "kanji": "秋",
+    "furigana": "あき",
+    "meaning_id": "Musim gugur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_90",
+    "kanji": "冬",
+    "furigana": "ふゆ",
+    "meaning_id": "Musim dingin",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_91",
+    "kanji": "今",
+    "furigana": "いま",
+    "meaning_id": "Sekarang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_92",
+    "kanji": "花",
+    "furigana": "はな",
+    "meaning_id": "Bunga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_93",
+    "kanji": "海",
+    "furigana": "うみ",
+    "meaning_id": "Laut",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_94",
+    "kanji": "山",
+    "furigana": "やま",
+    "meaning_id": "Gunung",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_95",
+    "kanji": "川",
+    "furigana": "かわ",
+    "meaning_id": "Sungai",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_96",
+    "kanji": "今日",
+    "furigana": "きょう",
+    "meaning_id": "Hari ini",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_97",
+    "kanji": "天気",
+    "furigana": "てんき",
+    "meaning_id": "Cuaca",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_98",
+    "kanji": "晴れ",
+    "furigana": "はれ",
+    "meaning_id": "Cerah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_99",
+    "kanji": "雨",
+    "furigana": "あめ",
+    "meaning_id": "Hujan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_100",
+    "kanji": "雪",
+    "furigana": "ゆき",
+    "meaning_id": "Salju",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_101",
+    "kanji": "雲",
+    "furigana": "くも",
+    "meaning_id": "Mendung",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_102",
+    "kanji": "風",
+    "furigana": "かぜ",
+    "meaning_id": "Angin",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_103",
+    "kanji": "空",
+    "furigana": "そら",
+    "meaning_id": "Langit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_104",
+    "kanji": "町",
+    "furigana": "まち",
+    "meaning_id": "Kota",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_105",
+    "kanji": "店",
+    "furigana": "みせ",
+    "meaning_id": "Toko",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_106",
+    "kanji": "人気",
+    "furigana": "にんき",
+    "meaning_id": "Popularitas, ketenaran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_107",
+    "kanji": "多い",
+    "furigana": "おおい",
+    "meaning_id": "Banyak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_108",
+    "kanji": "少ない",
+    "furigana": "すくない",
+    "meaning_id": "Sedikit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_109",
+    "kanji": "高い",
+    "furigana": "たかい",
+    "meaning_id": "Mahal",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_110",
+    "kanji": "安い",
+    "furigana": "やすい",
+    "meaning_id": "Murah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_111",
+    "kanji": "広い",
+    "furigana": "ひろい",
+    "meaning_id": "Luas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_112",
+    "kanji": "道",
+    "furigana": "みち",
+    "meaning_id": "Jalan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_113",
+    "kanji": "通り",
+    "furigana": "とおり",
+    "meaning_id": "Jalan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_114",
+    "kanji": "右",
+    "furigana": "みぎ",
+    "meaning_id": "Kanan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_115",
+    "kanji": "左",
+    "furigana": "ひだり",
+    "meaning_id": "Kiri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_116",
+    "kanji": "一つ",
+    "furigana": "ひとつ",
+    "meaning_id": "Satu buah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_117",
+    "kanji": "二つ",
+    "furigana": "ふたつ",
+    "meaning_id": "Dua buah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_118",
+    "kanji": "赤い",
+    "furigana": "あかい",
+    "meaning_id": "Merah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_119",
+    "kanji": "青い",
+    "furigana": "あおい",
+    "meaning_id": "Biru",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_120",
+    "kanji": "黒い",
+    "furigana": "くろい",
+    "meaning_id": "Hitam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_121",
+    "kanji": "白い",
+    "furigana": "しろい",
+    "meaning_id": "Putih",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_122",
+    "kanji": "時間",
+    "furigana": "じかん",
+    "meaning_id": "Waktu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_123",
+    "kanji": "場所",
+    "furigana": "ばしょ",
+    "meaning_id": "Tempat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_124",
+    "kanji": "駅",
+    "furigana": "えき",
+    "meaning_id": "Stasiun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_125",
+    "kanji": "日",
+    "furigana": "ひ",
+    "meaning_id": "Matahari",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_126",
+    "kanji": "出かけます",
+    "furigana": "でかけます",
+    "meaning_id": "Meninggalkan rumah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_127",
+    "kanji": "待ちます",
+    "furigana": "まちます",
+    "meaning_id": "Menunggu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_128",
+    "kanji": "止まります",
+    "furigana": "とまります",
+    "meaning_id": "Berhenti",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_129",
+    "kanji": "食事",
+    "furigana": "しょくじ",
+    "meaning_id": "Makan bersama",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_130",
+    "kanji": "仕事",
+    "furigana": "しごと",
+    "meaning_id": "Pekerjaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_131",
+    "kanji": "前",
+    "furigana": "まえ",
+    "meaning_id": "Sebelum",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_132",
+    "kanji": "後",
+    "furigana": "あと",
+    "meaning_id": "Setelah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_133",
+    "kanji": "朝",
+    "furigana": "あさ",
+    "meaning_id": "Pagi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_134",
+    "kanji": "昼",
+    "furigana": "ひる",
+    "meaning_id": "Siang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_135",
+    "kanji": "夜",
+    "furigana": "よる",
+    "meaning_id": "Malam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_136",
+    "kanji": "乗ります",
+    "furigana": "のります",
+    "meaning_id": "Naik",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_137",
+    "kanji": "学校",
+    "furigana": "がっこう",
+    "meaning_id": "Sekolahan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_138",
+    "kanji": "小学校",
+    "furigana": "しょうがっこう",
+    "meaning_id": "SD",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_139",
+    "kanji": "中学校",
+    "furigana": "ちゅうがっこう",
+    "meaning_id": "SMP",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_140",
+    "kanji": "高校",
+    "furigana": "こうこう",
+    "meaning_id": "SMA",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_141",
+    "kanji": "大学",
+    "furigana": "だいがく",
+    "meaning_id": "Universitas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_142",
+    "kanji": "先生",
+    "furigana": "せんせい",
+    "meaning_id": "Guru",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_143",
+    "kanji": "学生",
+    "furigana": "がくせい",
+    "meaning_id": "Murid , siswa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_144",
+    "kanji": "～年生",
+    "furigana": "～ねんせい",
+    "meaning_id": "Kelas ~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_145",
+    "kanji": "勉強",
+    "furigana": "べんきょう",
+    "meaning_id": "Pelajaran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_146",
+    "kanji": "文化",
+    "furigana": "ぶんか",
+    "meaning_id": "Kebudayaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_147",
+    "kanji": "音楽",
+    "furigana": "おんがく",
+    "meaning_id": "Musik",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_148",
+    "kanji": "旅行",
+    "furigana": "りょこう",
+    "meaning_id": "Wisata",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_149",
+    "kanji": "留学",
+    "furigana": "りゅうがく",
+    "meaning_id": "Belajar di luar negri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_150",
+    "kanji": "友達",
+    "furigana": "ともだち",
+    "meaning_id": "Teman",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_151",
+    "kanji": "楽しい",
+    "furigana": "たのしい",
+    "meaning_id": "Gembira",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_152",
+    "kanji": "週",
+    "furigana": "しゅう",
+    "meaning_id": "Minggu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_153",
+    "kanji": "～回",
+    "furigana": "～かい",
+    "meaning_id": "~kali",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_154",
+    "kanji": "食べ物",
+    "furigana": "たべもの",
+    "meaning_id": "Makanan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_155",
+    "kanji": "飲物",
+    "furigana": "のみもの",
+    "meaning_id": "Minuman",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_156",
+    "kanji": "お茶",
+    "furigana": "おちゃ",
+    "meaning_id": "Teh hijau",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_157",
+    "kanji": "お酒",
+    "furigana": "おさけ",
+    "meaning_id": "Sake",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_158",
+    "kanji": "作ります",
+    "furigana": "つくります",
+    "meaning_id": "Membuat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_159",
+    "kanji": "持っていきます",
+    "furigana": "もっていきます",
+    "meaning_id": "Membawa pergi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_160",
+    "kanji": "お願いします",
+    "furigana": "おねがいします",
+    "meaning_id": "Tolong",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_161",
+    "kanji": "料理",
+    "furigana": "りょうり",
+    "meaning_id": "Masakan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_162",
+    "kanji": "味",
+    "furigana": "あじ",
+    "meaning_id": "Rasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_163",
+    "kanji": "色",
+    "furigana": "いろ",
+    "meaning_id": "Warna",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_164",
+    "kanji": "野菜",
+    "furigana": "やさい",
+    "meaning_id": "Sayuran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_165",
+    "kanji": "少し",
+    "furigana": "すこし",
+    "meaning_id": "Sedikit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_166",
+    "kanji": "中",
+    "furigana": "なか",
+    "meaning_id": "Dalam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_167",
+    "kanji": "入っています",
+    "furigana": "はいっています",
+    "meaning_id": "Masuk",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_168",
+    "kanji": "会社",
+    "furigana": "かいしゃ",
+    "meaning_id": "Perusahaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_169",
+    "kanji": "本社",
+    "furigana": "ほんしゃ",
+    "meaning_id": "Kantor pusat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_170",
+    "kanji": "支社",
+    "furigana": "ししゃ",
+    "meaning_id": "Kantor cabang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_171",
+    "kanji": "出張",
+    "furigana": "しゅっちょう",
+    "meaning_id": "Dinas luar kota",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_172",
+    "kanji": "空港",
+    "furigana": "くうこう",
+    "meaning_id": "Bandara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_173",
+    "kanji": "出発",
+    "furigana": "しゅっぱつ",
+    "meaning_id": "Keberangkatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_174",
+    "kanji": "到着",
+    "furigana": "とうちゃく",
+    "meaning_id": "Kedatangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_175",
+    "kanji": "午前",
+    "furigana": "ごぜん",
+    "meaning_id": "AM",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_176",
+    "kanji": "午後",
+    "furigana": "ごご",
+    "meaning_id": "PM",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_177",
+    "kanji": "自分",
+    "furigana": "じぶん",
+    "meaning_id": "Sendiri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_178",
+    "kanji": "電話",
+    "furigana": "でんわ",
+    "meaning_id": "Telepon",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_179",
+    "kanji": "電気",
+    "furigana": "でんき",
+    "meaning_id": "Listrik",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_180",
+    "kanji": "電車",
+    "furigana": "でんしゃ",
+    "meaning_id": "Kereta",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_181",
+    "kanji": "車",
+    "furigana": "くるま",
+    "meaning_id": "Mobil",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_182",
+    "kanji": "送ります",
+    "furigana": "おくります",
+    "meaning_id": "Mengirim",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_183",
+    "kanji": "使います",
+    "furigana": "つかいます",
+    "meaning_id": "Menggunakan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_184",
+    "kanji": "借ります",
+    "furigana": "かります",
+    "meaning_id": "Meminjam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_185",
+    "kanji": "体",
+    "furigana": "からだ",
+    "meaning_id": "Badan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_186",
+    "kanji": "頭",
+    "furigana": "あたま",
+    "meaning_id": "Kepala",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_187",
+    "kanji": "目",
+    "furigana": "め",
+    "meaning_id": "Mata",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_188",
+    "kanji": "口",
+    "furigana": "くち",
+    "meaning_id": "Mulut",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_189",
+    "kanji": "耳",
+    "furigana": "みみ",
+    "meaning_id": "Telinga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_190",
+    "kanji": "手",
+    "furigana": "て",
+    "meaning_id": "Tangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_191",
+    "kanji": "足",
+    "furigana": "あし",
+    "meaning_id": "Kaki",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_192",
+    "kanji": "上",
+    "furigana": "うえ",
+    "meaning_id": "Atas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_193",
+    "kanji": "下",
+    "furigana": "した",
+    "meaning_id": "Bawah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_194",
+    "kanji": "毎～",
+    "furigana": "まい～",
+    "meaning_id": "~ setiap",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_195",
+    "kanji": "毎朝",
+    "furigana": "まいあさ",
+    "meaning_id": "setiap pagi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_196",
+    "kanji": "毎日",
+    "furigana": "まいにち",
+    "meaning_id": "Setiap hari",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_197",
+    "kanji": "週末",
+    "furigana": "しゅうまつ",
+    "meaning_id": "Akhir pekan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_198",
+    "kanji": "元気",
+    "furigana": "げんき",
+    "meaning_id": "Sehat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_199",
+    "kanji": "外",
+    "furigana": "そと",
+    "meaning_id": "Luar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_200",
+    "kanji": "起きます",
+    "furigana": "おきます",
+    "meaning_id": "Bangun tidur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_201",
+    "kanji": "歩きます",
+    "furigana": "あるきます",
+    "meaning_id": "Berjalan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_202",
+    "kanji": "走ります",
+    "furigana": "はしります",
+    "meaning_id": "Berlari",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_203",
+    "kanji": "泳ぎます",
+    "furigana": "およぎます",
+    "meaning_id": "Berenang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_204",
+    "kanji": "お祝い",
+    "furigana": "おいわい",
+    "meaning_id": "Perayaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_205",
+    "kanji": "誕生日",
+    "furigana": "たんじょうび",
+    "meaning_id": "Ulang tahun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_206",
+    "kanji": "結婚",
+    "furigana": "けっこん",
+    "meaning_id": "Pernikahan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_207",
+    "kanji": "絵",
+    "furigana": "え",
+    "meaning_id": "Gambar , lukisan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_208",
+    "kanji": "写真",
+    "furigana": "しゃしん",
+    "meaning_id": "Foto",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_209",
+    "kanji": "時計",
+    "furigana": "とけい",
+    "meaning_id": "Jam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_210",
+    "kanji": "着ます",
+    "furigana": "きます",
+    "meaning_id": "Memakai pakaian",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_211",
+    "kanji": "先～",
+    "furigana": "せん～",
+    "meaning_id": "~lalu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_212",
+    "kanji": "先週",
+    "furigana": "せんしゅう",
+    "meaning_id": "Minggu lalu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_213",
+    "kanji": "今月",
+    "furigana": "こんげつ",
+    "meaning_id": "Bulan ini",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_214",
+    "kanji": "来年",
+    "furigana": "らいねん",
+    "meaning_id": "Tahun depan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_215",
+    "kanji": "今年",
+    "furigana": "ことし",
+    "meaning_id": "Tahun ini",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_216",
+    "kanji": "去年",
+    "furigana": "きょねん",
+    "meaning_id": "Tahun lalu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_217",
+    "kanji": "家",
+    "furigana": "いえ",
+    "meaning_id": "Rumah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_218",
+    "kanji": "思います",
+    "furigana": "おもいます",
+    "meaning_id": "Mengira",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_219",
+    "kanji": "自己紹介",
+    "furigana": "じこしょうかい",
+    "meaning_id": "Perkenalan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_220",
+    "kanji": "名前",
+    "furigana": "なまえ",
+    "meaning_id": "Nama",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_221",
+    "kanji": "意味",
+    "furigana": "いみ",
+    "meaning_id": "Arti",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_222",
+    "kanji": "本屋",
+    "furigana": "ほんや",
+    "meaning_id": "Toko buku",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_223",
+    "kanji": "近く",
+    "furigana": "ちかく",
+    "meaning_id": "Dekat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_224",
+    "kanji": "住みます",
+    "furigana": "すみます",
+    "meaning_id": "Tinggal",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_225",
+    "kanji": "働きます",
+    "furigana": "はたらきます",
+    "meaning_id": "Bekerja",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_226",
+    "kanji": "～番目",
+    "furigana": "～ばんめ",
+    "meaning_id": "Urutan yang ~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_227",
+    "kanji": "兄",
+    "furigana": "あに",
+    "meaning_id": "Kakak laki2 (sendiri)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_228",
+    "kanji": "兄いさん",
+    "furigana": "おにいさん",
+    "meaning_id": "Kakak laki2 (orang lain)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_229",
+    "kanji": "姉",
+    "furigana": "あね",
+    "meaning_id": "Kakak perempuan (sendiri)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_230",
+    "kanji": "お姉さん",
+    "furigana": "おねえさん",
+    "meaning_id": "Kakak perempuan (orang lain)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_231",
+    "kanji": "弟",
+    "furigana": "おとうと",
+    "meaning_id": "Adik laki2 (sendiri)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_232",
+    "kanji": "妹",
+    "furigana": "いもうと",
+    "meaning_id": "Adik perempuan (sendiri)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_233",
+    "kanji": "家族",
+    "furigana": "かぞく",
+    "meaning_id": "Keluarga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_234",
+    "kanji": "長い",
+    "furigana": "ながい",
+    "meaning_id": "Panjang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_235",
+    "kanji": "短い",
+    "furigana": "みじかい",
+    "meaning_id": "Pendek",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_236",
+    "kanji": "低い",
+    "furigana": "ひくい",
+    "meaning_id": "Rendah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_237",
+    "kanji": "上手",
+    "furigana": "じょうず",
+    "meaning_id": "Pandai",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_238",
+    "kanji": "歌",
+    "furigana": "うた",
+    "meaning_id": "Lagu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_239",
+    "kanji": "歌います",
+    "furigana": "うたいます",
+    "meaning_id": "Menyanyi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_240",
+    "kanji": "客",
+    "furigana": "きゃく",
+    "meaning_id": "Tamu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_241",
+    "kanji": "注文",
+    "furigana": "ちゅうもん",
+    "meaning_id": "Pesanan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_242",
+    "kanji": "洋食",
+    "furigana": "ようしょく",
+    "meaning_id": "Makanan barat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_243",
+    "kanji": "和食",
+    "furigana": "わしょく",
+    "meaning_id": "Makanan jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_244",
+    "kanji": "牛肉",
+    "furigana": "ぎゅうにく",
+    "meaning_id": "Daging sapi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_245",
+    "kanji": "地方",
+    "furigana": "ちほう",
+    "meaning_id": "Daerah ,wilayah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_246",
+    "kanji": "有名",
+    "furigana": "ゆうめい",
+    "meaning_id": "Terkenal",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_247",
+    "kanji": "生",
+    "furigana": "なま",
+    "meaning_id": "Mentah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_248",
+    "kanji": "冷たい",
+    "furigana": "つめたい",
+    "meaning_id": "Dingin (benda)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_249",
+    "kanji": "ご飯",
+    "furigana": "ごはん",
+    "meaning_id": "Nasi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_250",
+    "kanji": "塩",
+    "furigana": "しお",
+    "meaning_id": "Garam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_251",
+    "kanji": "全部",
+    "furigana": "ぜんぶ",
+    "meaning_id": "Semua",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_252",
+    "kanji": "～方",
+    "furigana": "～かた",
+    "meaning_id": "Cara~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_253",
+    "kanji": "食べ方",
+    "furigana": "たべかた",
+    "meaning_id": "Cara makan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_254",
+    "kanji": "熱い",
+    "furigana": "あつい",
+    "meaning_id": "Panas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_255",
+    "kanji": "苦手",
+    "furigana": "にがて",
+    "meaning_id": "Susah, berat,tidak begitu suka",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_256",
+    "kanji": "入れます",
+    "furigana": "いれます",
+    "meaning_id": "Memasukkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_257",
+    "kanji": "木",
+    "furigana": "き",
+    "meaning_id": "Pohon",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_258",
+    "kanji": "森",
+    "furigana": "もり",
+    "meaning_id": "Hutan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_259",
+    "kanji": "島",
+    "furigana": "しま",
+    "meaning_id": "Pulau",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_260",
+    "kanji": "自然",
+    "furigana": "しぜん",
+    "meaning_id": "Alam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_261",
+    "kanji": "船",
+    "furigana": "ふね",
+    "meaning_id": "Kapal",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_262",
+    "kanji": "暑い",
+    "furigana": "あつい",
+    "meaning_id": "Panas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_263",
+    "kanji": "帰ります",
+    "furigana": "かえります",
+    "meaning_id": "Pulang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_264",
+    "kanji": "予約します",
+    "furigana": "よやくします",
+    "meaning_id": "Memesan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_265",
+    "kanji": "運転します",
+    "furigana": "うんてんします",
+    "meaning_id": "Menyetir",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_266",
+    "kanji": "～中",
+    "furigana": "～ちゅう ／～じゅう",
+    "meaning_id": "Sedang/dalam ~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_267",
+    "kanji": "旅行中",
+    "furigana": "りょこうちゅう",
+    "meaning_id": "Sedang wisata",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_268",
+    "kanji": "観光地",
+    "furigana": "かんこうち",
+    "meaning_id": "Tempat wisata",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_269",
+    "kanji": "女性",
+    "furigana": "じょせい",
+    "meaning_id": "Wanita",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_270",
+    "kanji": "男性",
+    "furigana": "だんせい",
+    "meaning_id": "Pria",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_271",
+    "kanji": "動物",
+    "furigana": "どうぶつ",
+    "meaning_id": "Hewan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_272",
+    "kanji": "空気",
+    "furigana": "くうき",
+    "meaning_id": "Udara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_273",
+    "kanji": "料金",
+    "furigana": "りょうきん",
+    "meaning_id": "Biaya / tarif",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_274",
+    "kanji": "無料",
+    "furigana": "むりょう",
+    "meaning_id": "Gratis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_275",
+    "kanji": "明るい",
+    "furigana": "あかるい",
+    "meaning_id": "Terang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_276",
+    "kanji": "便利",
+    "furigana": "べんり",
+    "meaning_id": "Praktis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_277",
+    "kanji": "一年中",
+    "furigana": "いちねんじゅう",
+    "meaning_id": "Dalam satu tahun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_278",
+    "kanji": "受付",
+    "furigana": "うけつけ",
+    "meaning_id": "Penerima tamu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_279",
+    "kanji": "広場",
+    "furigana": "ひろば",
+    "meaning_id": "Lapangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_280",
+    "kanji": "問題",
+    "furigana": "もんだい",
+    "meaning_id": "Soal, masalah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_281",
+    "kanji": "同じ",
+    "furigana": "おなじ",
+    "meaning_id": "Sama",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_282",
+    "kanji": "集まります",
+    "furigana": "あつまります",
+    "meaning_id": "Berkumpul",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_283",
+    "kanji": "始まります",
+    "furigana": "はじまります",
+    "meaning_id": "Mulai",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_284",
+    "kanji": "終わります",
+    "furigana": "おわります",
+    "meaning_id": "Selesai",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_285",
+    "kanji": "中止します",
+    "furigana": "ちゅうしします",
+    "meaning_id": "Mengurungkan ,membatalkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_286",
+    "kanji": "教えます",
+    "furigana": "おしえます",
+    "meaning_id": "Memberitahu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_287",
+    "kanji": "祭り",
+    "furigana": "まつり",
+    "meaning_id": "Perayaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_288",
+    "kanji": "日本祭り",
+    "furigana": "にほんまつり",
+    "meaning_id": "Perayaan jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_289",
+    "kanji": "会場",
+    "furigana": "かいじょう",
+    "meaning_id": "Ruang pertemuan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_290",
+    "kanji": "入場料",
+    "furigana": "にゅうじょうりょう",
+    "meaning_id": "Tarif masuk",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_291",
+    "kanji": "参加者",
+    "furigana": "さんかしゃ",
+    "meaning_id": "Peserta",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_292",
+    "kanji": "急ぎます",
+    "furigana": "いそぎます",
+    "meaning_id": "Buru-buru",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_293",
+    "kanji": "決めます",
+    "furigana": "きめます",
+    "meaning_id": "Menentukan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_294",
+    "kanji": "知ります",
+    "furigana": "しります",
+    "meaning_id": "Kenal, tahu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_295",
+    "kanji": "正月",
+    "furigana": "しょうがつ",
+    "meaning_id": "Tahun baru",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_296",
+    "kanji": "年末",
+    "furigana": "ねんまつ",
+    "meaning_id": "Akhir tahun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_297",
+    "kanji": "年始",
+    "furigana": "ねんし",
+    "meaning_id": "Awal tahun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_298",
+    "kanji": "親",
+    "furigana": "おや",
+    "meaning_id": "Orang tua",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_299",
+    "kanji": "忙しい",
+    "furigana": "いそがしい",
+    "meaning_id": "Sibuk",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_300",
+    "kanji": "特別",
+    "furigana": "とくべつ",
+    "meaning_id": "Istimewa, special",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_301",
+    "kanji": "帰国",
+    "furigana": "きこく",
+    "meaning_id": "Pulang ke negara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_302",
+    "kanji": "喜びます",
+    "furigana": "よろこびます",
+    "meaning_id": "Merasa senang/gembira",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_303",
+    "kanji": "幸せ",
+    "furigana": "しあわせ",
+    "meaning_id": "Bahagia",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_304",
+    "kanji": "成長",
+    "furigana": "せいちょう",
+    "meaning_id": "Pertumbuhan, perkembangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_305",
+    "kanji": "長生き",
+    "furigana": "ながいき",
+    "meaning_id": "Umur panjang, hidup lama",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_306",
+    "kanji": "願い事",
+    "furigana": "ねがいこと",
+    "meaning_id": "Keinginan, kemauan, harapan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_307",
+    "kanji": "合格",
+    "furigana": "ごうかく",
+    "meaning_id": "Lulus",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_308",
+    "kanji": "試験",
+    "furigana": "しけん",
+    "meaning_id": "Ujian",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_309",
+    "kanji": "大人",
+    "furigana": "おとな",
+    "meaning_id": "Orang Dewasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_310",
+    "kanji": "～式（成人式）",
+    "furigana": "～しき（せいじんしき）",
+    "meaning_id": "Upacara ~(upacara kedewasaan)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_311",
+    "kanji": "～市（さいたま市）",
+    "furigana": "～し（さいたまし）",
+    "meaning_id": "Kota~(kota saitama)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_312",
+    "kanji": "商品",
+    "furigana": "しょうひん",
+    "meaning_id": "Barang dagangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_313",
+    "kanji": "電気製品",
+    "furigana": "でんきせいひん",
+    "meaning_id": "Peralatan listrik",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_314",
+    "kanji": "電子レンジ",
+    "furigana": "でんしレンジ",
+    "meaning_id": "Oven",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_315",
+    "kanji": "～機（そうじ機）",
+    "furigana": "～き（そうじき）",
+    "meaning_id": "Mesin~(mesin penghisap debu)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_316",
+    "kanji": "店員",
+    "furigana": "てんいん",
+    "meaning_id": "Penjaga toko",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_317",
+    "kanji": "調子",
+    "furigana": "ちょうし",
+    "meaning_id": "Keadaan, kondisi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_318",
+    "kanji": "悪い",
+    "furigana": "わるい",
+    "meaning_id": "Jelek",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_319",
+    "kanji": "動きます",
+    "furigana": "うごきます",
+    "meaning_id": "Bergerak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_320",
+    "kanji": "考えます",
+    "furigana": "かんがえます",
+    "meaning_id": "Berfikir",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_321",
+    "kanji": "音",
+    "furigana": "おと",
+    "meaning_id": "Suara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_322",
+    "kanji": "出ます",
+    "furigana": "でます",
+    "meaning_id": "Keluar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_323",
+    "kanji": "機能",
+    "furigana": "きのう",
+    "meaning_id": "Fungsi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_324",
+    "kanji": "省エネ",
+    "furigana": "しょうエネ",
+    "meaning_id": "Penghematan energy",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_325",
+    "kanji": "日本製",
+    "furigana": "にほんせい",
+    "meaning_id": "Produk/buatan jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_326",
+    "kanji": "重い",
+    "furigana": "おもい",
+    "meaning_id": "Berat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_327",
+    "kanji": "軽い",
+    "furigana": "かるい",
+    "meaning_id": "Ringan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_328",
+    "kanji": "静か",
+    "furigana": "しずか",
+    "meaning_id": "Tenang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_329",
+    "kanji": "早く",
+    "furigana": "はやく",
+    "meaning_id": "Cepat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_330",
+    "kanji": "方（こっちの方）",
+    "furigana": "ほう（こっちのほう）",
+    "meaning_id": "Arah(arah disini)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_331",
+    "kanji": "洗います",
+    "furigana": "あらいます",
+    "meaning_id": "Mencuci",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_332",
+    "kanji": "満足します",
+    "furigana": "まんぞくします",
+    "meaning_id": "Puas, merasa puas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_333",
+    "kanji": "京都",
+    "furigana": "きょうと",
+    "meaning_id": "Kyoto",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_334",
+    "kanji": "神社",
+    "furigana": "じんじゃ",
+    "meaning_id": "Kuil sinto",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_335",
+    "kanji": "お寺",
+    "furigana": "おてら",
+    "meaning_id": "Kuil",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_336",
+    "kanji": "仏教",
+    "furigana": "ぶっきょう",
+    "meaning_id": "Agama budha",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_337",
+    "kanji": "歴史",
+    "furigana": "れきし",
+    "meaning_id": "Sejarah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_338",
+    "kanji": "世界",
+    "furigana": "せかい",
+    "meaning_id": "Dunia",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_339",
+    "kanji": "中心",
+    "furigana": "ちゅうしん",
+    "meaning_id": "Pusat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_340",
+    "kanji": "～世紀（８世紀）",
+    "furigana": "～せいき（はっせいき）",
+    "meaning_id": "Abad~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_341",
+    "kanji": "～的",
+    "furigana": "～てき",
+    "meaning_id": "Berbau~ / ke~ an",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_342",
+    "kanji": "日本的",
+    "furigana": "にほんてき",
+    "meaning_id": "Berbau jepang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_343",
+    "kanji": "歴史的",
+    "furigana": "れきしてき",
+    "meaning_id": "Bersejarah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_344",
+    "kanji": "飲食",
+    "furigana": "いんしょく",
+    "meaning_id": "Makan minum",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_345",
+    "kanji": "禁止",
+    "furigana": "きんし",
+    "meaning_id": "Larangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_346",
+    "kanji": "説明",
+    "furigana": "せつめい",
+    "meaning_id": "Penjelasan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_347",
+    "kanji": "道具",
+    "furigana": "どうぐ",
+    "meaning_id": "Peralatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_348",
+    "kanji": "博物館",
+    "furigana": "はくぶつかん",
+    "meaning_id": "Museum",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_349",
+    "kanji": "必要",
+    "furigana": "ひつよう",
+    "meaning_id": "Keperluan, kebutuhan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_350",
+    "kanji": "～階（２階）",
+    "furigana": "～かい（にかい）",
+    "meaning_id": "Lantai ~ ( lantai 2 )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_351",
+    "kanji": "油",
+    "furigana": "あぶら",
+    "meaning_id": "Minyak , oli",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_352",
+    "kanji": "紙",
+    "furigana": "かみ",
+    "meaning_id": "Kertas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_353",
+    "kanji": "温度",
+    "furigana": "おんど",
+    "meaning_id": "Suhu , derajat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_354",
+    "kanji": "活動",
+    "furigana": "かつどう",
+    "meaning_id": "Kegiatan , aktivitas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_355",
+    "kanji": "会議室",
+    "furigana": "かいぎしつ",
+    "meaning_id": "Ruang rapat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_356",
+    "kanji": "寒い",
+    "furigana": "さむい",
+    "meaning_id": "Dingin ( suhu )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_357",
+    "kanji": "出します",
+    "furigana": "だします",
+    "meaning_id": "Mengeluarkan , mengirim (surat )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_358",
+    "kanji": "～度（２８度）",
+    "furigana": "～ど（にじゅうはちど）",
+    "meaning_id": "~derajat ( 28 derajat )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_359",
+    "kanji": "～点（１００点）",
+    "furigana": "～てん（１００てん）",
+    "meaning_id": "Nilai ~ ( nilai 100 )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_360",
+    "kanji": "服",
+    "furigana": "ふく",
+    "meaning_id": "Baju , pakaian",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_361",
+    "kanji": "自転車",
+    "furigana": "じてんしゃ",
+    "meaning_id": "Sepeda",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_362",
+    "kanji": "自動車",
+    "furigana": "じどうしゃ",
+    "meaning_id": "Mobil",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_363",
+    "kanji": "売ります",
+    "furigana": "うります",
+    "meaning_id": "Menjual",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_364",
+    "kanji": "貸します",
+    "furigana": "かします",
+    "meaning_id": "Meminjamkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_365",
+    "kanji": "返します",
+    "furigana": "かえします",
+    "meaning_id": "Mengembalikan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_366",
+    "kanji": "変わります",
+    "furigana": "かわります",
+    "meaning_id": "Mengganti",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_367",
+    "kanji": "～用",
+    "furigana": "～よう",
+    "meaning_id": "Urusan , keperluan ~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_368",
+    "kanji": "子供用",
+    "furigana": "こどもよう",
+    "meaning_id": "Urusan anak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_369",
+    "kanji": "人生",
+    "furigana": "じんせい",
+    "meaning_id": "Kehidupan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_370",
+    "kanji": "歌手",
+    "furigana": "かしゅ",
+    "meaning_id": "Penyanyi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_371",
+    "kanji": "選手",
+    "furigana": "せんしゅ",
+    "meaning_id": "Atlit, pemain",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_372",
+    "kanji": "画家",
+    "furigana": "がか",
+    "meaning_id": "Pelukis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_373",
+    "kanji": "作家",
+    "furigana": "さっか",
+    "meaning_id": "Pengarang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_374",
+    "kanji": "入学",
+    "furigana": "にゅうがく",
+    "meaning_id": "Masuk sekolah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_375",
+    "kanji": "卒業",
+    "furigana": "そつぎょう",
+    "meaning_id": "Lulus",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_376",
+    "kanji": "病気",
+    "furigana": "びょうき",
+    "meaning_id": "Sakit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_377",
+    "kanji": "若い",
+    "furigana": "わかい",
+    "meaning_id": "Muda",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_378",
+    "kanji": "生まれます",
+    "furigana": "うまれます",
+    "meaning_id": "Lahir",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_379",
+    "kanji": "思い出",
+    "furigana": "おもいで",
+    "meaning_id": "Kenang-kenangan, kenangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_380",
+    "kanji": "生活",
+    "furigana": "せいかつ",
+    "meaning_id": "Kehidupan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_381",
+    "kanji": "映画",
+    "furigana": "えいが",
+    "meaning_id": "Film",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_382",
+    "kanji": "夫",
+    "furigana": "おっと",
+    "meaning_id": "Suami ( sendiri )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_383",
+    "kanji": "妻",
+    "furigana": "つま",
+    "meaning_id": "Istri ( sendiri )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_384",
+    "kanji": "両親",
+    "furigana": "りょうしん",
+    "meaning_id": "Orang tua",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_385",
+    "kanji": "不便",
+    "furigana": "ふべん",
+    "meaning_id": "Tidak praktis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_386",
+    "kanji": "選びます",
+    "furigana": "えらびます",
+    "meaning_id": "Memilih",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_387",
+    "kanji": "寝ます",
+    "furigana": "ねます",
+    "meaning_id": "Tidur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_388",
+    "kanji": "サッカー場",
+    "furigana": "サッカーじょう",
+    "meaning_id": "Lapangan sepak bola",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_389",
+    "kanji": "試合",
+    "furigana": "しあい",
+    "meaning_id": "Pertandingan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_390",
+    "kanji": "日曜日",
+    "furigana": "にちようび",
+    "meaning_id": "Minggu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_391",
+    "kanji": "強い",
+    "furigana": "つよい",
+    "meaning_id": "Kuat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_392",
+    "kanji": "弱い",
+    "furigana": "よわい",
+    "meaning_id": "Lemah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_393",
+    "kanji": "勝ちます",
+    "furigana": "かちます",
+    "meaning_id": "Menang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_394",
+    "kanji": "負けます",
+    "furigana": "まけます",
+    "meaning_id": "Kalah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_395",
+    "kanji": "～対～（２対１）",
+    "furigana": "～たい～（にたいいち）",
+    "meaning_id": "~lawan~ ( 2 lawan 1 )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_396",
+    "kanji": "庭",
+    "furigana": "にわ",
+    "meaning_id": "Halaman",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_397",
+    "kanji": "公園",
+    "furigana": "こうえん",
+    "meaning_id": "Taman",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_398",
+    "kanji": "病院",
+    "furigana": "びょういん",
+    "meaning_id": "Rumah sakit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_399",
+    "kanji": "交通",
+    "furigana": "こうつう",
+    "meaning_id": "Lalu lintas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_400",
+    "kanji": "通勤",
+    "furigana": "つうきん",
+    "meaning_id": "Perjalanan ke kantor",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_401",
+    "kanji": "安全",
+    "furigana": "あんぜん",
+    "meaning_id": "Keselamatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_402",
+    "kanji": "危ない",
+    "furigana": "あぶない",
+    "meaning_id": "Bahaya",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_403",
+    "kanji": "遠い",
+    "furigana": "とおい",
+    "meaning_id": "Jauh",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_404",
+    "kanji": "努めます",
+    "furigana": "つとめます",
+    "meaning_id": "Bekerja",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_405",
+    "kanji": "～以上（２時間以上）",
+    "furigana": "～いじょう（にじかんいじょう）",
+    "meaning_id": "~ lebih ( 2 jam lebih )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_406",
+    "kanji": "～以下（６万円以下）",
+    "furigana": "～いか（ろくまんえんいか）",
+    "meaning_id": "~kurang ( kurang dari 6 man yen )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_407",
+    "kanji": "海外",
+    "furigana": "かいがい",
+    "meaning_id": "Luar negri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_408",
+    "kanji": "食生活",
+    "furigana": "しょくせいかつ",
+    "meaning_id": "Susunan makanan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_409",
+    "kanji": "健康",
+    "furigana": "けんこう",
+    "meaning_id": "Kesehatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_410",
+    "kanji": "家庭料理",
+    "furigana": "かていりょうり",
+    "meaning_id": "Masakan rumah tangga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_411",
+    "kanji": "材料",
+    "furigana": "ざいりょう",
+    "meaning_id": "Bahan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_412",
+    "kanji": "量",
+    "furigana": "りょう",
+    "meaning_id": "Jumlah, kuantitas, banyaknya",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_413",
+    "kanji": "米",
+    "furigana": "こめ",
+    "meaning_id": "Beras",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_414",
+    "kanji": "～食",
+    "furigana": "～しょく",
+    "meaning_id": "Makan ~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_415",
+    "kanji": "朝食",
+    "furigana": "ちょうしょく",
+    "meaning_id": "Makan pagi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_416",
+    "kanji": "昼食",
+    "furigana": "ちゅうしょく",
+    "meaning_id": "Makan siang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_417",
+    "kanji": "夕食",
+    "furigana": "ゆうしょく",
+    "meaning_id": "Makan malam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_418",
+    "kanji": "外食",
+    "furigana": "がいしょく",
+    "meaning_id": "Makan di luar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_419",
+    "kanji": "定食",
+    "furigana": "ていしょく",
+    "meaning_id": "Makanan dengan menu tetap",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_420",
+    "kanji": "住所",
+    "furigana": "じゅうしょ",
+    "meaning_id": "Alamat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_421",
+    "kanji": "訪問",
+    "furigana": "ほうもん",
+    "meaning_id": "Kunjungan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_422",
+    "kanji": "経験",
+    "furigana": "けいけん",
+    "meaning_id": "Pengalaman",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_423",
+    "kanji": "親切",
+    "furigana": "しんせつ",
+    "meaning_id": "Ramah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_424",
+    "kanji": "座ります",
+    "furigana": "すわります",
+    "meaning_id": "Duduk",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_425",
+    "kanji": "立ちます",
+    "furigana": "たちます",
+    "meaning_id": "Berdiri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_426",
+    "kanji": "～観（人生観）",
+    "furigana": "～かん（じんせいかん）",
+    "meaning_id": "Pandangan ~ ( pandangan hidup )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_427",
+    "kanji": "約～（約６年間）",
+    "furigana": "やく～（やくろくねんかん）",
+    "meaning_id": "Kira2, sekitar ( sekitar 6 tahun )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_428",
+    "kanji": "計画",
+    "furigana": "けいかく",
+    "meaning_id": "Rencana , program",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_429",
+    "kanji": "自信",
+    "furigana": "じしん",
+    "meaning_id": "Percaya diri",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_430",
+    "kanji": "方法",
+    "furigana": "ほうほう",
+    "meaning_id": "Cara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_431",
+    "kanji": "目的",
+    "furigana": "もくてき",
+    "meaning_id": "Tujuan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_432",
+    "kanji": "難しい",
+    "furigana": "むずかしい",
+    "meaning_id": "Sulit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_433",
+    "kanji": "通じます",
+    "furigana": "つうじます",
+    "meaning_id": "Mengalirkan,menguasai,berhubungan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_434",
+    "kanji": "習います",
+    "furigana": "ならいます",
+    "meaning_id": "Belajar kepada",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_435",
+    "kanji": "学びます",
+    "furigana": "まなびます",
+    "meaning_id": "Belajar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_436",
+    "kanji": "～級",
+    "furigana": "～きゅう",
+    "meaning_id": "Kelas ,tingkat ~",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_437",
+    "kanji": "初級",
+    "furigana": "しょきゅう",
+    "meaning_id": "Kelas dasar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_438",
+    "kanji": "中級",
+    "furigana": "ちゅうきゅう",
+    "meaning_id": "Kelas menengah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_439",
+    "kanji": "上級",
+    "furigana": "じょうきゅう",
+    "meaning_id": "Kelas atas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_440",
+    "kanji": "相手",
+    "furigana": "あいて",
+    "meaning_id": "Pasangan, lawan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_441",
+    "kanji": "気持ち",
+    "furigana": "きもち",
+    "meaning_id": "Perasaan enak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_442",
+    "kanji": "恋人",
+    "furigana": "こいびと",
+    "meaning_id": "Pacar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_443",
+    "kanji": "出会い",
+    "furigana": "であい",
+    "meaning_id": "Pertemuan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_444",
+    "kanji": "最近",
+    "furigana": "さいきん",
+    "meaning_id": "Akhir-akhir ini",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_445",
+    "kanji": "最高",
+    "furigana": "さいこう",
+    "meaning_id": "Teratas, tertinggi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_446",
+    "kanji": "出席",
+    "furigana": "しゅっせき",
+    "meaning_id": "Kehadiran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_447",
+    "kanji": "招待",
+    "furigana": "しょうたい",
+    "meaning_id": "Undangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_448",
+    "kanji": "～合う（知り合う）",
+    "furigana": "～あう（しりあう）",
+    "meaning_id": "Cocok ~ ( kenal mengenal )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_449",
+    "kanji": "社会人",
+    "furigana": "しゃかいじん",
+    "meaning_id": "Anggota masyarakat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_450",
+    "kanji": "職場",
+    "furigana": "しょくば",
+    "meaning_id": "Tempat kerja",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_451",
+    "kanji": "給料",
+    "furigana": "きゅうりょう",
+    "meaning_id": "Gaji",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_452",
+    "kanji": "人間関係",
+    "furigana": "にんげんかんけい",
+    "meaning_id": "Hubungan antar manusia",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_453",
+    "kanji": "親友",
+    "furigana": "しんゆう",
+    "meaning_id": "Teman karib",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_454",
+    "kanji": "恋愛",
+    "furigana": "れんあい",
+    "meaning_id": "Percintaan , asmara",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_455",
+    "kanji": "相談",
+    "furigana": "そうだん",
+    "meaning_id": "Musyawarah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_456",
+    "kanji": "心",
+    "furigana": "こころ",
+    "meaning_id": "Hati",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_457",
+    "kanji": "心配",
+    "furigana": "しんぱい",
+    "meaning_id": "Khawatir",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_458",
+    "kanji": "不安",
+    "furigana": "ふあん",
+    "meaning_id": "Kegelisahan, kekhawatiran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_459",
+    "kanji": "お客様",
+    "furigana": "おきゃくさま",
+    "meaning_id": "Tamu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_460",
+    "kanji": "手続き",
+    "furigana": "てつづき",
+    "meaning_id": "Prosedur",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_461",
+    "kanji": "飛行機",
+    "furigana": "ひこうき",
+    "meaning_id": "Pesawat terbang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_462",
+    "kanji": "変更",
+    "furigana": "へんこう",
+    "meaning_id": "Perubahan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_463",
+    "kanji": "予定",
+    "furigana": "よてい",
+    "meaning_id": "Rencana",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_464",
+    "kanji": "利用",
+    "furigana": "りよう",
+    "meaning_id": "Penggunaan, pemakaian",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_465",
+    "kanji": "忘れ物",
+    "furigana": "わすれもの",
+    "meaning_id": "Benda yang tertinggal",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_466",
+    "kanji": "助けます",
+    "furigana": "たすけます",
+    "meaning_id": "Menolong",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_467",
+    "kanji": "～航空（ＪＦ航空）",
+    "furigana": "～こうくう（ＪＦこうくう）",
+    "meaning_id": "Penerbangan ~ ( penerbangan JF )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_468",
+    "kanji": "～便（１１５便）",
+    "furigana": "～びん（いちいちごびん）",
+    "meaning_id": "Penerbangan , pos ( pos 115 )",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_469",
+    "kanji": "体力",
+    "furigana": "たいりょく",
+    "meaning_id": "Kekuatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_470",
+    "kanji": "協力",
+    "furigana": "きょうりょく",
+    "meaning_id": "Kerjasama",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_471",
+    "kanji": "担当",
+    "furigana": "たんとう",
+    "meaning_id": "Petugas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_472",
+    "kanji": "報告",
+    "furigana": "ほうこく",
+    "meaning_id": "Melapor",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_473",
+    "kanji": "連絡",
+    "furigana": "れんらく",
+    "meaning_id": "Menghubungi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_474",
+    "kanji": "募集",
+    "furigana": "ぼしゅう",
+    "meaning_id": "Penerimaan, perekrutan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_475",
+    "kanji": "輸出",
+    "furigana": "ゆしゅつ",
+    "meaning_id": "Ekspor",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_476",
+    "kanji": "輸入",
+    "furigana": "ゆにゅう",
+    "meaning_id": "Impor",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_477",
+    "kanji": "会話",
+    "furigana": "かいわ",
+    "meaning_id": "Percakapan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_478",
+    "kanji": "形",
+    "furigana": "かたち",
+    "meaning_id": "Bentuk",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_479",
+    "kanji": "漢字",
+    "furigana": "かんじ",
+    "meaning_id": "Kanji",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_480",
+    "kanji": "答え",
+    "furigana": "こたえ",
+    "meaning_id": "Jawaban",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_481",
+    "kanji": "質問",
+    "furigana": "しつもん",
+    "meaning_id": "Pertanyaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_482",
+    "kanji": "正しい",
+    "furigana": "ただしい",
+    "meaning_id": "Benar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_483",
+    "kanji": "読解",
+    "furigana": "どっかい",
+    "meaning_id": "Bacaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_484",
+    "kanji": "表現",
+    "furigana": "ひょうげん",
+    "meaning_id": "Pengucapan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_485",
+    "kanji": "文",
+    "furigana": "ぶん",
+    "meaning_id": "Kalimat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_486",
+    "kanji": "文型",
+    "furigana": "ぶんけい",
+    "meaning_id": "Pola kalimat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_487",
+    "kanji": "文法",
+    "furigana": "ぶんぽう",
+    "meaning_id": "Tata Bahasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_488",
+    "kanji": "もう一度",
+    "furigana": "もういちど",
+    "meaning_id": "Sekali lagi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_489",
+    "kanji": "例",
+    "furigana": "れい",
+    "meaning_id": "Contoh",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_490",
+    "kanji": "練習",
+    "furigana": "れんしゅう",
+    "meaning_id": "latihan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_491",
+    "kanji": "～枚",
+    "furigana": "～まい",
+    "meaning_id": "～lembar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_492",
+    "kanji": "今週",
+    "furigana": "こんしゅう",
+    "meaning_id": "Minggu ini",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_493",
+    "kanji": "今度",
+    "furigana": "こんど",
+    "meaning_id": "Lain kali, yang akan datang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_494",
+    "kanji": "横",
+    "furigana": "よこ",
+    "meaning_id": "Sebelah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_495",
+    "kanji": "押します",
+    "furigana": "おします",
+    "meaning_id": "Menekan, mendorong",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_496",
+    "kanji": "引きます",
+    "furigana": "ひきます",
+    "meaning_id": "Menarik",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_497",
+    "kanji": "温泉",
+    "furigana": "おんせん",
+    "meaning_id": "Pemandian air panas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_498",
+    "kanji": "来週",
+    "furigana": "らいしゅう",
+    "meaning_id": "Minggu depan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_499",
+    "kanji": "犬",
+    "furigana": "いぬ",
+    "meaning_id": "Anjing",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_500",
+    "kanji": "夕方",
+    "furigana": "ゆうがた",
+    "meaning_id": "Sore",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_501",
+    "kanji": "季節",
+    "furigana": "きせつ",
+    "meaning_id": "Musim",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_502",
+    "kanji": "昨日",
+    "furigana": "きのう",
+    "meaning_id": "Kemarin",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_503",
+    "kanji": "明日",
+    "furigana": "あした",
+    "meaning_id": "Besok",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_504",
+    "kanji": "食堂",
+    "furigana": "しょくどう",
+    "meaning_id": "Kantin",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_505",
+    "kanji": "銀行",
+    "furigana": "ぎんこう",
+    "meaning_id": "Bank",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_506",
+    "kanji": "受付",
+    "furigana": "うけつけ",
+    "meaning_id": "Resepsionis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_507",
+    "kanji": "門",
+    "furigana": "もん",
+    "meaning_id": "Pintu gerbang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_508",
+    "kanji": "登ります",
+    "furigana": "のぼります",
+    "meaning_id": "Mendaki",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_509",
+    "kanji": "教科書",
+    "furigana": "きょうかしょ",
+    "meaning_id": "Buku panduan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_510",
+    "kanji": "教室",
+    "furigana": "きょうしつ",
+    "meaning_id": "Ruang kelas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_511",
+    "kanji": "参加します",
+    "furigana": "さんかします",
+    "meaning_id": "Berpartisipasi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_512",
+    "kanji": "用意します",
+    "furigana": "よういします",
+    "meaning_id": "Menyiapkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_513",
+    "kanji": "牛肉",
+    "furigana": "ぎゅうにく",
+    "meaning_id": "Daging sapi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_514",
+    "kanji": "豚肉",
+    "furigana": "ぶたにく",
+    "meaning_id": "Daging babi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_515",
+    "kanji": "皿",
+    "furigana": "さら",
+    "meaning_id": "Piring",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_516",
+    "kanji": "お湯",
+    "furigana": "おゆ",
+    "meaning_id": "Air panas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_517",
+    "kanji": "調理方法",
+    "furigana": "ちょうりほうほう",
+    "meaning_id": "Cara memasak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_518",
+    "kanji": "甘い",
+    "furigana": "あまい",
+    "meaning_id": "Manis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_519",
+    "kanji": "辛い",
+    "furigana": "からい",
+    "meaning_id": "Pedas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_520",
+    "kanji": "数字",
+    "furigana": "すうじ",
+    "meaning_id": "Angka, bilangan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_521",
+    "kanji": "机",
+    "furigana": "つくえ",
+    "meaning_id": "Meja",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_522",
+    "kanji": "都合",
+    "furigana": "つごう",
+    "meaning_id": "Keadaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_523",
+    "kanji": "用事",
+    "furigana": "ようじ",
+    "meaning_id": "Keperluan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_524",
+    "kanji": "氏名",
+    "furigana": "しめい",
+    "meaning_id": "Nama lengkap",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_525",
+    "kanji": "理由",
+    "furigana": "りゆう",
+    "meaning_id": "Alasan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_526",
+    "kanji": "別に",
+    "furigana": "べつに",
+    "meaning_id": "Beda-beda",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_527",
+    "kanji": "連絡先",
+    "furigana": "れんらくさき",
+    "meaning_id": "Alamat yang dapat dihubungi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_528",
+    "kanji": "吸います",
+    "furigana": "すいます",
+    "meaning_id": "Menghisap",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_529",
+    "kanji": "取ります",
+    "furigana": "とります",
+    "meaning_id": "Mengambil",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_530",
+    "kanji": "伝えます",
+    "furigana": "つたえます",
+    "meaning_id": "Menyampaikan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_531",
+    "kanji": "熱",
+    "furigana": "ねつ",
+    "meaning_id": "Demam",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_532",
+    "kanji": "薬",
+    "furigana": "くすり",
+    "meaning_id": "Obat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_533",
+    "kanji": "医者",
+    "furigana": "いしゃ",
+    "meaning_id": "Dokter",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_534",
+    "kanji": "～才",
+    "furigana": "～さい",
+    "meaning_id": "Bakat ～ ／ umur ～",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_535",
+    "kanji": "眠い",
+    "furigana": "ねむい",
+    "meaning_id": "Ngantuk",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_536",
+    "kanji": "記入します",
+    "furigana": "きにゅうします",
+    "meaning_id": "Mengisi di kertas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_537",
+    "kanji": "顔",
+    "furigana": "かお",
+    "meaning_id": "Wajah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_538",
+    "kanji": "泣きます",
+    "furigana": "なきます",
+    "meaning_id": "Menangis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_539",
+    "kanji": "会計",
+    "furigana": "かいけい",
+    "meaning_id": "Pembayaran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_540",
+    "kanji": "電話番号",
+    "furigana": "でんわばんごう",
+    "meaning_id": "Nomor telepon",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_541",
+    "kanji": "牛乳",
+    "furigana": "ぎゅうにゅう",
+    "meaning_id": "Susu sapi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_542",
+    "kanji": "禁煙",
+    "furigana": "きんえん",
+    "meaning_id": "Larangan merokok",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_543",
+    "kanji": "自由",
+    "furigana": "じゆう",
+    "meaning_id": "Bebas",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_544",
+    "kanji": "切ります",
+    "furigana": "きります",
+    "meaning_id": "Memotong",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_545",
+    "kanji": "焼きます",
+    "furigana": "やきます",
+    "meaning_id": "Memanggang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_546",
+    "kanji": "旅館",
+    "furigana": "りょかん",
+    "meaning_id": "Penginapan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_547",
+    "kanji": "遊びます",
+    "furigana": "あそびます",
+    "meaning_id": "Bermain",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_548",
+    "kanji": "調べます",
+    "furigana": "しらべます",
+    "meaning_id": "Memeriksa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_549",
+    "kanji": "事故",
+    "furigana": "じこ",
+    "meaning_id": "Kecelakaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_550",
+    "kanji": "故障",
+    "furigana": "こしょう",
+    "meaning_id": "Kerusakan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_551",
+    "kanji": "指定席",
+    "furigana": "していせき",
+    "meaning_id": "Tempat duduk yang ditetapkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_552",
+    "kanji": "光ります",
+    "furigana": "ひかります",
+    "meaning_id": "Bercahaya , bersinar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_553",
+    "kanji": "お知らせ",
+    "furigana": "おしらせ",
+    "meaning_id": "Pengumuman",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_554",
+    "kanji": "水道",
+    "furigana": "すいどう",
+    "meaning_id": "Ledeng",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_555",
+    "kanji": "工事",
+    "furigana": "こうじ",
+    "meaning_id": "Konstruksi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_556",
+    "kanji": "場合",
+    "furigana": "ばあい",
+    "meaning_id": "Kesempatan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_557",
+    "kanji": "条件",
+    "furigana": "じょうけん",
+    "meaning_id": "Syarat-syarat, kondisi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_558",
+    "kanji": "開きます",
+    "furigana": "ひらきます",
+    "meaning_id": "Membuka",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_559",
+    "kanji": "生産します",
+    "furigana": "せいさんします",
+    "meaning_id": "Memproduksi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_560",
+    "kanji": "体験",
+    "furigana": "たいけん",
+    "meaning_id": "Percobaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_561",
+    "kanji": "国際交流",
+    "furigana": "こくさいこうりゅう",
+    "meaning_id": "Pertukaran budaya internasional",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_562",
+    "kanji": "申し込みます",
+    "furigana": "もうしこみます",
+    "meaning_id": "Melamar (pekerjaan)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_563",
+    "kanji": "昨年",
+    "furigana": "さくねん",
+    "meaning_id": "Tahun lalu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_564",
+    "kanji": "毎年",
+    "furigana": "まいとし",
+    "meaning_id": "Setiap tahun",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_565",
+    "kanji": "袋",
+    "furigana": "ふくろ",
+    "meaning_id": "Kantong plastik",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_566",
+    "kanji": "店長",
+    "furigana": "てんちょう",
+    "meaning_id": "Manajer toko",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_567",
+    "kanji": "全員",
+    "furigana": "ぜんいん",
+    "meaning_id": "Semuanya",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_568",
+    "kanji": "習慣",
+    "furigana": "しゅうかん",
+    "meaning_id": "Kebiasaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_569",
+    "kanji": "普通",
+    "furigana": "ふつう",
+    "meaning_id": "Biasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_570",
+    "kanji": "暗い",
+    "furigana": "くらい",
+    "meaning_id": "Gelap",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_571",
+    "kanji": "怒ります",
+    "furigana": "おこります",
+    "meaning_id": "Marah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_572",
+    "kanji": "入院します",
+    "furigana": "にゅういんします",
+    "meaning_id": "Masuk rumah sakit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_573",
+    "kanji": "退院します",
+    "furigana": "たいいんします",
+    "meaning_id": "Keluar rumah sakit",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_574",
+    "kanji": "急に",
+    "furigana": "きゅうに",
+    "meaning_id": "Tiba-tiba",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_575",
+    "kanji": "営業します",
+    "furigana": "えいぎょうします",
+    "meaning_id": "Mengusahakan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_576",
+    "kanji": "案内します",
+    "furigana": "あんないします",
+    "meaning_id": "Memandu",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_577",
+    "kanji": "値段",
+    "furigana": "ねだん",
+    "meaning_id": "Harga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_578",
+    "kanji": "価格",
+    "furigana": "かかく",
+    "meaning_id": "Harga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_579",
+    "kanji": "消費税",
+    "furigana": "しょうひぜい",
+    "meaning_id": "Pajak konsumen",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_580",
+    "kanji": "税別",
+    "furigana": "ぜいべつ",
+    "meaning_id": "Harga belum termasuk pajak",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_581",
+    "kanji": "図書館",
+    "furigana": "としょかん",
+    "meaning_id": "Perpustakaan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_582",
+    "kanji": "開きます",
+    "furigana": "あきます",
+    "meaning_id": "Terbuka",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_583",
+    "kanji": "閉まります",
+    "furigana": "しまります",
+    "meaning_id": "Tertutup",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_584",
+    "kanji": "利用します",
+    "furigana": "りようします",
+    "meaning_id": "Menggunakan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_585",
+    "kanji": "窓口",
+    "furigana": "まどぐち",
+    "meaning_id": "Pintu jendela",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_586",
+    "kanji": "郵便局",
+    "furigana": "ゆうびんきょく",
+    "meaning_id": "Kantor pos",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_587",
+    "kanji": "近所",
+    "furigana": "きんじょ",
+    "meaning_id": "Tetangga",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_588",
+    "kanji": "自動",
+    "furigana": "じどう",
+    "meaning_id": "Otomatis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_589",
+    "kanji": "危険",
+    "furigana": "きけん",
+    "meaning_id": "Bahaya",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_590",
+    "kanji": "～種類",
+    "furigana": "～しゅるい",
+    "meaning_id": "～macam, jenis",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_591",
+    "kanji": "消します",
+    "furigana": "けします",
+    "meaning_id": "Memadamkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_592",
+    "kanji": "捨てます",
+    "furigana": "すてます",
+    "meaning_id": "Membuang",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_593",
+    "kanji": "分けます",
+    "furigana": "わけます",
+    "meaning_id": "Membagi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_594",
+    "kanji": "燃えます",
+    "furigana": "もえます",
+    "meaning_id": "Terbakar",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_595",
+    "kanji": "設定します",
+    "furigana": "せっていします",
+    "meaning_id": "Mengeset,menyeting",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_596",
+    "kanji": "地震",
+    "furigana": "じしん",
+    "meaning_id": "Gempa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_597",
+    "kanji": "台風",
+    "furigana": "たいふう",
+    "meaning_id": "Angin topan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_598",
+    "kanji": "声",
+    "furigana": "こえ",
+    "meaning_id": "Suara (benda hidup)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_599",
+    "kanji": "大切な",
+    "furigana": "たいせつな",
+    "meaning_id": "Penting",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_600",
+    "kanji": "進みます",
+    "furigana": "すすみます",
+    "meaning_id": "Rekomendasi",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_601",
+    "kanji": "授業",
+    "furigana": "じゅぎょう",
+    "meaning_id": "Pelajaran",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_602",
+    "kanji": "大変な",
+    "furigana": "たいへんな",
+    "meaning_id": "Berat (perasaan)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_603",
+    "kanji": "困ります",
+    "furigana": "こまります",
+    "meaning_id": "Susah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_604",
+    "kanji": "違います",
+    "furigana": "ちがいます",
+    "meaning_id": "Salah , berbeda",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_605",
+    "kanji": "慣れます",
+    "furigana": "なれます",
+    "meaning_id": "terbiasa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_606",
+    "kanji": "増えます",
+    "furigana": "ふえます",
+    "meaning_id": "Bertambah",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_607",
+    "kanji": "笑います",
+    "furigana": "わらいます",
+    "meaning_id": "Tertawa",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_608",
+    "kanji": "苦労します",
+    "furigana": "くろうします",
+    "meaning_id": "Bersakit-sakit ( dalam usaha)",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_609",
+    "kanji": "希望",
+    "furigana": "きぼう",
+    "meaning_id": "Harapan, keinginan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_610",
+    "kanji": "特に",
+    "furigana": "とくに",
+    "meaning_id": "Terutama",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_611",
+    "kanji": "建てます",
+    "furigana": "たてます",
+    "meaning_id": "Mendirikan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_612",
+    "kanji": "続けます",
+    "furigana": "つづけます",
+    "meaning_id": "Melanjutkan",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  },
+  {
+    "id": "jft_v_613",
+    "kanji": "役に立ちます",
+    "furigana": "やくにたちます",
+    "meaning_id": "Bermanfaat",
+    "category": "JFT-A2 Irodori",
+    "level": "A2"
+  }
+]

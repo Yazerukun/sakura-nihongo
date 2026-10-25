@@ -1,0 +1,7697 @@
+{
+  "N5": [
+    {
+      "id": "N5_1",
+      "level": "N5",
+      "question": "What does 'こんにちは' mean?",
+      "options": [
+        "Good morning",
+        "Hello",
+        "Goodbye",
+        "Thank you"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こんにちは' is used during the day to say 'Hello'."
+    },
+    {
+      "id": "N5_2",
+      "level": "N5",
+      "question": "How do you say 'water' in Japanese?",
+      "options": [
+        "たべもの",
+        "のみもの",
+        "みず",
+        "おちゃ"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'みず' (mizu) means 'water'."
+    },
+    {
+      "id": "N5_3",
+      "level": "N5",
+      "question": "Which is correct for 'I am a student'?",
+      "options": [
+        "私は先生です。",
+        "私は学生です。",
+        "あなたは学生です。",
+        "彼は先生です。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "私は学生です。 = I am a student."
+    },
+    {
+      "id": "N5_4",
+      "level": "N5",
+      "question": "What is 'おはよう'?",
+      "options": [
+        "Good evening",
+        "Hello",
+        "Good morning",
+        "Goodbye"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'おはよう' is the informal 'Good morning'."
+    },
+    {
+      "id": "N5_5",
+      "level": "N5",
+      "question": "How do you say 'apple'?",
+      "options": [
+        "みかん",
+        "りんご",
+        "ばなな",
+        "すいか"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'りんご' (ringo) = apple."
+    },
+    {
+      "id": "N5_6",
+      "level": "N5",
+      "question": "Which particle means 'at' (location)?",
+      "options": [
+        "は",
+        "を",
+        "に",
+        "も"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "に marks location. 学校にいます = I am at school."
+    },
+    {
+      "id": "N5_7",
+      "level": "N5",
+      "question": "How do you say 'I eat breakfast'?",
+      "options": [
+        "朝ごはんを飲みます。",
+        "朝ごはんを食べます。",
+        "朝ごはんがあります。",
+        "朝ごはんに行きます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "食べます = to eat. '朝ごはんを食べます' = I eat breakfast."
+    },
+    {
+      "id": "N5_8",
+      "level": "N5",
+      "question": "What is 'いす'?",
+      "options": [
+        "Table",
+        "Chair",
+        "Door",
+        "Window"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'いす' (isu) = chair."
+    },
+    {
+      "id": "N5_9",
+      "level": "N5",
+      "question": "Which means 'There is a book'?",
+      "options": [
+        "本があります。",
+        "本を読みます。",
+        "本がありません。",
+        "本に行きます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "があります = there is/are (inanimate)."
+    },
+    {
+      "id": "N5_10",
+      "level": "N5",
+      "question": "How do you say 'I go to school'?",
+      "options": [
+        "学校があります。",
+        "学校を食べます。",
+        "学校にいきます。",
+        "学校はです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にいきます = go to. '学校にいきます' = I go to school."
+    },
+    {
+      "id": "N5_11",
+      "level": "N5",
+      "question": "What does 'ちいさい' mean?",
+      "options": [
+        "Big",
+        "Small",
+        "Long",
+        "Short"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ちいさい' (chiisai) = small."
+    },
+    {
+      "id": "N5_12",
+      "level": "N5",
+      "question": "Which is 'red'?",
+      "options": [
+        "あおい",
+        "きいろい",
+        "あかい",
+        "ちゃいろい"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'あかい' (akai) = red."
+    },
+    {
+      "id": "N5_13",
+      "level": "N5",
+      "question": "How do you say 'I understand'?",
+      "options": [
+        "わかります",
+        "わかりません",
+        "しります",
+        "いません"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'わかります' = I understand."
+    },
+    {
+      "id": "N5_14",
+      "level": "N5",
+      "question": "What is 'とけい'?",
+      "options": [
+        "Clock",
+        "Bag",
+        "Pen",
+        "Book"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'とけい' (tokei) = clock."
+    },
+    {
+      "id": "N5_15",
+      "level": "N5",
+      "question": "Which particle marks the object?",
+      "options": [
+        "は",
+        "に",
+        "を",
+        "で"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "を marks the object. E.g., ごはんをたべます."
+    },
+    {
+      "id": "N5_16",
+      "level": "N5",
+      "question": "How do you say 'This is my bag'?",
+      "options": [
+        "これは私のいすです。",
+        "それは私のかばんではありません。",
+        "これは私のかばんです。",
+        "あれは先生です。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "これは私のかばんです。 = This is my bag."
+    },
+    {
+      "id": "N5_17",
+      "level": "N5",
+      "question": "What does 'ひくい' mean?",
+      "options": [
+        "Tall",
+        "High",
+        "Low",
+        "Wide"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'ひくい' = low (in height)."
+    },
+    {
+      "id": "N5_18",
+      "level": "N5",
+      "question": "Which means 'I live in Tokyo'?",
+      "options": [
+        "東京にいきます。",
+        "東京にすんでいます。",
+        "東京があります。",
+        "東京をみます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にすんでいます = I live in..."
+    },
+    {
+      "id": "N5_19",
+      "level": "N5",
+      "question": "How do you say 'Please give me this'?",
+      "options": [
+        "これをください。",
+        "これをくださいませんか。",
+        "これがあります。",
+        "これをくださいました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "これをください。 = Please give me this."
+    },
+    {
+      "id": "N5_20",
+      "level": "N5",
+      "question": "What is 'としょかん'?",
+      "options": [
+        "Post Office",
+        "Hospital",
+        "Library",
+        "Station"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'としょかん' (toshokan) = library."
+    },
+    {
+      "id": "N5_21",
+      "level": "N5",
+      "question": "Which means 'I will study tomorrow'?",
+      "options": [
+        "きのうべんきょうしました。",
+        "あしたべんきょうします。",
+        "いつもべんきょうしています。",
+        "べんきょうしました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ます future: べんきょうします = I will study."
+    },
+    {
+      "id": "N5_22",
+      "level": "N5",
+      "question": "What does 'おおきい' mean?",
+      "options": [
+        "Small",
+        "Big",
+        "Old",
+        "New"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'おおきい' = big."
+    },
+    {
+      "id": "N5_23",
+      "level": "N5",
+      "question": "How do you say 'I bought a book'?",
+      "options": [
+        "本をかいました。",
+        "本をたべました。",
+        "本をのみました。",
+        "本にいきました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "かいます → かいました = bought."
+    },
+    {
+      "id": "N5_24",
+      "level": "N5",
+      "question": "Which means 'I came by train'?",
+      "options": [
+        "電車できました。",
+        "電車にきました。",
+        "電車をきました。",
+        "電車はきました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～で = by means of. '電車で' = by train."
+    },
+    {
+      "id": "N5_25",
+      "level": "N5",
+      "question": "What is 'テレビ'?",
+      "options": [
+        "Radio",
+        "Phone",
+        "Television",
+        "Computer"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'テレビ' (terebi) = television."
+    },
+    {
+      "id": "N5_26",
+      "level": "N5",
+      "question": "How do you say 'It is not expensive'?",
+      "options": [
+        "たかいです。",
+        "やすいです。",
+        "たかくないです。",
+        "ちいさいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "たかくないです = is not expensive."
+    },
+    {
+      "id": "N5_27",
+      "level": "N5",
+      "question": "Which means 'I will go home at 5'?",
+      "options": [
+        "5じにいえにかえります。",
+        "5じにいえにいきます。",
+        "5じにいえがあります。",
+        "5じにいえをします。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかえります = return home."
+    },
+    {
+      "id": "N5_28",
+      "level": "N5",
+      "question": "What does 'あつい' mean?",
+      "options": [
+        "Cold",
+        "Hot (weather)",
+        "Hot (object)",
+        "Cool"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'あつい' = hot (weather)."
+    },
+    {
+      "id": "N5_29",
+      "level": "N5",
+      "question": "How do you say 'I am looking for a pen'?",
+      "options": [
+        "ペンをのみます。",
+        "ペンをかいます。",
+        "ペンをさがしています。",
+        "ペンがあります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～をさがしています = I am looking for..."
+    },
+    {
+      "id": "N5_30",
+      "level": "N5",
+      "question": "Which means 'I drink water every day'?",
+      "options": [
+        "毎日みずをのみます。",
+        "毎日みずをたべます。",
+        "毎日みずがあります。",
+        "毎日みずにいきます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "みずをのみます = I drink water."
+    },
+    {
+      "id": "N5_31",
+      "level": "N5",
+      "question": "What does 'べんり' mean?",
+      "options": [
+        "Inconvenient",
+        "Convenient",
+        "Expensive",
+        "Cheap"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'べんり' means 'convenient'."
+    },
+    {
+      "id": "N5_32",
+      "level": "N5",
+      "question": "Which is the correct use of '～ために'?",
+      "options": [
+        "時間のために待ちました。",
+        "健康のために運動します。",
+        "お金のためににいきます。",
+        "学校ために勉強します。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～のために = for the sake of. '健康のために' = for health."
+    },
+    {
+      "id": "N5_33",
+      "level": "N5",
+      "question": "What is the meaning of 'たいへん'?",
+      "options": [
+        "Easy",
+        "Happy",
+        "Very",
+        "difficult",
+        "Quiet"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'たいへん' = very, or difficult situation."
+    },
+    {
+      "id": "N5_34",
+      "level": "N5",
+      "question": "How do you say 'I want to eat sushi'?",
+      "options": [
+        "寿司が食べます。",
+        "寿司を食べたいです。",
+        "寿司を食べました。",
+        "寿司が食べたいです。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たいです = want to do. '食べたい' = want to eat."
+    },
+    {
+      "id": "N5_35",
+      "level": "N5",
+      "question": "Which sentence means 'I must study'?",
+      "options": [
+        "勉強します。",
+        "勉強したいです。",
+        "勉強しなければなりません。",
+        "勉強しました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～なければなりません = must do."
+    },
+    {
+      "id": "N5_36",
+      "level": "N5",
+      "question": "What does 'げんき' mean?",
+      "options": [
+        "Sick",
+        "Tired",
+        "Healthy/Energetic",
+        "Busy"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'げんき' = energy, health, or 'fine'."
+    },
+    {
+      "id": "N5_37",
+      "level": "N5",
+      "question": "Which is correct? 'I went to Japan ___ plane.'",
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "で = by means of. 'でひこうき' = by plane."
+    },
+    {
+      "id": "N5_38",
+      "level": "N5",
+      "question": "What is 'かいぎ'?",
+      "options": [
+        "Meeting",
+        "Party",
+        "Class",
+        "Break"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'かいぎ' (kaigi) = meeting."
+    },
+    {
+      "id": "N5_39",
+      "level": "N5",
+      "question": "How do you say 'I forgot my wallet'?",
+      "options": [
+        "財布をわすれました。",
+        "財布をなくしました。",
+        "財布があります。",
+        "財布をみました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "わすれる = to forget. 'わすれました' = forgot."
+    },
+    {
+      "id": "N5_40",
+      "level": "N5",
+      "question": "Which means 'I am used to waking up early'?",
+      "options": [
+        "はやくおきます。",
+        "はやくおきています。",
+        "はやくおきたいです。",
+        "はやくおきなれます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～なれる = get used to. 'おきなれます' = get used to waking up."
+    },
+    {
+      "id": "N5_41",
+      "level": "N5",
+      "question": "What does 'じゅんび' mean?",
+      "options": [
+        "End",
+        "Break",
+        "Preparation",
+        "Start"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'じゅんび' (junbi) = preparation."
+    },
+    {
+      "id": "N5_42",
+      "level": "N5",
+      "question": "Which is correct? 'I will call you ___ calling.'",
+      "options": [
+        "電話",
+        "電話に",
+        "電話を",
+        "電話で"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "電話で連絡します = contact by phone."
+    },
+    {
+      "id": "N5_43",
+      "level": "N5",
+      "question": "How do you say 'I borrowed a book from the library'?",
+      "options": [
+        "図書館に本をかりました。",
+        "図書館から本をかりました。",
+        "図書館で本をかりました。",
+        "図書館へ本をかりました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～から = from. '図書館から' = from the library."
+    },
+    {
+      "id": "N5_44",
+      "level": "N5",
+      "question": "What is 'ていねい'?",
+      "options": [
+        "Rude",
+        "Polite",
+        "Fast",
+        "Slow"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていねい' = polite, careful."
+    },
+    {
+      "id": "N5_45",
+      "level": "N5",
+      "question": "Which means 'I finished my homework'?",
+      "options": [
+        "宿題をしました。",
+        "宿題をやりました。",
+        "宿題を終えました。",
+        "宿題をあります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～を終える = to finish something."
+    },
+    {
+      "id": "N5_46",
+      "level": "N5",
+      "question": "What does 'むずかしい' mean?",
+      "options": [
+        "Easy",
+        "Interesting",
+        "Difficult",
+        "Boring"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'むずかしい' = difficult."
+    },
+    {
+      "id": "N5_47",
+      "level": "N5",
+      "question": "How do you say 'I have been studying Japanese for 2 years'?",
+      "options": [
+        "日本語を2年べんきょうします。",
+        "日本語を2年べんきょうしました。",
+        "日本語を2年べんきょうしています。",
+        "日本語を2年べんきょうしました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ています = have been doing."
+    },
+    {
+      "id": "N5_48",
+      "level": "N5",
+      "question": "Which is 'expensive'?",
+      "options": [
+        "やすい",
+        "たかい",
+        "ちいさい",
+        "おおきい"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'たかい' = expensive/tall."
+    },
+    {
+      "id": "N5_49",
+      "level": "N5",
+      "question": "What is 'かいしゃ'?",
+      "options": [
+        "School",
+        "Hospital",
+        "Company",
+        "Store"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'かいしゃ' (kaisha) = company."
+    },
+    {
+      "id": "N5_50",
+      "level": "N5",
+      "question": "Which means 'I decided to go to university'?",
+      "options": [
+        "大学にいきます。",
+        "大学にいくことにしました。",
+        "大学にいきました。",
+        "大学にいきたいです。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことにする = decide to do."
+    },
+    {
+      "id": "N5_51",
+      "level": "N5",
+      "question": "How do you say 'I will try to come'?",
+      "options": [
+        "来ます。",
+        "来たいです。",
+        "来ようと思います。",
+        "来ました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようと思います = I will try to..."
+    },
+    {
+      "id": "N5_52",
+      "level": "N5",
+      "question": "What does 'かんたん' mean?",
+      "options": [
+        "Hard",
+        "Simple",
+        "Long",
+        "Short"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんたん' = simple, easy."
+    },
+    {
+      "id": "N5_53",
+      "level": "N5",
+      "question": "Which means 'I received a gift from my friend'?",
+      "options": [
+        "友達にプレゼントをもらいました。",
+        "友達からプレゼントをもらいました。",
+        "友達にプレゼントをあげました。",
+        "友達がプレゼントをもらいました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～から = from. '友達から' = from my friend."
+    },
+    {
+      "id": "N5_54",
+      "level": "N5",
+      "question": "What is 'しんせつ'?",
+      "options": [
+        "Cold",
+        "Kind",
+        "Angry",
+        "Strict"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しんせつ' = kind, warm-hearted."
+    },
+    {
+      "id": "N5_55",
+      "level": "N5",
+      "question": "How do you say 'I stopped smoking'?",
+      "options": [
+        "たばこをすいました。",
+        "たばこをすっていません。",
+        "たばこをやめました。",
+        "たばこをすいたことがありません。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "やめる = to quit. 'やめました' = quit."
+    },
+    {
+      "id": "N5_56",
+      "level": "N5",
+      "question": "Which means 'I am looking forward to the trip'?",
+      "options": [
+        "旅行に行きます。",
+        "旅行がたのしみです。",
+        "旅行に行きたいです。",
+        "旅行に行きました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～がたのしみです = I look forward to..."
+    },
+    {
+      "id": "N5_57",
+      "level": "N5",
+      "question": "What does 'ゆっくり' mean?",
+      "options": [
+        "Quickly",
+        "Slowly",
+        "Loudly",
+        "Quietly"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ゆっくり' = slowly, calmly."
+    },
+    {
+      "id": "N5_58",
+      "level": "N5",
+      "question": "How do you say 'I was told to study'?",
+      "options": [
+        "勉強します。",
+        "勉強したいです。",
+        "勉強してください。",
+        "勉強するように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to..."
+    },
+    {
+      "id": "N5_59",
+      "level": "N5",
+      "question": "Which means 'I will go shopping with my mother'?",
+      "options": [
+        "母と買い物に行きます。",
+        "母に買い物に行きます。",
+        "母で買い物に行きます。",
+        "母から買い物に行きます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～と = with. '母と' = with my mother."
+    },
+    {
+      "id": "N5_60",
+      "level": "N5",
+      "question": "What is 'しょくどう'?",
+      "options": [
+        "Office",
+        "Kitchen",
+        "Dining hall",
+        "Bedroom"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'しょくどう' = dining hall or cafeteria."
+    },
+    {
+      "id": "N5_61",
+      "level": "N5",
+      "question": "How do you say 'It started raining'?",
+      "options": [
+        "雨がふります。",
+        "雨がふっていました。",
+        "雨がふりはじめました。",
+        "雨がふりませんでした。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～はじめる = to start. 'ふりはじめました' = started raining."
+    },
+    {
+      "id": "N5_62",
+      "level": "N5",
+      "question": "Which means 'I almost missed the train'?",
+      "options": [
+        "電車にのりました。",
+        "電車にのりませんでした。",
+        "電車にのりそこないました。",
+        "電車にのりたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そこなう = to miss (opportunity)."
+    },
+    {
+      "id": "N5_63",
+      "level": "N5",
+      "question": "What does 'ふつう' mean?",
+      "options": [
+        "Special",
+        "Normal",
+        "Fast",
+        "Late"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ふつう' = normal, ordinary."
+    },
+    {
+      "id": "N5_64",
+      "level": "N5",
+      "question": "How do you say 'I remember her name'?",
+      "options": [
+        "彼女の名前をわかります。",
+        "彼女の名前をしります。",
+        "彼女の名前をおぼえています。",
+        "彼女の名前があります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "おぼえる = to remember. 'おぼえています' = I remember."
+    },
+    {
+      "id": "N5_65",
+      "level": "N5",
+      "question": "Which means 'I am considering studying abroad'?",
+      "options": [
+        "留学します。",
+        "留学したいです。",
+        "留学しようと思っています。",
+        "留学しました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～と思っています = I am considering..."
+    },
+    {
+      "id": "N5_66",
+      "level": "N5",
+      "question": "What does 'おそれ' mean?",
+      "options": [
+        "Hope",
+        "Fear",
+        "Joy",
+        "Surprise"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'おそれ' = fear, risk. '～おそれがあります' = there is a risk of..."
+    },
+    {
+      "id": "N5_67",
+      "level": "N5",
+      "question": "Which is correct? 'Despite being tired, I studied.'",
+      "options": [
+        "つかれて、べんきょうしました。",
+        "つかれているのに、べんきょうしました。",
+        "つかれてから、べんきょうしました。",
+        "つかれると、べんきょうしました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～のに = despite. 'のに' shows contrast."
+    },
+    {
+      "id": "N5_68",
+      "level": "N5",
+      "question": "What is 'てんけん'?",
+      "options": [
+        "Application",
+        "Report",
+        "Inspection",
+        "Permission"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'てんけん' (tenken) = inspection, examination."
+    },
+    {
+      "id": "N5_69",
+      "level": "N5",
+      "question": "How do you say 'I happened to meet him'?",
+      "options": [
+        "彼に会いました。",
+        "彼に会いたいです。",
+        "彼に会えました。",
+        "彼に会うことになりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～えました = was able to (often by chance)."
+    },
+    {
+      "id": "N5_70",
+      "level": "N5",
+      "question": "Which means 'I managed to finish the work'?",
+      "options": [
+        "仕事が終わりました。",
+        "仕事ができました。",
+        "仕事ができました。",
+        "仕事ができました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "できる → できました = succeeded in doing."
+    },
+    {
+      "id": "N5_71",
+      "level": "N5",
+      "question": "What does '～うちに' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "Before"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～うちに = while (something continues). '元気なうちに' = while you're healthy."
+    },
+    {
+      "id": "N5_72",
+      "level": "N5",
+      "question": "Which is correct? 'Not only did he come, he brought a gift.'",
+      "options": [
+        "来ただけで、プレゼントも持ってきました。",
+        "来るだけでなく、プレゼントも持ってきました。",
+        "来てから、プレゼントも持ってきました。",
+        "来ると、プレゼントも持ってきました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～だけでなく = not only... but also."
+    },
+    {
+      "id": "N5_73",
+      "level": "N5",
+      "question": "What is 'せいちょう'?",
+      "options": [
+        "Development",
+        "Growth",
+        "Decline",
+        "Change"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'せいちょう' (seichou) = growth, development."
+    },
+    {
+      "id": "N5_74",
+      "level": "N5",
+      "question": "How do you say 'I was almost hit by a car'?",
+      "options": [
+        "車にぶつかりました。",
+        "車にぶつかりませんでした。",
+        "車にぶつかりそうになりました。",
+        "車にぶつかりたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そうになりました = almost did something."
+    },
+    {
+      "id": "N5_75",
+      "level": "N5",
+      "question": "Which means 'The more you eat, the more you want'?",
+      "options": [
+        "食べるごとに、もっと食べたくなります。",
+        "食べると、もっと食べます。",
+        "食べてから、もっと食べます。",
+        "食べれば食べるほど、もっと食べたくなります。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N5_76",
+      "level": "N5",
+      "question": "What does 'かんがみる' mean?",
+      "options": [
+        "Think",
+        "Consider",
+        "Imagine",
+        "Worry"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんがみる' = to consider, take into account."
+    },
+    {
+      "id": "N5_77",
+      "level": "N5",
+      "question": "Which is correct? 'I left the house without eating breakfast.'",
+      "options": [
+        "朝ごはんを食べて、家を出ました。",
+        "朝ごはんを食べないで、家を出ました。",
+        "朝ごはんを食べずに、家を出ました。",
+        "朝ごはんを食べながら、家を出ました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ずに = without doing."
+    },
+    {
+      "id": "N5_78",
+      "level": "N5",
+      "question": "What is 'こうつう'?",
+      "options": [
+        "Communication",
+        "Traffic",
+        "Transportation",
+        "Signal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうつう' (koutsuu) = traffic, transportation."
+    },
+    {
+      "id": "N5_79",
+      "level": "N5",
+      "question": "How do you say 'I gave up trying'?",
+      "options": [
+        "あきらめました。",
+        "やめました。",
+        "とまりました。",
+        "すてました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "あきらめる = to give up."
+    },
+    {
+      "id": "N5_80",
+      "level": "N5",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N5_81",
+      "level": "N5",
+      "question": "What does 'ふくざつ' mean?",
+      "options": [
+        "Simple",
+        "Complicated",
+        "Large",
+        "Small"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ふくざつ' = complicated."
+    },
+    {
+      "id": "N5_82",
+      "level": "N5",
+      "question": "Which is correct? 'Even if it rains, I will go.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N5_83",
+      "level": "N5",
+      "question": "What is 'けいけん'?",
+      "options": [
+        "Knowledge",
+        "Experience",
+        "Skill",
+        "Education"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'けいけん' (keiken) = experience."
+    },
+    {
+      "id": "N5_84",
+      "level": "N5",
+      "question": "How do you say 'I forgot to bring my umbrella'?",
+      "options": [
+        "かさをわすれました。",
+        "かさをわすれていました。",
+        "かさをわすれるところでした。",
+        "かさをわすれてしまいました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～てしまいました = regretful completion."
+    },
+    {
+      "id": "N5_85",
+      "level": "N5",
+      "question": "Which means 'He speaks as if he knows everything'?",
+      "options": [
+        "すべてをしっています。",
+        "すべてをしっているようです。",
+        "すべてをしっているかのように話します。",
+        "すべてをしっていますか？"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N5_86",
+      "level": "N5",
+      "question": "What does 'ていこう' mean?",
+      "options": [
+        "Agreement",
+        "Disagreement",
+        "Decision",
+        "Discussion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていこう' (teikou) = opposition, disagreement."
+    },
+    {
+      "id": "N5_87",
+      "level": "N5",
+      "question": "Which is correct? 'I will contact you when I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N5_88",
+      "level": "N5",
+      "question": "What is 'りょうり'?",
+      "options": [
+        "Food",
+        "Cooking",
+        "Recipe",
+        "Meal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'りょうり' = cooking, cuisine."
+    },
+    {
+      "id": "N5_89",
+      "level": "N5",
+      "question": "How do you say 'I was almost late'?",
+      "options": [
+        "おくれました。",
+        "おくれなかったです。",
+        "おくれそうになりました。",
+        "おくれたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そうになりました = almost happened."
+    },
+    {
+      "id": "N5_90",
+      "level": "N5",
+      "question": "Which means 'The older she gets, the kinder she becomes'?",
+      "options": [
+        "年をとると、親切になります。",
+        "年をとるごとに、親切になります。",
+        "年をとればとるほど、親切になります。",
+        "年をとったあと、親切になります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N5_91",
+      "level": "N5",
+      "question": "What does 'かんり' mean?",
+      "options": [
+        "Control",
+        "Management",
+        "Request",
+        "Operation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんり' (kanri) = management."
+    },
+    {
+      "id": "N5_92",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after finishing my work.'",
+      "options": [
+        "しごとをします。",
+        "しごとをして、いきます。",
+        "しごとをしたあとで、いきます。",
+        "しごとをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_93",
+      "level": "N5",
+      "question": "What is 'せきにん'?",
+      "options": [
+        "Responsibility",
+        "Duty",
+        "Obligation",
+        "Task"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せきにん' (sekinin) = responsibility."
+    },
+    {
+      "id": "N5_94",
+      "level": "N5",
+      "question": "How do you say 'I happened to know the answer'?",
+      "options": [
+        "答えをしっています。",
+        "答えをしっていました。",
+        "答えをしっていました。",
+        "答えをしっていました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ていました = knew (past). 'happened to know' is context."
+    },
+    {
+      "id": "N5_95",
+      "level": "N5",
+      "question": "Which means 'If you don't hurry, you'll miss the bus'?",
+      "options": [
+        "いそげば、バスにのれます。",
+        "いそげば、バスにのりません。",
+        "いそがないと、バスにのりません。",
+        "いそがないと、バスにのりそこないます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ないと = if you don't. 'のりそこなう' = miss the chance."
+    },
+    {
+      "id": "N5_96",
+      "level": "N5",
+      "question": "What does 'ていねい' mean?",
+      "options": [
+        "Rude",
+        "Polite",
+        "Fast",
+        "Slow"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていねい' = polite."
+    },
+    {
+      "id": "N5_97",
+      "level": "N5",
+      "question": "Which is correct? 'I will wait until you come.'",
+      "options": [
+        "きます。",
+        "くると、待ちます。",
+        "くるまで、待ちます。",
+        "きてから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N5_98",
+      "level": "N5",
+      "question": "What is 'けんきゅう'?",
+      "options": [
+        "Study",
+        "Research",
+        "Experiment",
+        "Analysis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'けんきゅう' (kenkyuu) = research."
+    },
+    {
+      "id": "N5_99",
+      "level": "N5",
+      "question": "How do you say 'I was told not to go'?",
+      "options": [
+        "行ってはいけません。",
+        "行かないでください。",
+        "行くように言われました。",
+        "行かないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N5_100",
+      "level": "N5",
+      "question": "Which means 'The more you practice, the better you get'?",
+      "options": [
+        "れんしゅうすると、じょうずになります。",
+        "れんしゅうすればするほど、じょうずになります。",
+        "れんしゅうしてから、じょうずになります。",
+        "れんしゅうしたあと、じょうずになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～すればするほど = the more you do, the more..."
+    },
+    {
+      "id": "N5_101",
+      "level": "N5",
+      "question": "What does 'かんがえる' mean?",
+      "options": [
+        "Remember",
+        "Think",
+        "Forget",
+        "Understand"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんがえる' = to think."
+    },
+    {
+      "id": "N5_102",
+      "level": "N5",
+      "question": "Which is correct? 'I will call you after I arrive.'",
+      "options": [
+        "ついたら、電話します。",
+        "ついてから、電話します。",
+        "ついても、電話します。",
+        "ついて、電話します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N5_103",
+      "level": "N5",
+      "question": "What is 'せんもん'?",
+      "options": [
+        "Field",
+        "Major",
+        "Subject",
+        "Expert"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'せんもん' = major, specialty."
+    },
+    {
+      "id": "N5_104",
+      "level": "N5",
+      "question": "How do you say 'I regret not studying'?",
+      "options": [
+        "べんきょうしました。",
+        "べんきょうしませんでした。",
+        "べんきょうしなくてよかった。",
+        "べんきょうしなかったことを後悔しています。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～なかったことを後悔 = regret not doing."
+    },
+    {
+      "id": "N5_105",
+      "level": "N5",
+      "question": "Which means 'I will keep studying until I pass'?",
+      "options": [
+        "うかるまで、べんきょうします。",
+        "うかったら、べんきょうします。",
+        "うかると、べんきょうします。",
+        "うかないと、べんきょうします。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N5_106",
+      "level": "N5",
+      "question": "What does 'しゅちょう' mean?",
+      "options": [
+        "Manager",
+        "President",
+        "Secretary",
+        "Engineer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しゅちょう' = manager, director."
+    },
+    {
+      "id": "N5_107",
+      "level": "N5",
+      "question": "Which is correct? 'I will go if I have time.'",
+      "options": [
+        "じかんがあります。",
+        "じかんがあると、いきます。",
+        "じかんがあるなら、いきます。",
+        "じかんがあれば、いきます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～があれば = if there is..."
+    },
+    {
+      "id": "N5_108",
+      "level": "N5",
+      "question": "What does '～にひきかえ' mean?",
+      "options": [
+        "Because of",
+        "In contrast to",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にひきかえ = in contrast to. Shows strong contrast."
+    },
+    {
+      "id": "N5_109",
+      "level": "N5",
+      "question": "Which is correct? 'By means of this letter, I resign.'",
+      "options": [
+        "この手紙に",
+        "この手紙で",
+        "この手紙をもって",
+        "この手紙にとって"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～をもって = by means of, formally."
+    },
+    {
+      "id": "N5_110",
+      "level": "N5",
+      "question": "What does 'おそれがある' mean?",
+      "options": [
+        "It is certain",
+        "There is a possibility",
+        "It is impossible",
+        "It is likely"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～おそれがある = there is a risk/danger of..."
+    },
+    {
+      "id": "N5_111",
+      "level": "N5",
+      "question": "Which means 'Not limited to students, teachers also attended'?",
+      "options": [
+        "学生だけでなく、先生も来ました。",
+        "学生に限らず、先生も来ました。",
+        "学生として、先生も来ました。",
+        "学生のように、先生も来ました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～に限らず = not limited to..."
+    },
+    {
+      "id": "N5_112",
+      "level": "N5",
+      "question": "What is 'かいしゅう'?",
+      "options": [
+        "Collection",
+        "Meeting",
+        "Discussion",
+        "Conclusion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'かいしゅう' (kaishuu) = collection, gathering."
+    },
+    {
+      "id": "N5_113",
+      "level": "N5",
+      "question": "Which is correct? 'Just as I thought, it rained.'",
+      "options": [
+        "おもいました。",
+        "おもったとおり、雨がふりました。",
+        "おもってから、雨がふりました。",
+        "おもっても、雨がふりました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たとおり = just as..."
+    },
+    {
+      "id": "N5_114",
+      "level": "N5",
+      "question": "What does 'さしつかえる' mean?",
+      "options": [
+        "Help",
+        "Interfere",
+        "Matter",
+        "Bother"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "問題さしつかえません = it doesn't matter."
+    },
+    {
+      "id": "N5_115",
+      "level": "N5",
+      "question": "Which means 'I have no objection'?",
+      "options": [
+        "はんたいです。",
+        "もんだいです。",
+        "いじょうです。",
+        "さしつかえありません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "さしつかえありません = no problem."
+    },
+    {
+      "id": "N5_116",
+      "level": "N5",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Amount",
+        "Degree"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'ていど' (teido) = degree, extent."
+    },
+    {
+      "id": "N5_117",
+      "level": "N5",
+      "question": "Which is correct? 'Even if I wanted to help, I couldn't.'",
+      "options": [
+        "たすけたいです。",
+        "たすけたいけど、できません。",
+        "たすけたいにしても、できません。",
+        "たすけたいとしても、できません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N5_118",
+      "level": "N5",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N5_119",
+      "level": "N5",
+      "question": "Which means 'He acted as if he knew nothing'?",
+      "options": [
+        "なにもしりません。",
+        "なにもしらないふりをした。",
+        "なにもしらないかのように行動した。",
+        "なにもしらないだろう。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N5_120",
+      "level": "N5",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N5_121",
+      "level": "N5",
+      "question": "Which is correct? 'I will wait no matter how long it takes.'",
+      "options": [
+        "ながくても、待ちます。",
+        "ながくても、まちません。",
+        "ながければ、待ちます。",
+        "ながいと、待ちます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N5_122",
+      "level": "N5",
+      "question": "What does '～おいて' mean in '～をおく'?",
+      "options": [
+        "Place",
+        "Leave behind",
+        "Regard as",
+        "Compare"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～を～とおいて = regard as..."
+    },
+    {
+      "id": "N5_123",
+      "level": "N5",
+      "question": "Which means 'Much less would he apologize'?",
+      "options": [
+        "あやまる。",
+        "あやまらない。",
+        "あやまるものか。",
+        "あやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing..."
+    },
+    {
+      "id": "N5_124",
+      "level": "N5",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' (seido) = accuracy, precision."
+    },
+    {
+      "id": "N5_125",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after confirming the time.'",
+      "options": [
+        "じかんをかくにんして、いきます。",
+        "じかんをかくにんしたあとで、いきます。",
+        "じかんをかくにんすると、いきます。",
+        "じかんをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_126",
+      "level": "N5",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal). '勉強しつつ、仕事もする' = while studying, also work."
+    },
+    {
+      "id": "N5_127",
+      "level": "N5",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N5_128",
+      "level": "N5",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' (shuchuu) = focus, concentration."
+    },
+    {
+      "id": "N5_129",
+      "level": "N5",
+      "question": "Which is correct? 'I will go even if it rains.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N5_130",
+      "level": "N5",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N5_131",
+      "level": "N5",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N5_132",
+      "level": "N5",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' (tai sei) = system, framework."
+    },
+    {
+      "id": "N5_133",
+      "level": "N5",
+      "question": "Which is correct? 'I will contact you once I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N5_134",
+      "level": "N5",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N5_135",
+      "level": "N5",
+      "question": "Which means 'He speaks as if he were the boss'?",
+      "options": [
+        "上司です。",
+        "上司のように話します。",
+        "上司のようです。",
+        "上司かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N5_136",
+      "level": "N5",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' (han'i) = scope, range."
+    },
+    {
+      "id": "N5_137",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after finishing my report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_138",
+      "level": "N5",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N5_139",
+      "level": "N5",
+      "question": "Which means 'I was told not to be late'?",
+      "options": [
+        "おくれてはいけません。",
+        "おくれないでください。",
+        "おくれるように言われました。",
+        "おくれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N5_140",
+      "level": "N5",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' (teian) = suggestion, proposal."
+    },
+    {
+      "id": "N5_141",
+      "level": "N5",
+      "question": "Which is correct? 'The more you eat, the hungrier you get.'",
+      "options": [
+        "たべると、もっとはらぺこになる。",
+        "たべるごとに、はらぺこになる。",
+        "たべればたべるほど、もっとはらぺこになる。",
+        "たべたあと、はらぺこになる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N5_142",
+      "level": "N5",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N5_143",
+      "level": "N5",
+      "question": "Which means 'I will wait until you finish.'",
+      "options": [
+        "おわります。",
+        "おわると、待ちます。",
+        "おわるまで、待ちます。",
+        "おわってから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N5_144",
+      "level": "N5",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' (shinrai) = trust."
+    },
+    {
+      "id": "N5_145",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after making a reservation.'",
+      "options": [
+        "よやくします。",
+        "よやくをして、いきます。",
+        "よやくしたあとで、いきます。",
+        "よやくしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_146",
+      "level": "N5",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N5_147",
+      "level": "N5",
+      "question": "Which means 'I was about to sleep when the doorbell rang'?",
+      "options": [
+        "ねる前に、ドアベルがなりました。",
+        "ねると、ドアベルがなりました。",
+        "ねようとしたとき、ドアベルがなりました。",
+        "ねたあと、ドアベルがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N5_148",
+      "level": "N5",
+      "question": "What does 'さることながら' mean?",
+      "options": [
+        "Let alone",
+        "Moreover",
+        "However",
+        "Therefore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A, さることながら B = Not only A, but also B."
+    },
+    {
+      "id": "N5_149",
+      "level": "N5",
+      "question": "Which is correct? 'Not only did he not help, he made it worse.'",
+      "options": [
+        "手伝うばかりか、悪くした。",
+        "手伝うことはおろか、悪くした。",
+        "手伝うし、悪くした。",
+        "手伝うから、悪くした。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことはおろか = let alone, not even."
+    },
+    {
+      "id": "N5_150",
+      "level": "N5",
+      "question": "What does '～おそれがある' mean in formal writing?",
+      "options": [
+        "It is certain",
+        "There is a risk",
+        "It is unlikely",
+        "It is obvious"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Formal expression for 'there is a danger of...'"
+    },
+    {
+      "id": "N5_151",
+      "level": "N5",
+      "question": "Which means 'He acted as if nothing had happened'?",
+      "options": [
+        "なにもなかったかのように行動した。",
+        "なにもないと思った。",
+        "なにもなかった。",
+        "なにもなかったとおもった。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N5_152",
+      "level": "N5",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N5_153",
+      "level": "N5",
+      "question": "Which is correct? 'Much less would he admit his mistake.'",
+      "options": [
+        "まちがいをあやまる。",
+        "まちがいをあやまらない。",
+        "まちがいをあやまるものか。",
+        "まちがいをあやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing, let alone..."
+    },
+    {
+      "id": "N5_154",
+      "level": "N5",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N5_155",
+      "level": "N5",
+      "question": "Which means 'He speaks as if he were a genius'?",
+      "options": [
+        "天才です。",
+        "天才のように話します。",
+        "天才のようです。",
+        "天才かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N5_156",
+      "level": "N5",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Degree",
+        "Amount"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'ていど' = degree, extent."
+    },
+    {
+      "id": "N5_157",
+      "level": "N5",
+      "question": "Which is correct? 'Even if I had wanted to, I couldn't.'",
+      "options": [
+        "したかった。",
+        "したかったけど、できなかった。",
+        "したかったにしても、できなかった。",
+        "したかったとしても、できなかった。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N5_158",
+      "level": "N5",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N5_159",
+      "level": "N5",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N5_160",
+      "level": "N5",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy, precision."
+    },
+    {
+      "id": "N5_161",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after confirming the details.'",
+      "options": [
+        "しょうさいをかくにんして、いきます。",
+        "しょうさいをかくにんしたあとで、いきます。",
+        "しょうさいをかくにんすると、いきます。",
+        "しょうさいをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_162",
+      "level": "N5",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N5_163",
+      "level": "N5",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N5_164",
+      "level": "N5",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' = focus, concentration."
+    },
+    {
+      "id": "N5_165",
+      "level": "N5",
+      "question": "Which is correct? 'I will go even if it snows.'",
+      "options": [
+        "ゆきがふると、いきます。",
+        "ゆきがふるなら、いきます。",
+        "ゆきがふっても、いきます。",
+        "ゆきがふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N5_166",
+      "level": "N5",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N5_167",
+      "level": "N5",
+      "question": "Which means 'He speaks as if he were the king'?",
+      "options": [
+        "王です。",
+        "王のように話します。",
+        "王のようです。",
+        "王かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N5_168",
+      "level": "N5",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system, framework."
+    },
+    {
+      "id": "N5_169",
+      "level": "N5",
+      "question": "Which is correct? 'I will contact you once I decide.'",
+      "options": [
+        "けつじょうしたら、連絡します。",
+        "けつじょうしたあとで、連絡します。",
+        "けつじょうしても、連絡します。",
+        "けつじょうしながら、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N5_170",
+      "level": "N5",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N5_171",
+      "level": "N5",
+      "question": "Which means 'I was told not to forget the document'?",
+      "options": [
+        "もんしょをわすれてはいけません。",
+        "もんしょをわすれないでください。",
+        "もんしょをわすれるように言われました。",
+        "もんしょをわすれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N5_172",
+      "level": "N5",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' = scope, range."
+    },
+    {
+      "id": "N5_173",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after making the payment.'",
+      "options": [
+        "はらいをします。",
+        "はらいをして、いきます。",
+        "はらいしたあとで、いきます。",
+        "はらいしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_174",
+      "level": "N5",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N5_175",
+      "level": "N5",
+      "question": "Which means 'I was told to be careful'?",
+      "options": [
+        "きをつけてください。",
+        "きをつけるように言われました。",
+        "きをつけること。",
+        "きをつけることになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ように言われました = was told to do."
+    },
+    {
+      "id": "N5_176",
+      "level": "N5",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' = suggestion, proposal."
+    },
+    {
+      "id": "N5_177",
+      "level": "N5",
+      "question": "Which is correct? 'The more you study, the more questions you have.'",
+      "options": [
+        "べんきょうすると、もっとしつもんがある。",
+        "べんきょうするごとに、しつもんがある。",
+        "べんきょうすればするほど、もっとしつもんがある。",
+        "べんきょうしたあと、しつもんがある。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～すればするほど = the more... the more..."
+    },
+    {
+      "id": "N5_178",
+      "level": "N5",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N5_179",
+      "level": "N5",
+      "question": "Which means 'I was about to eat when the phone rang'?",
+      "options": [
+        "たべる前に、電話がなりました。",
+        "たべると、電話がなりました。",
+        "たべようとしたとき、電話がなりました。",
+        "たべたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N5_180",
+      "level": "N5",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' = trust."
+    },
+    {
+      "id": "N5_181",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after submitting the report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_182",
+      "level": "N5",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N5_183",
+      "level": "N5",
+      "question": "Which means 'I was about to sleep when the alarm rang'?",
+      "options": [
+        "ねる前に、アラームがなりました。",
+        "ねると、アラームがなりました。",
+        "ねようとしたとき、アラームがなりました。",
+        "ねたあと、アラームがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N5_184",
+      "level": "N5",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy."
+    },
+    {
+      "id": "N5_185",
+      "level": "N5",
+      "question": "Which is correct? 'I will go after confirming the schedule.'",
+      "options": [
+        "じゅひょうをかくにんして、いきます。",
+        "じゅひょうをかくにんしたあとで、いきます。",
+        "じゅひょうをかくにんすると、いきます。",
+        "じゅひょうをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N5_186",
+      "level": "N5",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N5_187",
+      "level": "N5",
+      "question": "Which means 'The more you run, the more tired you get'?",
+      "options": [
+        "はしると、もっとつかれる。",
+        "はしるごとに、つかれる。",
+        "はしればはしるほど、もっとつかれる。",
+        "はしったあと、つかれる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N5_188",
+      "level": "N5",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system."
+    }
+  ],
+  "N4": [
+    {
+      "id": "N4_1",
+      "level": "N4",
+      "question": "What does 'べんり' mean?",
+      "options": [
+        "Inconvenient",
+        "Convenient",
+        "Expensive",
+        "Cheap"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'べんり' means 'convenient'."
+    },
+    {
+      "id": "N4_2",
+      "level": "N4",
+      "question": "Which is the correct use of '～ために'?",
+      "options": [
+        "時間のために待ちました。",
+        "健康のために運動します。",
+        "お金のためににいきます。",
+        "学校ために勉強します。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～のために = for the sake of. '健康のために' = for health."
+    },
+    {
+      "id": "N4_3",
+      "level": "N4",
+      "question": "What is the meaning of 'たいへん'?",
+      "options": [
+        "Easy",
+        "Happy",
+        "Very",
+        "difficult",
+        "Quiet"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'たいへん' = very, or difficult situation."
+    },
+    {
+      "id": "N4_4",
+      "level": "N4",
+      "question": "How do you say 'I want to eat sushi'?",
+      "options": [
+        "寿司が食べます。",
+        "寿司を食べたいです。",
+        "寿司を食べました。",
+        "寿司が食べたいです。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たいです = want to do. '食べたい' = want to eat."
+    },
+    {
+      "id": "N4_5",
+      "level": "N4",
+      "question": "Which sentence means 'I must study'?",
+      "options": [
+        "勉強します。",
+        "勉強したいです。",
+        "勉強しなければなりません。",
+        "勉強しました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～なければなりません = must do."
+    },
+    {
+      "id": "N4_6",
+      "level": "N4",
+      "question": "What does 'げんき' mean?",
+      "options": [
+        "Sick",
+        "Tired",
+        "Healthy/Energetic",
+        "Busy"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'げんき' = energy, health, or 'fine'."
+    },
+    {
+      "id": "N4_7",
+      "level": "N4",
+      "question": "Which is correct? 'I went to Japan ___ plane.'",
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "で = by means of. 'でひこうき' = by plane."
+    },
+    {
+      "id": "N4_8",
+      "level": "N4",
+      "question": "What is 'かいぎ'?",
+      "options": [
+        "Meeting",
+        "Party",
+        "Class",
+        "Break"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'かいぎ' (kaigi) = meeting."
+    },
+    {
+      "id": "N4_9",
+      "level": "N4",
+      "question": "How do you say 'I forgot my wallet'?",
+      "options": [
+        "財布をわすれました。",
+        "財布をなくしました。",
+        "財布があります。",
+        "財布をみました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "わすれる = to forget. 'わすれました' = forgot."
+    },
+    {
+      "id": "N4_10",
+      "level": "N4",
+      "question": "Which means 'I am used to waking up early'?",
+      "options": [
+        "はやくおきます。",
+        "はやくおきています。",
+        "はやくおきたいです。",
+        "はやくおきなれます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～なれる = get used to. 'おきなれます' = get used to waking up."
+    },
+    {
+      "id": "N4_11",
+      "level": "N4",
+      "question": "What does 'じゅんび' mean?",
+      "options": [
+        "End",
+        "Break",
+        "Preparation",
+        "Start"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'じゅんび' (junbi) = preparation."
+    },
+    {
+      "id": "N4_12",
+      "level": "N4",
+      "question": "Which is correct? 'I will call you ___ calling.'",
+      "options": [
+        "電話",
+        "電話に",
+        "電話を",
+        "電話で"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "電話で連絡します = contact by phone."
+    },
+    {
+      "id": "N4_13",
+      "level": "N4",
+      "question": "How do you say 'I borrowed a book from the library'?",
+      "options": [
+        "図書館に本をかりました。",
+        "図書館から本をかりました。",
+        "図書館で本をかりました。",
+        "図書館へ本をかりました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～から = from. '図書館から' = from the library."
+    },
+    {
+      "id": "N4_14",
+      "level": "N4",
+      "question": "What is 'ていねい'?",
+      "options": [
+        "Rude",
+        "Polite",
+        "Fast",
+        "Slow"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていねい' = polite, careful."
+    },
+    {
+      "id": "N4_15",
+      "level": "N4",
+      "question": "Which means 'I finished my homework'?",
+      "options": [
+        "宿題をしました。",
+        "宿題をやりました。",
+        "宿題を終えました。",
+        "宿題をあります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～を終える = to finish something."
+    },
+    {
+      "id": "N4_16",
+      "level": "N4",
+      "question": "What does 'むずかしい' mean?",
+      "options": [
+        "Easy",
+        "Interesting",
+        "Difficult",
+        "Boring"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'むずかしい' = difficult."
+    },
+    {
+      "id": "N4_17",
+      "level": "N4",
+      "question": "How do you say 'I have been studying Japanese for 2 years'?",
+      "options": [
+        "日本語を2年べんきょうします。",
+        "日本語を2年べんきょうしました。",
+        "日本語を2年べんきょうしています。",
+        "日本語を2年べんきょうしました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ています = have been doing."
+    },
+    {
+      "id": "N4_18",
+      "level": "N4",
+      "question": "Which is 'expensive'?",
+      "options": [
+        "やすい",
+        "たかい",
+        "ちいさい",
+        "おおきい"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'たかい' = expensive/tall."
+    },
+    {
+      "id": "N4_19",
+      "level": "N4",
+      "question": "What is 'かいしゃ'?",
+      "options": [
+        "School",
+        "Hospital",
+        "Company",
+        "Store"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'かいしゃ' (kaisha) = company."
+    },
+    {
+      "id": "N4_20",
+      "level": "N4",
+      "question": "Which means 'I decided to go to university'?",
+      "options": [
+        "大学にいきます。",
+        "大学にいくことにしました。",
+        "大学にいきました。",
+        "大学にいきたいです。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことにする = decide to do."
+    },
+    {
+      "id": "N4_21",
+      "level": "N4",
+      "question": "How do you say 'I will try to come'?",
+      "options": [
+        "来ます。",
+        "来たいです。",
+        "来ようと思います。",
+        "来ました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようと思います = I will try to..."
+    },
+    {
+      "id": "N4_22",
+      "level": "N4",
+      "question": "What does 'かんたん' mean?",
+      "options": [
+        "Hard",
+        "Simple",
+        "Long",
+        "Short"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんたん' = simple, easy."
+    },
+    {
+      "id": "N4_23",
+      "level": "N4",
+      "question": "Which means 'I received a gift from my friend'?",
+      "options": [
+        "友達にプレゼントをもらいました。",
+        "友達からプレゼントをもらいました。",
+        "友達にプレゼントをあげました。",
+        "友達がプレゼントをもらいました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～から = from. '友達から' = from my friend."
+    },
+    {
+      "id": "N4_24",
+      "level": "N4",
+      "question": "What is 'しんせつ'?",
+      "options": [
+        "Cold",
+        "Kind",
+        "Angry",
+        "Strict"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しんせつ' = kind, warm-hearted."
+    },
+    {
+      "id": "N4_25",
+      "level": "N4",
+      "question": "How do you say 'I stopped smoking'?",
+      "options": [
+        "たばこをすいました。",
+        "たばこをすっていません。",
+        "たばこをやめました。",
+        "たばこをすいたことがありません。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "やめる = to quit. 'やめました' = quit."
+    },
+    {
+      "id": "N4_26",
+      "level": "N4",
+      "question": "Which means 'I am looking forward to the trip'?",
+      "options": [
+        "旅行に行きます。",
+        "旅行がたのしみです。",
+        "旅行に行きたいです。",
+        "旅行に行きました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～がたのしみです = I look forward to..."
+    },
+    {
+      "id": "N4_27",
+      "level": "N4",
+      "question": "What does 'ゆっくり' mean?",
+      "options": [
+        "Quickly",
+        "Slowly",
+        "Loudly",
+        "Quietly"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ゆっくり' = slowly, calmly."
+    },
+    {
+      "id": "N4_28",
+      "level": "N4",
+      "question": "How do you say 'I was told to study'?",
+      "options": [
+        "勉強します。",
+        "勉強したいです。",
+        "勉強してください。",
+        "勉強するように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to..."
+    },
+    {
+      "id": "N4_29",
+      "level": "N4",
+      "question": "Which means 'I will go shopping with my mother'?",
+      "options": [
+        "母と買い物に行きます。",
+        "母に買い物に行きます。",
+        "母で買い物に行きます。",
+        "母から買い物に行きます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～と = with. '母と' = with my mother."
+    },
+    {
+      "id": "N4_30",
+      "level": "N4",
+      "question": "What is 'しょくどう'?",
+      "options": [
+        "Office",
+        "Kitchen",
+        "Dining hall",
+        "Bedroom"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'しょくどう' = dining hall or cafeteria."
+    },
+    {
+      "id": "N4_31",
+      "level": "N4",
+      "question": "How do you say 'It started raining'?",
+      "options": [
+        "雨がふります。",
+        "雨がふっていました。",
+        "雨がふりはじめました。",
+        "雨がふりませんでした。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～はじめる = to start. 'ふりはじめました' = started raining."
+    },
+    {
+      "id": "N4_32",
+      "level": "N4",
+      "question": "Which means 'I almost missed the train'?",
+      "options": [
+        "電車にのりました。",
+        "電車にのりませんでした。",
+        "電車にのりそこないました。",
+        "電車にのりたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そこなう = to miss (opportunity)."
+    },
+    {
+      "id": "N4_33",
+      "level": "N4",
+      "question": "What does 'ふつう' mean?",
+      "options": [
+        "Special",
+        "Normal",
+        "Fast",
+        "Late"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ふつう' = normal, ordinary."
+    },
+    {
+      "id": "N4_34",
+      "level": "N4",
+      "question": "How do you say 'I remember her name'?",
+      "options": [
+        "彼女の名前をわかります。",
+        "彼女の名前をしります。",
+        "彼女の名前をおぼえています。",
+        "彼女の名前があります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "おぼえる = to remember. 'おぼえています' = I remember."
+    },
+    {
+      "id": "N4_35",
+      "level": "N4",
+      "question": "Which means 'I am considering studying abroad'?",
+      "options": [
+        "留学します。",
+        "留学したいです。",
+        "留学しようと思っています。",
+        "留学しました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～と思っています = I am considering..."
+    },
+    {
+      "id": "N4_36",
+      "level": "N4",
+      "question": "What does 'おそれ' mean?",
+      "options": [
+        "Hope",
+        "Fear",
+        "Joy",
+        "Surprise"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'おそれ' = fear, risk. '～おそれがあります' = there is a risk of..."
+    },
+    {
+      "id": "N4_37",
+      "level": "N4",
+      "question": "Which is correct? 'Despite being tired, I studied.'",
+      "options": [
+        "つかれて、べんきょうしました。",
+        "つかれているのに、べんきょうしました。",
+        "つかれてから、べんきょうしました。",
+        "つかれると、べんきょうしました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～のに = despite. 'のに' shows contrast."
+    },
+    {
+      "id": "N4_38",
+      "level": "N4",
+      "question": "What is 'てんけん'?",
+      "options": [
+        "Application",
+        "Report",
+        "Inspection",
+        "Permission"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'てんけん' (tenken) = inspection, examination."
+    },
+    {
+      "id": "N4_39",
+      "level": "N4",
+      "question": "How do you say 'I happened to meet him'?",
+      "options": [
+        "彼に会いました。",
+        "彼に会いたいです。",
+        "彼に会えました。",
+        "彼に会うことになりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～えました = was able to (often by chance)."
+    },
+    {
+      "id": "N4_40",
+      "level": "N4",
+      "question": "Which means 'I managed to finish the work'?",
+      "options": [
+        "仕事が終わりました。",
+        "仕事ができました。",
+        "仕事ができました。",
+        "仕事ができました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "できる → できました = succeeded in doing."
+    },
+    {
+      "id": "N4_41",
+      "level": "N4",
+      "question": "What does '～うちに' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "Before"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～うちに = while (something continues). '元気なうちに' = while you're healthy."
+    },
+    {
+      "id": "N4_42",
+      "level": "N4",
+      "question": "Which is correct? 'Not only did he come, he brought a gift.'",
+      "options": [
+        "来ただけで、プレゼントも持ってきました。",
+        "来るだけでなく、プレゼントも持ってきました。",
+        "来てから、プレゼントも持ってきました。",
+        "来ると、プレゼントも持ってきました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～だけでなく = not only... but also."
+    },
+    {
+      "id": "N4_43",
+      "level": "N4",
+      "question": "What is 'せいちょう'?",
+      "options": [
+        "Development",
+        "Growth",
+        "Decline",
+        "Change"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'せいちょう' (seichou) = growth, development."
+    },
+    {
+      "id": "N4_44",
+      "level": "N4",
+      "question": "How do you say 'I was almost hit by a car'?",
+      "options": [
+        "車にぶつかりました。",
+        "車にぶつかりませんでした。",
+        "車にぶつかりそうになりました。",
+        "車にぶつかりたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そうになりました = almost did something."
+    },
+    {
+      "id": "N4_45",
+      "level": "N4",
+      "question": "Which means 'The more you eat, the more you want'?",
+      "options": [
+        "食べるごとに、もっと食べたくなります。",
+        "食べると、もっと食べます。",
+        "食べてから、もっと食べます。",
+        "食べれば食べるほど、もっと食べたくなります。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N4_46",
+      "level": "N4",
+      "question": "What does 'かんがみる' mean?",
+      "options": [
+        "Think",
+        "Consider",
+        "Imagine",
+        "Worry"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんがみる' = to consider, take into account."
+    },
+    {
+      "id": "N4_47",
+      "level": "N4",
+      "question": "Which is correct? 'I left the house without eating breakfast.'",
+      "options": [
+        "朝ごはんを食べて、家を出ました。",
+        "朝ごはんを食べないで、家を出ました。",
+        "朝ごはんを食べずに、家を出ました。",
+        "朝ごはんを食べながら、家を出ました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ずに = without doing."
+    },
+    {
+      "id": "N4_48",
+      "level": "N4",
+      "question": "What is 'こうつう'?",
+      "options": [
+        "Communication",
+        "Traffic",
+        "Transportation",
+        "Signal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうつう' (koutsuu) = traffic, transportation."
+    },
+    {
+      "id": "N4_49",
+      "level": "N4",
+      "question": "How do you say 'I gave up trying'?",
+      "options": [
+        "あきらめました。",
+        "やめました。",
+        "とまりました。",
+        "すてました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "あきらめる = to give up."
+    },
+    {
+      "id": "N4_50",
+      "level": "N4",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N4_51",
+      "level": "N4",
+      "question": "What does 'ふくざつ' mean?",
+      "options": [
+        "Simple",
+        "Complicated",
+        "Large",
+        "Small"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ふくざつ' = complicated."
+    },
+    {
+      "id": "N4_52",
+      "level": "N4",
+      "question": "Which is correct? 'Even if it rains, I will go.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N4_53",
+      "level": "N4",
+      "question": "What is 'けいけん'?",
+      "options": [
+        "Knowledge",
+        "Experience",
+        "Skill",
+        "Education"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'けいけん' (keiken) = experience."
+    },
+    {
+      "id": "N4_54",
+      "level": "N4",
+      "question": "How do you say 'I forgot to bring my umbrella'?",
+      "options": [
+        "かさをわすれました。",
+        "かさをわすれていました。",
+        "かさをわすれるところでした。",
+        "かさをわすれてしまいました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～てしまいました = regretful completion."
+    },
+    {
+      "id": "N4_55",
+      "level": "N4",
+      "question": "Which means 'He speaks as if he knows everything'?",
+      "options": [
+        "すべてをしっています。",
+        "すべてをしっているようです。",
+        "すべてをしっているかのように話します。",
+        "すべてをしっていますか？"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N4_56",
+      "level": "N4",
+      "question": "What does 'ていこう' mean?",
+      "options": [
+        "Agreement",
+        "Disagreement",
+        "Decision",
+        "Discussion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていこう' (teikou) = opposition, disagreement."
+    },
+    {
+      "id": "N4_57",
+      "level": "N4",
+      "question": "Which is correct? 'I will contact you when I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N4_58",
+      "level": "N4",
+      "question": "What is 'りょうり'?",
+      "options": [
+        "Food",
+        "Cooking",
+        "Recipe",
+        "Meal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'りょうり' = cooking, cuisine."
+    },
+    {
+      "id": "N4_59",
+      "level": "N4",
+      "question": "How do you say 'I was almost late'?",
+      "options": [
+        "おくれました。",
+        "おくれなかったです。",
+        "おくれそうになりました。",
+        "おくれたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そうになりました = almost happened."
+    },
+    {
+      "id": "N4_60",
+      "level": "N4",
+      "question": "Which means 'The older she gets, the kinder she becomes'?",
+      "options": [
+        "年をとると、親切になります。",
+        "年をとるごとに、親切になります。",
+        "年をとればとるほど、親切になります。",
+        "年をとったあと、親切になります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N4_61",
+      "level": "N4",
+      "question": "What does 'かんり' mean?",
+      "options": [
+        "Control",
+        "Management",
+        "Request",
+        "Operation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんり' (kanri) = management."
+    },
+    {
+      "id": "N4_62",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after finishing my work.'",
+      "options": [
+        "しごとをします。",
+        "しごとをして、いきます。",
+        "しごとをしたあとで、いきます。",
+        "しごとをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_63",
+      "level": "N4",
+      "question": "What is 'せきにん'?",
+      "options": [
+        "Responsibility",
+        "Duty",
+        "Obligation",
+        "Task"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せきにん' (sekinin) = responsibility."
+    },
+    {
+      "id": "N4_64",
+      "level": "N4",
+      "question": "How do you say 'I happened to know the answer'?",
+      "options": [
+        "答えをしっています。",
+        "答えをしっていました。",
+        "答えをしっていました。",
+        "答えをしっていました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ていました = knew (past). 'happened to know' is context."
+    },
+    {
+      "id": "N4_65",
+      "level": "N4",
+      "question": "Which means 'If you don't hurry, you'll miss the bus'?",
+      "options": [
+        "いそげば、バスにのれます。",
+        "いそげば、バスにのりません。",
+        "いそがないと、バスにのりません。",
+        "いそがないと、バスにのりそこないます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ないと = if you don't. 'のりそこなう' = miss the chance."
+    },
+    {
+      "id": "N4_66",
+      "level": "N4",
+      "question": "What does 'ていねい' mean?",
+      "options": [
+        "Rude",
+        "Polite",
+        "Fast",
+        "Slow"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていねい' = polite."
+    },
+    {
+      "id": "N4_67",
+      "level": "N4",
+      "question": "Which is correct? 'I will wait until you come.'",
+      "options": [
+        "きます。",
+        "くると、待ちます。",
+        "くるまで、待ちます。",
+        "きてから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N4_68",
+      "level": "N4",
+      "question": "What is 'けんきゅう'?",
+      "options": [
+        "Study",
+        "Research",
+        "Experiment",
+        "Analysis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'けんきゅう' (kenkyuu) = research."
+    },
+    {
+      "id": "N4_69",
+      "level": "N4",
+      "question": "How do you say 'I was told not to go'?",
+      "options": [
+        "行ってはいけません。",
+        "行かないでください。",
+        "行くように言われました。",
+        "行かないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N4_70",
+      "level": "N4",
+      "question": "Which means 'The more you practice, the better you get'?",
+      "options": [
+        "れんしゅうすると、じょうずになります。",
+        "れんしゅうすればするほど、じょうずになります。",
+        "れんしゅうしてから、じょうずになります。",
+        "れんしゅうしたあと、じょうずになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～すればするほど = the more you do, the more..."
+    },
+    {
+      "id": "N4_71",
+      "level": "N4",
+      "question": "What does 'かんがえる' mean?",
+      "options": [
+        "Remember",
+        "Think",
+        "Forget",
+        "Understand"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんがえる' = to think."
+    },
+    {
+      "id": "N4_72",
+      "level": "N4",
+      "question": "Which is correct? 'I will call you after I arrive.'",
+      "options": [
+        "ついたら、電話します。",
+        "ついてから、電話します。",
+        "ついても、電話します。",
+        "ついて、電話します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N4_73",
+      "level": "N4",
+      "question": "What is 'せんもん'?",
+      "options": [
+        "Field",
+        "Major",
+        "Subject",
+        "Expert"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'せんもん' = major, specialty."
+    },
+    {
+      "id": "N4_74",
+      "level": "N4",
+      "question": "How do you say 'I regret not studying'?",
+      "options": [
+        "べんきょうしました。",
+        "べんきょうしませんでした。",
+        "べんきょうしなくてよかった。",
+        "べんきょうしなかったことを後悔しています。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～なかったことを後悔 = regret not doing."
+    },
+    {
+      "id": "N4_75",
+      "level": "N4",
+      "question": "Which means 'I will keep studying until I pass'?",
+      "options": [
+        "うかるまで、べんきょうします。",
+        "うかったら、べんきょうします。",
+        "うかると、べんきょうします。",
+        "うかないと、べんきょうします。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N4_76",
+      "level": "N4",
+      "question": "What does 'しゅちょう' mean?",
+      "options": [
+        "Manager",
+        "President",
+        "Secretary",
+        "Engineer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しゅちょう' = manager, director."
+    },
+    {
+      "id": "N4_77",
+      "level": "N4",
+      "question": "Which is correct? 'I will go if I have time.'",
+      "options": [
+        "じかんがあります。",
+        "じかんがあると、いきます。",
+        "じかんがあるなら、いきます。",
+        "じかんがあれば、いきます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～があれば = if there is..."
+    },
+    {
+      "id": "N4_78",
+      "level": "N4",
+      "question": "What does '～にひきかえ' mean?",
+      "options": [
+        "Because of",
+        "In contrast to",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にひきかえ = in contrast to. Shows strong contrast."
+    },
+    {
+      "id": "N4_79",
+      "level": "N4",
+      "question": "Which is correct? 'By means of this letter, I resign.'",
+      "options": [
+        "この手紙に",
+        "この手紙で",
+        "この手紙をもって",
+        "この手紙にとって"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～をもって = by means of, formally."
+    },
+    {
+      "id": "N4_80",
+      "level": "N4",
+      "question": "What does 'おそれがある' mean?",
+      "options": [
+        "It is certain",
+        "There is a possibility",
+        "It is impossible",
+        "It is likely"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～おそれがある = there is a risk/danger of..."
+    },
+    {
+      "id": "N4_81",
+      "level": "N4",
+      "question": "Which means 'Not limited to students, teachers also attended'?",
+      "options": [
+        "学生だけでなく、先生も来ました。",
+        "学生に限らず、先生も来ました。",
+        "学生として、先生も来ました。",
+        "学生のように、先生も来ました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～に限らず = not limited to..."
+    },
+    {
+      "id": "N4_82",
+      "level": "N4",
+      "question": "What is 'かいしゅう'?",
+      "options": [
+        "Collection",
+        "Meeting",
+        "Discussion",
+        "Conclusion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'かいしゅう' (kaishuu) = collection, gathering."
+    },
+    {
+      "id": "N4_83",
+      "level": "N4",
+      "question": "Which is correct? 'Just as I thought, it rained.'",
+      "options": [
+        "おもいました。",
+        "おもったとおり、雨がふりました。",
+        "おもってから、雨がふりました。",
+        "おもっても、雨がふりました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たとおり = just as..."
+    },
+    {
+      "id": "N4_84",
+      "level": "N4",
+      "question": "What does 'さしつかえる' mean?",
+      "options": [
+        "Help",
+        "Interfere",
+        "Matter",
+        "Bother"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "問題さしつかえません = it doesn't matter."
+    },
+    {
+      "id": "N4_85",
+      "level": "N4",
+      "question": "Which means 'I have no objection'?",
+      "options": [
+        "はんたいです。",
+        "もんだいです。",
+        "いじょうです。",
+        "さしつかえありません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "さしつかえありません = no problem."
+    },
+    {
+      "id": "N4_86",
+      "level": "N4",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Amount",
+        "Degree"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'ていど' (teido) = degree, extent."
+    },
+    {
+      "id": "N4_87",
+      "level": "N4",
+      "question": "Which is correct? 'Even if I wanted to help, I couldn't.'",
+      "options": [
+        "たすけたいです。",
+        "たすけたいけど、できません。",
+        "たすけたいにしても、できません。",
+        "たすけたいとしても、できません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N4_88",
+      "level": "N4",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N4_89",
+      "level": "N4",
+      "question": "Which means 'He acted as if he knew nothing'?",
+      "options": [
+        "なにもしりません。",
+        "なにもしらないふりをした。",
+        "なにもしらないかのように行動した。",
+        "なにもしらないだろう。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N4_90",
+      "level": "N4",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N4_91",
+      "level": "N4",
+      "question": "Which is correct? 'I will wait no matter how long it takes.'",
+      "options": [
+        "ながくても、待ちます。",
+        "ながくても、まちません。",
+        "ながければ、待ちます。",
+        "ながいと、待ちます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N4_92",
+      "level": "N4",
+      "question": "What does '～おいて' mean in '～をおく'?",
+      "options": [
+        "Place",
+        "Leave behind",
+        "Regard as",
+        "Compare"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～を～とおいて = regard as..."
+    },
+    {
+      "id": "N4_93",
+      "level": "N4",
+      "question": "Which means 'Much less would he apologize'?",
+      "options": [
+        "あやまる。",
+        "あやまらない。",
+        "あやまるものか。",
+        "あやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing..."
+    },
+    {
+      "id": "N4_94",
+      "level": "N4",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' (seido) = accuracy, precision."
+    },
+    {
+      "id": "N4_95",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after confirming the time.'",
+      "options": [
+        "じかんをかくにんして、いきます。",
+        "じかんをかくにんしたあとで、いきます。",
+        "じかんをかくにんすると、いきます。",
+        "じかんをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_96",
+      "level": "N4",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal). '勉強しつつ、仕事もする' = while studying, also work."
+    },
+    {
+      "id": "N4_97",
+      "level": "N4",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N4_98",
+      "level": "N4",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' (shuchuu) = focus, concentration."
+    },
+    {
+      "id": "N4_99",
+      "level": "N4",
+      "question": "Which is correct? 'I will go even if it rains.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N4_100",
+      "level": "N4",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N4_101",
+      "level": "N4",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N4_102",
+      "level": "N4",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' (tai sei) = system, framework."
+    },
+    {
+      "id": "N4_103",
+      "level": "N4",
+      "question": "Which is correct? 'I will contact you once I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N4_104",
+      "level": "N4",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N4_105",
+      "level": "N4",
+      "question": "Which means 'He speaks as if he were the boss'?",
+      "options": [
+        "上司です。",
+        "上司のように話します。",
+        "上司のようです。",
+        "上司かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N4_106",
+      "level": "N4",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' (han'i) = scope, range."
+    },
+    {
+      "id": "N4_107",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after finishing my report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_108",
+      "level": "N4",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N4_109",
+      "level": "N4",
+      "question": "Which means 'I was told not to be late'?",
+      "options": [
+        "おくれてはいけません。",
+        "おくれないでください。",
+        "おくれるように言われました。",
+        "おくれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N4_110",
+      "level": "N4",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' (teian) = suggestion, proposal."
+    },
+    {
+      "id": "N4_111",
+      "level": "N4",
+      "question": "Which is correct? 'The more you eat, the hungrier you get.'",
+      "options": [
+        "たべると、もっとはらぺこになる。",
+        "たべるごとに、はらぺこになる。",
+        "たべればたべるほど、もっとはらぺこになる。",
+        "たべたあと、はらぺこになる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N4_112",
+      "level": "N4",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N4_113",
+      "level": "N4",
+      "question": "Which means 'I will wait until you finish.'",
+      "options": [
+        "おわります。",
+        "おわると、待ちます。",
+        "おわるまで、待ちます。",
+        "おわってから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N4_114",
+      "level": "N4",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' (shinrai) = trust."
+    },
+    {
+      "id": "N4_115",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after making a reservation.'",
+      "options": [
+        "よやくします。",
+        "よやくをして、いきます。",
+        "よやくしたあとで、いきます。",
+        "よやくしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_116",
+      "level": "N4",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N4_117",
+      "level": "N4",
+      "question": "Which means 'I was about to sleep when the doorbell rang'?",
+      "options": [
+        "ねる前に、ドアベルがなりました。",
+        "ねると、ドアベルがなりました。",
+        "ねようとしたとき、ドアベルがなりました。",
+        "ねたあと、ドアベルがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N4_118",
+      "level": "N4",
+      "question": "What does 'さることながら' mean?",
+      "options": [
+        "Let alone",
+        "Moreover",
+        "However",
+        "Therefore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A, さることながら B = Not only A, but also B."
+    },
+    {
+      "id": "N4_119",
+      "level": "N4",
+      "question": "Which is correct? 'Not only did he not help, he made it worse.'",
+      "options": [
+        "手伝うばかりか、悪くした。",
+        "手伝うことはおろか、悪くした。",
+        "手伝うし、悪くした。",
+        "手伝うから、悪くした。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことはおろか = let alone, not even."
+    },
+    {
+      "id": "N4_120",
+      "level": "N4",
+      "question": "What does '～おそれがある' mean in formal writing?",
+      "options": [
+        "It is certain",
+        "There is a risk",
+        "It is unlikely",
+        "It is obvious"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Formal expression for 'there is a danger of...'"
+    },
+    {
+      "id": "N4_121",
+      "level": "N4",
+      "question": "Which means 'He acted as if nothing had happened'?",
+      "options": [
+        "なにもなかったかのように行動した。",
+        "なにもないと思った。",
+        "なにもなかった。",
+        "なにもなかったとおもった。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N4_122",
+      "level": "N4",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N4_123",
+      "level": "N4",
+      "question": "Which is correct? 'Much less would he admit his mistake.'",
+      "options": [
+        "まちがいをあやまる。",
+        "まちがいをあやまらない。",
+        "まちがいをあやまるものか。",
+        "まちがいをあやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing, let alone..."
+    },
+    {
+      "id": "N4_124",
+      "level": "N4",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N4_125",
+      "level": "N4",
+      "question": "Which means 'He speaks as if he were a genius'?",
+      "options": [
+        "天才です。",
+        "天才のように話します。",
+        "天才のようです。",
+        "天才かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N4_126",
+      "level": "N4",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Degree",
+        "Amount"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'ていど' = degree, extent."
+    },
+    {
+      "id": "N4_127",
+      "level": "N4",
+      "question": "Which is correct? 'Even if I had wanted to, I couldn't.'",
+      "options": [
+        "したかった。",
+        "したかったけど、できなかった。",
+        "したかったにしても、できなかった。",
+        "したかったとしても、できなかった。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N4_128",
+      "level": "N4",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N4_129",
+      "level": "N4",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N4_130",
+      "level": "N4",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy, precision."
+    },
+    {
+      "id": "N4_131",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after confirming the details.'",
+      "options": [
+        "しょうさいをかくにんして、いきます。",
+        "しょうさいをかくにんしたあとで、いきます。",
+        "しょうさいをかくにんすると、いきます。",
+        "しょうさいをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_132",
+      "level": "N4",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N4_133",
+      "level": "N4",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N4_134",
+      "level": "N4",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' = focus, concentration."
+    },
+    {
+      "id": "N4_135",
+      "level": "N4",
+      "question": "Which is correct? 'I will go even if it snows.'",
+      "options": [
+        "ゆきがふると、いきます。",
+        "ゆきがふるなら、いきます。",
+        "ゆきがふっても、いきます。",
+        "ゆきがふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N4_136",
+      "level": "N4",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N4_137",
+      "level": "N4",
+      "question": "Which means 'He speaks as if he were the king'?",
+      "options": [
+        "王です。",
+        "王のように話します。",
+        "王のようです。",
+        "王かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N4_138",
+      "level": "N4",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system, framework."
+    },
+    {
+      "id": "N4_139",
+      "level": "N4",
+      "question": "Which is correct? 'I will contact you once I decide.'",
+      "options": [
+        "けつじょうしたら、連絡します。",
+        "けつじょうしたあとで、連絡します。",
+        "けつじょうしても、連絡します。",
+        "けつじょうしながら、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N4_140",
+      "level": "N4",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N4_141",
+      "level": "N4",
+      "question": "Which means 'I was told not to forget the document'?",
+      "options": [
+        "もんしょをわすれてはいけません。",
+        "もんしょをわすれないでください。",
+        "もんしょをわすれるように言われました。",
+        "もんしょをわすれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N4_142",
+      "level": "N4",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' = scope, range."
+    },
+    {
+      "id": "N4_143",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after making the payment.'",
+      "options": [
+        "はらいをします。",
+        "はらいをして、いきます。",
+        "はらいしたあとで、いきます。",
+        "はらいしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_144",
+      "level": "N4",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N4_145",
+      "level": "N4",
+      "question": "Which means 'I was told to be careful'?",
+      "options": [
+        "きをつけてください。",
+        "きをつけるように言われました。",
+        "きをつけること。",
+        "きをつけることになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ように言われました = was told to do."
+    },
+    {
+      "id": "N4_146",
+      "level": "N4",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' = suggestion, proposal."
+    },
+    {
+      "id": "N4_147",
+      "level": "N4",
+      "question": "Which is correct? 'The more you study, the more questions you have.'",
+      "options": [
+        "べんきょうすると、もっとしつもんがある。",
+        "べんきょうするごとに、しつもんがある。",
+        "べんきょうすればするほど、もっとしつもんがある。",
+        "べんきょうしたあと、しつもんがある。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～すればするほど = the more... the more..."
+    },
+    {
+      "id": "N4_148",
+      "level": "N4",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N4_149",
+      "level": "N4",
+      "question": "Which means 'I was about to eat when the phone rang'?",
+      "options": [
+        "たべる前に、電話がなりました。",
+        "たべると、電話がなりました。",
+        "たべようとしたとき、電話がなりました。",
+        "たべたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N4_150",
+      "level": "N4",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' = trust."
+    },
+    {
+      "id": "N4_151",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after submitting the report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_152",
+      "level": "N4",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N4_153",
+      "level": "N4",
+      "question": "Which means 'I was about to sleep when the alarm rang'?",
+      "options": [
+        "ねる前に、アラームがなりました。",
+        "ねると、アラームがなりました。",
+        "ねようとしたとき、アラームがなりました。",
+        "ねたあと、アラームがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N4_154",
+      "level": "N4",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy."
+    },
+    {
+      "id": "N4_155",
+      "level": "N4",
+      "question": "Which is correct? 'I will go after confirming the schedule.'",
+      "options": [
+        "じゅひょうをかくにんして、いきます。",
+        "じゅひょうをかくにんしたあとで、いきます。",
+        "じゅひょうをかくにんすると、いきます。",
+        "じゅひょうをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N4_156",
+      "level": "N4",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N4_157",
+      "level": "N4",
+      "question": "Which means 'The more you run, the more tired you get'?",
+      "options": [
+        "はしると、もっとつかれる。",
+        "はしるごとに、つかれる。",
+        "はしればはしるほど、もっとつかれる。",
+        "はしったあと、つかれる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N4_158",
+      "level": "N4",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system."
+    }
+  ],
+  "N3": [
+    {
+      "id": "N3_1",
+      "level": "N3",
+      "question": "What does 'おそれ' mean?",
+      "options": [
+        "Hope",
+        "Fear",
+        "Joy",
+        "Surprise"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'おそれ' = fear, risk. '～おそれがあります' = there is a risk of..."
+    },
+    {
+      "id": "N3_2",
+      "level": "N3",
+      "question": "Which is correct? 'Despite being tired, I studied.'",
+      "options": [
+        "つかれて、べんきょうしました。",
+        "つかれているのに、べんきょうしました。",
+        "つかれてから、べんきょうしました。",
+        "つかれると、べんきょうしました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～のに = despite. 'のに' shows contrast."
+    },
+    {
+      "id": "N3_3",
+      "level": "N3",
+      "question": "What is 'てんけん'?",
+      "options": [
+        "Application",
+        "Report",
+        "Inspection",
+        "Permission"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'てんけん' (tenken) = inspection, examination."
+    },
+    {
+      "id": "N3_4",
+      "level": "N3",
+      "question": "How do you say 'I happened to meet him'?",
+      "options": [
+        "彼に会いました。",
+        "彼に会いたいです。",
+        "彼に会えました。",
+        "彼に会うことになりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～えました = was able to (often by chance)."
+    },
+    {
+      "id": "N3_5",
+      "level": "N3",
+      "question": "Which means 'I managed to finish the work'?",
+      "options": [
+        "仕事が終わりました。",
+        "仕事ができました。",
+        "仕事ができました。",
+        "仕事ができました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "できる → できました = succeeded in doing."
+    },
+    {
+      "id": "N3_6",
+      "level": "N3",
+      "question": "What does '～うちに' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "Before"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～うちに = while (something continues). '元気なうちに' = while you're healthy."
+    },
+    {
+      "id": "N3_7",
+      "level": "N3",
+      "question": "Which is correct? 'Not only did he come, he brought a gift.'",
+      "options": [
+        "来ただけで、プレゼントも持ってきました。",
+        "来るだけでなく、プレゼントも持ってきました。",
+        "来てから、プレゼントも持ってきました。",
+        "来ると、プレゼントも持ってきました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～だけでなく = not only... but also."
+    },
+    {
+      "id": "N3_8",
+      "level": "N3",
+      "question": "What is 'せいちょう'?",
+      "options": [
+        "Development",
+        "Growth",
+        "Decline",
+        "Change"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'せいちょう' (seichou) = growth, development."
+    },
+    {
+      "id": "N3_9",
+      "level": "N3",
+      "question": "How do you say 'I was almost hit by a car'?",
+      "options": [
+        "車にぶつかりました。",
+        "車にぶつかりませんでした。",
+        "車にぶつかりそうになりました。",
+        "車にぶつかりたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そうになりました = almost did something."
+    },
+    {
+      "id": "N3_10",
+      "level": "N3",
+      "question": "Which means 'The more you eat, the more you want'?",
+      "options": [
+        "食べるごとに、もっと食べたくなります。",
+        "食べると、もっと食べます。",
+        "食べてから、もっと食べます。",
+        "食べれば食べるほど、もっと食べたくなります。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N3_11",
+      "level": "N3",
+      "question": "What does 'かんがみる' mean?",
+      "options": [
+        "Think",
+        "Consider",
+        "Imagine",
+        "Worry"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんがみる' = to consider, take into account."
+    },
+    {
+      "id": "N3_12",
+      "level": "N3",
+      "question": "Which is correct? 'I left the house without eating breakfast.'",
+      "options": [
+        "朝ごはんを食べて、家を出ました。",
+        "朝ごはんを食べないで、家を出ました。",
+        "朝ごはんを食べずに、家を出ました。",
+        "朝ごはんを食べながら、家を出ました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ずに = without doing."
+    },
+    {
+      "id": "N3_13",
+      "level": "N3",
+      "question": "What is 'こうつう'?",
+      "options": [
+        "Communication",
+        "Traffic",
+        "Transportation",
+        "Signal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうつう' (koutsuu) = traffic, transportation."
+    },
+    {
+      "id": "N3_14",
+      "level": "N3",
+      "question": "How do you say 'I gave up trying'?",
+      "options": [
+        "あきらめました。",
+        "やめました。",
+        "とまりました。",
+        "すてました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "あきらめる = to give up."
+    },
+    {
+      "id": "N3_15",
+      "level": "N3",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N3_16",
+      "level": "N3",
+      "question": "What does 'ふくざつ' mean?",
+      "options": [
+        "Simple",
+        "Complicated",
+        "Large",
+        "Small"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ふくざつ' = complicated."
+    },
+    {
+      "id": "N3_17",
+      "level": "N3",
+      "question": "Which is correct? 'Even if it rains, I will go.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N3_18",
+      "level": "N3",
+      "question": "What is 'けいけん'?",
+      "options": [
+        "Knowledge",
+        "Experience",
+        "Skill",
+        "Education"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'けいけん' (keiken) = experience."
+    },
+    {
+      "id": "N3_19",
+      "level": "N3",
+      "question": "How do you say 'I forgot to bring my umbrella'?",
+      "options": [
+        "かさをわすれました。",
+        "かさをわすれていました。",
+        "かさをわすれるところでした。",
+        "かさをわすれてしまいました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～てしまいました = regretful completion."
+    },
+    {
+      "id": "N3_20",
+      "level": "N3",
+      "question": "Which means 'He speaks as if he knows everything'?",
+      "options": [
+        "すべてをしっています。",
+        "すべてをしっているようです。",
+        "すべてをしっているかのように話します。",
+        "すべてをしっていますか？"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N3_21",
+      "level": "N3",
+      "question": "What does 'ていこう' mean?",
+      "options": [
+        "Agreement",
+        "Disagreement",
+        "Decision",
+        "Discussion"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていこう' (teikou) = opposition, disagreement."
+    },
+    {
+      "id": "N3_22",
+      "level": "N3",
+      "question": "Which is correct? 'I will contact you when I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N3_23",
+      "level": "N3",
+      "question": "What is 'りょうり'?",
+      "options": [
+        "Food",
+        "Cooking",
+        "Recipe",
+        "Meal"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'りょうり' = cooking, cuisine."
+    },
+    {
+      "id": "N3_24",
+      "level": "N3",
+      "question": "How do you say 'I was almost late'?",
+      "options": [
+        "おくれました。",
+        "おくれなかったです。",
+        "おくれそうになりました。",
+        "おくれたいです。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～そうになりました = almost happened."
+    },
+    {
+      "id": "N3_25",
+      "level": "N3",
+      "question": "Which means 'The older she gets, the kinder she becomes'?",
+      "options": [
+        "年をとると、親切になります。",
+        "年をとるごとに、親切になります。",
+        "年をとればとるほど、親切になります。",
+        "年をとったあと、親切になります。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N3_26",
+      "level": "N3",
+      "question": "What does 'かんり' mean?",
+      "options": [
+        "Control",
+        "Management",
+        "Request",
+        "Operation"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんり' (kanri) = management."
+    },
+    {
+      "id": "N3_27",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after finishing my work.'",
+      "options": [
+        "しごとをします。",
+        "しごとをして、いきます。",
+        "しごとをしたあとで、いきます。",
+        "しごとをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_28",
+      "level": "N3",
+      "question": "What is 'せきにん'?",
+      "options": [
+        "Responsibility",
+        "Duty",
+        "Obligation",
+        "Task"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せきにん' (sekinin) = responsibility."
+    },
+    {
+      "id": "N3_29",
+      "level": "N3",
+      "question": "How do you say 'I happened to know the answer'?",
+      "options": [
+        "答えをしっています。",
+        "答えをしっていました。",
+        "答えをしっていました。",
+        "答えをしっていました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ていました = knew (past). 'happened to know' is context."
+    },
+    {
+      "id": "N3_30",
+      "level": "N3",
+      "question": "Which means 'If you don't hurry, you'll miss the bus'?",
+      "options": [
+        "いそげば、バスにのれます。",
+        "いそげば、バスにのりません。",
+        "いそがないと、バスにのりません。",
+        "いそがないと、バスにのりそこないます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ないと = if you don't. 'のりそこなう' = miss the chance."
+    },
+    {
+      "id": "N3_31",
+      "level": "N3",
+      "question": "What does 'ていねい' mean?",
+      "options": [
+        "Rude",
+        "Polite",
+        "Fast",
+        "Slow"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'ていねい' = polite."
+    },
+    {
+      "id": "N3_32",
+      "level": "N3",
+      "question": "Which is correct? 'I will wait until you come.'",
+      "options": [
+        "きます。",
+        "くると、待ちます。",
+        "くるまで、待ちます。",
+        "きてから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N3_33",
+      "level": "N3",
+      "question": "What is 'けんきゅう'?",
+      "options": [
+        "Study",
+        "Research",
+        "Experiment",
+        "Analysis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'けんきゅう' (kenkyuu) = research."
+    },
+    {
+      "id": "N3_34",
+      "level": "N3",
+      "question": "How do you say 'I was told not to go'?",
+      "options": [
+        "行ってはいけません。",
+        "行かないでください。",
+        "行くように言われました。",
+        "行かないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N3_35",
+      "level": "N3",
+      "question": "Which means 'The more you practice, the better you get'?",
+      "options": [
+        "れんしゅうすると、じょうずになります。",
+        "れんしゅうすればするほど、じょうずになります。",
+        "れんしゅうしてから、じょうずになります。",
+        "れんしゅうしたあと、じょうずになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～すればするほど = the more you do, the more..."
+    },
+    {
+      "id": "N3_36",
+      "level": "N3",
+      "question": "What does 'かんがえる' mean?",
+      "options": [
+        "Remember",
+        "Think",
+        "Forget",
+        "Understand"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'かんがえる' = to think."
+    },
+    {
+      "id": "N3_37",
+      "level": "N3",
+      "question": "Which is correct? 'I will call you after I arrive.'",
+      "options": [
+        "ついたら、電話します。",
+        "ついてから、電話します。",
+        "ついても、電話します。",
+        "ついて、電話します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N3_38",
+      "level": "N3",
+      "question": "What is 'せんもん'?",
+      "options": [
+        "Field",
+        "Major",
+        "Subject",
+        "Expert"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'せんもん' = major, specialty."
+    },
+    {
+      "id": "N3_39",
+      "level": "N3",
+      "question": "How do you say 'I regret not studying'?",
+      "options": [
+        "べんきょうしました。",
+        "べんきょうしませんでした。",
+        "べんきょうしなくてよかった。",
+        "べんきょうしなかったことを後悔しています。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～なかったことを後悔 = regret not doing."
+    },
+    {
+      "id": "N3_40",
+      "level": "N3",
+      "question": "Which means 'I will keep studying until I pass'?",
+      "options": [
+        "うかるまで、べんきょうします。",
+        "うかったら、べんきょうします。",
+        "うかると、べんきょうします。",
+        "うかないと、べんきょうします。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N3_41",
+      "level": "N3",
+      "question": "What does 'しゅちょう' mean?",
+      "options": [
+        "Manager",
+        "President",
+        "Secretary",
+        "Engineer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しゅちょう' = manager, director."
+    },
+    {
+      "id": "N3_42",
+      "level": "N3",
+      "question": "Which is correct? 'I will go if I have time.'",
+      "options": [
+        "じかんがあります。",
+        "じかんがあると、いきます。",
+        "じかんがあるなら、いきます。",
+        "じかんがあれば、いきます。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～があれば = if there is..."
+    },
+    {
+      "id": "N3_43",
+      "level": "N3",
+      "question": "What does '～にひきかえ' mean?",
+      "options": [
+        "Because of",
+        "In contrast to",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にひきかえ = in contrast to. Shows strong contrast."
+    },
+    {
+      "id": "N3_44",
+      "level": "N3",
+      "question": "Which is correct? 'By means of this letter, I resign.'",
+      "options": [
+        "この手紙に",
+        "この手紙で",
+        "この手紙をもって",
+        "この手紙にとって"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～をもって = by means of, formally."
+    },
+    {
+      "id": "N3_45",
+      "level": "N3",
+      "question": "What does 'おそれがある' mean?",
+      "options": [
+        "It is certain",
+        "There is a possibility",
+        "It is impossible",
+        "It is likely"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～おそれがある = there is a risk/danger of..."
+    },
+    {
+      "id": "N3_46",
+      "level": "N3",
+      "question": "Which means 'Not limited to students, teachers also attended'?",
+      "options": [
+        "学生だけでなく、先生も来ました。",
+        "学生に限らず、先生も来ました。",
+        "学生として、先生も来ました。",
+        "学生のように、先生も来ました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～に限らず = not limited to..."
+    },
+    {
+      "id": "N3_47",
+      "level": "N3",
+      "question": "What is 'かいしゅう'?",
+      "options": [
+        "Collection",
+        "Meeting",
+        "Discussion",
+        "Conclusion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'かいしゅう' (kaishuu) = collection, gathering."
+    },
+    {
+      "id": "N3_48",
+      "level": "N3",
+      "question": "Which is correct? 'Just as I thought, it rained.'",
+      "options": [
+        "おもいました。",
+        "おもったとおり、雨がふりました。",
+        "おもってから、雨がふりました。",
+        "おもっても、雨がふりました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たとおり = just as..."
+    },
+    {
+      "id": "N3_49",
+      "level": "N3",
+      "question": "What does 'さしつかえる' mean?",
+      "options": [
+        "Help",
+        "Interfere",
+        "Matter",
+        "Bother"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "問題さしつかえません = it doesn't matter."
+    },
+    {
+      "id": "N3_50",
+      "level": "N3",
+      "question": "Which means 'I have no objection'?",
+      "options": [
+        "はんたいです。",
+        "もんだいです。",
+        "いじょうです。",
+        "さしつかえありません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "さしつかえありません = no problem."
+    },
+    {
+      "id": "N3_51",
+      "level": "N3",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Amount",
+        "Degree"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'ていど' (teido) = degree, extent."
+    },
+    {
+      "id": "N3_52",
+      "level": "N3",
+      "question": "Which is correct? 'Even if I wanted to help, I couldn't.'",
+      "options": [
+        "たすけたいです。",
+        "たすけたいけど、できません。",
+        "たすけたいにしても、できません。",
+        "たすけたいとしても、できません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N3_53",
+      "level": "N3",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N3_54",
+      "level": "N3",
+      "question": "Which means 'He acted as if he knew nothing'?",
+      "options": [
+        "なにもしりません。",
+        "なにもしらないふりをした。",
+        "なにもしらないかのように行動した。",
+        "なにもしらないだろう。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N3_55",
+      "level": "N3",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N3_56",
+      "level": "N3",
+      "question": "Which is correct? 'I will wait no matter how long it takes.'",
+      "options": [
+        "ながくても、待ちます。",
+        "ながくても、まちません。",
+        "ながければ、待ちます。",
+        "ながいと、待ちます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N3_57",
+      "level": "N3",
+      "question": "What does '～おいて' mean in '～をおく'?",
+      "options": [
+        "Place",
+        "Leave behind",
+        "Regard as",
+        "Compare"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～を～とおいて = regard as..."
+    },
+    {
+      "id": "N3_58",
+      "level": "N3",
+      "question": "Which means 'Much less would he apologize'?",
+      "options": [
+        "あやまる。",
+        "あやまらない。",
+        "あやまるものか。",
+        "あやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing..."
+    },
+    {
+      "id": "N3_59",
+      "level": "N3",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' (seido) = accuracy, precision."
+    },
+    {
+      "id": "N3_60",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after confirming the time.'",
+      "options": [
+        "じかんをかくにんして、いきます。",
+        "じかんをかくにんしたあとで、いきます。",
+        "じかんをかくにんすると、いきます。",
+        "じかんをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_61",
+      "level": "N3",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal). '勉強しつつ、仕事もする' = while studying, also work."
+    },
+    {
+      "id": "N3_62",
+      "level": "N3",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N3_63",
+      "level": "N3",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' (shuchuu) = focus, concentration."
+    },
+    {
+      "id": "N3_64",
+      "level": "N3",
+      "question": "Which is correct? 'I will go even if it rains.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N3_65",
+      "level": "N3",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N3_66",
+      "level": "N3",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N3_67",
+      "level": "N3",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' (tai sei) = system, framework."
+    },
+    {
+      "id": "N3_68",
+      "level": "N3",
+      "question": "Which is correct? 'I will contact you once I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N3_69",
+      "level": "N3",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N3_70",
+      "level": "N3",
+      "question": "Which means 'He speaks as if he were the boss'?",
+      "options": [
+        "上司です。",
+        "上司のように話します。",
+        "上司のようです。",
+        "上司かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N3_71",
+      "level": "N3",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' (han'i) = scope, range."
+    },
+    {
+      "id": "N3_72",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after finishing my report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_73",
+      "level": "N3",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N3_74",
+      "level": "N3",
+      "question": "Which means 'I was told not to be late'?",
+      "options": [
+        "おくれてはいけません。",
+        "おくれないでください。",
+        "おくれるように言われました。",
+        "おくれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N3_75",
+      "level": "N3",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' (teian) = suggestion, proposal."
+    },
+    {
+      "id": "N3_76",
+      "level": "N3",
+      "question": "Which is correct? 'The more you eat, the hungrier you get.'",
+      "options": [
+        "たべると、もっとはらぺこになる。",
+        "たべるごとに、はらぺこになる。",
+        "たべればたべるほど、もっとはらぺこになる。",
+        "たべたあと、はらぺこになる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N3_77",
+      "level": "N3",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N3_78",
+      "level": "N3",
+      "question": "Which means 'I will wait until you finish.'",
+      "options": [
+        "おわります。",
+        "おわると、待ちます。",
+        "おわるまで、待ちます。",
+        "おわってから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N3_79",
+      "level": "N3",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' (shinrai) = trust."
+    },
+    {
+      "id": "N3_80",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after making a reservation.'",
+      "options": [
+        "よやくします。",
+        "よやくをして、いきます。",
+        "よやくしたあとで、いきます。",
+        "よやくしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_81",
+      "level": "N3",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N3_82",
+      "level": "N3",
+      "question": "Which means 'I was about to sleep when the doorbell rang'?",
+      "options": [
+        "ねる前に、ドアベルがなりました。",
+        "ねると、ドアベルがなりました。",
+        "ねようとしたとき、ドアベルがなりました。",
+        "ねたあと、ドアベルがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N3_83",
+      "level": "N3",
+      "question": "What does 'さることながら' mean?",
+      "options": [
+        "Let alone",
+        "Moreover",
+        "However",
+        "Therefore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A, さることながら B = Not only A, but also B."
+    },
+    {
+      "id": "N3_84",
+      "level": "N3",
+      "question": "Which is correct? 'Not only did he not help, he made it worse.'",
+      "options": [
+        "手伝うばかりか、悪くした。",
+        "手伝うことはおろか、悪くした。",
+        "手伝うし、悪くした。",
+        "手伝うから、悪くした。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことはおろか = let alone, not even."
+    },
+    {
+      "id": "N3_85",
+      "level": "N3",
+      "question": "What does '～おそれがある' mean in formal writing?",
+      "options": [
+        "It is certain",
+        "There is a risk",
+        "It is unlikely",
+        "It is obvious"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Formal expression for 'there is a danger of...'"
+    },
+    {
+      "id": "N3_86",
+      "level": "N3",
+      "question": "Which means 'He acted as if nothing had happened'?",
+      "options": [
+        "なにもなかったかのように行動した。",
+        "なにもないと思った。",
+        "なにもなかった。",
+        "なにもなかったとおもった。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N3_87",
+      "level": "N3",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N3_88",
+      "level": "N3",
+      "question": "Which is correct? 'Much less would he admit his mistake.'",
+      "options": [
+        "まちがいをあやまる。",
+        "まちがいをあやまらない。",
+        "まちがいをあやまるものか。",
+        "まちがいをあやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing, let alone..."
+    },
+    {
+      "id": "N3_89",
+      "level": "N3",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N3_90",
+      "level": "N3",
+      "question": "Which means 'He speaks as if he were a genius'?",
+      "options": [
+        "天才です。",
+        "天才のように話します。",
+        "天才のようです。",
+        "天才かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N3_91",
+      "level": "N3",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Degree",
+        "Amount"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'ていど' = degree, extent."
+    },
+    {
+      "id": "N3_92",
+      "level": "N3",
+      "question": "Which is correct? 'Even if I had wanted to, I couldn't.'",
+      "options": [
+        "したかった。",
+        "したかったけど、できなかった。",
+        "したかったにしても、できなかった。",
+        "したかったとしても、できなかった。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N3_93",
+      "level": "N3",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N3_94",
+      "level": "N3",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N3_95",
+      "level": "N3",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy, precision."
+    },
+    {
+      "id": "N3_96",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after confirming the details.'",
+      "options": [
+        "しょうさいをかくにんして、いきます。",
+        "しょうさいをかくにんしたあとで、いきます。",
+        "しょうさいをかくにんすると、いきます。",
+        "しょうさいをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_97",
+      "level": "N3",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N3_98",
+      "level": "N3",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N3_99",
+      "level": "N3",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' = focus, concentration."
+    },
+    {
+      "id": "N3_100",
+      "level": "N3",
+      "question": "Which is correct? 'I will go even if it snows.'",
+      "options": [
+        "ゆきがふると、いきます。",
+        "ゆきがふるなら、いきます。",
+        "ゆきがふっても、いきます。",
+        "ゆきがふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N3_101",
+      "level": "N3",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N3_102",
+      "level": "N3",
+      "question": "Which means 'He speaks as if he were the king'?",
+      "options": [
+        "王です。",
+        "王のように話します。",
+        "王のようです。",
+        "王かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N3_103",
+      "level": "N3",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system, framework."
+    },
+    {
+      "id": "N3_104",
+      "level": "N3",
+      "question": "Which is correct? 'I will contact you once I decide.'",
+      "options": [
+        "けつじょうしたら、連絡します。",
+        "けつじょうしたあとで、連絡します。",
+        "けつじょうしても、連絡します。",
+        "けつじょうしながら、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N3_105",
+      "level": "N3",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N3_106",
+      "level": "N3",
+      "question": "Which means 'I was told not to forget the document'?",
+      "options": [
+        "もんしょをわすれてはいけません。",
+        "もんしょをわすれないでください。",
+        "もんしょをわすれるように言われました。",
+        "もんしょをわすれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N3_107",
+      "level": "N3",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' = scope, range."
+    },
+    {
+      "id": "N3_108",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after making the payment.'",
+      "options": [
+        "はらいをします。",
+        "はらいをして、いきます。",
+        "はらいしたあとで、いきます。",
+        "はらいしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_109",
+      "level": "N3",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N3_110",
+      "level": "N3",
+      "question": "Which means 'I was told to be careful'?",
+      "options": [
+        "きをつけてください。",
+        "きをつけるように言われました。",
+        "きをつけること。",
+        "きをつけることになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ように言われました = was told to do."
+    },
+    {
+      "id": "N3_111",
+      "level": "N3",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' = suggestion, proposal."
+    },
+    {
+      "id": "N3_112",
+      "level": "N3",
+      "question": "Which is correct? 'The more you study, the more questions you have.'",
+      "options": [
+        "べんきょうすると、もっとしつもんがある。",
+        "べんきょうするごとに、しつもんがある。",
+        "べんきょうすればするほど、もっとしつもんがある。",
+        "べんきょうしたあと、しつもんがある。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～すればするほど = the more... the more..."
+    },
+    {
+      "id": "N3_113",
+      "level": "N3",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N3_114",
+      "level": "N3",
+      "question": "Which means 'I was about to eat when the phone rang'?",
+      "options": [
+        "たべる前に、電話がなりました。",
+        "たべると、電話がなりました。",
+        "たべようとしたとき、電話がなりました。",
+        "たべたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N3_115",
+      "level": "N3",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' = trust."
+    },
+    {
+      "id": "N3_116",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after submitting the report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_117",
+      "level": "N3",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N3_118",
+      "level": "N3",
+      "question": "Which means 'I was about to sleep when the alarm rang'?",
+      "options": [
+        "ねる前に、アラームがなりました。",
+        "ねると、アラームがなりました。",
+        "ねようとしたとき、アラームがなりました。",
+        "ねたあと、アラームがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N3_119",
+      "level": "N3",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy."
+    },
+    {
+      "id": "N3_120",
+      "level": "N3",
+      "question": "Which is correct? 'I will go after confirming the schedule.'",
+      "options": [
+        "じゅひょうをかくにんして、いきます。",
+        "じゅひょうをかくにんしたあとで、いきます。",
+        "じゅひょうをかくにんすると、いきます。",
+        "じゅひょうをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N3_121",
+      "level": "N3",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N3_122",
+      "level": "N3",
+      "question": "Which means 'The more you run, the more tired you get'?",
+      "options": [
+        "はしると、もっとつかれる。",
+        "はしるごとに、つかれる。",
+        "はしればはしるほど、もっとつかれる。",
+        "はしったあと、つかれる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N3_123",
+      "level": "N3",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system."
+    }
+  ],
+  "N2": [
+    {
+      "id": "N2_1",
+      "level": "N2",
+      "question": "What does '～にひきかえ' mean?",
+      "options": [
+        "Because of",
+        "In contrast to",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にひきかえ = in contrast to. Shows strong contrast."
+    },
+    {
+      "id": "N2_2",
+      "level": "N2",
+      "question": "Which is correct? 'By means of this letter, I resign.'",
+      "options": [
+        "この手紙に",
+        "この手紙で",
+        "この手紙をもって",
+        "この手紙にとって"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～をもって = by means of, formally."
+    },
+    {
+      "id": "N2_3",
+      "level": "N2",
+      "question": "What does 'おそれがある' mean?",
+      "options": [
+        "It is certain",
+        "There is a possibility",
+        "It is impossible",
+        "It is likely"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～おそれがある = there is a risk/danger of..."
+    },
+    {
+      "id": "N2_4",
+      "level": "N2",
+      "question": "Which means 'Not limited to students, teachers also attended'?",
+      "options": [
+        "学生だけでなく、先生も来ました。",
+        "学生に限らず、先生も来ました。",
+        "学生として、先生も来ました。",
+        "学生のように、先生も来ました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～に限らず = not limited to..."
+    },
+    {
+      "id": "N2_5",
+      "level": "N2",
+      "question": "What is 'かいしゅう'?",
+      "options": [
+        "Collection",
+        "Meeting",
+        "Discussion",
+        "Conclusion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'かいしゅう' (kaishuu) = collection, gathering."
+    },
+    {
+      "id": "N2_6",
+      "level": "N2",
+      "question": "Which is correct? 'Just as I thought, it rained.'",
+      "options": [
+        "おもいました。",
+        "おもったとおり、雨がふりました。",
+        "おもってから、雨がふりました。",
+        "おもっても、雨がふりました。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たとおり = just as..."
+    },
+    {
+      "id": "N2_7",
+      "level": "N2",
+      "question": "What does 'さしつかえる' mean?",
+      "options": [
+        "Help",
+        "Interfere",
+        "Matter",
+        "Bother"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "問題さしつかえません = it doesn't matter."
+    },
+    {
+      "id": "N2_8",
+      "level": "N2",
+      "question": "Which means 'I have no objection'?",
+      "options": [
+        "はんたいです。",
+        "もんだいです。",
+        "いじょうです。",
+        "さしつかえありません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "さしつかえありません = no problem."
+    },
+    {
+      "id": "N2_9",
+      "level": "N2",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Amount",
+        "Degree"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "'ていど' (teido) = degree, extent."
+    },
+    {
+      "id": "N2_10",
+      "level": "N2",
+      "question": "Which is correct? 'Even if I wanted to help, I couldn't.'",
+      "options": [
+        "たすけたいです。",
+        "たすけたいけど、できません。",
+        "たすけたいにしても、できません。",
+        "たすけたいとしても、できません。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N2_11",
+      "level": "N2",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N2_12",
+      "level": "N2",
+      "question": "Which means 'He acted as if he knew nothing'?",
+      "options": [
+        "なにもしりません。",
+        "なにもしらないふりをした。",
+        "なにもしらないかのように行動した。",
+        "なにもしらないだろう。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N2_13",
+      "level": "N2",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N2_14",
+      "level": "N2",
+      "question": "Which is correct? 'I will wait no matter how long it takes.'",
+      "options": [
+        "ながくても、待ちます。",
+        "ながくても、まちません。",
+        "ながければ、待ちます。",
+        "ながいと、待ちます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N2_15",
+      "level": "N2",
+      "question": "What does '～おいて' mean in '～をおく'?",
+      "options": [
+        "Place",
+        "Leave behind",
+        "Regard as",
+        "Compare"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～を～とおいて = regard as..."
+    },
+    {
+      "id": "N2_16",
+      "level": "N2",
+      "question": "Which means 'Much less would he apologize'?",
+      "options": [
+        "あやまる。",
+        "あやまらない。",
+        "あやまるものか。",
+        "あやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing..."
+    },
+    {
+      "id": "N2_17",
+      "level": "N2",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' (seido) = accuracy, precision."
+    },
+    {
+      "id": "N2_18",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after confirming the time.'",
+      "options": [
+        "じかんをかくにんして、いきます。",
+        "じかんをかくにんしたあとで、いきます。",
+        "じかんをかくにんすると、いきます。",
+        "じかんをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_19",
+      "level": "N2",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal). '勉強しつつ、仕事もする' = while studying, also work."
+    },
+    {
+      "id": "N2_20",
+      "level": "N2",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N2_21",
+      "level": "N2",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' (shuchuu) = focus, concentration."
+    },
+    {
+      "id": "N2_22",
+      "level": "N2",
+      "question": "Which is correct? 'I will go even if it rains.'",
+      "options": [
+        "雨がふると、いきます。",
+        "雨がふるなら、いきます。",
+        "雨がふっても、いきます。",
+        "雨がふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N2_23",
+      "level": "N2",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N2_24",
+      "level": "N2",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N2_25",
+      "level": "N2",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' (tai sei) = system, framework."
+    },
+    {
+      "id": "N2_26",
+      "level": "N2",
+      "question": "Which is correct? 'I will contact you once I arrive.'",
+      "options": [
+        "ついたら、連絡します。",
+        "ついてから、連絡します。",
+        "ついても、連絡します。",
+        "ついて、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N2_27",
+      "level": "N2",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N2_28",
+      "level": "N2",
+      "question": "Which means 'He speaks as if he were the boss'?",
+      "options": [
+        "上司です。",
+        "上司のように話します。",
+        "上司のようです。",
+        "上司かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N2_29",
+      "level": "N2",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' (han'i) = scope, range."
+    },
+    {
+      "id": "N2_30",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after finishing my report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_31",
+      "level": "N2",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N2_32",
+      "level": "N2",
+      "question": "Which means 'I was told not to be late'?",
+      "options": [
+        "おくれてはいけません。",
+        "おくれないでください。",
+        "おくれるように言われました。",
+        "おくれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N2_33",
+      "level": "N2",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' (teian) = suggestion, proposal."
+    },
+    {
+      "id": "N2_34",
+      "level": "N2",
+      "question": "Which is correct? 'The more you eat, the hungrier you get.'",
+      "options": [
+        "たべると、もっとはらぺこになる。",
+        "たべるごとに、はらぺこになる。",
+        "たべればたべるほど、もっとはらぺこになる。",
+        "たべたあと、はらぺこになる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N2_35",
+      "level": "N2",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N2_36",
+      "level": "N2",
+      "question": "Which means 'I will wait until you finish.'",
+      "options": [
+        "おわります。",
+        "おわると、待ちます。",
+        "おわるまで、待ちます。",
+        "おわってから、待ちます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～まで = until."
+    },
+    {
+      "id": "N2_37",
+      "level": "N2",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' (shinrai) = trust."
+    },
+    {
+      "id": "N2_38",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after making a reservation.'",
+      "options": [
+        "よやくします。",
+        "よやくをして、いきます。",
+        "よやくしたあとで、いきます。",
+        "よやくしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_39",
+      "level": "N2",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N2_40",
+      "level": "N2",
+      "question": "Which means 'I was about to sleep when the doorbell rang'?",
+      "options": [
+        "ねる前に、ドアベルがなりました。",
+        "ねると、ドアベルがなりました。",
+        "ねようとしたとき、ドアベルがなりました。",
+        "ねたあと、ドアベルがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N2_41",
+      "level": "N2",
+      "question": "What does 'さることながら' mean?",
+      "options": [
+        "Let alone",
+        "Moreover",
+        "However",
+        "Therefore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A, さることながら B = Not only A, but also B."
+    },
+    {
+      "id": "N2_42",
+      "level": "N2",
+      "question": "Which is correct? 'Not only did he not help, he made it worse.'",
+      "options": [
+        "手伝うばかりか、悪くした。",
+        "手伝うことはおろか、悪くした。",
+        "手伝うし、悪くした。",
+        "手伝うから、悪くした。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことはおろか = let alone, not even."
+    },
+    {
+      "id": "N2_43",
+      "level": "N2",
+      "question": "What does '～おそれがある' mean in formal writing?",
+      "options": [
+        "It is certain",
+        "There is a risk",
+        "It is unlikely",
+        "It is obvious"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Formal expression for 'there is a danger of...'"
+    },
+    {
+      "id": "N2_44",
+      "level": "N2",
+      "question": "Which means 'He acted as if nothing had happened'?",
+      "options": [
+        "なにもなかったかのように行動した。",
+        "なにもないと思った。",
+        "なにもなかった。",
+        "なにもなかったとおもった。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N2_45",
+      "level": "N2",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N2_46",
+      "level": "N2",
+      "question": "Which is correct? 'Much less would he admit his mistake.'",
+      "options": [
+        "まちがいをあやまる。",
+        "まちがいをあやまらない。",
+        "まちがいをあやまるものか。",
+        "まちがいをあやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing, let alone..."
+    },
+    {
+      "id": "N2_47",
+      "level": "N2",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N2_48",
+      "level": "N2",
+      "question": "Which means 'He speaks as if he were a genius'?",
+      "options": [
+        "天才です。",
+        "天才のように話します。",
+        "天才のようです。",
+        "天才かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N2_49",
+      "level": "N2",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Degree",
+        "Amount"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'ていど' = degree, extent."
+    },
+    {
+      "id": "N2_50",
+      "level": "N2",
+      "question": "Which is correct? 'Even if I had wanted to, I couldn't.'",
+      "options": [
+        "したかった。",
+        "したかったけど、できなかった。",
+        "したかったにしても、できなかった。",
+        "したかったとしても、できなかった。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N2_51",
+      "level": "N2",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N2_52",
+      "level": "N2",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N2_53",
+      "level": "N2",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy, precision."
+    },
+    {
+      "id": "N2_54",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after confirming the details.'",
+      "options": [
+        "しょうさいをかくにんして、いきます。",
+        "しょうさいをかくにんしたあとで、いきます。",
+        "しょうさいをかくにんすると、いきます。",
+        "しょうさいをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_55",
+      "level": "N2",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N2_56",
+      "level": "N2",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N2_57",
+      "level": "N2",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' = focus, concentration."
+    },
+    {
+      "id": "N2_58",
+      "level": "N2",
+      "question": "Which is correct? 'I will go even if it snows.'",
+      "options": [
+        "ゆきがふると、いきます。",
+        "ゆきがふるなら、いきます。",
+        "ゆきがふっても、いきます。",
+        "ゆきがふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N2_59",
+      "level": "N2",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N2_60",
+      "level": "N2",
+      "question": "Which means 'He speaks as if he were the king'?",
+      "options": [
+        "王です。",
+        "王のように話します。",
+        "王のようです。",
+        "王かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N2_61",
+      "level": "N2",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system, framework."
+    },
+    {
+      "id": "N2_62",
+      "level": "N2",
+      "question": "Which is correct? 'I will contact you once I decide.'",
+      "options": [
+        "けつじょうしたら、連絡します。",
+        "けつじょうしたあとで、連絡します。",
+        "けつじょうしても、連絡します。",
+        "けつじょうしながら、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N2_63",
+      "level": "N2",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N2_64",
+      "level": "N2",
+      "question": "Which means 'I was told not to forget the document'?",
+      "options": [
+        "もんしょをわすれてはいけません。",
+        "もんしょをわすれないでください。",
+        "もんしょをわすれるように言われました。",
+        "もんしょをわすれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N2_65",
+      "level": "N2",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' = scope, range."
+    },
+    {
+      "id": "N2_66",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after making the payment.'",
+      "options": [
+        "はらいをします。",
+        "はらいをして、いきます。",
+        "はらいしたあとで、いきます。",
+        "はらいしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_67",
+      "level": "N2",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N2_68",
+      "level": "N2",
+      "question": "Which means 'I was told to be careful'?",
+      "options": [
+        "きをつけてください。",
+        "きをつけるように言われました。",
+        "きをつけること。",
+        "きをつけることになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ように言われました = was told to do."
+    },
+    {
+      "id": "N2_69",
+      "level": "N2",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' = suggestion, proposal."
+    },
+    {
+      "id": "N2_70",
+      "level": "N2",
+      "question": "Which is correct? 'The more you study, the more questions you have.'",
+      "options": [
+        "べんきょうすると、もっとしつもんがある。",
+        "べんきょうするごとに、しつもんがある。",
+        "べんきょうすればするほど、もっとしつもんがある。",
+        "べんきょうしたあと、しつもんがある。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～すればするほど = the more... the more..."
+    },
+    {
+      "id": "N2_71",
+      "level": "N2",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N2_72",
+      "level": "N2",
+      "question": "Which means 'I was about to eat when the phone rang'?",
+      "options": [
+        "たべる前に、電話がなりました。",
+        "たべると、電話がなりました。",
+        "たべようとしたとき、電話がなりました。",
+        "たべたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N2_73",
+      "level": "N2",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' = trust."
+    },
+    {
+      "id": "N2_74",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after submitting the report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_75",
+      "level": "N2",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N2_76",
+      "level": "N2",
+      "question": "Which means 'I was about to sleep when the alarm rang'?",
+      "options": [
+        "ねる前に、アラームがなりました。",
+        "ねると、アラームがなりました。",
+        "ねようとしたとき、アラームがなりました。",
+        "ねたあと、アラームがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N2_77",
+      "level": "N2",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy."
+    },
+    {
+      "id": "N2_78",
+      "level": "N2",
+      "question": "Which is correct? 'I will go after confirming the schedule.'",
+      "options": [
+        "じゅひょうをかくにんして、いきます。",
+        "じゅひょうをかくにんしたあとで、いきます。",
+        "じゅひょうをかくにんすると、いきます。",
+        "じゅひょうをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N2_79",
+      "level": "N2",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N2_80",
+      "level": "N2",
+      "question": "Which means 'The more you run, the more tired you get'?",
+      "options": [
+        "はしると、もっとつかれる。",
+        "はしるごとに、つかれる。",
+        "はしればはしるほど、もっとつかれる。",
+        "はしったあと、つかれる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N2_81",
+      "level": "N2",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system."
+    }
+  ],
+  "N1": [
+    {
+      "id": "N1_1",
+      "level": "N1",
+      "question": "What does 'さることながら' mean?",
+      "options": [
+        "Let alone",
+        "Moreover",
+        "However",
+        "Therefore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A, さることながら B = Not only A, but also B."
+    },
+    {
+      "id": "N1_2",
+      "level": "N1",
+      "question": "Which is correct? 'Not only did he not help, he made it worse.'",
+      "options": [
+        "手伝うばかりか、悪くした。",
+        "手伝うことはおろか、悪くした。",
+        "手伝うし、悪くした。",
+        "手伝うから、悪くした。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ことはおろか = let alone, not even."
+    },
+    {
+      "id": "N1_3",
+      "level": "N1",
+      "question": "What does '～おそれがある' mean in formal writing?",
+      "options": [
+        "It is certain",
+        "There is a risk",
+        "It is unlikely",
+        "It is obvious"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Formal expression for 'there is a danger of...'"
+    },
+    {
+      "id": "N1_4",
+      "level": "N1",
+      "question": "Which means 'He acted as if nothing had happened'?",
+      "options": [
+        "なにもなかったかのように行動した。",
+        "なにもないと思った。",
+        "なにもなかった。",
+        "なにもなかったとおもった。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N1_5",
+      "level": "N1",
+      "question": "What is 'こうい'?",
+      "options": [
+        "Agreement",
+        "Public opinion",
+        "Theory",
+        "Hypothesis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'こうい' (koui) = public opinion."
+    },
+    {
+      "id": "N1_6",
+      "level": "N1",
+      "question": "Which is correct? 'Much less would he admit his mistake.'",
+      "options": [
+        "まちがいをあやまる。",
+        "まちがいをあやまらない。",
+        "まちがいをあやまるものか。",
+        "まちがいをあやまるどころか。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～どころか = far from doing, let alone..."
+    },
+    {
+      "id": "N1_7",
+      "level": "N1",
+      "question": "What does '～べからず' mean?",
+      "options": [
+        "Must do",
+        "Should do",
+        "Should not do",
+        "May do"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～べからず = must not, should not (formal)."
+    },
+    {
+      "id": "N1_8",
+      "level": "N1",
+      "question": "Which means 'He speaks as if he were a genius'?",
+      "options": [
+        "天才です。",
+        "天才のように話します。",
+        "天才のようです。",
+        "天才かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N1_9",
+      "level": "N1",
+      "question": "What is 'ていど'?",
+      "options": [
+        "Level",
+        "Speed",
+        "Degree",
+        "Amount"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'ていど' = degree, extent."
+    },
+    {
+      "id": "N1_10",
+      "level": "N1",
+      "question": "Which is correct? 'Even if I had wanted to, I couldn't.'",
+      "options": [
+        "したかった。",
+        "したかったけど、できなかった。",
+        "したかったにしても、できなかった。",
+        "したかったとしても、できなかった。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～としても = even if."
+    },
+    {
+      "id": "N1_11",
+      "level": "N1",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N1_12",
+      "level": "N1",
+      "question": "Which means 'I was about to leave when the phone rang'?",
+      "options": [
+        "電話がなる前に出かけました。",
+        "電話がなると出かけました。",
+        "出かけようとしたとき、電話がなりました。",
+        "出かけたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N1_13",
+      "level": "N1",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy, precision."
+    },
+    {
+      "id": "N1_14",
+      "level": "N1",
+      "question": "Which is correct? 'I will go after confirming the details.'",
+      "options": [
+        "しょうさいをかくにんして、いきます。",
+        "しょうさいをかくにんしたあとで、いきます。",
+        "しょうさいをかくにんすると、いきます。",
+        "しょうさいをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N1_15",
+      "level": "N1",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N1_16",
+      "level": "N1",
+      "question": "Which means 'The more you think, the more confused you get'?",
+      "options": [
+        "かんがえると、もっとこんらんする。",
+        "かんがえるごとに、こんらんする。",
+        "かんがえればかんがえるほど、もっとこんらんする。",
+        "かんがえたあと、こんらんする。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N1_17",
+      "level": "N1",
+      "question": "What is 'しゅうちゅう'?",
+      "options": [
+        "Attention",
+        "Focus",
+        "Interest",
+        "Curiosity"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "'しゅうちゅう' = focus, concentration."
+    },
+    {
+      "id": "N1_18",
+      "level": "N1",
+      "question": "Which is correct? 'I will go even if it snows.'",
+      "options": [
+        "ゆきがふると、いきます。",
+        "ゆきがふるなら、いきます。",
+        "ゆきがふっても、いきます。",
+        "ゆきがふれば、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ても = even if."
+    },
+    {
+      "id": "N1_19",
+      "level": "N1",
+      "question": "What does '～にかんして' mean?",
+      "options": [
+        "About",
+        "Because of",
+        "Despite",
+        "Instead of"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にかんして = regarding, about."
+    },
+    {
+      "id": "N1_20",
+      "level": "N1",
+      "question": "Which means 'He speaks as if he were the king'?",
+      "options": [
+        "王です。",
+        "王のように話します。",
+        "王のようです。",
+        "王かのように話します。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～かのように = as if."
+    },
+    {
+      "id": "N1_21",
+      "level": "N1",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system, framework."
+    },
+    {
+      "id": "N1_22",
+      "level": "N1",
+      "question": "Which is correct? 'I will contact you once I decide.'",
+      "options": [
+        "けつじょうしたら、連絡します。",
+        "けつじょうしたあとで、連絡します。",
+        "けつじょうしても、連絡します。",
+        "けつじょうしながら、連絡します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～たら = when (after)."
+    },
+    {
+      "id": "N1_23",
+      "level": "N1",
+      "question": "What does '～にしたがって' mean?",
+      "options": [
+        "According to",
+        "Opposite to",
+        "Because of",
+        "Despite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "～にしたがって = according to, as (time passes)."
+    },
+    {
+      "id": "N1_24",
+      "level": "N1",
+      "question": "Which means 'I was told not to forget the document'?",
+      "options": [
+        "もんしょをわすれてはいけません。",
+        "もんしょをわすれないでください。",
+        "もんしょをわすれるように言われました。",
+        "もんしょをわすれないように言われました。"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "～ように言われました = was told to (not) do."
+    },
+    {
+      "id": "N1_25",
+      "level": "N1",
+      "question": "What is 'はんい'?",
+      "options": [
+        "Range",
+        "Limit",
+        "Scope",
+        "Area"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "'はんい' = scope, range."
+    },
+    {
+      "id": "N1_26",
+      "level": "N1",
+      "question": "Which is correct? 'I will go after making the payment.'",
+      "options": [
+        "はらいをします。",
+        "はらいをして、いきます。",
+        "はらいしたあとで、いきます。",
+        "はらいしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N1_27",
+      "level": "N1",
+      "question": "What does '～にたいして' mean?",
+      "options": [
+        "For",
+        "To",
+        "Compared to",
+        "Because of"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～にたいして = compared to, in contrast to."
+    },
+    {
+      "id": "N1_28",
+      "level": "N1",
+      "question": "Which means 'I was told to be careful'?",
+      "options": [
+        "きをつけてください。",
+        "きをつけるように言われました。",
+        "きをつけること。",
+        "きをつけることになります。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～ように言われました = was told to do."
+    },
+    {
+      "id": "N1_29",
+      "level": "N1",
+      "question": "What is 'ていあん'?",
+      "options": [
+        "Suggestion",
+        "Request",
+        "Order",
+        "Decision"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'ていあん' = suggestion, proposal."
+    },
+    {
+      "id": "N1_30",
+      "level": "N1",
+      "question": "Which is correct? 'The more you study, the more questions you have.'",
+      "options": [
+        "べんきょうすると、もっとしつもんがある。",
+        "べんきょうするごとに、しつもんがある。",
+        "べんきょうすればするほど、もっとしつもんがある。",
+        "べんきょうしたあと、しつもんがある。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～すればするほど = the more... the more..."
+    },
+    {
+      "id": "N1_31",
+      "level": "N1",
+      "question": "What does '～につき' mean?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Regarding",
+        "Along with"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～につき = due to, because of (formal)."
+    },
+    {
+      "id": "N1_32",
+      "level": "N1",
+      "question": "Which means 'I was about to eat when the phone rang'?",
+      "options": [
+        "たべる前に、電話がなりました。",
+        "たべると、電話がなりました。",
+        "たべようとしたとき、電話がなりました。",
+        "たべたあと、電話がなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N1_33",
+      "level": "N1",
+      "question": "What is 'しんらい'?",
+      "options": [
+        "Trust",
+        "Belief",
+        "Faith",
+        "Hope"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'しんらい' = trust."
+    },
+    {
+      "id": "N1_34",
+      "level": "N1",
+      "question": "Which is correct? 'I will go after submitting the report.'",
+      "options": [
+        "ほうこくをします。",
+        "ほうこくをして、いきます。",
+        "ほうこくをしたあとで、いきます。",
+        "ほうこくをしながら、いきます。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N1_35",
+      "level": "N1",
+      "question": "What does '～にかかわらず' mean?",
+      "options": [
+        "Because of",
+        "Despite",
+        "According to",
+        "Due to"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～にかかわらず = regardless of, despite."
+    },
+    {
+      "id": "N1_36",
+      "level": "N1",
+      "question": "Which means 'I was about to sleep when the alarm rang'?",
+      "options": [
+        "ねる前に、アラームがなりました。",
+        "ねると、アラームがなりました。",
+        "ねようとしたとき、アラームがなりました。",
+        "ねたあと、アラームがなりました。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～ようとしたとき = just as I was about to..."
+    },
+    {
+      "id": "N1_37",
+      "level": "N1",
+      "question": "What is 'せいど'?",
+      "options": [
+        "Accuracy",
+        "Speed",
+        "Size",
+        "Weight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'せいど' = accuracy."
+    },
+    {
+      "id": "N1_38",
+      "level": "N1",
+      "question": "Which is correct? 'I will go after confirming the schedule.'",
+      "options": [
+        "じゅひょうをかくにんして、いきます。",
+        "じゅひょうをかくにんしたあとで、いきます。",
+        "じゅひょうをかくにんすると、いきます。",
+        "じゅひょうをかくにんしながら、いきます。"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～たあとで = after doing."
+    },
+    {
+      "id": "N1_39",
+      "level": "N1",
+      "question": "What does '～つつ' mean?",
+      "options": [
+        "Because",
+        "While",
+        "After",
+        "If"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "～つつ = while (formal)."
+    },
+    {
+      "id": "N1_40",
+      "level": "N1",
+      "question": "Which means 'The more you run, the more tired you get'?",
+      "options": [
+        "はしると、もっとつかれる。",
+        "はしるごとに、つかれる。",
+        "はしればはしるほど、もっとつかれる。",
+        "はしったあと、つかれる。"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "～れば～ほど = the more... the more..."
+    },
+    {
+      "id": "N1_41",
+      "level": "N1",
+      "question": "What is 'たいせい'?",
+      "options": [
+        "System",
+        "Structure",
+        "Policy",
+        "Method"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "'たいせい' = system."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+import React from 'react';
+import { StudyMode } from '../types';
+import { 
+  FileText, 
+  Layers, 
+  Sparkles, 
+  BookOpen, 
+  Languages, 
+  Grid3X3, 
+  Bookmark, 
+  Timer, 
+  BarChart3 
+} from 'lucide-react';
+
+interface NavigationProps {
+  currentMode: StudyMode;
+  onSelectMode: (mode: StudyMode) => void;
+  targetLevel: string;
+}
+
+export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMode, targetLevel }) => {
+  const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [
+    {
+      id: 'cbt',
+      label: 'CBT Simulator',
+      icon: <FileText className="w-4 h-4" />,
+      desc: 'Official 60-min timed exam',
+      badge: 'Real Test'
+    },
+    {
+      id: 'flashcards',
+      label: 'Flashcards (SRS)',
+      icon: <Layers className="w-4 h-4" />,
+      desc: '3D Flip & Spaced Repetition',
+      badge: 'Audio'
+    },
+    {
+      id: 'quiz',
+      label: 'Practice Quizzes',
+      icon: <Sparkles className="w-4 h-4" />,
+      desc: 'Instant answer check & notes'
+    },
+    {
+      id: 'grammar',
+      label: 'Grammar Library',
+      icon: <BookOpen className="w-4 h-4" />,
+      desc: 'Patterns, rules & sentences'
+    },
+    {
+      id: 'vocab',
+      label: 'Vocab & Kanji',
+      icon: <Languages className="w-4 h-4" />,
+      desc: '600+ Irodori & JLPT words'
+    },
+    {
+      id: 'kana',
+      label: 'Kana Matrix',
+      icon: <Grid3X3 className="w-4 h-4" />,
+      desc: 'Hiragana & Katakana'
+    },
+    {
+      id: 'cheatsheet',
+      label: 'Cheatsheets',
+      icon: <Bookmark className="w-4 h-4" />,
+      desc: 'Te-form, particles, counters'
+    },
+    {
+      id: 'pomodoro',
+      label: 'Zen Study Timer',
+      icon: <Timer className="w-4 h-4" />,
+      desc: '25m focus & calming bell'
+    },
+    {
+      id: 'analytics',
+      label: 'Progress & Stats',
+      icon: <BarChart3 className="w-4 h-4" />,
+      desc: 'Score history & streaks'
+    }
+  ];
+
+  return (
+    <nav className="max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-3">
+      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-sakura-200 dark:scrollbar-thumb-slate-700">
+        {tabs.map((tab) => {
+          const isActive = currentMode === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => onSelectMode(tab.id)}
+              className={`flex items-center gap-2 px-3.5 py-2.5 rounded-2xl whitespace-nowrap text-xs font-bold transition-all relative group flex-shrink-0 border ${
+                isActive
+                  ? 'bg-sakura-500 text-white border-sakura-600 shadow-md shadow-sakura-500/20'
+                  : 'bg-white/80 dark:bg-slate-900/80 hover:bg-sakura-50/50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200/70 dark:border-slate-800 hover:border-sakura-200'
+              }`}
+            >
+              <div
+                className={`p-1 rounded-lg ${
+                  isActive
+                    ? 'bg-white/20 text-white'
+                    : 'bg-sakura-50 dark:bg-slate-800 text-sakura-600 dark:text-sakura-400 group-hover:scale-110 transition-transform'
+                }`}
+              >
+                {tab.icon}
+              </div>
+              <div className="text-left">
+                <div className="flex items-center gap-1.5">
+                  <span>{tab.label}</span>
+                  {tab.badge && (
+                    <span
+                      className={`text-[9px] px-1 py-0.2 rounded font-semibold uppercase ${
+                        isActive
+                          ? 'bg-white/25 text-white'
+                          : 'bg-sakura-100 dark:bg-sakura-900/50 text-sakura-700 dark:text-sakura-300'
+                      }`}
+                    >
+                      {tab.badge}
+                    </span>
+                  )}
+                </div>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </nav>
+  );
+};

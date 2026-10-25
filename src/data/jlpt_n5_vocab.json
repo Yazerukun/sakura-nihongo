@@ -1,0 +1,4822 @@
+[
+  {
+    "japanese": "学校",
+    "reading": "がっこう",
+    "meanings": [
+      "school",
+      "Gakkou",
+      "School"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "校",
+      "学"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "gakkou"
+  },
+  {
+    "japanese": "川",
+    "reading": "かわ",
+    "meanings": [
+      "river",
+      "stream",
+      "River"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "川"
+    ],
+    "tags": [
+      "wanikani1",
+      "wanikani26"
+    ],
+    "is_common": true,
+    "romaji": "kawa"
+  },
+  {
+    "japanese": "手",
+    "reading": "て",
+    "meanings": [
+      "hand",
+      "arm",
+      "forepaw"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "手"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "te"
+  },
+  {
+    "japanese": "戸",
+    "reading": "と",
+    "meanings": [
+      "door (esp. Japanese-style)",
+      "shutter",
+      "window shutter"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "戸"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "to"
+  },
+  {
+    "japanese": "煙草",
+    "reading": "タバコ",
+    "meanings": [
+      "tobacco",
+      "cigarette",
+      "cigar"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "煙",
+      "草"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "tabako"
+  },
+  {
+    "japanese": "赤",
+    "reading": "あか",
+    "meanings": [
+      "red",
+      "crimson",
+      "scarlet"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "赤"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "aka"
+  },
+  {
+    "japanese": "仕事",
+    "reading": "しごと",
+    "meanings": [
+      "work",
+      "job",
+      "labor"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "仕",
+      "事"
+    ],
+    "tags": [
+      "wanikani11"
+    ],
+    "is_common": true,
+    "romaji": "shigoto"
+  },
+  {
+    "japanese": "英語",
+    "reading": "えいご",
+    "meanings": [
+      "English (language)",
+      "English language"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "英",
+      "語"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "eigo"
+  },
+  {
+    "japanese": "問題",
+    "reading": "もんだい",
+    "meanings": [
+      "question (e.g. on a test)",
+      "problem",
+      "problem (e.g. societal, political)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "問",
+      "題"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "mondai"
+  },
+  {
+    "japanese": "部屋",
+    "reading": "へや",
+    "meanings": [
+      "room",
+      "chamber",
+      "apartment"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "部",
+      "屋"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "heya"
+  },
+  {
+    "japanese": "子供",
+    "reading": "こども",
+    "meanings": [
+      "child",
+      "children",
+      "Child"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "子",
+      "供"
+    ],
+    "tags": [
+      "wanikani24"
+    ],
+    "is_common": true,
+    "romaji": "kodomo"
+  },
+  {
+    "japanese": "時間",
+    "reading": "じかん",
+    "meanings": [
+      "time",
+      "hour",
+      "period"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "間",
+      "時"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "jikan"
+  },
+  {
+    "japanese": "雨",
+    "reading": "あめ",
+    "meanings": [
+      "rain",
+      "rainy day",
+      "rainy weather"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "雨"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "ame"
+  },
+  {
+    "japanese": "先生",
+    "reading": "せんせい",
+    "meanings": [
+      "teacher",
+      "instructor",
+      "master"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "生",
+      "先"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "sensei"
+  },
+  {
+    "japanese": "年",
+    "reading": "とし",
+    "meanings": [
+      "year",
+      "age",
+      "years"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "年"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "toshi"
+  },
+  {
+    "japanese": "手紙",
+    "reading": "てがみ",
+    "meanings": [
+      "letter",
+      "note",
+      "Letter (message)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "紙",
+      "手"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "tegami"
+  },
+  {
+    "japanese": "電話",
+    "reading": "でんわ",
+    "meanings": [
+      "telephone call",
+      "phone call",
+      "telephone (device)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "話",
+      "電"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "denwa"
+  },
+  {
+    "japanese": "水",
+    "reading": "みず",
+    "meanings": [
+      "water (esp. cool or cold)",
+      "fluid (esp. in an animal tissue)",
+      "liquid"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "水"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "mizu"
+  },
+  {
+    "japanese": "病気",
+    "reading": "びょうき",
+    "meanings": [
+      "illness (usu. excluding minor ailments, e.g. common cold)",
+      "disease",
+      "sickness"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "気",
+      "病"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "byouki"
+  },
+  {
+    "japanese": "会社",
+    "reading": "かいしゃ",
+    "meanings": [
+      "company",
+      "corporation",
+      "firm"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "会",
+      "社"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "kaisha"
+  },
+  {
+    "japanese": "上げる",
+    "reading": "あげる",
+    "meanings": [
+      "to raise",
+      "to elevate",
+      "to move something (to a higher place)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "上"
+    ],
+    "tags": [
+      "wanikani1",
+      "wanikani23",
+      "wanikani42"
+    ],
+    "is_common": true,
+    "romaji": "ageru"
+  },
+  {
+    "japanese": "結婚",
+    "reading": "けっこん",
+    "meanings": [
+      "marriage",
+      "Marriage"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "結",
+      "婚"
+    ],
+    "tags": [
+      "wanikani30",
+      "wanikani32"
+    ],
+    "is_common": true,
+    "romaji": "kekkon"
+  },
+  {
+    "japanese": "言葉",
+    "reading": "ことば",
+    "meanings": [
+      "language",
+      "dialect",
+      "word"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "言",
+      "葉"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "kotoba"
+  },
+  {
+    "japanese": "目",
+    "reading": "め",
+    "meanings": [
+      "eye",
+      "eyeball",
+      "eyesight"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "目"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "me"
+  },
+  {
+    "japanese": "走る",
+    "reading": "はしる",
+    "meanings": [
+      "to run",
+      "to run (of a vehicle)",
+      "to drive"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "走"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "hashiru"
+  },
+  {
+    "japanese": "名前",
+    "reading": "なまえ",
+    "meanings": [
+      "name",
+      "given name",
+      "first name"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "前",
+      "名"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "namae"
+  },
+  {
+    "japanese": "旅行",
+    "reading": "りょこう",
+    "meanings": [
+      "travel",
+      "trip",
+      "journey"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "旅",
+      "行"
+    ],
+    "tags": [
+      "wanikani12",
+      "wanikani14"
+    ],
+    "is_common": true,
+    "romaji": "ryokou"
+  },
+  {
+    "japanese": "道",
+    "reading": "みち",
+    "meanings": [
+      "road",
+      "path",
+      "street"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "道"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "michi"
+  },
+  {
+    "japanese": "飛行機",
+    "reading": "ひこうき",
+    "meanings": [
+      "airplane",
+      "aeroplane",
+      "plane"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "行",
+      "機",
+      "飛"
+    ],
+    "tags": [
+      "wanikani20"
+    ],
+    "is_common": true,
+    "romaji": "hikouki"
+  },
+  {
+    "japanese": "映画",
+    "reading": "えいが",
+    "meanings": [
+      "movie",
+      "film",
+      "motion picture"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "映",
+      "画"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "eiga"
+  },
+  {
+    "japanese": "音楽",
+    "reading": "おんがく",
+    "meanings": [
+      "music",
+      "Music"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "楽",
+      "音"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "ongaku"
+  },
+  {
+    "japanese": "木",
+    "reading": "き",
+    "meanings": [
+      "tree",
+      "shrub",
+      "bush"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "木"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "ki"
+  },
+  {
+    "japanese": "大学",
+    "reading": "だいがく",
+    "meanings": [
+      "university",
+      "college",
+      "former imperial university of Japan (established under the ritsuryō system for the training of government administrators)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "大",
+      "学"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "daigaku"
+  },
+  {
+    "japanese": "時計",
+    "reading": "とけい",
+    "meanings": [
+      "clock",
+      "watch",
+      "timepiece"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "計",
+      "時"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "tokei"
+  },
+  {
+    "japanese": "家族",
+    "reading": "かぞく",
+    "meanings": [
+      "family",
+      "Family"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "家",
+      "族"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "kazoku"
+  },
+  {
+    "japanese": "花",
+    "reading": "はな",
+    "meanings": [
+      "flower",
+      "blossom",
+      "bloom"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "花"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "hana"
+  },
+  {
+    "japanese": "猫",
+    "reading": "ねこ",
+    "meanings": [
+      "cat (esp. the domestic cat, Felis catus)",
+      "shamisen",
+      "geisha"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "猫"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "neko"
+  },
+  {
+    "japanese": "毎日",
+    "reading": "まいにち",
+    "meanings": [
+      "every day",
+      "daily",
+      "Every Single Day (band)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "日",
+      "毎"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "mainichi"
+  },
+  {
+    "japanese": "宿題",
+    "reading": "しゅくだい",
+    "meanings": [
+      "homework",
+      "assignment",
+      "pending issue"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "宿",
+      "題"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "shukudai"
+  },
+  {
+    "japanese": "雪",
+    "reading": "ゆき",
+    "meanings": [
+      "snow",
+      "snowfall",
+      "Snow"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "雪"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "yuki"
+  },
+  {
+    "japanese": "山",
+    "reading": "やま",
+    "meanings": [
+      "mountain",
+      "hill",
+      "mine"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "山"
+    ],
+    "tags": [
+      "wanikani1"
+    ],
+    "is_common": true,
+    "romaji": "yama"
+  },
+  {
+    "japanese": "窓",
+    "reading": "まど",
+    "meanings": [
+      "window",
+      "Window"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "窓"
+    ],
+    "tags": [
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "mado"
+  },
+  {
+    "japanese": "動物",
+    "reading": "どうぶつ",
+    "meanings": [
+      "animal",
+      "Animal"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "物",
+      "動"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "doubutsu"
+  },
+  {
+    "japanese": "夜",
+    "reading": "よる",
+    "meanings": [
+      "night",
+      "evening",
+      "dinner"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "夜"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "yoru"
+  },
+  {
+    "japanese": "料理",
+    "reading": "りょうり",
+    "meanings": [
+      "cooking",
+      "cookery",
+      "cuisine"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "料",
+      "理"
+    ],
+    "tags": [
+      "wanikani14"
+    ],
+    "is_common": true,
+    "romaji": "ryouri"
+  },
+  {
+    "japanese": "夏",
+    "reading": "なつ",
+    "meanings": [
+      "summer",
+      "Summer"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "夏"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "natsu"
+  },
+  {
+    "japanese": "新聞",
+    "reading": "しんぶん",
+    "meanings": [
+      "newspaper",
+      "Newspaper"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "聞",
+      "新"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "shinbun"
+  },
+  {
+    "japanese": "公園",
+    "reading": "こうえん",
+    "meanings": [
+      "(public) park",
+      "Park"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "園",
+      "公"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "kouen"
+  },
+  {
+    "japanese": "意味",
+    "reading": "いみ",
+    "meanings": [
+      "meaning",
+      "significance",
+      "sense"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "意",
+      "味"
+    ],
+    "tags": [
+      "wanikani11"
+    ],
+    "is_common": true,
+    "romaji": "imi"
+  },
+  {
+    "japanese": "自転車",
+    "reading": "じてんしゃ",
+    "meanings": [
+      "bicycle",
+      "bike",
+      "Bicycle"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "自",
+      "転",
+      "車"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "jitensha"
+  },
+  {
+    "japanese": "足",
+    "reading": "あし",
+    "meanings": [
+      "foot",
+      "paw",
+      "arm (of an octopus, squid, etc.)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "足"
+    ],
+    "tags": [
+      "wanikani4",
+      "wanikani45"
+    ],
+    "is_common": true,
+    "romaji": "ashi"
+  },
+  {
+    "japanese": "電車",
+    "reading": "でんしゃ",
+    "meanings": [
+      "train",
+      "electric train",
+      "Electric multiple unit"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "電",
+      "車"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "densha"
+  },
+  {
+    "japanese": "散歩",
+    "reading": "さんぽ",
+    "meanings": [
+      "walk",
+      "stroll",
+      "Strolling"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "歩",
+      "散"
+    ],
+    "tags": [
+      "wanikani31",
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "sanpo"
+  },
+  {
+    "japanese": "声",
+    "reading": "こえ",
+    "meanings": [
+      "voice",
+      "singing (of a bird)",
+      "chirping (of an insect)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "声"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "koe"
+  },
+  {
+    "japanese": "朝",
+    "reading": "あさ",
+    "meanings": [
+      "morning",
+      "breakfast",
+      "Morning"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "朝"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "asa"
+  },
+  {
+    "japanese": "歌",
+    "reading": "うた",
+    "meanings": [
+      "song",
+      "singing",
+      "classical Japanese poem (esp. tanka)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "歌"
+    ],
+    "tags": [
+      "wanikani10",
+      "wanikani60"
+    ],
+    "is_common": true,
+    "romaji": "uta"
+  },
+  {
+    "japanese": "靴",
+    "reading": "くつ",
+    "meanings": [
+      "shoe",
+      "shoes",
+      "boots"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "靴"
+    ],
+    "tags": [
+      "wanikani27"
+    ],
+    "is_common": true,
+    "romaji": "kutsu"
+  },
+  {
+    "japanese": "箱",
+    "reading": "はこ",
+    "meanings": [
+      "box",
+      "case",
+      "chest"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "箱"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "hako"
+  },
+  {
+    "japanese": "机",
+    "reading": "つくえ",
+    "meanings": [
+      "desk",
+      "Desk"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "机"
+    ],
+    "tags": [
+      "wanikani32"
+    ],
+    "is_common": true,
+    "romaji": "tsukue"
+  },
+  {
+    "japanese": "帽子",
+    "reading": "ぼうし",
+    "meanings": [
+      "hat",
+      "cap",
+      "Headgear"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "子",
+      "帽"
+    ],
+    "tags": [
+      "wanikani47"
+    ],
+    "is_common": true,
+    "romaji": "boushi"
+  },
+  {
+    "japanese": "海",
+    "reading": "うみ",
+    "meanings": [
+      "sea",
+      "ocean",
+      "waters"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "海"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "umi"
+  },
+  {
+    "japanese": "授業",
+    "reading": "じゅぎょう",
+    "meanings": [
+      "lesson",
+      "class",
+      "teaching"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "授",
+      "業"
+    ],
+    "tags": [
+      "wanikani26"
+    ],
+    "is_common": true,
+    "romaji": "jugyou"
+  },
+  {
+    "japanese": "銀行",
+    "reading": "ぎんこう",
+    "meanings": [
+      "bank",
+      "banking institution",
+      "Bank"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "行",
+      "銀"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "ginkou"
+  },
+  {
+    "japanese": "写真",
+    "reading": "しゃしん",
+    "meanings": [
+      "photograph",
+      "photo",
+      "picture"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "真",
+      "写"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "shashin"
+  },
+  {
+    "japanese": "冬",
+    "reading": "ふゆ",
+    "meanings": [
+      "winter",
+      "Winter"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "冬"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "fuyu"
+  },
+  {
+    "japanese": "村",
+    "reading": "むら",
+    "meanings": [
+      "village",
+      "Village"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "村"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "mura"
+  },
+  {
+    "japanese": "傘",
+    "reading": "かさ",
+    "meanings": [
+      "umbrella",
+      "parasol",
+      "something shaped like an umbrella or a conical hat"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "傘"
+    ],
+    "tags": [
+      "wanikani28"
+    ],
+    "is_common": true,
+    "romaji": "kasa"
+  },
+  {
+    "japanese": "口",
+    "reading": "くち",
+    "meanings": [
+      "mouth",
+      "opening",
+      "hole"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "口"
+    ],
+    "tags": [
+      "wanikani1"
+    ],
+    "is_common": true,
+    "romaji": "kuchi"
+  },
+  {
+    "japanese": "橋",
+    "reading": "はし",
+    "meanings": [
+      "bridge",
+      "Bridge"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "橋"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "hashi"
+  },
+  {
+    "japanese": "病院",
+    "reading": "びょういん",
+    "meanings": [
+      "hospital",
+      "clinic",
+      "doctor's office"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "院",
+      "病"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "byouin"
+  },
+  {
+    "japanese": "春",
+    "reading": "はる",
+    "meanings": [
+      "spring",
+      "springtime",
+      "New Year"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "春"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "haru"
+  },
+  {
+    "japanese": "図書館",
+    "reading": "としょかん",
+    "meanings": [
+      "library",
+      "Library"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "館",
+      "書",
+      "図"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "toshokan"
+  },
+  {
+    "japanese": "買い物",
+    "reading": "かいもの",
+    "meanings": [
+      "shopping",
+      "purchased goods",
+      "Shopping"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "買",
+      "物"
+    ],
+    "tags": [
+      "wanikani11"
+    ],
+    "is_common": true,
+    "romaji": "kaimono"
+  },
+  {
+    "japanese": "椅子",
+    "reading": "いす",
+    "meanings": [
+      "chair",
+      "seat",
+      "stool"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "椅",
+      "子"
+    ],
+    "tags": [
+      "wanikani46"
+    ],
+    "is_common": true,
+    "romaji": "isu"
+  },
+  {
+    "japanese": "自動車",
+    "reading": "じどうしゃ",
+    "meanings": [
+      "car",
+      "automobile",
+      "motorcar"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "自",
+      "動",
+      "車"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "jidousha"
+  },
+  {
+    "japanese": "色",
+    "reading": "いろ",
+    "meanings": [
+      "colour",
+      "color",
+      "hue"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "色"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "iro"
+  },
+  {
+    "japanese": "卵",
+    "reading": "たまご",
+    "meanings": [
+      "eggs",
+      "egg",
+      "spawn"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "卵"
+    ],
+    "tags": [
+      "wanikani32"
+    ],
+    "is_common": true,
+    "romaji": "tamago"
+  },
+  {
+    "japanese": "肉",
+    "reading": "にく",
+    "meanings": [
+      "flesh",
+      "meat",
+      "flesh (of a fruit)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "肉"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "niku"
+  },
+  {
+    "japanese": "風邪",
+    "reading": "かぜ",
+    "meanings": [
+      "(common) cold",
+      "influenza",
+      "flu"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "風",
+      "邪"
+    ],
+    "tags": [
+      "wanikani50"
+    ],
+    "is_common": true,
+    "romaji": "kaze"
+  },
+  {
+    "japanese": "掃除",
+    "reading": "そうじ",
+    "meanings": [
+      "cleaning",
+      "sweeping",
+      "dusting"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "除",
+      "掃"
+    ],
+    "tags": [
+      "wanikani31",
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "souji"
+  },
+  {
+    "japanese": "紙",
+    "reading": "かみ",
+    "meanings": [
+      "paper",
+      "Paper"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "紙"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "kami"
+  },
+  {
+    "japanese": "鍵",
+    "reading": "かぎ",
+    "meanings": [
+      "key",
+      "lock",
+      "key (to a problem, success, etc.)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "鍵"
+    ],
+    "tags": [
+      "wanikani46"
+    ],
+    "is_common": true,
+    "romaji": "kagi"
+  },
+  {
+    "japanese": "雑誌",
+    "reading": "ざっし",
+    "meanings": [
+      "magazine",
+      "journal",
+      "periodical"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "誌",
+      "雑"
+    ],
+    "tags": [
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "zasshi"
+  },
+  {
+    "japanese": "切符",
+    "reading": "きっぷ",
+    "meanings": [
+      "ticket",
+      "Ticket"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "切",
+      "符"
+    ],
+    "tags": [
+      "wanikani30"
+    ],
+    "is_common": true,
+    "romaji": "kippu"
+  },
+  {
+    "japanese": "外国人",
+    "reading": "がいこくじん",
+    "meanings": [
+      "foreigner",
+      "foreign citizen",
+      "foreign national"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "外",
+      "国",
+      "人"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "gaikokujin"
+  },
+  {
+    "japanese": "財布",
+    "reading": "さいふ",
+    "meanings": [
+      "wallet",
+      "purse",
+      "coin purse"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "布",
+      "財"
+    ],
+    "tags": [
+      "wanikani19"
+    ],
+    "is_common": true,
+    "romaji": "saifu"
+  },
+  {
+    "japanese": "鉛筆",
+    "reading": "えんぴつ",
+    "meanings": [
+      "pencil",
+      "Pencil"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "筆",
+      "鉛"
+    ],
+    "tags": [
+      "wanikani26"
+    ],
+    "is_common": true,
+    "romaji": "enpitsu"
+  },
+  {
+    "japanese": "大人",
+    "reading": "おとな",
+    "meanings": [
+      "adult",
+      "grown-up",
+      "Adult"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "人",
+      "大"
+    ],
+    "tags": [
+      "wanikani1"
+    ],
+    "is_common": true,
+    "romaji": "otona"
+  },
+  {
+    "japanese": "塩",
+    "reading": "しお",
+    "meanings": [
+      "salt",
+      "common salt",
+      "table salt"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "塩"
+    ],
+    "tags": [
+      "wanikani17"
+    ],
+    "is_common": true,
+    "romaji": "shio"
+  },
+  {
+    "japanese": "地図",
+    "reading": "ちず",
+    "meanings": [
+      "map",
+      "atlas",
+      "chart"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "図",
+      "地"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "chizu"
+  },
+  {
+    "japanese": "夏休み",
+    "reading": "なつやすみ",
+    "meanings": [
+      "summer vacation",
+      "summer holiday",
+      "Summer vacation"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "夏",
+      "休"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "natsuyasumi"
+  },
+  {
+    "japanese": "砂糖",
+    "reading": "さとう",
+    "meanings": [
+      "sugar",
+      "Sugar"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "砂",
+      "糖"
+    ],
+    "tags": [
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "satou"
+  },
+  {
+    "japanese": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meanings": [
+      "post office",
+      "Post office"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "局",
+      "郵",
+      "便"
+    ],
+    "tags": [
+      "wanikani28"
+    ],
+    "is_common": true,
+    "romaji": "yuubinkyoku"
+  },
+  {
+    "japanese": "池",
+    "reading": "いけ",
+    "meanings": [
+      "pond",
+      "Pond"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "池"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "ike"
+  },
+  {
+    "japanese": "教室",
+    "reading": "きょうしつ",
+    "meanings": [
+      "classroom",
+      "lecture room",
+      "department (in a university)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "室",
+      "教"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "kyoushitsu"
+  },
+  {
+    "japanese": "耳",
+    "reading": "みみ",
+    "meanings": [
+      "ear",
+      "hearing",
+      "ear (for music, etc.)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "耳"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "mimi"
+  },
+  {
+    "japanese": "切手",
+    "reading": "きって",
+    "meanings": [
+      "stamp (postage)",
+      "merchandise certificate",
+      "Postage stamp"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "切",
+      "手"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "kitte"
+  },
+  {
+    "japanese": "台所",
+    "reading": "だいどころ",
+    "meanings": [
+      "kitchen",
+      "financial situation",
+      "finances"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "所",
+      "台"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "daidokoro"
+  },
+  {
+    "japanese": "電気",
+    "reading": "でんき",
+    "meanings": [
+      "electricity",
+      "(electric) light",
+      "Electricity"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "電",
+      "気"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "denki"
+  },
+  {
+    "japanese": "作文",
+    "reading": "さくぶん",
+    "meanings": [
+      "writing (an essay, prose, etc.)",
+      "composition",
+      "formal writing with little real meaning"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "作",
+      "文"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "sakubun"
+  },
+  {
+    "japanese": "歯",
+    "reading": "は",
+    "meanings": [
+      "tooth",
+      "teeth",
+      "tooth (of a comb, saw, etc.)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "歯"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "ha"
+  },
+  {
+    "japanese": "紅茶",
+    "reading": "こうちゃ",
+    "meanings": [
+      "black tea",
+      "Black tea"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "茶",
+      "紅"
+    ],
+    "tags": [
+      "wanikani34"
+    ],
+    "is_common": true,
+    "romaji": "koucha"
+  },
+  {
+    "japanese": "家庭",
+    "reading": "かてい",
+    "meanings": [
+      "home",
+      "household",
+      "family"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "庭",
+      "家"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "katei"
+  },
+  {
+    "japanese": "野菜",
+    "reading": "やさい",
+    "meanings": [
+      "vegetable",
+      "marijuana",
+      "cannabis"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "菜",
+      "野"
+    ],
+    "tags": [
+      "wanikani31"
+    ],
+    "is_common": true,
+    "romaji": "yasai"
+  },
+  {
+    "japanese": "風呂",
+    "reading": "ふろ",
+    "meanings": [
+      "bath",
+      "bathing",
+      "bathtub"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "風",
+      "呂"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "furo"
+  },
+  {
+    "japanese": "玄関",
+    "reading": "げんかん",
+    "meanings": [
+      "entrance",
+      "front door",
+      "entryway"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "玄",
+      "関"
+    ],
+    "tags": [
+      "wanikani51"
+    ],
+    "is_common": true,
+    "romaji": "genkan"
+  },
+  {
+    "japanese": "地下鉄",
+    "reading": "ちかてつ",
+    "meanings": [
+      "subway",
+      "metro",
+      "underground (railway)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "下",
+      "鉄",
+      "地"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "chikatetsu"
+  },
+  {
+    "japanese": "鼻",
+    "reading": "はな",
+    "meanings": [
+      "nose",
+      "Nose"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "鼻"
+    ],
+    "tags": [
+      "wanikani17"
+    ],
+    "is_common": true,
+    "romaji": "hana"
+  },
+  {
+    "japanese": "緑",
+    "reading": "みどり",
+    "meanings": [
+      "green",
+      "greenery",
+      "verdure"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "緑"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "midori"
+  },
+  {
+    "japanese": "昼",
+    "reading": "ひる",
+    "meanings": [
+      "noon",
+      "midday",
+      "daytime"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "昼"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "hiru"
+  },
+  {
+    "japanese": "西",
+    "reading": "にし",
+    "meanings": [
+      "west",
+      "West"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "西"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "nishi"
+  },
+  {
+    "japanese": "白",
+    "reading": "しろ",
+    "meanings": [
+      "white",
+      "innocence",
+      "innocent person"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "白"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "shiro"
+  },
+  {
+    "japanese": "洗濯",
+    "reading": "せんたく",
+    "meanings": [
+      "washing",
+      "laundry",
+      "relaxation"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "洗",
+      "濯"
+    ],
+    "tags": [
+      "wanikani51"
+    ],
+    "is_common": true,
+    "romaji": "sentaku"
+  },
+  {
+    "japanese": "冷蔵庫",
+    "reading": "れいぞうこ",
+    "meanings": [
+      "refrigerator",
+      "fridge",
+      "Refrigerator"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "冷",
+      "庫",
+      "蔵"
+    ],
+    "tags": [
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "reizouko"
+  },
+  {
+    "japanese": "火曜日",
+    "reading": "かようび",
+    "meanings": [
+      "Tuesday",
+      "Tuesday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "火",
+      "曜",
+      "日"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "kayoubi"
+  },
+  {
+    "japanese": "南",
+    "reading": "みなみ",
+    "meanings": [
+      "south",
+      "South"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "南"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "minami"
+  },
+  {
+    "japanese": "北",
+    "reading": "きた",
+    "meanings": [
+      "north",
+      "the North",
+      "northern territories"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "北"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "kita"
+  },
+  {
+    "japanese": "茶色",
+    "reading": "ちゃいろ",
+    "meanings": [
+      "brown",
+      "light brown",
+      "tawny"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "茶",
+      "色"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "chairo"
+  },
+  {
+    "japanese": "喫茶店",
+    "reading": "きっさてん",
+    "meanings": [
+      "coffee shop",
+      "tearoom",
+      "coffee lounge"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "店",
+      "茶",
+      "喫"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "kissaten"
+  },
+  {
+    "japanese": "喫茶店",
+    "reading": "きっさてん",
+    "meanings": [
+      "coffee shop",
+      "tearoom",
+      "coffee lounge"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "店",
+      "茶",
+      "喫"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "kissaten"
+  },
+  {
+    "japanese": "青",
+    "reading": "あお",
+    "meanings": [
+      "blue",
+      "azure",
+      "green"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "青"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "ao"
+  },
+  {
+    "japanese": "靴下",
+    "reading": "くつした",
+    "meanings": [
+      "socks",
+      "sock",
+      "stockings"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "靴",
+      "下"
+    ],
+    "tags": [
+      "wanikani27"
+    ],
+    "is_common": true,
+    "romaji": "kutsushita"
+  },
+  {
+    "japanese": "封筒",
+    "reading": "ふうとう",
+    "meanings": [
+      "envelope",
+      "Envelope"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "封",
+      "筒"
+    ],
+    "tags": [
+      "wanikani43"
+    ],
+    "is_common": true,
+    "romaji": "fuutou"
+  },
+  {
+    "japanese": "辺",
+    "reading": "へん",
+    "meanings": [
+      "area",
+      "vicinity",
+      "region"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "辺"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "hen"
+  },
+  {
+    "japanese": "黄色",
+    "reading": "きいろ",
+    "meanings": [
+      "yellow",
+      "amber",
+      "Yellow"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "色",
+      "黄"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "kiiro"
+  },
+  {
+    "japanese": "映画館",
+    "reading": "えいがかん",
+    "meanings": [
+      "movie theatre",
+      "movie theater",
+      "cinema"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "映",
+      "画",
+      "館"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "eigakan"
+  },
+  {
+    "japanese": "箸",
+    "reading": "はし",
+    "meanings": [
+      "chopsticks",
+      "Chopsticks"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "箸"
+    ],
+    "tags": [
+      "wanikani47"
+    ],
+    "is_common": true,
+    "romaji": "hashi"
+  },
+  {
+    "japanese": "食堂",
+    "reading": "しょくどう",
+    "meanings": [
+      "dining room",
+      "dining hall",
+      "cafeteria"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "食",
+      "堂"
+    ],
+    "tags": [
+      "wanikani17"
+    ],
+    "is_common": true,
+    "romaji": "shokudou"
+  },
+  {
+    "japanese": "牛肉",
+    "reading": "ぎゅうにく",
+    "meanings": [
+      "beef",
+      "Beef"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "肉",
+      "牛"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "gyuuniku"
+  },
+  {
+    "japanese": "交差点",
+    "reading": "こうさてん",
+    "meanings": [
+      "crossing",
+      "intersection",
+      "Intersection (road)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "差",
+      "交",
+      "点"
+    ],
+    "tags": [
+      "wanikani24"
+    ],
+    "is_common": true,
+    "romaji": "kousaten"
+  },
+  {
+    "japanese": "曇り",
+    "reading": "くもり",
+    "meanings": [
+      "cloudiness",
+      "cloudy weather",
+      "fog (on a mirror, glasses, etc.)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "曇"
+    ],
+    "tags": [
+      "wanikani45"
+    ],
+    "is_common": true,
+    "romaji": "kumori"
+  },
+  {
+    "japanese": "漢字",
+    "reading": "かんじ",
+    "meanings": [
+      "kanji",
+      "Chinese character",
+      "Chinese characters"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "漢",
+      "字"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "kanji"
+  },
+  {
+    "japanese": "茶碗",
+    "reading": "ちゃわん",
+    "meanings": [
+      "rice bowl",
+      "tea cup",
+      "teacup"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "茶",
+      "碗"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "chawan"
+  },
+  {
+    "japanese": "背広",
+    "reading": "せびろ",
+    "meanings": [
+      "business suit",
+      "Suit (clothing)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "背",
+      "広"
+    ],
+    "tags": [
+      "wanikani32"
+    ],
+    "is_common": true,
+    "romaji": "sebiro"
+  },
+  {
+    "japanese": "万年筆",
+    "reading": "まんねんひつ",
+    "meanings": [
+      "fountain pen",
+      "Fountain pen"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "筆",
+      "万",
+      "年"
+    ],
+    "tags": [
+      "wanikani26"
+    ],
+    "is_common": true,
+    "romaji": "man'nenhitsu"
+  },
+  {
+    "japanese": "灰皿",
+    "reading": "はいざら",
+    "meanings": [
+      "ashtray",
+      "Ashtray"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "皿",
+      "灰"
+    ],
+    "tags": [
+      "wanikani33"
+    ],
+    "is_common": true,
+    "romaji": "haizara"
+  },
+  {
+    "japanese": "大使館",
+    "reading": "たいしかん",
+    "meanings": [
+      "embassy",
+      "Diplomatic mission"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "館",
+      "使",
+      "大"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "taishikan"
+  },
+  {
+    "japanese": "豚肉",
+    "reading": "ぶたにく",
+    "meanings": [
+      "pork",
+      "Pork"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "肉",
+      "豚"
+    ],
+    "tags": [
+      "wanikani26"
+    ],
+    "is_common": true,
+    "romaji": "butaniku"
+  },
+  {
+    "japanese": "交番",
+    "reading": "こうばん",
+    "meanings": [
+      "police box",
+      "koban",
+      "small neighborhood police station"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "交",
+      "番"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "kouban"
+  },
+  {
+    "japanese": "飲む",
+    "reading": "のむ",
+    "meanings": [
+      "to drink",
+      "to swallow",
+      "to take (medicine)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "飲"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "nomu"
+  },
+  {
+    "japanese": "頭",
+    "reading": "あたま",
+    "meanings": [
+      "head",
+      "hair (on one's head)",
+      "mind"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "頭"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "atama"
+  },
+  {
+    "japanese": "日曜日",
+    "reading": "にちようび",
+    "meanings": [
+      "Sunday",
+      "Sunday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "日",
+      "曜"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "nichiyoubi"
+  },
+  {
+    "japanese": "誕生日",
+    "reading": "たんじょうび",
+    "meanings": [
+      "birthday",
+      "Birthday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "生",
+      "日",
+      "誕"
+    ],
+    "tags": [
+      "wanikani24"
+    ],
+    "is_common": true,
+    "romaji": "tanjoubi"
+  },
+  {
+    "japanese": "可愛い",
+    "reading": "かわいい",
+    "meanings": [
+      "cute",
+      "adorable",
+      "charming"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "可",
+      "愛"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "kawaii"
+  },
+  {
+    "japanese": "鞄",
+    "reading": "かばん",
+    "meanings": [
+      "bag",
+      "satchel",
+      "briefcase"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "鞄"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "kaban"
+  },
+  {
+    "japanese": "土曜日",
+    "reading": "どようび",
+    "meanings": [
+      "Saturday",
+      "Saturday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "土",
+      "曜",
+      "日"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "doyoubi"
+  },
+  {
+    "japanese": "月曜日",
+    "reading": "げつようび",
+    "meanings": [
+      "Monday",
+      "Monday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "日",
+      "月",
+      "曜"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "getsuyoubi"
+  },
+  {
+    "japanese": "金曜日",
+    "reading": "きんようび",
+    "meanings": [
+      "Friday",
+      "Friday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "日",
+      "曜",
+      "金"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "kin'youbi"
+  },
+  {
+    "japanese": "花瓶",
+    "reading": "かびん",
+    "meanings": [
+      "(flower) vase",
+      "Vase"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "瓶",
+      "花"
+    ],
+    "tags": [
+      "wanikani51"
+    ],
+    "is_common": true,
+    "romaji": "kabin"
+  },
+  {
+    "japanese": "木曜日",
+    "reading": "もくようび",
+    "meanings": [
+      "Thursday",
+      "Thursday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "日",
+      "木",
+      "曜"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "mokuyoubi"
+  },
+  {
+    "japanese": "本棚",
+    "reading": "ほんだな",
+    "meanings": [
+      "bookshelves",
+      "bookshelf",
+      "bookcase"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "棚",
+      "本"
+    ],
+    "tags": [
+      "wanikani44"
+    ],
+    "is_common": true,
+    "romaji": "hondana"
+  },
+  {
+    "japanese": "石鹸",
+    "reading": "せっけん",
+    "meanings": [
+      "soap",
+      "Soap"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "石",
+      "鹸"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "sekken"
+  },
+  {
+    "japanese": "水曜日",
+    "reading": "すいようび",
+    "meanings": [
+      "Wednesday",
+      "Wednesday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "水",
+      "日",
+      "曜"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "suiyoubi"
+  },
+  {
+    "japanese": "飴",
+    "reading": "あめ",
+    "meanings": [
+      "(hard) candy",
+      "toffee",
+      "rice-sugar"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "飴"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "ame"
+  },
+  {
+    "japanese": "八百屋",
+    "reading": "やおや",
+    "meanings": [
+      "greengrocer",
+      "fruit and vegetable shop",
+      "jack of all trades"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "屋",
+      "百",
+      "八"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "yaoya"
+  },
+  {
+    "japanese": "成る",
+    "reading": "なる",
+    "meanings": [
+      "to become",
+      "to get",
+      "to grow"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "成"
+    ],
+    "tags": [
+      "wanikani11"
+    ],
+    "is_common": true,
+    "romaji": "naru"
+  },
+  {
+    "japanese": "一番",
+    "reading": "いちばん",
+    "meanings": [
+      "number one",
+      "first",
+      "first place"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "一",
+      "番"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "ichiban"
+  },
+  {
+    "japanese": "私",
+    "reading": "わたし",
+    "meanings": [
+      "I",
+      "me"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "私"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "watashi"
+  },
+  {
+    "japanese": "外",
+    "reading": "そと",
+    "meanings": [
+      "outside",
+      "exterior",
+      "the open (air)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "外"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "soto"
+  },
+  {
+    "japanese": "姉",
+    "reading": "あね",
+    "meanings": [
+      "older sister",
+      "elder sister",
+      "Ane"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "姉"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "ane"
+  },
+  {
+    "japanese": "百",
+    "reading": "ひゃく",
+    "meanings": [
+      "hundred",
+      "100",
+      "Hyaku"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "百"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "hyaku"
+  },
+  {
+    "japanese": "有る",
+    "reading": "ある",
+    "meanings": [
+      "to be",
+      "to exist",
+      "to live"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "有"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "aru"
+  },
+  {
+    "japanese": "其の",
+    "reading": "その",
+    "meanings": [
+      "that",
+      "the",
+      "part (as in \"part two\")"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "其"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "sono"
+  },
+  {
+    "japanese": "言う",
+    "reading": "いう",
+    "meanings": [
+      "to say",
+      "to utter",
+      "to declare"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "言"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "iu"
+  },
+  {
+    "japanese": "出来る",
+    "reading": "できる",
+    "meanings": [
+      "to be able to do",
+      "to be possible",
+      "to be permitted (to do)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "出",
+      "来"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "dekiru"
+  },
+  {
+    "japanese": "良い",
+    "reading": "よい",
+    "meanings": [
+      "good",
+      "excellent",
+      "fine"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "良"
+    ],
+    "tags": [
+      "wanikani11"
+    ],
+    "is_common": true,
+    "romaji": "yoi"
+  },
+  {
+    "japanese": "下さい",
+    "reading": "ください",
+    "meanings": [
+      "please (give me)",
+      "please (do for me)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "下"
+    ],
+    "tags": [
+      "wanikani1"
+    ],
+    "is_common": true,
+    "romaji": "kudasai"
+  },
+  {
+    "japanese": "見る",
+    "reading": "みる",
+    "meanings": [
+      "to see",
+      "to look",
+      "to watch"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "見"
+    ],
+    "tags": [
+      "wanikani4",
+      "wanikani22"
+    ],
+    "is_common": true,
+    "romaji": "miru"
+  },
+  {
+    "japanese": "此の",
+    "reading": "この",
+    "meanings": [
+      "this",
+      "last (couple of years, etc.)",
+      "these"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "此"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "kono"
+  },
+  {
+    "japanese": "自分",
+    "reading": "じぶん",
+    "meanings": [
+      "myself",
+      "yourself",
+      "oneself"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "自",
+      "分"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "jibun"
+  },
+  {
+    "japanese": "知る",
+    "reading": "しる",
+    "meanings": [
+      "to know",
+      "to be aware (of)",
+      "to be conscious (of)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "知"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "shiru"
+  },
+  {
+    "japanese": "持つ",
+    "reading": "もつ",
+    "meanings": [
+      "to hold (in one's hand)",
+      "to take",
+      "to carry"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "持"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "motsu"
+  },
+  {
+    "japanese": "何",
+    "reading": "なに",
+    "meanings": [
+      "what",
+      "you-know-what",
+      "that thing"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "何"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "nani"
+  },
+  {
+    "japanese": "車",
+    "reading": "くるま",
+    "meanings": [
+      "car",
+      "automobile",
+      "vehicle"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "車"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "kuruma"
+  },
+  {
+    "japanese": "話す",
+    "reading": "はなす",
+    "meanings": [
+      "to talk",
+      "to speak",
+      "to converse"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "話"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "hanasu"
+  },
+  {
+    "japanese": "今",
+    "reading": "いま",
+    "meanings": [
+      "now",
+      "the present time",
+      "just now"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "今"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "ima"
+  },
+  {
+    "japanese": "今日",
+    "reading": "きょう",
+    "meanings": [
+      "today",
+      "this day",
+      "these days"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "今",
+      "日"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "kyou"
+  },
+  {
+    "japanese": "買う",
+    "reading": "かう",
+    "meanings": [
+      "to buy",
+      "to purchase",
+      "to value (highly)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "買"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "kau"
+  },
+  {
+    "japanese": "読む",
+    "reading": "よむ",
+    "meanings": [
+      "to read",
+      "to recite (e.g. a sutra)",
+      "to chant"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "読"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "yomu"
+  },
+  {
+    "japanese": "皆",
+    "reading": "みな",
+    "meanings": [
+      "everyone",
+      "everybody",
+      "all"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "皆"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "mina"
+  },
+  {
+    "japanese": "新しい",
+    "reading": "あたらしい",
+    "meanings": [
+      "new",
+      "novel",
+      "fresh"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "新"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "atarashii"
+  },
+  {
+    "japanese": "話",
+    "reading": "はなし",
+    "meanings": [
+      "talk",
+      "speech",
+      "chat"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "話"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "hanashi"
+  },
+  {
+    "japanese": "明日",
+    "reading": "あした",
+    "meanings": [
+      "tomorrow",
+      "near future"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "明",
+      "日"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "ashita"
+  },
+  {
+    "japanese": "昨日",
+    "reading": "きのう",
+    "meanings": [
+      "yesterday"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "昨",
+      "日"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "kinou"
+  },
+  {
+    "japanese": "出る",
+    "reading": "でる",
+    "meanings": [
+      "to leave",
+      "to exit",
+      "to go out"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "出"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "deru"
+  },
+  {
+    "japanese": "勉強",
+    "reading": "べんきょう",
+    "meanings": [
+      "study",
+      "diligence",
+      "working hard"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "勉",
+      "強"
+    ],
+    "tags": [
+      "wanikani12",
+      "wanikani14"
+    ],
+    "is_common": true,
+    "romaji": "benkyou"
+  },
+  {
+    "japanese": "取る",
+    "reading": "とる",
+    "meanings": [
+      "to take",
+      "to pick up",
+      "to grab"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "取"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "toru"
+  },
+  {
+    "japanese": "誰",
+    "reading": "だれ",
+    "meanings": [
+      "who"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "誰"
+    ],
+    "tags": [
+      "wanikani43"
+    ],
+    "is_common": true,
+    "romaji": "dare"
+  },
+  {
+    "japanese": "お金",
+    "reading": "おかね",
+    "meanings": [
+      "money"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "金"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "okane"
+  },
+  {
+    "japanese": "男",
+    "reading": "おとこ",
+    "meanings": [
+      "man",
+      "male",
+      "fellow"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "男"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "otoko"
+  },
+  {
+    "japanese": "犬",
+    "reading": "いぬ",
+    "meanings": [
+      "dog (Canis (lupus) familiaris)",
+      "squealer",
+      "rat"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "犬"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "inu"
+  },
+  {
+    "japanese": "使う",
+    "reading": "つかう",
+    "meanings": [
+      "to use (a tool, method, etc.)",
+      "to make use of",
+      "to put to use"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "使"
+    ],
+    "tags": [
+      "wanikani9",
+      "wanikani37"
+    ],
+    "is_common": true,
+    "romaji": "tsukau"
+  },
+  {
+    "japanese": "大変",
+    "reading": "たいへん",
+    "meanings": [
+      "very",
+      "greatly",
+      "terribly"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "変",
+      "大"
+    ],
+    "tags": [
+      "wanikani15"
+    ],
+    "is_common": true,
+    "romaji": "taihen"
+  },
+  {
+    "japanese": "待つ",
+    "reading": "まつ",
+    "meanings": [
+      "to wait",
+      "to await",
+      "to look forward to"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "待"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "matsu"
+  },
+  {
+    "japanese": "作る",
+    "reading": "つくる",
+    "meanings": [
+      "to make",
+      "to produce",
+      "to manufacture"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "作"
+    ],
+    "tags": [
+      "wanikani5",
+      "wanikani26"
+    ],
+    "is_common": true,
+    "romaji": "tsukuru"
+  },
+  {
+    "japanese": "後ろ",
+    "reading": "うしろ",
+    "meanings": [
+      "back",
+      "behind",
+      "rear"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "後"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "ushiro"
+  },
+  {
+    "japanese": "町",
+    "reading": "まち",
+    "meanings": [
+      "town",
+      "block",
+      "neighbourhood"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "町"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "machi"
+  },
+  {
+    "japanese": "駅",
+    "reading": "えき",
+    "meanings": [
+      "railway station",
+      "train station",
+      "staging post on a highway (in pre-modern Japan)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "駅"
+    ],
+    "tags": [
+      "wanikani13"
+    ],
+    "is_common": true,
+    "romaji": "eki"
+  },
+  {
+    "japanese": "少し",
+    "reading": "すこし",
+    "meanings": [
+      "a little",
+      "a bit",
+      "a small amount"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "少"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "sukoshi"
+  },
+  {
+    "japanese": "貴方",
+    "reading": "あなた",
+    "meanings": [
+      "you",
+      "dear",
+      "honey"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "貴",
+      "方"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "anata"
+  },
+  {
+    "japanese": "欲しい",
+    "reading": "ほしい",
+    "meanings": [
+      "wanting (to have)",
+      "desiring",
+      "wishing for"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "欲"
+    ],
+    "tags": [
+      "wanikani32"
+    ],
+    "is_common": true,
+    "romaji": "hoshii"
+  },
+  {
+    "japanese": "行く",
+    "reading": "いく",
+    "meanings": [
+      "to go",
+      "to move (towards)",
+      "to head (towards)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "行"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "iku"
+  },
+  {
+    "japanese": "乗る",
+    "reading": "のる",
+    "meanings": [
+      "to get on (train, plane, bus, ship, etc.)",
+      "to get in",
+      "to board"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "乗"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "noru"
+  },
+  {
+    "japanese": "大きな",
+    "reading": "おおきな",
+    "meanings": [
+      "big",
+      "large",
+      "great"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "大"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "ookina"
+  },
+  {
+    "japanese": "医者",
+    "reading": "いしゃ",
+    "meanings": [
+      "doctor",
+      "physician"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "者",
+      "医"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "isha"
+  },
+  {
+    "japanese": "終わる",
+    "reading": "おわる",
+    "meanings": [
+      "to end",
+      "to come to an end",
+      "to finish"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "終"
+    ],
+    "tags": [
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "owaru"
+  },
+  {
+    "japanese": "学生",
+    "reading": "がくせい",
+    "meanings": [
+      "student (esp. a university student)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "生",
+      "学"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "gakusei"
+  },
+  {
+    "japanese": "長い",
+    "reading": "ながい",
+    "meanings": [
+      "long (distance, length)",
+      "long (time)",
+      "protracted"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "長"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "nagai"
+  },
+  {
+    "japanese": "何の",
+    "reading": "どの",
+    "meanings": [
+      "which",
+      "what (way)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "何"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "dono"
+  },
+  {
+    "japanese": "又",
+    "reading": "また",
+    "meanings": [
+      "again",
+      "once more",
+      "once again"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "又"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "mata"
+  },
+  {
+    "japanese": "国",
+    "reading": "くに",
+    "meanings": [
+      "country",
+      "state",
+      "region"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "国"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "kuni"
+  },
+  {
+    "japanese": "高い",
+    "reading": "たかい",
+    "meanings": [
+      "high",
+      "tall",
+      "expensive"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "高"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "takai"
+  },
+  {
+    "japanese": "余り",
+    "reading": "あまり",
+    "meanings": [
+      "remainder",
+      "remnant",
+      "rest"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "余"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "amari"
+  },
+  {
+    "japanese": "難しい",
+    "reading": "むずかしい",
+    "meanings": [
+      "difficult",
+      "hard",
+      "troublesome"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "難"
+    ],
+    "tags": [
+      "wanikani20"
+    ],
+    "is_common": true,
+    "romaji": "muzukashii"
+  },
+  {
+    "japanese": "友達",
+    "reading": "ともだち",
+    "meanings": [
+      "friend",
+      "companion"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "友",
+      "達"
+    ],
+    "tags": [
+      "wanikani18"
+    ],
+    "is_common": true,
+    "romaji": "tomodachi"
+  },
+  {
+    "japanese": "本当",
+    "reading": "ほんとう",
+    "meanings": [
+      "truth",
+      "reality",
+      "actuality"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "当",
+      "本"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "hontou"
+  },
+  {
+    "japanese": "一つ",
+    "reading": "ひとつ",
+    "meanings": [
+      "one",
+      "for one thing",
+      "only"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "一"
+    ],
+    "tags": [
+      "wanikani1"
+    ],
+    "is_common": true,
+    "romaji": "hitotsu"
+  },
+  {
+    "japanese": "寝る",
+    "reading": "ねる",
+    "meanings": [
+      "to sleep (lying down)",
+      "to go to bed",
+      "to lie in bed"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "寝"
+    ],
+    "tags": [
+      "wanikani22"
+    ],
+    "is_common": true,
+    "romaji": "neru"
+  },
+  {
+    "japanese": "生徒",
+    "reading": "せいと",
+    "meanings": [
+      "pupil",
+      "student",
+      "schoolchild"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "生",
+      "徒"
+    ],
+    "tags": [
+      "wanikani19"
+    ],
+    "is_common": true,
+    "romaji": "seito"
+  },
+  {
+    "japanese": "忙しい",
+    "reading": "いそがしい",
+    "meanings": [
+      "busy",
+      "occupied",
+      "hectic"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "忙"
+    ],
+    "tags": [
+      "wanikani19"
+    ],
+    "is_common": true,
+    "romaji": "isogashii"
+  },
+  {
+    "japanese": "両親",
+    "reading": "りょうしん",
+    "meanings": [
+      "parents",
+      "both parents"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "親",
+      "両"
+    ],
+    "tags": [],
+    "is_common": true,
+    "romaji": "ryoushin"
+  },
+  {
+    "japanese": "泳ぐ",
+    "reading": "およぐ",
+    "meanings": [
+      "to swim",
+      "to struggle through (a crowd)",
+      "to make one's way through the world"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "泳"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "oyogu"
+  },
+  {
+    "japanese": "出す",
+    "reading": "だす",
+    "meanings": [
+      "to take out",
+      "to get out",
+      "to put out"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "出"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "dasu"
+  },
+  {
+    "japanese": "立つ",
+    "reading": "たつ",
+    "meanings": [
+      "to stand (up)",
+      "to rise",
+      "to get to one's feet"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "立"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "tatsu"
+  },
+  {
+    "japanese": "早い",
+    "reading": "はやい",
+    "meanings": [
+      "fast",
+      "quick",
+      "rapid"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "早"
+    ],
+    "tags": [
+      "wanikani4",
+      "wanikani10"
+    ],
+    "is_common": true,
+    "romaji": "hayai"
+  },
+  {
+    "japanese": "楽しい",
+    "reading": "たのしい",
+    "meanings": [
+      "enjoyable",
+      "fun",
+      "pleasant"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "楽"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "tanoshii"
+  },
+  {
+    "japanese": "面白い",
+    "reading": "おもしろい",
+    "meanings": [
+      "interesting",
+      "fascinating",
+      "intriguing"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "白",
+      "面"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "omoshiroi"
+  },
+  {
+    "japanese": "絵",
+    "reading": "え",
+    "meanings": [
+      "picture",
+      "drawing",
+      "painting"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "絵"
+    ],
+    "tags": [
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "e"
+  },
+  {
+    "japanese": "女の子",
+    "reading": "おんなのこ",
+    "meanings": [
+      "girl",
+      "daughter",
+      "baby girl"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "子",
+      "女"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "on'nanoko"
+  },
+  {
+    "japanese": "着る",
+    "reading": "きる",
+    "meanings": [
+      "to wear (from the shoulders down)",
+      "to put on",
+      "to take (the blame, responsibility)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "着"
+    ],
+    "tags": [
+      "wanikani12"
+    ],
+    "is_common": true,
+    "romaji": "kiru"
+  },
+  {
+    "japanese": "上手",
+    "reading": "じょうず",
+    "meanings": [
+      "skillful",
+      "skilled",
+      "proficient"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "上",
+      "手"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "jouzu"
+  },
+  {
+    "japanese": "古い",
+    "reading": "ふるい",
+    "meanings": [
+      "old",
+      "aged",
+      "ancient"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "古"
+    ],
+    "tags": [
+      "wanikani3"
+    ],
+    "is_common": true,
+    "romaji": "furui"
+  },
+  {
+    "japanese": "強い",
+    "reading": "つよい",
+    "meanings": [
+      "strong",
+      "potent",
+      "competent"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "強"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "tsuyoi"
+  },
+  {
+    "japanese": "全部",
+    "reading": "ぜんぶ",
+    "meanings": [
+      "all",
+      "entire",
+      "whole"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "部",
+      "全"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "zenbu"
+  },
+  {
+    "japanese": "呼ぶ",
+    "reading": "よぶ",
+    "meanings": [
+      "to call out (to)",
+      "to call",
+      "to invoke"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "呼"
+    ],
+    "tags": [
+      "wanikani23"
+    ],
+    "is_common": true,
+    "romaji": "yobu"
+  },
+  {
+    "japanese": "午後",
+    "reading": "ごご",
+    "meanings": [
+      "afternoon",
+      "p.m."
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "後",
+      "午"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "gogo"
+  },
+  {
+    "japanese": "掛ける",
+    "reading": "かける",
+    "meanings": [
+      "to hang up (e.g. a coat, a picture on the wall)",
+      "to let hang",
+      "to suspend (from)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "掛"
+    ],
+    "tags": [
+      "wanikani25",
+      "wanikani38"
+    ],
+    "is_common": true,
+    "romaji": "kakeru"
+  },
+  {
+    "japanese": "辞書",
+    "reading": "じしょ",
+    "meanings": [
+      "dictionary",
+      "lexicon",
+      "letter of resignation"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "書",
+      "辞"
+    ],
+    "tags": [
+      "wanikani16"
+    ],
+    "is_common": true,
+    "romaji": "jisho"
+  },
+  {
+    "japanese": "天気",
+    "reading": "てんき",
+    "meanings": [
+      "weather",
+      "fair weather",
+      "fine weather"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "天",
+      "気"
+    ],
+    "tags": [
+      "wanikani4"
+    ],
+    "is_common": true,
+    "romaji": "tenki"
+  },
+  {
+    "japanese": "体",
+    "reading": "からだ",
+    "meanings": [
+      "body",
+      "torso",
+      "trunk"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "体"
+    ],
+    "tags": [
+      "wanikani5",
+      "wanikani8"
+    ],
+    "is_common": true,
+    "romaji": "karada"
+  },
+  {
+    "japanese": "大きい",
+    "reading": "おおきい",
+    "meanings": [
+      "big",
+      "large",
+      "great"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "大"
+    ],
+    "tags": [
+      "wanikani1"
+    ],
+    "is_common": true,
+    "romaji": "ookii"
+  },
+  {
+    "japanese": "昨夜",
+    "reading": "ゆうべ",
+    "meanings": [
+      "last night",
+      "yesterday evening"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "昨",
+      "夜"
+    ],
+    "tags": [
+      "wanikani2"
+    ],
+    "is_common": true,
+    "romaji": "yuube"
+  },
+  {
+    "japanese": "質問",
+    "reading": "しつもん",
+    "meanings": [
+      "question",
+      "inquiry",
+      "enquiry"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "質",
+      "問"
+    ],
+    "tags": [
+      "wanikani24"
+    ],
+    "is_common": true,
+    "romaji": "shitsumon"
+  },
+  {
+    "japanese": "有名",
+    "reading": "ゆうめい",
+    "meanings": [
+      "famous",
+      "well-known"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "有",
+      "名"
+    ],
+    "tags": [
+      "wanikani6"
+    ],
+    "is_common": true,
+    "romaji": "yuumei"
+  },
+  {
+    "japanese": "兄",
+    "reading": "あに",
+    "meanings": [
+      "older brother",
+      "elder brother",
+      "brother-in-law (spouse's older brother or older sister's husband)"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "兄"
+    ],
+    "tags": [
+      "wanikani5"
+    ],
+    "is_common": true,
+    "romaji": "ani"
+  },
+  {
+    "japanese": "歌う",
+    "reading": "うたう",
+    "meanings": [
+      "to sing",
+      "to sing of (love, beauty, etc.) in a poem",
+      "to express in the form of a poem"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "歌"
+    ],
+    "tags": [
+      "wanikani12",
+      "wanikani60"
+    ],
+    "is_common": true,
+    "romaji": "utau"
+  },
+  {
+    "japanese": "上る",
+    "reading": "のぼる",
+    "meanings": [
+      "to ascend",
+      "to go up",
+      "to climb"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "上"
+    ],
+    "tags": [
+      "wanikani1",
+      "wanikani12",
+      "wanikani27"
+    ],
+    "is_common": true,
+    "romaji": "noboru"
+  },
+  {
+    "japanese": "鳥",
+    "reading": "とり",
+    "meanings": [
+      "bird",
+      "bird meat (esp. chicken meat)",
+      "fowl"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "鳥"
+    ],
+    "tags": [
+      "wanikani7"
+    ],
+    "is_common": true,
+    "romaji": "tori"
+  },
+  {
+    "japanese": "服",
+    "reading": "ふく",
+    "meanings": [
+      "clothes (esp. Western clothes)",
+      "clothing",
+      "dress"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "服"
+    ],
+    "tags": [
+      "wanikani9"
+    ],
+    "is_common": true,
+    "romaji": "fuku"
+  },
+  {
+    "japanese": "時々",
+    "reading": "ときどき",
+    "meanings": [
+      "sometimes",
+      "occasionally",
+      "at times"
+    ],
+    "jlpt_level": "N5",
+    "type": "kanji",
+    "kanji_characters": [
+      "時"
+    ],
+    "tags": [
+      "wanikani11"
+    ],
+    "is_common": true,
+    "romaji": "tokidoki"
+  }
+]

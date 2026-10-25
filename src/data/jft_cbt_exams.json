@@ -1,0 +1,3467 @@
+[
+  {
+    "id": "jft_1_1",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "クッキ",
+      "ケーキ",
+      "パン",
+      "イチゴ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_2",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "しゃちょう",
+      "かいしゃいん",
+      "うけつけ",
+      "アルバイト"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_3",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "この人は何をしますか。",
+    "options": [
+      "こまります",
+      "れんらくします",
+      "なきます",
+      "ききます"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_4",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "昨日から＿＿＿＿＿＿で、電車が止まりました。",
+    "options": [
+      "すごい雨",
+      "つかれました",
+      "おくれました",
+      "はれ"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_5",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "お兄さんはまだ学生です、大学で日本語を＿＿＿＿＿。",
+    "options": [
+      "おしえます",
+      "ならいます",
+      "いれます",
+      "でます"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_6",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "銀行ははしを＿＿＿＿、ひだりがわにあります。",
+    "options": [
+      "あるいて",
+      "はしって",
+      "いって",
+      "わたって"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_7",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "しごとがないのでとても＿＿＿＿。",
+    "options": [
+      "いそがしいです",
+      "たいへんです",
+      "ひまです",
+      "ねむいです"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_8",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "海でたくさん魚を釣りました。\n海=....",
+    "options": [
+      "まい",
+      "なみ",
+      "うみ",
+      "みう"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_9",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "雲たくさんみえますね、雨がふりそうです。\n雲=....",
+    "options": [
+      "くも",
+      "けむり",
+      "かぜ",
+      "あえ"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_10",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "二かいにこのはこを持ってください。\n持って=...",
+    "options": [
+      "まって",
+      "もって",
+      "のって",
+      "とって"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_11",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "ジュースの味はどうですか。\n味=...",
+    "options": [
+      "じみ",
+      "ちみ",
+      "あじ",
+      "ちじ"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_12",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "あのとけい止まっていますね。\nとけい=...",
+    "options": [
+      "待計",
+      "時計",
+      "寺計",
+      "持計"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_13",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "あのあおいふくをとってください。\nあおい=...",
+    "options": [
+      "赤い",
+      "白い",
+      "黒い",
+      "青い"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_14",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "でんきをつけばあかるくなりますよ。\nでんき=...",
+    "options": [
+      "雲気",
+      "電気",
+      "髪気",
+      "雨気"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_15",
+    "testNum": 1,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "らいねん　じぶんのくに　へ　きこくします \nきこく=...",
+    "options": [
+      "掃国",
+      "帰王",
+      "帰国",
+      "掃王"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_16",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "山田：その本とってもすてきですね。\n\n        リン：ええ、この本は私の国で作ったほんですよ。\n\n        山田：へえ、すごいですね。＿＿＿＿＿＿＿。\n\n        リン：もちろん、いいですよ。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "かりてませんか",
+      "かりてもいいですか",
+      "かりましょうか",
+      "かりますか"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_17",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "ワット：ミーらさんはサッカーが好きですか。\n\n        ミーら：すきです。一か月に１０＿＿＿サッカーを＿＿＿。\n\n        ワット：そうですか、私もすきですよ。こんど、一緒に見ましょう。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "かい　　　みません。",
+      "だい　　　みます。",
+      "かい　　　みます。",
+      "だい　　　いっません。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_18",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "Ａ：明日先生の誕生日ですね。\n\n        Ｂ：そうですね、何か上げたいですね。\n\n        Ａ：皆でプレゼントを＿＿＿＿＿か。\n\n        Ｃ：いいですね、私もさんかします。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "あげました",
+      "あげてもいいです",
+      "あげないほうがいいです",
+      "あげません"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_19",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "Ａ：Ｂ－さんはぶたにくたべますか。\n\n        Ｂ：私は、＿＿＿たべません。\n\n        Ａ：そうですか。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "よく",
+      "ぜんぜん",
+      "たくさん",
+      "すこし"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_20",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "かとう：あした何時にいきますか。\n\n        けいと：６時____いきます。\n\n        かとう：わかりました、じゃまたあした。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "ぐら",
+      "ちょうど",
+      "ころ",
+      "ごろ"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_21",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "こんなに　おいしい　りょうりは　いちど＿＿たべたことがありません。 \n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "で",
+      "も",
+      "に",
+      "だけ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_22",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "わたしは　日本でのせいかつ　に　＿＿＿＿なれません。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "なかなか",
+      "すこしだけ",
+      "けっこう",
+      "よく"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_23",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "インドネシアは＿＿がひろいですか。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "なんど",
+      "どこ",
+      "どの",
+      "どっちら"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_24",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "あの人は　ちからがつよくて　おとこ＿＿＿ひとですね。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "そうな",
+      "らしい",
+      "ような",
+      "とおり"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_25",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "きょうは＿＿＿あめがふるでしょう。",
+    "options": [
+      "たぶん",
+      "たとえ",
+      "こう",
+      "そんなに"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_26",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "ひみつだから、だれ＿＿＿＿いわないでください。",
+    "options": [
+      "にも",
+      "たぶん",
+      "か",
+      "でも"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_27",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができましたよ。\n        皆はもう「１」＿＿＿＿。\n\n        はなやま：いきました、とっても「２」＿＿＿＿＿ですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「３」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、「４」＿＿＿＿。\n\n        \n---\n\n        「１」に入るものはなんですか。",
+    "options": [
+      "いきましたか",
+      "いきませんか",
+      "いきませんでしたか",
+      "いかなかったか"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_28",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができてますよ。\n        皆はもう「１」＿＿＿＿。\n\n        はなやま：いきました、とっても「２」＿＿＿＿＿ですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「３」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、「４」＿＿＿＿。\n\n        \n---\n\n        「２」に入るものはなんですか。",
+    "options": [
+      "かたい",
+      "おいしい",
+      "つめたい",
+      "ながい"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_29",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができてますよ。\n        皆はもう「１」＿＿＿＿。\n\n        はなやま：いきました、とっても「２」＿＿＿＿＿ですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「３」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、「４」＿＿＿＿。\n\n        \n---\n\n        「３」に入るものはなんですか。",
+    "options": [
+      "する",
+      "やる",
+      "すり",
+      "やり"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_30",
+    "testNum": 1,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができてますよ。\n        皆はもう「１」＿＿＿＿。\n\n        はなやま：いきました、とっても「２」＿＿＿＿＿ですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「３」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、「４」＿＿＿＿。\n\n        \n---\n\n        「４」に入るものはなんですか。",
+    "options": [
+      "また",
+      "どうも",
+      "すみません",
+      "しつれいします"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_31",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "きのしたさんのところにはどうなっていますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_32",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ルイさんはどこへ行けいいですか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_33",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "いつむかえにいきますか。",
+    "options": [
+      "１５日",
+      "１６日",
+      "１９日",
+      "１７日"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_34",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ままちあわせはどこでしますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_35",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人はどこへ行けばいいですか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_36",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の学生は子どもの時、何になりたかったですか。",
+    "options": [
+      "ピアニスト",
+      "せんせい",
+      "けいさつ",
+      "かんごし"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_37",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女のりゅうがくせいはどうしてアルバイトをしたいですか。",
+    "options": [
+      "日本語のべんきょうが したいから",
+      "デパートで買い物がしたいから",
+      "りょこうに行きたいから",
+      "日本人の働き方が知りたいから"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_38",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "なんようびに一日中雨がふると言っていますか。",
+    "options": [
+      "すいようび",
+      "かようび",
+      "もくようび",
+      "きんようび"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_39",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人はさいきんどのぐらい本を読んでいますか。",
+    "options": [
+      "ぜんぜん",
+      "月に１０さついじょう読む",
+      "月に１さつ読む",
+      "月に３さつ読む"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_40",
+    "testNum": 1,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の学生はだれと住んでいますか。",
+    "options": [
+      "りょうしん",
+      "いもうと",
+      "あね",
+      "おとうと"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_41",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-44\n---\n\n        私は　夏休みに　日本人の　友だちと　いっしょに　友だちの　\n        いなかへ　行きました。 行く　時は　電車で　行ったので、\n        12時間も　かかりました。 友だちの　家族は　みんな　\n        親切でした。 \n\n        お父さんは　車で　きれいな　みずうみに　つれて　行って　くれました。\n        みずうみには　魚を　つっている人や　ふねに　乗っている人が　\n        いました。 でも、およいでいる人は　いませんでした。 \n\n        友だちが　ふねに　乗ろうと　言ったので、ふねに　乗りましたが、おちそうに　\n        なって、ちょっと　こわかったです。\n \n        お母さんが　作って　くれた　日本の　料理は　とても　おいしかったです。\n        お母さんに　 私は　おさらが　買いたいです。」と　言うと、\n        お母さんが　お店に　つれて　行って　くれました。 \n        そこで、白くて　まるい　おさらを　３まい　買いました。 \n\n        この　お店では、自分でも　おさらや　おちゃわんを　作れると　書いたので、\n        私も　一つ　作りました。 おさらを　作るのは　むずかしいので、\n        小さい　おちゃわんを　作りました。 \n\n        帰りは　一人で　ひこうきに　乗って　帰って　きました。 夏休みに　友だちの　\n        いなかに　行く　ことが　できて、　ほんとうに　よかったです\n        \n---\n\n        夏休みは　何をしましたか。",
+    "options": [
+      "友だちを　つれて　国へ　帰りました。",
+      "友だちと　いっしょに　ひこうきで　旅行しました。 ",
+      "友だちの　いなかで　日本の　料理を　作りました。",
+      "友だちの　いなかへ　電車に　乗って　あそびに　行きました"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_42",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-44\n---\n\n        私は　夏休みに　日本人の　友だちと　いっしょに　友だちの　\n        いなかへ　行きました。 行く　時は　電車で　行ったので、\n        12時間も かかりました。 友だちの　家族は　みんな　\n        親切でした。 \n\n        お父さんは　車で　きれいな　みずうみに　つれて　行って　くれました。\n        みずうみには　魚を　つっている人や　ふねに　乗っている人が　\n        いました。 でも、およいでいる人は　いませんでした。 \n\n        友だちが　ふねに　乗ろうと　言ったので、ふねに　乗りましたが、おちそうに　\n        なって、ちょっと　こわかったです。\n \n        お母さんが　作って　くれた　日本の　料理は　とても　おいしかったです。\n        お母さんに　 私は　おさらが　買いたいです。」と　言うと、\n        お母さんが　お店に　つれて　行って　くれました。 \n        そこで、白くて　まるい　おさらを　３まい　買いました。 \n\n        この　お店では、自分でも　おさらや　おちゃわんを　作れると　書いたので、\n        私も　一つ　作りました。 おさらを　作るのは　むずかしいので、\n        小さい　おちゃわんを　作りました。 \n\n        帰りは　一人で　ひこうきに　乗って　帰って　きました。 夏休みに　友だちの　\n        いなかに　行く　ことが　できて、　ほんとうに　よかったです\n        \n---\n\n        みずうみでなにをしましたか。",
+    "options": [
+      "およいだり、ふねに　乗ったり　しました。",
+      "ふねに　乗りましたが、およぎませんでした。",
+      "ふねに　乗りましたが、おちてしまいました。",
+      "魚を　つったり、ふねに　乗ったり　しました。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_43",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-44\n---\n\n        私は　夏休みに　日本人の　友だちと　いっしょに　友だちの　\n        いなかへ　行きました。 行く　時は　電車で　行ったので、\n        12時間も かかりました。 友だちの　家族は　みんな　\n        親切でした。 \n\n        お父さんは　車で　きれいな　みずうみに　つれて　行って　くれました。\n        みずうみには　魚を　つっている人や　ふねに　乗っている人が　\n        いました。 でも、およいでいる人は　いませんでした。 \n\n        友だちが　ふねに　乗ろうと　言ったので、ふねに　乗りましたが、おちそうに　\n        なって、ちょっと　こわかったです。\n \n        お母さんが　作って　くれた　日本の　料理は　とても　おいしかったです。\n        お母さんに　 私は　おさらが　買いたいです。と　言うと、\n        お母さんが　お店に　つれて　行って　くれました。 \n        そこで、白くて　まるい　おさらを　３まい　買いました。 \n\n        この　お店では、自分でも　おさらや　おちゃわんを　作れると　書いたので、\n        私も　一つ　作りました。 おさらを　作るのは　むずかしいので、\n        小さい　おちゃわんを　作りました。 \n\n        帰りは　一人で　ひこうきに　乗って　帰って　きました。 夏休みに　友だちの　\n        いなかに　行く　ことが　できて、　ほんとうに　よかったです\n        \n---\n\n        お店で何をしましたか。",
+    "options": [
+      "小さくて　まるい　おさらを　作りました。",
+      "小さい　おちゃわんを　三つ　作りました。",
+      "白くて　まるい　おちゃわんを　買いました。",
+      "白くて　まるい　おさらを　３まい　買いました。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_44",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-44\n---\n\n        私は　夏休みに　日本人の　友だちと　いっしょに　友だちの　\n        いなかへ　行きました。 行く　時は　電車で　行ったので、\n        12時間も かかりました。 友だちの　家族は　みんな　\n        親切でした。 \n\n        お父さんは　車で　きれいな　みずうみに　つれて　行って　くれました。\n        みずうみには　魚を　つっている人や　ふねに　乗っている人が　\n        いました。 でも、およいでいる人は　いませんでした。 \n\n        友だちが　ふねに　乗ろうと　言ったので、ふねに　乗りましたが、おちそうに　\n        なって、ちょっと　こわかったです。\n \n        お母さんが　作って　くれた　日本の　料理は　とても　おいしかったです。\n        お母さんに　 私は　おさらが　買いたいです。と　言うと、\n        お母さんが　お店に　つれて　行って　くれました。 \n        そこで、白くて　まるい　おさらを　３まい　買いました。 \n\n        この　お店では、自分でも　おさらや　おちゃわんを　作れると　書いたので、\n        私も　一つ　作りました。 おさらを　作るのは　むずかしいので、\n        小さい　おちゃわんを　作りました。 \n\n        帰りは　一人で　ひこうきに　乗って　帰って　きました。 夏休みに　友だちの　\n        いなかに　行く　ことが　できて、　ほんとうに　よかったです\n        \n---\n\n        「私」さいごに　どうおもいましたか。",
+    "options": [
+      "おもしろいいと思いました。",
+      "うれしいとおもいました。",
+      "ほんとうによかったとおもいました。",
+      "たのしいとおもいました。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_45",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "アリさんの机の上に、このメモと本が置いてあります。\n\n        アリさん\n\n        アリさんから借りた本を置いておきます。ありがとうございました。\n\n        アリさんが借りたいと言っていた本も、一緒に置きます。重いので、今日は２冊しか持ってきませんでした。来週、ほかの３冊を持ってきます。\n\n        いしかわ\n\n        \n---\n\n        いしかわさんは、来週、何をすると言っていますか。",
+    "options": [
+      "アリさんに本を２冊返します。",
+      "アリさんに本を３冊返します。",
+      "アリさんに本を２冊貸します。",
+      "アリさんに本を３冊貸します。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_46",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "山川 「あ、もう１１時。すぐ帰らないと。」\n\n        ヤン 「もう帰るんですか。あしたは日曜日で、休みでしょう。」\n\n        山川 「でも電車がなくなりますから。」\n\n        \n\n---\n\n        この会話では、山川さんはこれからどうするつもりですか。",
+    "options": [
+      "電車で帰ります。",
+      "まだ帰りません。",
+      "タクシーで帰ります。",
+      "今日は帰りません。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_47",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "学校の入り口に、このお知らせがあります。\n\n        学校には：\n\n        ＊８じまでに、学校にはいることができます。おくれたらはいれません。\n\n        ＊自転車やオートバイは、学校の入り口のとなりにとめてください。中に入れてはいけません。\n\n        ＊学校の中で、次のことをしてはいけません。\n\n        ・たばこをすうこと\n\n        ・みずであそぶこと\n\n        \n---\n\n        このお知らせから、学校についてわかることは何ですか。",
+    "options": [
+      "午後９時に学校に入ってもいいです。",
+      "入り口にオートバイをとめてはいけません。",
+      "サッカーをあそんでもいいです。",
+      "たばこを吸ってもいいです。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_48",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n\n        しずかさん、お元気ですか。おひさしぶりです。この前の運動会で会ってからぜんぜん会っていませんね。\n\n\n        来週の金曜日5月１０日、わたしの誕生日なんです。パーティーは５月１４にします。みんなに会いたいので、\n        誕生パーティーをひらくことにしました。パーティーは私の家にやります。来る人は、なおみさんやひろみさんなど、\n        しずかさんが知っている人たちです。\n\n        場所は地図を入れておいたので、来てください。パーティーは皆でゲームをあそんだり、ごはんを食べたり、うたをうたったりします。\n        わたしはおどりが苦手なので、あまりしたくにですが、なおみさんはおどりが上手だと聞いて、おどってくれるらあしいですよ。\n\n        つごうがわるいばあいは、前の日までにわたしにお電話をお願いします。それでは、ぜったいにたのしいのでぜひ来てください。待っています。\n\n        \n\n        ゆりこ\n        \n---\n\n        パーティーはだれの誕生日をいわうのですか。",
+    "options": [
+      "しずかさん",
+      "ゆりこさん",
+      "なおみさん",
+      "ひろみさん"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_49",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n\n        しずかさん、お元気ですか。おひさしぶりです。この前の運動会で会ってからぜんぜん会っていませんね。\n\n\n        来週の金曜日5月１０日、わたしの誕生日なんです。パーティーは５月１４にします。みんなに会いたいので、\n        誕生パーティーをひらくことにしました。パーティーは私の家にやります。来る人は、なおみさんやひろみさんなど、\n        しずかさんが知っている人たちです。\n\n        場所は地図を入れておいたので、来てください。パーティーは皆でゲームをあそんだり、ごはんを食べたり、うたをうたったりします。\n        わたしはおどりが苦手なので、あまりしたくにですが、なおみさんはおどりが上手だと聞いて、おどってくれるらあしいですよ。\n\n        つごうがわるいばあいは、前の日までにわたしにお電話をお願いします。それでは、ぜったいにたのしいのでぜひ来てください。待っています。\n\n        \n\n        ゆりこ\n        \n---\n\n        誕生日パーティーいつですか。",
+    "options": [
+      "５月１０日",
+      "５月１１日",
+      "５月１３日",
+      "５月１４日"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_1_50",
+    "testNum": 1,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n\n        しずかさん、お元気ですか。おひさしぶりです。この前の運動会で会ってからぜんぜん会っていませんね。\n\n\n        来週の金曜日5月１０日、わたしの誕生日なんです。パーティーは５月１４にします。みんなに会いたいので、\n        誕生パーティーをひらくことにしました。パーティーは私の家にやります。来る人は、なおみさんやひろみさんなど、\n        しずかさんが知っている人たちです。\n\n        場所は地図を入れておいたので、来てください。パーティーは皆でゲームをあそんだり、ごはんを食べたり、うたをうたったりします。\n        わたしはおどりが苦手なので、あまりしたくにですが、なおみさんはおどりが上手だと聞いて、おどってくれるらあしいですよ。\n\n        つごうがわるいばあいは、前の日までにわたしにお電話をお願いします。それでは、ぜったいにたのしいのでぜひ来てください。待っています。\n\n        \n\n        ゆりこ\n        \n---\n\n        場所がわからないときどうしますか。",
+    "options": [
+      "なおみさんにききます。",
+      "地図をみます。",
+      "行きません。",
+      "友達に送ってもらいます。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_1",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "病院",
+      "郵便局",
+      "学校",
+      "プール"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_2",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "ひきだし",
+      "つくえ",
+      "ほんだな",
+      "ほにや"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_3",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "この人は何をしますか。",
+    "options": [
+      "ひく",
+      "のぼる",
+      "おす",
+      "のぼす"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_4",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "この人は何をしますか。",
+    "options": [
+      "とぶ",
+      "のぼる",
+      "ねぼうする",
+      "およぐ"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_5",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "日本は、＿＿＿＿が便利だと思います。",
+    "options": [
+      "とけい",
+      "しぜん",
+      "こうつう",
+      "しずか"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_6",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "あけましておめでとうございます。＿＿＿＿もよろしくお願いします。",
+    "options": [
+      "毎年",
+      "今年",
+      "昨年",
+      "去年"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_7",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "はじめは、知らないことばが多くて、____。でも、今は大丈夫です。",
+    "options": [
+      "ひつようでした",
+      "たいへんでした",
+      "だいじでした",
+      "たいせつでした"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_8",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "店員がとても＿＿＿＿でしたよ。",
+    "options": [
+      "不便",
+      "親切",
+      "詳しい",
+      "簡単"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_9",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "お店の中は禁煙です。\n禁煙=....",
+    "options": [
+      "きんし",
+      "しつれい",
+      "きんえん",
+      "きつえん"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_10",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "おそうしきでは、暗い色の____を着ます。",
+    "options": [
+      "装",
+      "服",
+      "塩",
+      "暇"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_11",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "ジムは、午後9時に閉まります。\n閉まります=...",
+    "options": [
+      "とまります",
+      "しまります",
+      "かります",
+      "とります"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_12",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "部屋の電気を消すのを忘れないでください。。\n消す=...",
+    "options": [
+      "のぼす",
+      "だす",
+      "はなす",
+      "けす"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_13",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "れんきゅうに、なにをするつもりですか。\nれんきゅう=...",
+    "options": [
+      "休暇",
+      "本日",
+      "休思",
+      "連休"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_14",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "しおを入れてください。\nしお=...",
+    "options": [
+      "海",
+      "温度",
+      "塩",
+      "皿"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_15",
+    "testNum": 2,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "しゃちょうはもうとうちゃくしましたか。 \nとうちゃく=...",
+    "options": [
+      "倒着",
+      "到借",
+      "倒借",
+      "到着"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_16",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "仕事が忙しくて、つかれたので、\n        日曜日は家でゆっくり____と思っています。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "やすもう",
+      "やすむ",
+      "はたらこう",
+      "ざんぎょうしよう"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_17",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：ガソリンが高くなりましたね。\n\n        B：これでは、車で旅行するのは____かもしれませんね。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "むり",
+      "むりだ",
+      "むりな",
+      "むりで"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_18",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "大家さんは体が_______ので、よく風邪をひきます。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "よわい",
+      "つよい",
+      "げんきな",
+      "じょうぶな"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_19",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：ジュースでもいかがですか。\n\n        B：はい、_____。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "けっこうです",
+      "いただきます",
+      "おわりました",
+      "できます"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_20",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：あっ、リーさん、やっと来た。\n\n        B：もうしわけありません、バスがなかなか_____、遅くなりました。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "来なくて",
+      "来なかったので",
+      "来ないと",
+      "来ます"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_21",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：毎朝、朝ごはんを食べますか。\n\n        B：ええ、どんなに_____、ちゃんと食べます。\n\n \n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "忙しい",
+      "忙しでも",
+      "忙しくても",
+      "忙しいと"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_22",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：明日は私の誕生日なんです。\n\n        B：それは_____。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "おめでとうございます",
+      "いらっしゃいませ",
+      "がんばってください",
+      "かんぱい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_23",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "図書館の本を_____ので、ちょっと行ってきます。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "かえさなければならない",
+      "かえさなくてもいい",
+      "かえしてください",
+      "かえさないでください"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_24",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "あ\n        A：きれいなマフラーですね、どこ__買いましたか。\n\n        B：彼女からもらいました\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "に",
+      "が",
+      "を",
+      "で"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_25",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "つぎの土曜日、東京に住んでいる家族___会うつもりです。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_26",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "料理__できないので、毎日コンビニで買っています。\n---\n＿＿＿に入るものは何ですか。",
+    "options": [
+      "に",
+      "が",
+      "を",
+      "で"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_27",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "よく見えないので、もう少し____書いてください。\n---\n＿＿＿に入るものは何ですか",
+    "options": [
+      "大きい",
+      "大き",
+      "大きく",
+      "大きくて"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_28",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができてますよ。\n        皆はもういきましたか\n\n        はなやま：「1」＿＿＿＿＿、とってもおいしいですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「2」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、また。\n\n        けい　　：私も、もう「3」＿＿＿＿。\n\n        \n---\n\n        「1」に入るものはなんですか。",
+    "options": [
+      "いきませんでした",
+      "いきません",
+      "いきました",
+      "いかなかった"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_29",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができてますよ。\n        皆はもういきましたか\n\n        はなやま：「1」＿＿＿＿＿、とってもおいしいですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「2」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、また。\n\n        けい　　：私も、もう「3」＿＿＿＿。\n\n        \n---\n\n        「2」に入るものはなんですか。",
+    "options": [
+      "する",
+      "やる",
+      "すり",
+      "やり"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_30",
+    "testNum": 2,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "たかはし：みなみえきに　新しい　レストランができてますよ。\n        皆はもういきましたか\n\n        はなやま：「1」＿＿＿＿＿、とってもおいしいですよ。\n\n        たかはし：いいな、私も行ってみたい。こんど皆といきましょう。\n\n        けい　　：私もまだなので、行きたいですね。\n\n        はなやま：いいですよ。\n\n        たかはし：あ、しゅくだいまだ　やってなかった。\n\n            　しゅくだいを「2」＿＿＿＿ながらでもいいですか。\n\n        けい　　：ぜんぜんいいですよ。\n\n        はなやま：じゃ、またあとでね。\n\n        たかはし：ええ、また。\n\n        けい　　：私も、もう「3」＿＿＿＿。\n\n        \n---\n\n        「4」に入るものはなんですか。",
+    "options": [
+      "かえりませんか",
+      "かえりますね",
+      "かえりましょう",
+      "かえりました"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_31",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人は何をしていますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_32",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "山田さんはどの人ですか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_33",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人はどうして休みたいですか",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_34",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "スタッフは何時から仕事しますか。",
+    "options": [
+      "03:00",
+      "08:30",
+      "04:00",
+      "04:30"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_35",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "二人はいつ映画館へ行きますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_36",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は今日、なにで駅前へ行きますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_37",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人の場所は今何時ですか。",
+    "options": [
+      "午前8時50分",
+      "午後8時50分",
+      "午前8時15分",
+      "午後8時15分"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_38",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "タムさんの国にどんなきせつがありますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_39",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "料理のクラスはいくらお金がかかりますか。",
+    "options": [
+      "1回５００円",
+      "1回７００円",
+      "1回８００円",
+      "1回１０００円"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_40",
+    "testNum": 2,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人はどのぐらい日本語を勉強しましたか。",
+    "options": [
+      "2年間",
+      "3年間",
+      "7年間",
+      "5年間"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_41",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "今日は天気が良かったので、いつもの道を通らないで、\n        公園を散歩しながら学校に行きました。私のうちから学校まで、\n        いつもは歩いて15分ですが、今日は30分かかりました。\n        でも気持ちがよかったです。\n        \n---\n\n        私は今日何をしましたか。",
+    "options": [
+      "公園を通って、学校にいきました",
+      "学校に行かないで、公園を散歩しました ",
+      "学校に行かないで、公園を散歩しました",
+      "学校からいつもの道で公園に行きました"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_42",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "ルームメートの三ンへさんからのメモです。\n\n        アル さん、\n\n        さきに学校に行き ます。教室で会いましょう。\n        家を出る前に、電気を消すのを忘れないでください。先生に借りた本も忘れないでくださいね!\n\n        \n---\n\n        アルさんはでかける前に何をしますか。",
+    "options": [
+      "学校に行きます",
+      "三ンへと会います",
+      "電気を消します",
+      "先生に借りた本を読みます"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_43",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-44\n---\n\n        今日は私の家にいる犬のことを話し ます。黒い犬で、名前はノアと言い ます。\n\n        ノアは小さい時だれかがうちの前においていった犬です。\n        大きい ですが、その時はまだ目が開いていなくて、「クーン、クーン｣と泣いていました。\n        私はすぐにあたたかい 部屋に入れ ました。はじめは、元気がありませんでしたが、\n        1週間ぐらいで とても 元気になり ました。\n\n        小さい時はよく 泣き ましたが、今は泣き ません。でも、走るのがはやくて、\n        さんぽのときは大変です。\n\n        \n        \n---\n\n        「ノア」は今どんな犬ですか。",
+    "options": [
+      "くろくて、大きくて、しずかないぬ",
+      "しろくて、大きくて、うるさいいぬ",
+      "くろくて、小さくて、しずかないぬ",
+      "しろくて、小さくて、うるさいいぬ"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_44",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-44\n---\n\n        今日は私の家にいる犬のことを話し ます。黒い犬で、名前はノアと言い ます。\n\n        ノアは小さい時だれかがうちの前においていった犬です。\n        大きい ですが、その時はまだ目が開いていなくて、「クーン、クーン｣と泣いていました。\n        私はすぐにあたたかい 部屋に入れ ました。はじめは、元気がありませんでしたが、\n        1週間ぐらいで とても 元気になり ました。\n\n        小さい時はよく 泣き ましたが、今は泣き ません。ノアは走るのがはやくて、\n        さんぽのときは大変です。\n\n        \n        \n---\n\n        「ノア」は今どんな犬ですか。",
+    "options": [
+      "走るのがたいへんはやかったです",
+      "よく泣いてとても元気でした",
+      "目が開いていませんでした",
+      "さんぽがとてもすきでした"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_45",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "私は大学の時、日本の映画をフランスで見ました。とても面白かったです。\n        日本についていろいろ知りたくなりました。\n        それで、日本に来て、日本語を勉強しています。\n        \n---\n\n        この人は、なぜ今日本にいますか。",
+    "options": [
+      "日本の映画を勉強するため",
+      "日本語を勉強するため",
+      "フランス語を勉強するため",
+      "フランスの映画を勉強するため"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_46",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "石田さんは、川下 図書館で働いています。本についての相談を受けたり、どこのどの本を\n        置くのがいいか考えたりします。それから、図書館の新聞によい本の紹介文を書いたり、\n        小さなこどもたちに絵本を読だりします。\n        \n        \n---\n\n        石田さんの仕事ではないものはなんですか。",
+    "options": [
+      "本を置く場所はどこがいいか、考えます",
+      "子供のために、絵本を読んでいます",
+      "紹介文をネットからまとめます。",
+      "本のことを知りたい人と相談します。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_47",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "47-48   \n---\n\n        私は水曜日に「英語で話す会」行っています。\n        この会には日本人と外国人が10人ぐらいいますが、先生はいません。\n\n        会のみなさんは英語が上手ですが、もっと上手になりたいと言います。\n        だから、みんなで色々なことを英語を使って話します。\n        今まで、ニュースや旅行の話し、お金の話などをしました。\n        絵を読んだり、歌を歌ったりしたこともあります。\n\n        私は英語があまり上手でわありませんが、みなさんがとてもやさしいので、\n        学校で勉強するより、この会で英語を話すほうが楽しいです。\n        \n        \n\n---\n\n        この会にどんな人が来ていますか。",
+    "options": [
+      "英語の先生になりたい人",
+      "英語がもっとじょうずになりたい人",
+      "英語が上手ではない人",
+      "学校では勉強したくない人"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_48",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "47-48   \n---\n\n        私は水曜日に「英語で話す会」行っています。\n        この会には日本人と外国人が10人ぐらいいますが、先生はいません。\n\n        会のみなさんは英語が上手ですが、もっと上手になりたいと言います。\n        だから、みんなで色々なことを英語を使って話します。\n        今まで、ニュースや旅行の話し、お金の話などをしました。\n        絵を読んだり、歌を歌ったりしたこともあります。\n\n        私は英語があまり上手でわありませんが、みなさんがとてもやさしいので、\n        学校で勉強するより、この会で英語を話すほうが楽しいです。\n        \n        \n\n---\n\n        私はどうして「英語話す会」に行っていますか",
+    "options": [
+      "会のみんながしんせつでたのしいから",
+      "会にはお金をはらわないから",
+      "会のみんなが英語をおしえるから",
+      "会ではいちばん英語が下手から"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_49",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "カンさんへ、\n\n        旅行ですが、3月15日か22日はどうですか。3月1日に授業がありますから、\n        そのあと、喫茶店で、お昼ご飯を食べながら旅行のこと話しませんか。\n\n        楽しみにしています。\n\n山田\n        \n---\n\n        3月1日に、カンさんと山田さんはどうしますか。",
+    "options": [
+      "旅行します",
+      "朝ごはん一緒にいきます",
+      "喫茶店で旅行のことを相談します",
+      "昼ごはんについて相談します"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_2_50",
+    "testNum": 2,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "これは日本語の学校のお知らせです\n        \n---\n\n        毎日、2人、「教室とうばん｣になって、つぎのことをしてください。\n\n        1. 授業のあと、ホワイト ボードをけして、きれいにする。\n\n        2. 帰る前に、かんたんに教室のそうじをする。\n\n        3. 帰る前に、まどをしめて、電気とエアコンをけす。\n\n\n        \n---\n\n        合っているのはどれですか。",
+    "options": [
+      "学校に来てすぐ、ホワイトボードをきれいにします",
+      "じゅうぎょうの前に、まどを開けます",
+      "電気とエアコンを消してから、帰ります",
+      "クラスのみんなと、いっしょにそうじをします"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_1",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "くだもの",
+      "やさい",
+      "しょくじ",
+      "のみもの"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_2",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "ざっし",
+      "かみ",
+      "しゃしん",
+      "てちょう"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_3",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "こうさてん",
+      "みち",
+      "かど",
+      "ばすてい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_4",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "おちゃ",
+      "コーヒー",
+      "みず",
+      "ぎゅうにゅう"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_5",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "私は、＿＿＿の9月から日本に来ました",
+    "options": [
+      "去年",
+      "来年",
+      "先月",
+      "来月"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_6",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "お父さんは、大学で勉強しながら、仕事をしています。とても＿＿＿＿＿",
+    "options": [
+      "たのしい",
+      "かんたん",
+      "いそがしい",
+      "やさしい"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_7",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "私のしゅみは＿＿＿をすることです、色んな国に行くのが好きです。",
+    "options": [
+      "旅行",
+      "食事",
+      "テニス",
+      "ギター"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_8",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "冬はとても＿＿＿です。",
+    "options": [
+      "あつい",
+      "あたたかい",
+      "つめたい",
+      "さむい"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_9",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "インドネシアの季節は二つあります\n季節=....",
+    "options": [
+      "てんき",
+      "きせつ",
+      "きっせつ",
+      "でんき"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_10",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "秋は＿＿＿が強く吹いています",
+    "options": [
+      "風",
+      "雨",
+      "雲",
+      "電"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_11",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "銀行は午後の4時までです\n銀行=...",
+    "options": [
+      "がっこう",
+      "ぎんこう",
+      "しやくしょ",
+      "ゆうびんきょく"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_12",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "明日友達と駅で待ち合わせをします\n駅=",
+    "options": [
+      "がっこう",
+      "えき",
+      "バスてい",
+      "こうえん"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_13",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "先生のれんらくさきがわからないので、友達に聞きます。\nれんらくさき=...",
+    "options": [
+      "住所",
+      "連絡先",
+      "名前",
+      "電話番号"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_14",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "私は三人きょうだいです\nきょうだい=...",
+    "options": [
+      "妹姉",
+      "姉妹",
+      "弟兄",
+      "兄弟"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_15",
+    "testNum": 3,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "JLPTの試験にごうかくしました \nごうかく=...",
+    "options": [
+      "合宿",
+      "台所",
+      "合格",
+      "台格"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_16",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：その写真、あなたのとなりにいる人はだれですか？\n\n        B：___です。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "恋人",
+      "子犬",
+      "車",
+      "私"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_17",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：＿＿＿、お決まりですか？\n\n        B：あのー、おすすめは何ですか？\n\n        A：今人気なのはさしみ。とってもおいしいのでおすすめします？\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "飲み物",
+      "ご注意",
+      "たのみ",
+      "ご注文"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_18",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "エドさんは、 去年フィリピンで住んでいますが、今＿日本に住んでいます。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "が",
+      "も",
+      "は",
+      "の"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_19",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：すみません、先のアナウンサーは、何を言ってましたか\n\n        B：大雨があったため、次の電車が20分ぐらい＿＿＿＿＿。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "おくれるそうですよ",
+      "おくれましたよ",
+      "おくれてほしいですよ",
+      "おくれるつもりです"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_20",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：料理、すごくお上手ですね。どこで覚えたんですか。\n\n        B：日本に来てから、家でインターネットを見＿＿＿学んでます。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "ながら",
+      "なくて",
+      "たいくて",
+      "て"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_21",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "本＿＿＿＿＿、CDとか、DVDもただで借りられます。\n \n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "だけじゃない",
+      "だけじゃなくて",
+      "だけで",
+      "だけでない"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_22",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：この教科書を買いたいんですが、どっちが＿＿＿＿＿ですか。\n\n        B：赤い教科書の方だと思います。</>\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "つかいやすい",
+      "かんたん",
+      "むずかしい",
+      "つかいにくい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_23",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "イスラムきょうは一日5回おいのりを＿＿＿＿＿＿。\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "しなければなります",
+      "しなくてもよくないです",
+      "しなくてもいいです",
+      "しなければなりません"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_24",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：かっこいい時計ですね。どこで買ったんですか\n\n        B：いえ、これは母が＿＿＿＿\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "くれたんです",
+      "もらったんです",
+      "やったんです",
+      "うったんです"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_25",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A：日本での仕事はどうですか\n\n        B：たいへん＿＿＿＿、たのしいです\n\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "で",
+      "だけど",
+      "そして",
+      "です"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_26",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "禁煙の知らせが貼ってあります。ここではタバコを＿＿＿＿＿。",
+    "options": [
+      "すってはいけませんね",
+      "すってもいいですね",
+      "すいましょう",
+      "すわないつもりです"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_27",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "この書類の書き＿＿がよくわかりません。",
+    "options": [
+      "色",
+      "法",
+      "方",
+      "万"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_28",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "店員：いらっしゃいませ\n\n        お客：すみません、ぶあついコートを「１」ですが\n\n        店員：コートですね、こちらへどうぞ\n\n        お客：あ、あの黒いのが「２」\n\n        店員：この黒いのですか。\n\n        お客：いいえ違います、その隣です。大きいの方です\n\n        店員：これですね。\n\n        お客：これは、「３」ですか。\n\n        店員：ぜいこみで104000￥です。このコートはとっても暖かいので、冬にはちょうどいいと思います\n\n        お客：あ、でも少しい大きすぎると思いますが\n\n        店員：サイズもあっていると思いますが、もし不安でしたら、一回しちゃくして見てはいかがですか\n\n        お客：そうですね、サイズが「４」、買います。\n\n        店員：ではしちゃく室にあんないしますので、こちらへどうぞ\n\n        \n---\n\n        「１」に入るものはなんですか。",
+    "options": [
+      "買う予定",
+      "買いたいん",
+      "売りたいん",
+      "売る予定"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_29",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "店員：いらっしゃいませ\n\n        お客：すみません、ぶあついコートを「１」ですが\n\n        店員：コートですね、こちらへどうぞ\n\n        お客：あ、あの黒いのが「２」\n\n        店員：この黒いのですか。\n\n        お客：いいえ違います、その隣です。大きいの方です\n\n        店員：これですね。\n\n        お客：これは、「３」ですか。\n\n        店員：ぜいこみで104000￥です。このコートはとっても暖かいので、冬にはちょうどいいと思います\n\n        お客：あ、でも少しい大きすぎると思いますが\n\n        \n---\n\n        「２」に入るものはなんですか。",
+    "options": [
+      "いくらですか",
+      "よくないです",
+      "いいです",
+      "かいます"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_30",
+    "testNum": 3,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "店員：いらっしゃいませ\n\n        お客：すみません、ぶあついコートを「１」ですが\n\n        店員：コートですね、こちらへどうぞ\n\n        お客：あ、あの黒いのが「２」\n\n        店員：この黒いのですか。\n\n        お客：いいえ違います、その隣です。大きいの方です\n\n        店員：これですね。\n\n        お客：これは、「３」ですか。\n\n        店員：ぜいこみで104000￥です。このコートはとっても暖かいので、冬にはちょうどいいと思います\n\n        お客：あ、でも少しい大きすぎると思いますが\n>\n        \n---\n\n        「３」に入るものはなんですか。",
+    "options": [
+      "どれ",
+      "いくら",
+      "いつ",
+      "どこ"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_31",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人はもうどれぐらい日本に住んでいましたか",
+    "options": [
+      "一年間",
+      "一週間",
+      "一か月",
+      "一日"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_32",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は何を勉強していますか",
+    "options": [
+      "プログラムミング",
+      "日本語",
+      "専門学校",
+      "面白いこと"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_33",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人はどうして料理が趣味ですか",
+    "options": [
+      "料理が好きですから",
+      "食べるのが好きですから",
+      "料理が上手ですから",
+      "おいしいものが好きですから"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_34",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "野球が好きな人は誰ですか",
+    "options": [
+      "フオン　さん",
+      "いしかわ　さん",
+      "えこ　さん",
+      "女のひと"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_35",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "すずしくなるのはいつですか",
+    "options": [
+      "あついとき",
+      "あめのとき",
+      "かんきのとき",
+      "うきのとき"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_36",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "この会話はいつ行われましたか",
+    "options": [
+      "あさ",
+      "ゆうべ",
+      "ひる",
+      "よる"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_37",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ゆうゆかんについて間違っているのはどれですか",
+    "options": [
+      "しょくどうがあります",
+      "ゆうゆかんはおふろです",
+      "ゆうゆかんは広いです",
+      "ばすではいけません"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_38",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ロ―さんのうちについて正しいのはどれですか",
+    "options": [
+      "こじまちょうの近くにあります",
+      "信号の左にあります",
+      "こじま高校の近くにあります",
+      "白くて大きな家のまえにあります"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_39",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人はどけでプロレスの試合を見ますか",
+    "options": [
+      "今度の日曜日",
+      "しみんたいいくかん",
+      "プロレス所",
+      "試合はありません"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_40",
+    "testNum": 3,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "間違っているのを選んでください",
+    "options": [
+      "ラメんはハラルです",
+      "このコーナーの商品はハラルです",
+      "このコーナーのラメんはハラルです",
+      "このラメんはハラルじゃありません"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_41",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-42\n---\n\n        モニカ：店長、来月20日の月曜日とその次の日、休みをとっても大丈夫ですか。インドネシアから友達が来るので、案内したいです\n\n        店長：今月、4月は忙しいが、来月ならそんなにいそがしくないので。別にかまいませんよ\n\n        モニカ：ありがとうございます。\n\n        \n---\n\n        モニカさんは、どうして休みをとりましたか",
+    "options": [
+      "インドネシアに遊びたいから",
+      "友達のうちに行きたいかったから",
+      "友達を案内したいから",
+      "やすみたいから"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_42",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-42\n---\n\n        モニカ：店長、来月20日の月曜日とその次の日、休みをとっても大丈夫ですか。インドネシアから友達が来るので、案内したいです\n\n        店長：今月、4月は忙しいが、来月ならそんなにいそがしくないので。別にかまいませんよ\n\n        モニカ：ありがとうございます。\n\n        \n---\n\n        いつ休みをしましたか",
+    "options": [
+      "4月20日と4月21日",
+      "5月20日と5月21日",
+      "5月20日",
+      "4月21日"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_43",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-44\n---\n\n        いしいせんせいはアダさんに漢字を教えています。アダさんは毎日20字を覚えようとしています。大変ですが、毎日頑張って勉強しています。わからないとき、アダさんは先生だけじゃなくて、日本人の友達にもよく聞いています。\n        そのおかげで、一か月で600字も覚えることができました。周りの人にはアダさんは頑張りやだとよく言われていえます。\n\n\n        \n---\n\n        アダさんは誰から漢字をならっていましたか。",
+    "options": [
+      "大学の先生",
+      "いしいせんせい",
+      "日本人のともだち",
+      "一人で勉強しています"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_44",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-44\n---\n\n        いしいせんせいはアダさんに漢字を教えています。アダさんは毎日20字を覚えようとしています。大変ですが、毎日頑張って勉強しています。わからないとき、アダさんは先生だけじゃなくて、日本人の友達にもよく聞いています。\n        そのおかげで、一か月で600字も覚えることができました。周りの人にはアダさんは頑張りやだとよく言われていえます。\n\n\n        \n---\n\n        漢字を600じ覚えるには、どれぐらいかかりましたか。",
+    "options": [
+      "一日",
+      "一か月半",
+      "一か月",
+      "一か年"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_45",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-44\n---\n\n        いしいせんせいはアダさんに漢字を教えています。アダさんは毎日20字を覚えようとしています。大変ですが、毎日頑張って勉強しています。わからないとき、アダさんは先生だけじゃなくて、日本人の友達にもよく聞いています。\n        そのおかげで、一か月で600字も覚えることができました。周りの人にはアダさんは頑張りやだとよく言われていえます。\n\n\n        \n---\n\n        アダさんはわからないことがあったら、どうしますか。",
+    "options": [
+      "ネットでしらべます",
+      "友達にききます",
+      "なにもしません",
+      "辞書でわからないことをしらべます"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_46",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-48\n---\n\n        日本の料理はさっぱりなあじをしています。インドネシアとちがくて、辛いのはあまりありません。そして、\n        日本人はよく、はしでごはんを食べています。この、わしょくの文化はえいようバランスがとてもいいです。\n        こめ、さかな、やさい、くだものなど、レストランの定食でよくだされています。このおかげで、日本人\n        のじゅみょうはながいです\n        \n        \n---\n\n        和食はどんな味をしますか。",
+    "options": [
+      "からい",
+      "さっぱり",
+      "のうこう",
+      "あまい"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_47",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-48\n---\n\n        日本の料理はさっぱりなあじをしています。インドネシアとちがくて、辛いのはあまりありません。そして、\n        日本人はよく、はしでごはんを食べています。この、わしょくの文化はえいようバランスがとてもいいです。\n        こめ、さかな、やさい、くだものなど、レストランの定食でよくだされています。このおかげで、日本人\n        のじゅみょうはながいです\n        \n        \n---\n\n        和食のいいところはなんですか。",
+    "options": [
+      "はしをつかっています",
+      "あじがさっぱりしています",
+      "えいようのバランスがいい",
+      "さかな、や野菜がはいっています"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_48",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-48\n---\n\n        日本の料理はさっぱりなあじをしています。インドネシアとちがくて、辛いのはあまりありません。そして、\n        日本人はよく、はしでごはんを食べています。この、わしょくの文化はえいようバランスがとてもいいです。\n        こめ、さかな、やさい、くだものなど、レストランの定食でよくだされています。このおかげで、日本人\n        のじゅみょうはながいです。\n        \n---\n\n        和食のおかげで、日本人はどうなっていますか。",
+    "options": [
+      "おとしよりまで、げんきでいきています",
+      "レストラン和食で人気になっています",
+      "からいのはきらいになっています",
+      "やさい、さかななどが好きになっています"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_49",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "49-50\n---\n\n        私のしゅみはバドミントンをすることです。子供の時から運動がすきで、最初は毎日サッカーの練習をしています。\n        中学生のとき、両親にオリンピックのバドミントン大会に連れて行ってもらって、プロのバドミントンを、めのまえでみたら、\n        すきになりました。その日から、バドミントンがしゅみになりました。それで、こうこうのバドミントンのクラブにさんかして、\n        色んな大会にでました。しょうらいは、私もオリンピックに出たいです。\n        \n---\n\n       「私」は子供の時何が好きですか。",
+    "options": [
+      "サッカー",
+      "バドミントン",
+      "オリンピック",
+      "バンド"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_3_50",
+    "testNum": 3,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "49-50\n---\n\n        私のしゅみはバドミントンをすることです。子供の時から運動がすきで、最初は毎日サッカーの練習をしています。\n        中学生のとき、両親にオリンピックのバドミントン大会に連れて行ってもらって、プロのバドミントンを、めのまえでみたら、\n        すきになりました。その日から、バドミントンがしゅみになりました。それで、こうこうのバドミントンのクラブにさんかして、\n        色んな大会にでました。しょうらいは、オリンピックでみたプロみたいに、私もオリンピックに出たいです。\n        \n---\n\n       「私」はどうしてバドミントンのオリンピック大会に出たいですか。",
+    "options": [
+      "両親のゆめですから",
+      "しゅみですから",
+      "プロみたいになりたいから",
+      "たくさん練習したから"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_1",
+    "testNum": 4,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "やさい",
+      "さいふ",
+      "ひきだし",
+      "ふとう"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_2",
+    "testNum": 4,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "てんいん",
+      "いしゃ",
+      "せんせい",
+      "せんぱい"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_3",
+    "testNum": 4,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "おちゃ",
+      "コーヒー",
+      "みず",
+      "ぎゅうにゅう"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_4",
+    "testNum": 4,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "けっこん",
+      "りこん",
+      "みこん",
+      "だいこん"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_21",
+    "testNum": 4,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "先生は　わたしに　日本語を　たくさん　（　　　）。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "おしえて　もらいました",
+      "ならって　くれました",
+      "おしえて　くれました",
+      "ならって　もらいました"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_28",
+    "testNum": 4,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "兄：明日、仕事あるので、犬のえさを「１」。\n\n        妹：え、犬好きじゃないんですけど\n\n        兄：えさをやるだけなので、別に　いっしょうに　「２」なくても　いいです。\n\n        妹：じゃ、やるけど。どれぐらいいくの。\n\n        兄：二日だけだから、おねぎいね。\n\n        妹：えさは　どこにありますか。\n\n        兄：二日分のえさ、れいぞうこ　にあるよ。時間と日ごとに　じゅんびしているので、\n        ふたをあけて、いつも食べている場所に「３」おけばいいから。\n\n        妹：わかった。\n\n        兄：ありがとう、じゃよろしくね。\n\n        \n---\n\n        「１」に入るものはなんですか。",
+    "options": [
+      "やってくれる",
+      "やってる",
+      "やってあげる",
+      "やってもらった"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_29",
+    "testNum": 4,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "兄：明日、仕事あるので、犬のえさを「１」。\n\n        妹：え、犬好きじゃないんですけど\n\n        兄：えさをやるだけなので、別に　いっしょうに　「２」なくても　いいです。\n\n        妹：じゃ、やるけど。どれぐらいいくの。\n\n        兄：二日だけだから、おねぎいね。\n\n        妹：えさは　どこにありますか。\n\n        兄：二日分のえさ、れいぞうこ　にあるよ。時間と日ごとに　じゅんびしているので、\n        ふたをあけて、いつも食べている場所に「３」おけばいいから。\n\n        妹：わかった。\n\n        兄：ありがとう、じゃよろしくね。\n\n        \n---\n\n        「２」に入るものはなんですか。",
+    "options": [
+      "あそんでくれる",
+      "あそんであげない",
+      "あそんで",
+      "あそんでて"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_30",
+    "testNum": 4,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "兄：明日、仕事あるので、犬のえさを「１」。\n\n        妹：え、犬好きじゃないんですけど\n\n        兄：えさをやるだけなので、別に　いっしょうに　「２」なくても　いいです。\n\n        妹：じゃ、やるけど。どれぐらいいくの。\n\n        兄：二日だけだから、おねぎいね。\n\n        妹：えさは　どこにありますか。\n\n        兄：二日分のえさ、れいぞうこ　にあるよ。時間と日ごとに　じゅんびしているので、\n        ふたをあけて、いつも食べている場所に「３」おけばいいから。\n\n        妹：わかった。\n\n        兄：ありがとう、じゃよろしくね。\n\n        \n---\n\n        「３」に入るものはなんですか。",
+    "options": [
+      "おいて",
+      "おいた",
+      "おく",
+      "おけ"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_31",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は　何を　あげましたか",
+    "options": [
+      "フォトフレーム",
+      "フォトコンテスト",
+      "フォローフレーム",
+      "フォローコンテスト"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_32",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人は　男の人に　何をしてあげますか",
+    "options": [
+      "日本語教える",
+      "JLPT合格にする",
+      "勉強の本をあげる",
+      "ほめる"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_33",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人のかばんは　どうやって手に入れましたか",
+    "options": [
+      "お母さんからもらいました",
+      "ミャンマーで　買いました",
+      "日本で　買いました",
+      "男の人が　あげました"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_34",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "町について　まちがっているのは　どれですか",
+    "options": [
+      "すみやすい",
+      "けしきが　きれい",
+      "人がやさしい",
+      "ものが　やすい"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_35",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "明日の天気は　どうなりますか",
+    "options": [
+      "あめです",
+      "風が強くてさむいです",
+      "雨がふってさむいです",
+      "あたたかいいちにちです"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_36",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ゆうびんきょくには　まっすぐいったら　次はどこへ行きますか",
+    "options": [
+      "一つ目の信号を左に曲がります",
+      "一つ目の信号を右に曲がります",
+      "二つ目の信号を左に曲がります",
+      "二つ目の信号を右に曲がります"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_37",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は　どうして　とうきょうタワーに　のぼらないですか",
+    "options": [
+      "時間がありませんから",
+      "チケットが高いから",
+      "高いところは　にがてだから",
+      "ともだちが　いませんから"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_38",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "この後二人は　何をしますか",
+    "options": [
+      "お金をおろしにいきます",
+      "いっしょに　ごはんを　たべます",
+      "かえります",
+      "銀行へ　いきます"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_39",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ちゃわんむしは　何からできていますか、まちがっているのをえらんでください",
+    "options": [
+      "たまご",
+      "みそしる",
+      "とりにく",
+      "プリン"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_40",
+    "testNum": 4,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "この後女の人は　何をしますか",
+    "options": [
+      "男に日本語の先生を　しょうかいします",
+      "チラシを取りに行きます",
+      "男の人に日本語を教えます",
+      "男の人といっしょに　日本語を勉強します"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_42",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-42\n---\n\n        店員：はい、OATけいたいの　田中ともうします。\n\n        クリス：あのう、私のIPhone　こわれてしまって、新しいのに　かえたいです。でも、最初は　ただ本物を　見たいだけですが、大丈夫ですか、そして明日は　何時から　お店が　ひらきますか\n\n        店員：ええ、ざんぜん　大丈夫です。ありがとうございます。いつもは　9時からですが、明日は　8時から　ひらきますので、どうぞご来店ください。\n\n        モニカ：わかりました、よろしくお願いします。\n\n        \n---\n\n        あした、OAT電話店はいつ　ひらきますか。",
+    "options": [
+      "9時からです",
+      "8時からです",
+      "7時までです",
+      "10時までです"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_43",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-45\n---\n\n        地元にいる　おばあさんは　よくバーベキューが　好きです。私の家族が　おばあさんの家に　行くとき、みんなで　バーベキューします。\n        お父さんと　私は　肉が　好きですから、たくさん　食べました。おばあさんはこの日　のために、とり肉と、牛肉と、馬肉までよいしてくれました。馬肉は他の肉よりおいしかったです。\n        妹は　ダイエットしているので、やさい　だけ食べました。\n        バーベキューが　おわったら、そうじしなければならないので、たうへんでした。そうじするときに、あついグリルを触ってしまって、やけどしました。\n        バーベキューはおいしいですが、そうじするのはたいへんでした。\n        \n---\n\n        妹はどうして肉を食べないですか。",
+    "options": [
+      "肉が　きらいですから",
+      "ダイエットしているから",
+      "まだそうじ　しているから",
+      "バーベキューにはいっていません"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_44",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-45\n---\n\n        地元にいる　おばあさんは　よくバーベキューが　好きです。私の家族が　おばあさんの家に　行くとき、みんなで　バーベキューします。\n        お父さんと　私は　肉が　好きですから、たくさん　食べました。おばあさんはこの日　のために、とり肉と、牛肉と、馬肉までよいしてくれました。馬肉は他の肉よりおいしかったです。\n        妹は　ダイエットしているので、やさい　だけ食べました。\n        バーベキューが　おわったら、そうじしなければならないので、たうへんでした。そうじするときに、あついグリルを触ってしまって、やけどしました。\n        バーベキューはおいしいですが、そうじするのはたいへんでした。\n        \n---\n\n        バーベキューどうでしたか。",
+    "options": [
+      "おもしろくなかった",
+      "いらなかった",
+      "おそかった",
+      "おいしいかった"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_45",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-45\n---\n\n\n        地元にいる　おばあさんは　よくバーベキューが　好きです。私の家族が　おばあさんの家に　行くとき、みんなで　バーベキューします。\n        お父さんと　私は　肉が　好きですから、たくさん　食べました。おばあさんはこの日　のために、とり肉と、牛肉と、馬肉までよいしてくれました。馬肉は他の肉よりおいしかったです。\n        妹は　ダイエットしているので、やさい　だけ食べました。\n        バーベキューが　おわったら、そうじしなければならないので、たうへんでした。そうじするときに、あついグリルを触ってしまって、やけどしました。\n        バーベキューはおいしいですが、そうじするのはたいへんでした。\n        \n---\n\n        一ばんおいしい肉は　何ですか。",
+    "options": [
+      "牛肉",
+      "とり肉",
+      "うま肉",
+      "さかな"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_46",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-48\n---\n\n        これは、田中先生から　キキさんへの　メールです。\n\n        \n\n        キキさん\n\n        \n\n        明日（24日）のやくそくですが、セミナーに　出なければならなくなりました。\n\n        \n        それで、もしわけないんですが、うちあわせは　ちがう日に　かえたいですが、29日がいいと思います。もしキキさんの　つうごうが　わるかったら、次のひにしましょう。\n\n        つごうが　よければ、じむしょで待っています。\n\n        このメールを　読んだら、先に　へんじをください。\n\n\n        田中\n        \n---\n\n        キキさんがさいしょ　、なにをやらなければなりませんか。",
+    "options": [
+      "じむしょに行く",
+      "田中せんせいにあやまる",
+      "メールを　へんじする",
+      "セミナーに行く"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_47",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-48\n---\n\n        これは、田中先生から　キキさんへの　メールです。\n\n        \n\n        キキさん\n\n        \n\n        明日（24日）のやくそくですが、セミナーに　出なければならなくなりました。\n\n        \n        それで、もしわけないんですが、うちあわせは　ちがう日に　かえたいですが、29日がいいと思います。もしキキさんの　つうごうが　わるかったら、次のひにしましょう。\n\n        つごうが　よければ、じむしょで待っています。\n\n        このメールを　読んだら、先に　へんじをください。\n\n\n        田中\n        \n---\n\n        先生はどうして打合せの約束をかえましたか。",
+    "options": [
+      "キキさんがでいなかったから",
+      "セミナーがあるから",
+      "じむしょが他の人につかわれているから",
+      "じゅんびができていないから"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_48",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-48\n---\n\n        これは、田中先生から　キキさんへの　メールです。\n\n        \n\n        キキさん\n\n        \n\n        明日（24日）のやくそくですが、セミナーに　出なければならなくなりました。\n\n        \n        それで、もしわけないんですが、うちあわせは　ちがう日に　かえたいですが、29日がいいと思います。もしキキさんの　つうごうが　わるかったら、次のひにしましょう。\n\n        つごうが　よければ、じむしょで待っています。\n\n        このメールを　読んだら、先に　へんじをください。\n\n\n        田中\n        \n---\n\n        打合せはいつになりますか。",
+    "options": [
+      "あした",
+      "あさって",
+      "みっか　ご",
+      "よっか　ご"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_49",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "49-50\n---\n\n        まきさんは銀行で働いています。毎日銀行の掃除をしてから　うけつけで　よきんや、かしだしや などをします。\n        キキさんはとても　お金には　きびしい人に　なりました。仕事は　9時から　15時までです、ざんぎょうのばあいは　18時まで　働くことがあります。\n        \n---\n\n        キキさんの仕事に入っていないのはどれですか",
+    "options": [
+      "そうじ",
+      "かしだし",
+      "よきん",
+      "りょうがえ"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_4_50",
+    "testNum": 4,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "49-50\n---\n\n        まきさんは銀行で働いています。毎日銀行の掃除をしてから　うけつけで　よきんや、かしだしや などをします。\n        キキさんはとても　お金には　きびしい人に　なりました。仕事は　9時から　15時までです、ざんぎょうのばあいは　18時まで　働くことがあります。\n        \n---\n\n        キキさんはどんな人ですか",
+    "options": [
+      "わがままな　ひと",
+      "こわい　ひと",
+      "おかねをたいせつにする　ひと",
+      "おとなしい　ひと"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_1",
+    "testNum": 5,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "むきます",
+      "まぜます",
+      "つきます",
+      "なきます"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_2",
+    "testNum": 5,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "はなび",
+      "はなみ",
+      "ぼのどり",
+      "ひので"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_3",
+    "testNum": 5,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "そうじき",
+      "すいはんき",
+      "せんたくき",
+      "じどうはんばいき"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_4",
+    "testNum": 5,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "こずい",
+      "じしん",
+      "つなみ",
+      "たいふう"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_21",
+    "testNum": 5,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "チケットを買える（　　）、あさから　ならんでいました。\n        \n---\n\n        ＿＿＿に入るものは何ですか。",
+    "options": [
+      "ように",
+      "なら",
+      "ても",
+      "が"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_28",
+    "testNum": 5,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "お客さま：いらっしゃいませ。\n\n        店員　　：すみません、新しく出た　けいたい　を買いたいんですが。\n\n        お客さま：今月は、四だいも出ましたが、この四だいの　どちらのでしょうか。\n\n        店員　　：ええと、たしか　後ろのカメラが　二つあって、　ボタンがない　けいたいです。\n\n        お客さま：「１」、この二だいですね。\n\n        店員　　：その二だいは　何が　ちがうんですか、見た目だけですか。\n\n        お客さま：そうですね、黒いほうは　ゲームに　ちょうどいいです。「２」あつくならないし、RAMも16GBあります。\n\n        店員　　：もう一つは？\n\n        お客さま：もう一つは、もっと　かるくて、小さいです。RAMは8GBまでですが、カメラは　とおい　ところまで　とれます。\n\n        店員　　：私、「３」ですから、黒いのにします。おいくらですか。\n\n        お客さま：10万5千2百円です。今日は　特別な　わりびきが　ついているので。9万6千になります。いかがですか。\n\n        店員　　：じゃ、それにしましょう。\n\n        お客さま：ありがとうございます。すぐごよういしますので、少々　お待ちください。\n\n        \n---\n\n        「１」に入るものはなんですか。",
+    "options": [
+      "そうなったら",
+      "それに",
+      "それでしたら",
+      "それで"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_29",
+    "testNum": 5,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "お客さま：いらっしゃいませ。\n\n        店員　　：すみません、新しく出た　けいたい　を買いたいんですが。\n\n        お客さま：今月は、四だいも出ましたが、この四だいの　どちらのでしょうか。\n\n        店員　　：ええと、たしか　後ろのカメラが　二つあって、　ボタンがない　けいたいです。\n\n        お客さま：「１」、この二だいですね。\n\n        店員　　：その二だいは　何が　ちがうんですか、見た目だけですか。\n\n        お客さま：そうですね、黒いほうは　ゲームに　ちょうどいいです。「２」あつくならないし、RAMも16GBあります。\n\n        店員　　：もう一つは？\n\n        お客さま：もう一つは、もっと　かるくて、小さいです。RAMは8GBまでですが、カメラは　とおい　ところまで　とれます。\n\n        店員　　：私、「３」ですから、黒いのにします。おいくらですか。\n\n        お客さま：10万5千2百円です。今日は　特別な　わりびきが　ついているので。9万6千になります。いかがですか。\n\n        店員　　：じゃ、それにしましょう。\n\n        お客さま：ありがとうございます。すぐごよういしますので、少々　お待ちください。\n\n        \n---\n\n        「２」に入るものはなんですか。",
+    "options": [
+      "なかなか",
+      "たまに",
+      "よく",
+      "いつも"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_30",
+    "testNum": 5,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "お客さま：いらっしゃいませ。\n\n        店員　　：すみません、新しく出た　けいたい　を買いたいんですが。\n\n        お客さま：今月は、四だいも出ましたが、この四だいの　どちらのでしょうか。\n\n        店員　　：ええと、たしか　後ろのカメラが　二つあって、　ボタンがない　けいたいです。\n\n        お客さま：「１」、この二だいですね。\n\n        店員　　：その二だいは　何が　ちがうんですか、見た目だけですか。\n\n        お客さま：そうですね、黒いほうは　ゲームに　ちょうどいいです。「２」あつくならないし、RAMも16GBあります。\n\n        店員　　：もう一つは？\n\n        お客さま：もう一つは、もっと　かるくて、小さいです。RAMは8GBまでですが、カメラは　とおい　ところまで　とれます。\n\n        店員　　：私、「３」ですから、黒いのにします。おいくらですか。\n\n        お客さま：10万5千2百円です。今日は　特別な　わりびきが　ついているので。9万6千になります。いかがですか。\n\n        店員　　：じゃ、それにしましょう。\n\n        お客さま：ありがとうございます。すぐごよういしますので、少々　お待ちください。\n\n        \n---\n\n        「３」に入るものはなんですか。",
+    "options": [
+      "カメラがいい",
+      "ゲームが好き",
+      "RAMが少ない",
+      "RAMが8GBもある"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_31",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人はしょうらい　何をしたいですか。",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_32",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "せんぽは　どれですか",
+    "options": [
+      "しょうてんがいに　ある　あおいかんばんの　お店。",
+      "ラーメンが　おいしいですが、りょうが　すくない　お店です。",
+      "しょうてんがい　の　前に　ある　お店せ。",
+      "ラーメンが　おいしくて、やすい　お店です。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_33",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は　どうやってコーヒーをのみますか。",
+    "options": [
+      "さとうと　ミルクを　いれて　飲みます",
+      "さとうを　いれて　飲みます",
+      "さとう　いれないで　飲みます",
+      "ミルクを　いれて　飲みます"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_34",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ばすていは　どこですか",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_35",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人は何をすればいいですか。",
+    "options": [
+      "先生に行きます。",
+      "あいきどうの　ふくを　買います。",
+      "T-シャツで行きます。",
+      "あいていませんので、かえります。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_36",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "まちがっているのを　一つえらびなさい",
+    "options": [
+      "男はもう食べません。",
+      "おこのみやきは　おいしいです。",
+      "男の人の国の料理と　にていません。",
+      "男の人が食べた料理はおこのみやきです。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_37",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "こうえんでは　何ができませんか",
+    "options": [
+      "こどもと　あそびます",
+      "たばこを　すいます",
+      "たばこを　かいます",
+      "きょうりょく　します"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_38",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "せつめいと　まちがっているのは　どれですか。",
+    "options": [
+      "ひとり400円です。",
+      "タオルは250円で買えます。",
+      "きゅうけいしつは　二かいに　あります。",
+      "シャンプーは　買わなくてもいいです。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_39",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ただしいのは　どれですか。",
+    "options": [
+      "たいふうで　わかい女の人が　すぐ　ひなんしています。",
+      "ひなんの所は　小学生のとなりです。",
+      "バラこうえん　にひなんします。",
+      "食べ物と 飲み物を 持って行った方がいいです。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_40",
+    "testNum": 5,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "アリさんは　何を　しなければなりませんか。",
+    "options": [
+      "部屋のつくえを　ならべて、パソコンと　プロジェクトを　じゅんびします。",
+      "しりょうの　じゅんびを　します",
+      "しりょうを　コピーして、つくえの上に じゅんび　します。",
+      "飲み物を　外の　店に　たのみます。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_42",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-42\n---\n\n        きのう　じむしょの人と　花見に　行った。花のさいた木の下で、みんなで　おさけを　飲んで、おどりを　おどって、花見を　たのしんでいます。<br>\n        きょうは　仕事がたくさんありますから、じむしょで　とまって　ざんぎょうします。<br>\n        外国には　こういう　しゅうかんは　あまりないみたいです。外国人は　きっと　おどろくと思います。私は　外国では　お花見が　ないのが　ざんねん　と思っていますが、\n\n        ざんぎょうが　すくないのが　うらやましいと思っています。\n        \n---\n\n        「私」はが外国人についてどう思いますか。",
+    "options": [
+      "おどろくと思っています。",
+      "うらやましいと思っています。",
+      "お花見をたのしんでいると思っています",
+      "いそがしいと　思っています。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_43",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-45\n---\n\n        さとうさんは　本を　3月7日にかりました。おそくても　いつ　かえさなければなりませんか。",
+    "options": [
+      "3月22日",
+      "4月22日",
+      "4月23日",
+      "3月23日"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_44",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-45\n---\n\n        かえす日が　おくれる時　どうしますか。",
+    "options": [
+      "としょかんに　いく。",
+      "としょかんに　メールする。",
+      "としょかんに　電話をする。",
+      "何もしない。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_45",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "43-45\n---\n\n        この中に　借りることができる　人はどれですか。",
+    "options": [
+      "本を4さつ、とCDを　2まい　16日間　かりたいひと。",
+      "DVDを4まい、とCDを　4まい　15日間　かりたいひと。",
+      "本を6さつ、DVDを5まい、とCDを　5まい　5日間　かりたいひと。",
+      "DVDを8まい、とCDを　8まい　15日間　かりたいひと。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_46",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "工場見学の　おしらせ\n        <br>あしたは　１１時から　自動車工場の見学です。学校を　１０時に　出られるよう　１０分前に　あつまってください。あつまる場所は　学校の前のこうえんです。\n        \n---\n\n        あつまる　時間と　場所は　どれですか。",
+    "options": [
+      "こうえんに、９時５０分です。",
+      "学校の前に、９時５０分です。",
+      "こうえんに、１０時１０分です。",
+      "学校の前に、１０時１０分です。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_47",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "このごろ　山田さんに　会っていない。かれは　病気だと　みんなは　言っている。<br>\n        しかし　先生は　きのう　山田さんを　駅で見たそうだ。でも　その人は　山田さんのおとうとだと思う。\n        \n---\n\n        ただしいものはどれですか。",
+    "options": [
+      " 山田さんはいつも元気だ。",
+      " 山田さんはびょうきらしい。",
+      " 山田さんはおとうとがいない。",
+      " 山田さんは木村さんと話した。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_48",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n---\n\n        兄も　私も　ゴルフが大好きだ。ところが、私は　デパートに　つとめているので、休みは　水曜日ですが、弟は　会社員なので、日曜日が　休みです。<br>\n        だから、いっしょに行こうと思ったら、弟か　私のどちらかが　休みをとらなければなりません。<br>\n        私が　休むことより　弟が休むことのほうが　多いです。<br>\n        へいじつですから「１」にゴルフを　するほうが　ねだんも　すこし安いし、コースを　よやく　するのも「２」からだ。<br>\n        私は、弟もデパートにつとめれば、「３」で毎週気分よく　ゴルフができて　とてもいいと　思うのですが。<br>\n        \n---\n\n        「１」にはどんなことばを入れたらいいですか。",
+    "options": [
+      "日曜日",
+      "水曜日",
+      "休み",
+      "毎日"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_49",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n---\n\n        兄も　私も　ゴルフが大好きだ。ところが、私は　デパートに　つとめているので、休みは　水曜日ですが、弟は　会社員なので、日曜日が　休みです。<br>\n        だから、いっしょに行こうと思ったら、弟か　私のどちらかが　休みをとらなければなりません。<br>\n        私が　休むことより　弟が休むことのほうが　多いです。<br>\n        へいじつですから「１」にゴルフを　するほうが　ねだんも　すこし安いし、コースを　よやく　するのも「２」からだ。<br>\n        私は、弟もデパートにつとめれば、「３」で毎週気分よく　ゴルフができて　とてもいいと　思うのですが。<br>\n        \n---\n\n        「２」にはどんなことばを入れたらいいですか。",
+    "options": [
+      "かんたん",
+      "むずかしい",
+      "やさしい",
+      "おもしろい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_5_50",
+    "testNum": 5,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n---\n\n        兄も　私も　ゴルフが大好きだ。ところが、私は　デパートに　つとめているので、休みは　水曜日ですが、弟は　会社員なので、日曜日が　休みです。<br>\n        だから、いっしょに行こうと思ったら、弟か　私のどちらかが　休みをとらなければなりません。<br>\n        私が　休むことより　弟が休むことのほうが　多いです。<br>\n        へいじつですから「１」にゴルフを　するほうが　ねだんも　すこし安いし、コースを　よやく　するのも「２」からだ。<br>\n        私は、弟もデパートにつとめれば、「３」で毎週気分よく　ゴルフができて　とてもいいと　思うのですが。<br>\n        \n---\n\n        「３」にはどんなことばを入れたらいいですか。",
+    "options": [
+      "一人",
+      "二人",
+      "三人",
+      "四人"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_1",
+    "testNum": 6,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "ゆき",
+      "あめ",
+      "あき",
+      "くも"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_2",
+    "testNum": 6,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "ちゅうりんじょう",
+      "くるま",
+      "ちゅうしゃじょう",
+      "じてんしゃ"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_3",
+    "testNum": 6,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "にがい",
+      "あまい",
+      "からい",
+      "おいしい"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_4",
+    "testNum": 6,
+    "sectionId": 1,
+    "sectionName": "Script and Vocabulary (文字・語彙)",
+    "question": "これは何ですか。",
+    "options": [
+      "のみます",
+      "しょくどう",
+      "たべもの",
+      "しょくじ"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 1 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_21",
+    "testNum": 6,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "明日休みですから、（　　　　）\n        \n---\n\n        （　　　）に入るものは何ですか",
+    "options": [
+      "来ないでください。",
+      "来なければなりません。",
+      "来なくてもいいです。",
+      "来ます。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_28",
+    "testNum": 6,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A: しゅみは　なんですか。 \n\n        B: 「１」です。\n\n        A: どんな　うんどう　がすきですか。\n\n        B: サッカーです。\n\n        A: へええ、すごいですね。私はあまり　「２」。\n\n        B: どうしてですか、たのしいですよ。\n\n        A: 体が　「３」。\n\n        \n\n        \n---\n\n        「１」に入るものはなんですか。",
+    "options": [
+      "うんどう",
+      "しゅみ",
+      "わたし",
+      "すき"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_29",
+    "testNum": 6,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A: しゅみは　なんですか。 \n\n        B: 「１」です。\n\n        A: どんな　うんどう　がすきですか。\n\n        B: サッカーです。\n\n        A: へええ、すごいですね。私はあまり　「２」。\n\n        B: どうしてですか、たのしいですよ。\n\n        A: 体が　「３」。\n\n        \n\n        \n---\n\n        「2」に入るものはなんですか。",
+    "options": [
+      "きらいです",
+      "すきです",
+      "すきじゃないんです",
+      "きらいじゃないんです"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_30",
+    "testNum": 6,
+    "sectionId": 2,
+    "sectionName": "Conversation and Expression (会話・表現)",
+    "question": "A: しゅみは　なんですか。 \n\n        B: 「１」です。\n\n        A: どんな　うんどう　がすきですか。\n\n        B: サッカーです。\n\n        A: へええ、すごいですね。私はあまり　「２」。\n\n        B: どうしてですか、たのしいですよ。\n\n        A: 体が　「３」。\n\n        \n\n        \n---\n\n        「2」に入るものはなんですか。",
+    "options": [
+      "つよいですから",
+      "よわいですから",
+      "つよいですが",
+      "よわいですが"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 2 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_31",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "このばすは　くうこうに　いきますか？",
+    "options": [
+      "いきます",
+      "いきません",
+      "いきました",
+      "いかない"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_32",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ここは　どこですか。",
+    "options": [
+      "さきやま　しんとしん。",
+      "ほんみや。",
+      "わわぐち。",
+      "さきやま"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_33",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は　どこにいきますか。",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_34",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女の人は休みの日何をしますか。",
+    "options": [
+      "やすみます。",
+      "こうえんで　さんぽします。",
+      "テニスを　みます。",
+      "ジョギングを　します。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_35",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "女のひとは　これから　どこに　いきますか。",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_36",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "おかしは　いくらですか。",
+    "options": [
+      "２０３円",
+      "２３０円",
+      "２００３０円",
+      "２３円"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_37",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "まちがっている　のを　えらんでください。",
+    "options": [
+      "パイオさんは　ゴジラを　みにいきました。",
+      "マリエルさんは　せんたくを　しました。",
+      "デヴィさん　は　ともだちと　およぎました。",
+      "カノルさん　は　どこへも　いきませんでした。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_38",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "ただしいのを　えらんでください。",
+    "options": [
+      "ディズニーランドは　いかないほうがいいです。",
+      "ミラさん　は　しんかんせんに　のりたいです。",
+      "ティエンさんは　ふじさんに　のぼりたいです。",
+      "すがじんじゃは　ドラエモンの　アニメの　じんじゃです。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_39",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "男の人は　どこで　日本語を　べんきょうしましたか。",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_40",
+    "testNum": 6,
+    "sectionId": 3,
+    "sectionName": "Listening Comprehension (聴解)",
+    "question": "休みの日　男の人はどこへ　いきますか。",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 3 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_42",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "41-42\n---\n\n        きのうケーキを１０こ　かいました。ばんごはんの　あと　いもうとと　ふたりで　２こ　ずつ　たべました。おいしかった。\n\n\n        \n---\n\n        ケーキは いまいくつ ありますか。",
+    "options": [
+      "一つ",
+      "三つ",
+      "六つ",
+      "八つ"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_43",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "先生    「つくえの上に 本をおかないでください、本は　かばんの中に入れてください。つくえの上には　えんぴつだけ　おいてください。では、テストをします。」\n        \n---\n\n        テストのとき本は　どこにおきますか。",
+    "options": [
+      "かばんの中です。",
+      "つくえの中です。",
+      "つくえの上です。",
+      "かばんの上です。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_44",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "ａ：「すみません、こうばんはどこですか。」<br>\n        ｂ：「こうばんですか。そこに　はしが　ありますね。そのはしを　わたって　まっすぐ　行ってください。左がわに　ありますよ。」<br>\n        ａ：「そうですか。ここから　どれぐらいかかりますか。」<br>\n        ｂ：「そうですね。５分ぐらいでしょう。」<br>\n        \n---\n\n        ただしいものは　どれですか。",
+    "options": [
+      "はしは　こうばんの左に　あります。",
+      "こうばんは　はしのとなりに　あります。",
+      "こうばんは　みちの　右に　あります。",
+      "こうばんは　ここから　５分ぐらいかかります。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_45",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "山田さんは いつも お金がたりないと言っているが、くるまを 持っているし、ゴルフも おさけもやめないから、きっとうそだろう。\n        \n---\n\n        山田さんが...",
+    "options": [
+      "お金が　たりないというのは　うそだろう。",
+      "おさけを　やめないというのは　うそだろう。",
+      "ゴルフを やめないというのは　うそだろう。",
+      "くるまを　持っているというのは　うそだろう。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_46",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-47\n        \n---\n\n        うちには ５年まえから いぬがいるが、先月から ねこもいる。 ともだち　がくれたのだ。<br>\n        ねこは 自分で さんぽしてくれるから、いぬよりべんりなペットかもしれない。\n        \n---\n\n        どれがただしいですか。",
+    "options": [
+      "この人は ねこを 友だちに あげた。",
+      "この人は ねこを 友だちに 売った。",
+      "この人は ねこを 友だちから もらった。",
+      "この人は ねこを 友だちから 買った。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_47",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "46-47\n        \n---\n\n        うちには ５年まえから いぬがいるが、先月から ねこもいる。 ともだち　がくれたのだ。<br>\n        ねこは 自分で さんぽしてくれるから、いぬよりべんりなペットかもしれない。\n        \n---\n\n        どれがただしいですか。",
+    "options": [
+      " ５年まえから ねこ　をかっています",
+      " ねこは　ぜんぜん　さんぽへ　いきません",
+      " いぬより　ねこのほうが　べんりです",
+      " 友だちは　いぬを　くれました"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_48",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n---\n\n        日本に来てはじめての春、おもしろかったのは花見というしゅうかんです。もちろんわたしの国でも、花を見て、みんなで楽しみますが、日本のようにさくらという特別な花のための特別なしゅうかんはありません。<br>\n        でも、いちばんおどろいたのは特別なしゅうかんがあることではなくて、三月の終わりごろから、四月のはじめまで、天気よほうやニュースでも花見について「とうきょうでは３０日ごろさきはじめます」、「きょう、さくらがさきました」、「つぎの土曜日が花見にいいですよ」などとおしえてくれることです。<br>\n        わたしも友だちといっしょに花見をしました。学校の近くのこうえんに行ったのですが、日本の花見では花を見るより、みんなで食べたり飲んだりしてにぎやかにさわぐほうが大事なようです。さわぐことならいつでもできるのに、どうしてほかの花のときはさわがないのでしょう。わたしは少しおかしいと思いました。<br>\n        \n---\n\n        この人は　花見　について　どうおもっていますか。",
+    "options": [
+      "おもしろい　とおもっています。",
+      "特別だ　とおもっています。",
+      "たのしい　とおもっています。",
+      "はじめてだ　とおもっています。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_49",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n---\n\n        日本に来てはじめての春、おもしろかったのは花見というしゅうかんです。もちろんわたしの国でも、花を見て、みんなで楽しみますが、日本のようにさくらという特別な花のための特別なしゅうかんはありません。<br>\n        でも、いちばんおどろいたのは特別なしゅうかんがあることではなくて、三月の終わりごろから、四月のはじめまで、天気よほうやニュースでも花見について「とうきょうでは３０日ごろさきはじめます」、「きょう、さくらがさきました」、「つぎの土曜日が花見にいいですよ」などとおしえてくれることです。<br>\n        わたしも友だちといっしょに花見をしました。学校の近くのこうえんに行ったのですが、日本の花見では花を見るより、みんなで食べたり飲んだりしてにぎやかにさわぐほうが大事なようです。さわぐことならいつでもできるのに、どうしてほかの花のときはさわがないのでしょう。わたしは少しおかしいと思いました。<br>\n        \n---\n\n        いちばんおどろいたことは何ですか。",
+    "options": [
+      "特別な花のために特別なしゅうかんがあること",
+      "三月の終わりから、四月のはじめまでさくこと",
+      "天気よほうやニュースで花見について知らせること",
+      "花見についてみんながいろいろなことをいうこと"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  },
+  {
+    "id": "jft_6_50",
+    "testNum": 6,
+    "sectionId": 4,
+    "sectionName": "Reading Comprehension (読解)",
+    "question": "48-50\n---\n\n        日本に来てはじめての春、おもしろかったのは花見というしゅうかんです。もちろんわたしの国でも、花を見て、みんなで楽しみますが、日本のようにさくらという特別な花のための特別なしゅうかんはありません。<br>\n        でも、いちばんおどろいたのは特別なしゅうかんがあることではなくて、三月の終わりごろから、四月のはじめまで、天気よほうやニュースでも花見について「とうきょうでは３０日ごろさきはじめます」、「きょう、さくらがさきました」、「つぎの土曜日が花見にいいですよ」などとおしえてくれることです。<br>\n        わたしも友だちといっしょに花見をしました。学校の近くのこうえんに行ったのですが、日本の花見では花を見るより、みんなで食べたり飲んだりしてにぎやかにさわぐほうが大事なようです。さわぐことならいつでもできるのに、どうしてほかの花のときはさわがないのでしょう。わたしは少しおかしいと思いました。<br>\n        \n---\n\n        「少しおかしいと思った」のはなぜですか。",
+    "options": [
+      "友だちといっしょににぎやかに花見をするから。",
+      "自分の国では花を見るしゅんかんがないから。",
+      "さくらの花見のときだけにぎやかにさわぐから。",
+      "花がまださいていないのにさわいでいたから。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Official JFT-Basic CBT standard question. Section 4 testing A2 practical communicative competence in Japan."
+  }
+]
