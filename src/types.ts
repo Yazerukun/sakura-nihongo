@@ -2,6 +2,7 @@ export type LevelType = 'JFT' | 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 
 export type StudyMode = 
   | 'cbt'
+  | 'lms'
   | 'realtime-voice'
   | 'ai-tutor'
   | 'flashcards'
@@ -99,3 +100,39 @@ export interface StudyStats {
   streakDays: number;
   lastStudyDate: string;
 }
+
+export interface LMSPattern {
+  id: string;
+  title: string;
+  examSection: string;
+  badge: string;
+  description: string;
+  strategy: string;
+}
+
+export interface LMSQuestion {
+  id: string;
+  patternId: string;
+  patternName: string;
+  level: string;
+  question: string;
+  options: string[];
+  correctAnswerIndex: number;
+  explanation: string;
+  patternRule: string;
+  audioText?: string;
+}
+
+export interface LMSMockExam {
+  testId: string;
+  testNumber: number;
+  title: string;
+  japaneseTitle: string;
+  targetLevel: string;
+  timeLimitMinutes: number;
+  totalQuestions: number;
+  passingScore: number;
+  description: string;
+  questionIds: string[];
+}
+

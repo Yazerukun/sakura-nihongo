@@ -2,6 +2,7 @@ import React from 'react';
 import { StudyMode } from '../types';
 import { 
   Zap, 
+  GraduationCap,
   Mic, 
   Bot, 
   Layers, 
@@ -22,6 +23,13 @@ interface NavigationProps {
 
 export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMode, targetLevel }) => {
   const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [
+    {
+      id: 'lms',
+      label: 'LMS Reviewer & Mock Suite',
+      icon: <GraduationCap className="w-4 h-4 text-sakura-500 fill-sakura-500" />,
+      desc: '9 Patterns & 10 Mock Exams',
+      badge: '2025/2026'
+    },
     {
       id: 'cbt',
       label: 'Real-Time CBT Exam',

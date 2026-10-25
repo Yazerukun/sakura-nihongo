@@ -8,6 +8,7 @@ import { SakuraCanvas } from './components/SakuraCanvas';
 import { LoginModal } from './components/LoginModal';
 import { ProfileModal } from './components/ProfileModal';
 import { CBTExamSimulator } from './components/CBTExamSimulator';
+import { LMSReviewer } from './components/LMSReviewer';
 import { RealTimeVoiceTrainer } from './components/RealTimeVoiceTrainer';
 import { RealTimeAITutor } from './components/RealTimeAITutor';
 import { FlashcardDeck } from './components/FlashcardDeck';
@@ -144,6 +145,7 @@ export const App: React.FC = () => {
 
           {/* Active View */}
           <main className="flex-grow">
+            {currentMode === 'lms' && <LMSReviewer level={currentLevel} />}
             {currentMode === 'cbt' && <CBTExamSimulator level={currentLevel} />}
             {currentMode === 'realtime-voice' && <RealTimeVoiceTrainer level={currentLevel} />}
             {currentMode === 'ai-tutor' && <RealTimeAITutor level={currentLevel} />}

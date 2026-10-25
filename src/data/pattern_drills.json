@@ -1,0 +1,3127 @@
+{
+  "patterns": [
+    {
+      "id": "p1_kanji_reading",
+      "title": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "examSection": "Language Knowledge / Moji",
+      "badge": "漢字",
+      "description": "Tests your ability to accurately select the correct Hiragana reading for underlined Kanji words in realistic sentences.",
+      "strategy": "Pay close attention to long vowels (お vs おう, え vs えい), small っ (sokuon), and voiced consonants (tenten が/ざ/だ/ば/ぱ)."
+    },
+    {
+      "id": "p2_kanji_writing",
+      "title": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "examSection": "Language Knowledge / Moji",
+      "badge": "表記",
+      "description": "Given a sentence with a Hiragana word, identify the correct Kanji representation from visual distractor characters.",
+      "strategy": "Distinguish between visually similar radicals (e.g., 待つ to wait vs 持つ to hold; 言 to speak vs 計 to measure; 書 vs 昼)."
+    },
+    {
+      "id": "p3_context_vocab",
+      "title": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "examSection": "Language Knowledge / Goi",
+      "badge": "語彙",
+      "description": "Choose the most logically and contextually appropriate noun, verb, or adverb that fits inside the sentence blank.",
+      "strategy": "Read the whole sentence first before looking at choices. Look for collocation pairs (e.g. 傘をさす, 薬を飲む, 電気を消す, 鍵をかける)."
+    },
+    {
+      "id": "p4_paraphrase",
+      "title": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "examSection": "Language Knowledge / Goi",
+      "badge": "類語",
+      "description": "Identify which phrase or sentence conveys the exact same meaning as the underlined word.",
+      "strategy": "Focus on the core intent: e.g. 気をつけて -> 注意して; だいたい -> およそ; 遠慮しないで -> 気を使わないで; 確かめる -> 確認する."
+    },
+    {
+      "id": "p5_grammar_form",
+      "title": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "examSection": "Grammar / Bunpou",
+      "badge": "文法",
+      "description": "Fill the blank with correct particles (は, が, を, に, で, へ, と, より) or verb conjugation forms (Te-form, Passive, Causative, Potential, Conditional).",
+      "strategy": "Check the verb following the particle. Destination takes に/へ, active action at location takes で, passive takes に/から, ability takes が."
+    },
+    {
+      "id": "p6_star_ordering",
+      "title": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "examSection": "Grammar / Bunpou",
+      "badge": "並び替え★",
+      "description": "Reorder 4 scrambled phrase fragments: ＿＿ ＿＿ ★ ＿＿ to form a natural grammatical sentence, then pick the phrase that belongs on the star (★)!",
+      "strategy": "Form smaller 2-word collocations first. Look at the end of the sentence to see what verb form is needed, and connect modifiers before nouns."
+    },
+    {
+      "id": "p7_conversation",
+      "title": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "examSection": "JFT Kaiwa / Communication",
+      "badge": "会話",
+      "description": "Select natural, polite conversational responses for workplace shifts, shopping, apologies, and asking permissions.",
+      "strategy": "Evaluate social hierarchy: talking to a manager vs coworker. Use 〜てもいいですか for permission, お疲れ様です for shifts, 承知いたしました for requests."
+    },
+    {
+      "id": "p8_short_reading",
+      "title": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "examSection": "Reading / Dokkai",
+      "badge": "読解",
+      "description": "Comprehend real apartment notices, clinic hours, work emails, and instruction flyers.",
+      "strategy": "Read the question first to know what target info (date, price, condition) to scan for in the text."
+    },
+    {
+      "id": "p9_info_retrieval",
+      "title": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "examSection": "Reading / Dokkai",
+      "badge": "情報検索",
+      "description": "Extract specific details from garbage disposal calendars, train timetables, discount coupons, and event posters.",
+      "strategy": "Check footnotes, asterisk (*) conditions, day-of-the-week restrictions, and conditions that apply to specific groups."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p1_1",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n毎朝、公園を＿＿散歩＿＿します。",
+      "options": [
+        "さんぽ",
+        "さくぽ",
+        "ざんぽ",
+        "さぽ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "散歩 (sanpo) = walk/stroll. 散 = さん, 歩 = ぽ.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "毎朝、公園を散歩します。"
+    },
+    {
+      "id": "p1_2",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n明日は＿＿午後＿＿から雨が降るでしょう。",
+      "options": [
+        "ごぜん",
+        "ごご",
+        "ごうご",
+        "ごうぜん"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "午後 (gogo) = afternoon (p.m.). 午前 (gozen) = morning (a.m.).",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "明日は午後から雨が降るでしょう。"
+    },
+    {
+      "id": "p1_3",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\nこの部屋はとても＿＿明るい＿＿ですね。",
+      "options": [
+        "あかるい",
+        "あかい",
+        "あたたかい",
+        "あぶない"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "明るい (akarui) = bright/cheerful.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "この部屋はとても明るいですね。"
+    },
+    {
+      "id": "p1_4",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n駅前のスーパーで＿＿買い物＿＿をしました。",
+      "options": [
+        "かいもの",
+        "たべもの",
+        "のみもの",
+        "おりもの"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "買い物 (kaimono) = shopping. 買 = か(う), 物 = もの.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "駅前のスーパーで買い物をしました。"
+    },
+    {
+      "id": "p1_5",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n友達に手紙を＿＿送り＿＿ました。",
+      "options": [
+        "おくり",
+        "つくり",
+        "とどき",
+        "ならい"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "送る (okuru) = to send. 送り = おくり.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "友達に手紙を送りました。"
+    },
+    {
+      "id": "p1_6",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n兄は＿＿病院＿＿で働いています。",
+      "options": [
+        "びょういん",
+        "びよういん",
+        "びょいん",
+        "ぼういん"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "病院 (byouin) = hospital. Note: 美容院 (biyouin) is beauty salon.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "兄は病院で働いています。"
+    },
+    {
+      "id": "p1_7",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n来週、新しい＿＿会社＿＿に入ります。",
+      "options": [
+        "かいしゃ",
+        "かいしや",
+        "かいじゃ",
+        "がっしゃ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "会社 (kaisha) = company/office.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "来週、新しい会社に入ります。"
+    },
+    {
+      "id": "p1_8",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\nこの川の水はとても＿＿冷たい＿＿です。",
+      "options": [
+        "つめたい",
+        "ぬるい",
+        "あたたかい",
+        "すずしい"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "冷たい (tsumetai) = cold to the touch.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "この川の水はとても冷たいです。"
+    },
+    {
+      "id": "p1_9",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n図書館で本を＿＿借り＿＿ました。",
+      "options": [
+        "かり",
+        "かし",
+        "かえし",
+        "おり"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "借りる (kariru) = to borrow. 貸す (kasu) = to lend.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "図書館で本を借りました。"
+    },
+    {
+      "id": "p1_10",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n父は毎朝新聞を＿＿読んで＿＿います。",
+      "options": [
+        "よんで",
+        "のんで",
+        "すんで",
+        "こんで"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "読む (yomu) -> 読んで (yonde) = reading.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "父は毎朝新聞を読んでいます。"
+    },
+    {
+      "id": "p1_11",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n日本の＿＿料理＿＿を作ってみたいです。",
+      "options": [
+        "りょうり",
+        "りょり",
+        "りょうに",
+        "りょうじ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "料理 (ryouri) = cooking/cuisine.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "日本の料理を作ってみたいです。"
+    },
+    {
+      "id": "p1_12",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n電車が＿＿急に＿＿止まりました。",
+      "options": [
+        "きゅうに",
+        "きゅに",
+        "ぐうに",
+        "とうに"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "急に (kyuu ni) = suddenly/abruptly.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "電車が急に止まりました。"
+    },
+    {
+      "id": "p1_13",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n＿＿外国＿＿の友達と話します。",
+      "options": [
+        "がいこく",
+        "かいこく",
+        "がいごく",
+        "がいご"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "外国 (gaikoku) = foreign country.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "外国の友達と話します。"
+    },
+    {
+      "id": "p1_14",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n教室の窓を＿＿開けて＿＿ください。",
+      "options": [
+        "あけて",
+        "しめて",
+        "つけて",
+        "みせて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "開ける (akeru) = to open. 閉める (shimeru) = to close.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "教室の窓を開けてください。"
+    },
+    {
+      "id": "p1_15",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n＿＿来月＿＿、東京へ引っ越します。",
+      "options": [
+        "らいげつ",
+        "せんげつ",
+        "こんげつ",
+        "まいげつ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "来月 (raigetsu) = next month. 先月 = last month. 今月 = this month.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "来月、東京へ引っ越します。"
+    },
+    {
+      "id": "p1_16",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n山田先生はとても＿＿親切＿＿な人です。",
+      "options": [
+        "しんせつ",
+        "しんぜつ",
+        "しんさつ",
+        "しんちゃく"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "親切 (shinsetsu) = kind/gentle.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "山田先生はとても親切な人です。"
+    },
+    {
+      "id": "p1_17",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n毎日＿＿自転車＿＿で通っています。",
+      "options": [
+        "じてんしゃ",
+        "じでんしゃ",
+        "じどうしゃ",
+        "じっしゃ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "自転車 (jitensha) = bicycle.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "毎日自転車で通っています。"
+    },
+    {
+      "id": "p1_18",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\nこの花はとてもいい＿＿匂い＿＿がします。",
+      "options": [
+        "におい",
+        "あじ",
+        "おと",
+        "いろ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "匂い (nioi) = smell/scent. 味 = taste, 音 = sound.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "この花はとてもいい匂いがします。"
+    },
+    {
+      "id": "p1_19",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n＿＿危険＿＿ですから、入らないでください。",
+      "options": [
+        "きけん",
+        "きんけん",
+        "きげん",
+        "けいけん"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "危険 (kiken) = danger/hazardous.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "危険ですから、入らないでください。"
+    },
+    {
+      "id": "p1_20",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n机の上に＿＿辞書＿＿を置きました。",
+      "options": [
+        "じしょ",
+        "じしょう",
+        "じっしょ",
+        "ずしょ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "辞書 (jisho) = dictionary.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "机の上に辞書を置きました。"
+    },
+    {
+      "id": "p1_21",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n＿＿両親＿＿に電話をかけました。",
+      "options": [
+        "りょうしん",
+        "りょしん",
+        "りょうし",
+        "りょうじん"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "両親 (ryoushin) = parents.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "両親に電話をかけました。"
+    },
+    {
+      "id": "p1_22",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\nこの料理は少し＿＿辛い＿＿です。",
+      "options": [
+        "からい",
+        "あまい",
+        "にがい",
+        "すっぱい"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "辛い (karai) = spicy/hot. 甘い = sweet, 苦い = bitter.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "この料理は少し辛いです。"
+    },
+    {
+      "id": "p1_23",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n駅の＿＿改札口＿＿で待ち合わせしましょう。",
+      "options": [
+        "かいさつぐち",
+        "かいさつくち",
+        "かいふだぐち",
+        "あらためぐち"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "改札口 (kaisatsuguchi) = ticket gate.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "駅の改札口で待ち合わせしましょう。"
+    },
+    {
+      "id": "p1_24",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n彼女の笑顔はとても＿＿素敵＿＿です。",
+      "options": [
+        "すてき",
+        "そてき",
+        "すてぎ",
+        "しゅてき"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "素敵 (suteki) = lovely/wonderful.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "彼女の笑顔はとても素敵です。"
+    },
+    {
+      "id": "p1_25",
+      "patternId": "p1_kanji_reading",
+      "patternName": "Pattern 1: Kanji Reading (漢字の読み方)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉はどう読みますか。\n\n工場で＿＿安全＿＿に作業してください。",
+      "options": [
+        "あんぜん",
+        "やすぜん",
+        "あんぜ",
+        "あんぜつ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "安全 (anzen) = safe/safety.",
+      "patternRule": "Kanji Reading Recognition: Distinguish long vowels, geminate consonants (っ), and voiced plosives.",
+      "audioText": "工場で安全に作業してください。"
+    },
+    {
+      "id": "p2_1",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n田中さんはとても＿＿あたま＿＿がいいです。",
+      "options": [
+        "頭",
+        "顔",
+        "首",
+        "目"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "頭 (atama) = head/mind. 顔 = kao (face), 首 = kubi (neck).",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "田中さんはとてもあたまがいいです。"
+    },
+    {
+      "id": "p2_2",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n毎晩、お風呂に＿＿はいり＿＿ます。",
+      "options": [
+        "入り",
+        "降り",
+        "折り",
+        "上がり"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "入る (hairu) = to enter/get in. 降る = furu/oriru.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "毎晩、お風呂にはいります。"
+    },
+    {
+      "id": "p2_3",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n今朝、おいしい＿＿さかな＿＿を食べました。",
+      "options": [
+        "魚",
+        "肉",
+        "卵",
+        "牛"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "魚 (sakana) = fish. 肉 (niku) = meat, 卵 (tamago) = egg.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "今朝、おいしいさかなを食べました。"
+    },
+    {
+      "id": "p2_4",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\nあの＿＿しろい＿＿シャツを買いたいです。",
+      "options": [
+        "白い",
+        "青い",
+        "赤色",
+        "黒い"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "白い (shiroi) = white. 青い = blue, 赤い = red, 黒い = black.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "あのしろいシャツを買いたいです。"
+    },
+    {
+      "id": "p2_5",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n先生の＿＿はなし＿＿をよく聞いてください。",
+      "options": [
+        "話",
+        "語",
+        "言",
+        "読"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "話 (hanashi) = talk/speech. 言 = koto/gen, 読 = yomi.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "先生のはなしをよく聞いてください。"
+    },
+    {
+      "id": "p2_6",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n京都に＿＿ふるい＿＿お寺があります。",
+      "options": [
+        "古い",
+        "新しい",
+        "高い",
+        "広い"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "古い (furui) = old (things). 新しい = new, 広い = spacious.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "京都にふるいお寺があります。"
+    },
+    {
+      "id": "p2_7",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n妹は髪が＿＿ながい＿＿です。",
+      "options": [
+        "長い",
+        "短い",
+        "早い",
+        "重い"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "長い (nagai) = long. 短い = short, 早い = fast/early.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "妹は髪がながいです。"
+    },
+    {
+      "id": "p2_8",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\nあそこに＿＿くるま＿＿がたくさん並んでいます。",
+      "options": [
+        "車",
+        "電車",
+        "自転車",
+        "門"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "車 (kuruma) = car/vehicle.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "あそこにくるまがたくさん並んでいます。"
+    },
+    {
+      "id": "p2_9",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n雨が降ってきたので、＿＿かさ＿＿をさしました。",
+      "options": [
+        "傘",
+        "服",
+        "靴",
+        "鞄"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "傘 (kasa) = umbrella. 靴 (kutsu) = shoes, 鞄 (kaban) = bag.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "雨が降ってきたので、かさをさしました。"
+    },
+    {
+      "id": "p2_10",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n公園のベンチで＿＿やすみ＿＿ました。",
+      "options": [
+        "休み",
+        "歩き",
+        "走り",
+        "立ち"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "休む (yasumu) = to rest. 歩く = walk, 走る = run.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "公園のベンチでやすみました。"
+    },
+    {
+      "id": "p2_11",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n明日は何時に＿＿おき＿＿ますか。",
+      "options": [
+        "起き",
+        "寝",
+        "着",
+        "待"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "起きる (okiru) = to wake up. 寝る = sleep, 着る = wear.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "明日は何時におきますか。"
+    },
+    {
+      "id": "p2_12",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n日本へ行った＿＿こと＿＿があります。",
+      "options": [
+        "事",
+        "物",
+        "言",
+        "仕"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "こと = 事 (matter/experience). 経験の表現: 〜たことがある.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "日本へ行ったことがあります。"
+    },
+    {
+      "id": "p2_13",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\nここで少し＿＿まって＿＿ください。",
+      "options": [
+        "待って",
+        "持って",
+        "侍って",
+        "特って"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "待つ (matsu) = to wait. 持つ (motsu) = to hold.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "ここで少しまってください。"
+    },
+    {
+      "id": "p2_14",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\nノートに名前を＿＿かいて＿＿ください。",
+      "options": [
+        "書いて",
+        "昼いて",
+        "画いて",
+        "消して"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "書く (kaku) = to write. 昼 = noon, 画 = picture.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "ノートに名前をかいてください。"
+    },
+    {
+      "id": "p2_15",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n昨日、新しい本を３＿＿さつ＿＿買いました。",
+      "options": [
+        "冊",
+        "本",
+        "枚",
+        "台"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "冊 (satsu) = counter for bound books/notebooks.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "昨日、新しい本を３さつ買いました。"
+    },
+    {
+      "id": "p2_16",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n友達と駅で＿＿あいました＿＿。",
+      "options": [
+        "会いました",
+        "合いました",
+        "見ました",
+        "合いました"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "会う (au) = to meet someone. 会いました.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "友達と駅であいました。"
+    },
+    {
+      "id": "p2_17",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n窓から＿＿うみ＿＿が見えます。",
+      "options": [
+        "海",
+        "湖",
+        "川",
+        "池"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "海 (umi) = ocean/sea. 湖 = lake, 川 = river, 池 = pond.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "窓からうみが見えます。"
+    },
+    {
+      "id": "p2_18",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\nスーパーの＿＿うりば＿＿に行きました。",
+      "options": [
+        "売り場",
+        "買い場",
+        "出り場",
+        "入り場"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "売り場 (uriba) = sales floor/counter.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "スーパーのうりばに行きました。"
+    },
+    {
+      "id": "p2_19",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n＿＿てがみ＿＿をポストに入れました。",
+      "options": [
+        "手紙",
+        "毛紙",
+        "手折",
+        "手札"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "手紙 (tegami) = letter/correspondence.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "てがみをポストに入れました。"
+    },
+    {
+      "id": "p2_20",
+      "patternId": "p2_kanji_writing",
+      "patternName": "Pattern 2: Kanji Orthography (表記・漢字選び)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉の漢字はどう書きますか。\n\n外は＿＿ゆき＿＿がたくさん積もっています。",
+      "options": [
+        "雪",
+        "雷",
+        "雲",
+        "霜"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "雪 (yuki) = snow. 雷 = thunder, 雲 = cloud.",
+      "patternRule": "Kanji Orthography: Identify exact visual radical and character stroke form.",
+      "audioText": "外はゆきがたくさん積もっています。"
+    },
+    {
+      "id": "p3_1",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n風邪をひいたので、病院で（　）をもらいました。",
+      "options": [
+        "くすり",
+        "切符",
+        "お菓子",
+        "お土産"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "薬 (kusuri) = medicine. 病院で薬をもらう (receive medicine at hospital).",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "風邪をひいたので、病院でくすりをもらいました。"
+    },
+    {
+      "id": "p3_2",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n出かける前に、部屋の電気を（　）ください。",
+      "options": [
+        "消して",
+        "つけて",
+        "開けて",
+        "閉めて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "電気を消す (denki wo kesu) = turn off lights.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "出かける前に、部屋の電気を消してください。"
+    },
+    {
+      "id": "p3_3",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n雨が降ってきたので、傘を（　）歩きました。",
+      "options": [
+        "さして",
+        "はいて",
+        "かぶって",
+        "はめて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "傘をさす (kasa wo sasu) = open/hold an umbrella.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "雨が降ってきたので、傘をさして歩きました。"
+    },
+    {
+      "id": "p3_4",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n出かけるときは、必ずドアの鍵を（　）ください。",
+      "options": [
+        "かけて",
+        "しめて",
+        "おして",
+        "とめて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "鍵をかける (kagi wo kakeru) = lock the key.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "出かけるときは、必ずドアの鍵をかけてください。"
+    },
+    {
+      "id": "p3_5",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n時間がないので、（　）走って駅へ行きました。",
+      "options": [
+        "いそいで",
+        "ゆっくり",
+        "そろそろ",
+        "だんだん"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "急いで (isoide) = in a hurry. 時間がないので = since there is no time.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "時間がないので、いそいで走って駅へ行きました。"
+    },
+    {
+      "id": "p3_6",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n毎晩寝る前に、日記を（　）います。",
+      "options": [
+        "つけて",
+        "よんで",
+        "おいて",
+        "きいて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "日記をつける (nikki wo tsukeru) = keep a diary.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "毎晩寝る前に、日記をつけています。"
+    },
+    {
+      "id": "p3_7",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\nこの靴は私の足に（　）合っています。",
+      "options": [
+        "ちょうど",
+        "あまり",
+        "ぜんぜん",
+        "すっかり"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "ちょうど (choudo) = exactly/just right. ちょうど合っている.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "この靴は私の足にちょうど合っています。"
+    },
+    {
+      "id": "p3_8",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n喉が渇いたので、何か冷たいものを（　）たいです。",
+      "options": [
+        "のみ",
+        "たべ",
+        "すい",
+        "あび"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "喉が渇く (nodo ga kawaku) = thirsty -> 冷たいものを飲む (drink something cold).",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "喉が渇いたので、何か冷たいものをのみたいです。"
+    },
+    {
+      "id": "p3_9",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n授業に遅れそうなので、タクシーに（　）。",
+      "options": [
+        "乗りました",
+        "降りました",
+        "歩きました",
+        "着きました"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "乗り物 (タクシー) + に乗る (ni noru) = board/ride taxi.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "授業に遅れそうなので、タクシーに乗りました。"
+    },
+    {
+      "id": "p3_10",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\nコートを（　）、部屋に入りました。",
+      "options": [
+        "ぬいで",
+        "きて",
+        "はいて",
+        "かぶって"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "服を脱ぐ (nugu) = take off clothes/coat. 着る = put on.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "コートをぬいで、部屋に入りました。"
+    },
+    {
+      "id": "p3_11",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n料理ができたので、みんなで（　）食べましょう。",
+      "options": [
+        "いっしょに",
+        "ひとりで",
+        "べつべつに",
+        "たまに"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "一緒に (issho ni) = together.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "料理ができたので、みんなでいっしょに食べましょう。"
+    },
+    {
+      "id": "p3_12",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n頭が痛いので、今日は仕事を（　）たいです。",
+      "options": [
+        "休み",
+        "働き",
+        "続け",
+        "始め"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "仕事を休む (yasumu) = take off from work.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "頭が痛いので、今日は仕事を休みたいです。"
+    },
+    {
+      "id": "p3_13",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\nこの問題はとても（　）ので、誰でも解けます。",
+      "options": [
+        "かんたん（な）",
+        "むずかしい",
+        "きびしい",
+        "にぎやか（な）"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "簡単 (kantan) = simple/easy. 誰でも解ける = anyone can solve.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "この問題はとてもかんたん（な）ので、誰でも解けます。"
+    },
+    {
+      "id": "p3_14",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\nお腹が空いたので、レストランに（　）ました。",
+      "options": [
+        "入り",
+        "出",
+        "上がり",
+        "去り"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "店に入る (hairu) = enter a restaurant.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "お腹が空いたので、レストランに入りました。"
+    },
+    {
+      "id": "p3_15",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n先生の質問に正しく（　）ことができました。",
+      "options": [
+        "答える",
+        "聞く",
+        "話す",
+        "頼む"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "質問に答える (shitsumon ni kotaeru) = answer a question.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "先生の質問に正しく答えることができました。"
+    },
+    {
+      "id": "p3_16",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n朝起きると、鳥の（　）が聞こえました。",
+      "options": [
+        "鳴き声",
+        "足音",
+        "話し声",
+        "ため息"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "鳥の鳴き声 (nakigoe) = birds chirping/singing.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "朝起きると、鳥の鳴き声が聞こえました。"
+    },
+    {
+      "id": "p3_17",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n道が混んでいたので、約束の時間に（　）しまいました。",
+      "options": [
+        "遅れて",
+        "間に合って",
+        "進んで",
+        "戻って"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "時間に遅れる (okureru) = be late for scheduled time.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "道が混んでいたので、約束の時間に遅れてしまいました。"
+    },
+    {
+      "id": "p3_18",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n暑い日は、冷たいシャワーを（　）と気持ちいいです。",
+      "options": [
+        "あびる",
+        "つける",
+        "いれる",
+        "ぬる"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "シャワーを浴びる (abiru) = take a shower.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "暑い日は、冷たいシャワーをあびると気持ちいいです。"
+    },
+    {
+      "id": "p3_19",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n日本の生活に（　）慣れてきました。",
+      "options": [
+        "だんだん",
+        "ちっとも",
+        "まったく",
+        "決して"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "だんだん (dandan) = gradually/step-by-step.",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "日本の生活にだんだん慣れてきました。"
+    },
+    {
+      "id": "p3_20",
+      "patternId": "p3_context_vocab",
+      "patternName": "Pattern 3: Contextual Vocabulary Choice (文脈規定)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよい言葉を、１・２・３・４から一つ選びなさい。\n\n財布を忘れたので、友達にお金を（　）もらいました。",
+      "options": [
+        "貸して",
+        "借りて",
+        "払って",
+        "預けて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "友達に貸してもらう (have friend lend me money).",
+      "patternRule": "Collocation Matching: Pair natural nouns and verbs (傘をさす, 薬を飲む, 鍵をかける).",
+      "audioText": "財布を忘れたので、友達にお金を貸してもらいました。"
+    },
+    {
+      "id": "p4_1",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nこの道は＿＿あぶない＿＿です。",
+      "options": [
+        "きけんです",
+        "あんぜんです",
+        "ひろいです",
+        "くらいです"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "危ない (abunai) = 危険 (kiken) = dangerous.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "この道はあぶないです。"
+    },
+    {
+      "id": "p4_2",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n駅から会社まで＿＿だいたい＿＿15分です。",
+      "options": [
+        "およそ",
+        "ちょうど",
+        "ぜったいに",
+        "かならず"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "だいたい (daitai) = およそ (oyoso) = approximately/about.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "駅から会社までだいたい15分です。"
+    },
+    {
+      "id": "p4_3",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n荷物が重いので、＿＿てつだって＿＿ください。",
+      "options": [
+        "てをかして",
+        "みせて",
+        "もってきて",
+        "あずけて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "手伝う (tetsudau) = 手を貸す (te wo kasu) = lend a hand/help.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "荷物が重いので、てつだってください。"
+    },
+    {
+      "id": "p4_4",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nあしたの予定を＿＿たしかめ＿＿ます。",
+      "options": [
+        "かくにんし",
+        "へんこうし",
+        "とりけし",
+        "れんらくし"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "確かめる (tashikameru) = 確認する (kakunin suru) = to confirm/verify.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "あしたの予定をたしかめます。"
+    },
+    {
+      "id": "p4_5",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n遠慮しないで、＿＿どんどん＿＿食べてください。",
+      "options": [
+        "たくさん",
+        "すこし",
+        "ゆっくり",
+        "ぜんぶ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "どんどん (dondon) = freely / plentifully / without hesitation.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "遠慮しないで、どんどん食べてください。"
+    },
+    {
+      "id": "p4_6",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nこのパソコンは＿＿こわれて＿＿います。",
+      "options": [
+        "故障して",
+        "動いて",
+        "切れて",
+        "片付いて"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "壊れている (kowarete iru) = 故障している (koshou shite iru) = broken/out of order.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "このパソコンはこわれています。"
+    },
+    {
+      "id": "p4_7",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n車に＿＿気をつけて＿＿渡ってください。",
+      "options": [
+        "注意して",
+        "安心して",
+        "期待して",
+        "我慢して"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "気をつける (ki wo tsukeru) = 注意する (chuui suru) = pay attention/be careful.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "車に気をつけて渡ってください。"
+    },
+    {
+      "id": "p4_8",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n彼はとても＿＿まじめな＿＿学生です。",
+      "options": [
+        "熱心でしっかりした",
+        "おもしろい",
+        "あかるい",
+        "のんびりした"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "真面目 (majime) = earnest, reliable, diligent.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "彼はとてもまじめな学生です。"
+    },
+    {
+      "id": "p4_9",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n来週の会議を＿＿やめます＿＿。",
+      "options": [
+        "中止します",
+        "延期します",
+        "続けます",
+        "始めます"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "やめる (yameru) = 中止する (chuushi suru) = cancel.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "来週の会議をやめます。"
+    },
+    {
+      "id": "p4_10",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n部屋を＿＿片付け＿＿ました。",
+      "options": [
+        "整理し",
+        "汚し",
+        "飾り",
+        "壊し"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "片付ける (katazukeru) = 整理する (seiri suru) = tidy up/organize.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "部屋を片付けました。"
+    },
+    {
+      "id": "p4_11",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nその話を聞いて、＿＿びっくりし＿＿ました。",
+      "options": [
+        "おどろき",
+        "よろこび",
+        "おこり",
+        "かなしみ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "びっくりする = 驚く (odoroku) = surprised/astonished.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "その話を聞いて、びっくりしました。"
+    },
+    {
+      "id": "p4_12",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\n田中さんは今＿＿手が離せません＿＿。",
+      "options": [
+        "とても忙しいです",
+        "暇です",
+        "外出中です",
+        "寝ています"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "手が離せない (te ga hanasenai) = tied up with work / extremely busy right now.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "田中さんは今手が離せません。"
+    },
+    {
+      "id": "p4_13",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nこの服は＿＿サイズが合わない＿＿です。",
+      "options": [
+        "大きすぎるか小さすぎます",
+        "色が嫌いです",
+        "破れています",
+        "高すぎます"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "サイズが合わない = size does not fit (too big or too small).",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "この服はサイズが合わないです。"
+    },
+    {
+      "id": "p4_14",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nいつでも＿＿遠慮なく＿＿質問してください。",
+      "options": [
+        "気を使わずに",
+        "必ず",
+        "静かに",
+        "急いで"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "遠慮なく (enryo naku) = without hesitation / 気を使わずに.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "いつでも遠慮なく質問してください。"
+    },
+    {
+      "id": "p4_15",
+      "patternId": "p4_paraphrase",
+      "patternName": "Pattern 4: Paraphrasing & Synonyms (言い換え類義語)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "下線（＿＿）の言葉とだいたい同じ意味の文を、１・２・３・４から一つ選びなさい。\n\nこの本は＿＿つまらない＿＿です。",
+      "options": [
+        "おもしろくない",
+        "わかりにくい",
+        "ながい",
+        "むずかしい"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "つまらない (tsumaranai) = 面白くない (omoshirokunai) = boring/not interesting.",
+      "patternRule": "Semantic Equivalence: Recognize natural synonymous expressions in Japanese.",
+      "audioText": "この本はつまらないです。"
+    },
+    {
+      "id": "p5_1",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n日曜日は友達（　）映画を見に行きました。",
+      "options": [
+        "と",
+        "に",
+        "で",
+        "を"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Person + と = 'together with'. 友達と = with a friend.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "日曜日は友達と映画を見に行きました。"
+    },
+    {
+      "id": "p5_2",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n私は毎朝７時（　）家を出ます。",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "から"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Specific clock time takes particle に (７時に).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "私は毎朝７時に家を出ます。"
+    },
+    {
+      "id": "p5_3",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n図書館（　）静かに本を読みます。",
+      "options": [
+        "で",
+        "に",
+        "へ",
+        "と"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Location of active action takes particle で (図書館で).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "図書館で静かに本を読みます。"
+    },
+    {
+      "id": "p5_4",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n机の上にペン（　）ノートがあります。",
+      "options": [
+        "や",
+        "を",
+        "に",
+        "で"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Non-exhaustive list ('pens and notebooks among other things') takes や.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "机の上にペンやノートがあります。"
+    },
+    {
+      "id": "p5_5",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n写真を撮っ（　）はいけません。",
+      "options": [
+        "て",
+        "た",
+        "ない",
+        "たら"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Prohibition form: Verb in Te-form + ははいけません (撮ってはいけません).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "写真を撮ってはいけません。"
+    },
+    {
+      "id": "p5_6",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n喉が渇いたので、何か冷たいもの（　）飲みたいです。",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Desire expression: 〜が飲みたい (or 〜を飲みたい). が marks object of たい.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "喉が渇いたので、何か冷たいものが飲みたいです。"
+    },
+    {
+      "id": "p5_7",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n日本へ日本語の勉強（　）来ました。",
+      "options": [
+        "に",
+        "で",
+        "へ",
+        "を"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Purpose of movement: Noun + に来る (勉強に来ました).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "日本へ日本語の勉強に来ました。"
+    },
+    {
+      "id": "p5_8",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n昨日買ったケーキはとてもおいしかっ（　）です。",
+      "options": [
+        "た",
+        "て",
+        "ない",
+        "だ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Past tense of i-adjective: おいしい -> おいしかった.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "昨日買ったケーキはとてもおいしかったです。"
+    },
+    {
+      "id": "p5_9",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n駅まで歩い（　）、電車に乗りました。",
+      "options": [
+        "て",
+        "た",
+        "ない",
+        "たら"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Connecting actions in sequence uses Te-form: 歩いて、電車に乗りました.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "駅まで歩いて、電車に乗りました。"
+    },
+    {
+      "id": "p5_10",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n明日テストがあるので、早く寝なけれ（　）なりません。",
+      "options": [
+        "ば",
+        "て",
+        "たら",
+        "なら"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Obligation ('must do'): 〜なければなりません (nakereba narimasen).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "明日テストがあるので、早く寝なければなりません。"
+    },
+    {
+      "id": "p5_11",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n漢字が上手に書ける（　）なりたいです。",
+      "options": [
+        "ように",
+        "ために",
+        "ことに",
+        "そうに"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Change of ability state: Potential verb + ようになる (書けるようになる).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "漢字が上手に書けるようになりたいです。"
+    },
+    {
+      "id": "p5_12",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n雨（　）降ったので、試合は中止になりました。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Subordinate clause subject takes が: 雨が降ったので.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "雨が降ったので、試合は中止になりました。"
+    },
+    {
+      "id": "p5_13",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n田中さんはピアノを弾くこと（　）できます。",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "は"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ability potential pattern: [Verb dictionary form + こと] + ができる.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "田中さんはピアノを弾くことができます。"
+    },
+    {
+      "id": "p5_14",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n危ないですから、ここで遊ば（　）でください。",
+      "options": [
+        "ない",
+        "ず",
+        "なく",
+        "なかっ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Negative request: Verb negative stem + ないでください (遊ばないでください).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "危ないですから、ここで遊ばないでください。"
+    },
+    {
+      "id": "p5_15",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n窓を開け（　）、涼しい風が入ってきました。",
+      "options": [
+        "たら",
+        "なら",
+        "ても",
+        "ても"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Conditional sequential discovery: 〜たら (開けたら、風が入ってきた).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "窓を開けたら、涼しい風が入ってきました。"
+    },
+    {
+      "id": "p5_16",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\nこのお茶は熱すぎ（　）飲めません。",
+      "options": [
+        "て",
+        "で",
+        "たら",
+        "から"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Excessive form te-link: 〜すぎて (熱すぎて飲めません).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "このお茶は熱すぎて飲めません。"
+    },
+    {
+      "id": "p5_17",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n明日、雨が降る（　）天気を調べました。",
+      "options": [
+        "かどうか",
+        "なら",
+        "ので",
+        "から"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Whether or not: [Plain verb] + かどうか (降るかどうか).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "明日、雨が降るかどうか天気を調べました。"
+    },
+    {
+      "id": "p5_18",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n先生、この漢字の読み方を教え（　）いただけませんか。",
+      "options": [
+        "て",
+        "た",
+        "ない",
+        "ば"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polite request: Verb Te-form + ていただけませんか.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "先生、この漢字の読み方を教えていただけませんか。"
+    },
+    {
+      "id": "p5_19",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n私は犬（　）手をかまれました。",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "と"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Passive agent marker takes に: 犬にかまれた (bitten by a dog).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "私は犬に手をかまれました。"
+    },
+    {
+      "id": "p5_20",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n母は私に部屋を掃除（　）せました。",
+      "options": [
+        "さ",
+        "れ",
+        "ら",
+        "て"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Causative form (Group 3 掃除する -> 掃除させる): 母は私に掃除させました.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "母は私に部屋を掃除させました。"
+    },
+    {
+      "id": "p5_21",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n日本料理の（　）で、寿司が一番好きです。",
+      "options": [
+        "中",
+        "前",
+        "間",
+        "上"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Superlative scope pattern: [Category] の中で、〜が一番好きです.",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "日本料理の中で、寿司が一番好きです。"
+    },
+    {
+      "id": "p5_22",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n東京は京都（　）人が多いです。",
+      "options": [
+        "より",
+        "ほど",
+        "くらい",
+        "まで"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Comparative pattern: A は B より (Tokyo has more people than Kyoto).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "東京は京都より人が多いです。"
+    },
+    {
+      "id": "p5_23",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\nもっと大きい声で話し（　）ください。",
+      "options": [
+        "て",
+        "た",
+        "たら",
+        "れば"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polite imperative: Verb Te-form + ください (話してください).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "もっと大きい声で話してください。"
+    },
+    {
+      "id": "p5_24",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n仕事が終わっ（　）あとで、食事に行きましょう。",
+      "options": [
+        "た",
+        "て",
+        "る",
+        "ない"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "After doing something: Verb Ta-form + あとで (終わったあとで).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "仕事が終わったあとで、食事に行きましょう。"
+    },
+    {
+      "id": "p5_25",
+      "patternId": "p5_grammar_form",
+      "patternName": "Pattern 5: Grammar Forms & Particles (文法形式の判断)",
+      "level": "JLPT N5/N4 & JFT-Basic",
+      "question": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。\n\n傘を持た（　）に出かけて、濡れてしまいました。",
+      "options": [
+        "ず",
+        "ない",
+        "なくて",
+        "ぬ"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Without doing: Verb nai-stem + ずに (持たずに出かけて).",
+      "patternRule": "Particle & Conjugation Matrix: Connect noun markers with verbs accurately.",
+      "audioText": "傘を持たずに出かけて、濡れてしまいました。"
+    },
+    {
+      "id": "p6_1",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n私は ＿＿ ＿＿ ★ ＿＿ 行きたいです。",
+      "options": [
+        "1. 友達",
+        "2. 旅行",
+        "3. と",
+        "4. に"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Correct sequence: 友達 (1) と (3) ★旅行 (2) に (4). Position 3 (★) is 旅行 (2). Meaning: 'I want to go on a trip with my friend.'\n\n✅ Complete Sentence:「私は友達と旅行に行きたいです。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "私は友達と旅行に行きたいです。"
+    },
+    {
+      "id": "p6_2",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n毎朝、 ＿＿ ＿＿ ★ ＿＿ コーヒーを飲みます。",
+      "options": [
+        "1. 起きて",
+        "2. から",
+        "3. すぐ",
+        "4. に"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: 起きて (1) から (2) ★すぐ (3) に (4). Position on ★ is すぐ. Meaning: 'Every morning right after waking up, I drink coffee.'\n\n✅ Complete Sentence:「毎朝、起きてからすぐにコーヒーを飲みます。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "毎朝、起きてからすぐにコーヒーを飲みます。"
+    },
+    {
+      "id": "p6_3",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n日本語が ＿＿ ＿＿ ★ ＿＿ 毎日勉強しています。",
+      "options": [
+        "1. 上手に",
+        "2. ように",
+        "3. なる",
+        "4. ために"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Correct sequence: 上手に (1) なる (3) ★ように (2) ... Position on ★ is ように. Meaning: 'So that I become skilled at Japanese, I study every day.'\n\n✅ Complete Sentence:「日本語が上手になるように毎日勉強しています。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "日本語が上手になるように毎日勉強しています。"
+    },
+    {
+      "id": "p6_4",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\nこの部屋は ＿＿ ＿＿ ★ ＿＿ 住みやすいです。",
+      "options": [
+        "1. 広くて",
+        "2. 駅",
+        "3. から",
+        "4. 近いので"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: 広くて (1) 駅 (2) ★から (3) 近いので (4). Position on ★ is から. Meaning: 'This room is spacious and close to the station, so it is comfortable to live in.'\n\n✅ Complete Sentence:「この部屋は広くて駅から近いので住みやすいです。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "この部屋は広くて駅から近いので住みやすいです。"
+    },
+    {
+      "id": "p6_5",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n田中さんは ＿＿ ＿＿ ★ ＿＿ 歌っています。",
+      "options": [
+        "1. 楽し",
+        "2. そう",
+        "3. に",
+        "4. 歌を"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: 楽し (1) そう (2) ★に (3) 歌を (4). Adverbial appearance: 楽しそうに. Position on ★ is に.\n\n✅ Complete Sentence:「田中さんは楽しそうに歌を歌っています。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "田中さんは楽しそうに歌を歌っています。"
+    },
+    {
+      "id": "p6_6",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n雨が ＿＿ ＿＿ ★ ＿＿ 家で本を読みました。",
+      "options": [
+        "1. 降って",
+        "2. いた",
+        "3. ので",
+        "4. 出かけないで"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: 降って (1) いた (2) ★ので (3) 出かけないで (4). Because it was raining, without going out I read a book at home.\n\n✅ Complete Sentence:「雨が降っていたので出かけないで家で本を読みました。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "雨が降っていたので出かけないで家で本を読みました。"
+    },
+    {
+      "id": "p6_7",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n山田先生は ＿＿ ＿＿ ★ ＿＿ 先生です。",
+      "options": [
+        "1. とても",
+        "2. 親切",
+        "3. で",
+        "4. わかりやすい"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: とても (1) 親切 (2) ★で (3) わかりやすい (4). Na-adjective te-form connection: 親切で.\n\n✅ Complete Sentence:「山田先生はとても親切でわかりやすい先生です。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "山田先生はとても親切でわかりやすい先生です。"
+    },
+    {
+      "id": "p6_8",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n図書館では ＿＿ ＿＿ ★ ＿＿ いけません。",
+      "options": [
+        "1. 大きな",
+        "2. 声",
+        "3. で",
+        "4. 話しては"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: 大きな (1) 声 (2) ★で (3) 話しては (4). Prohibition pattern: 大きな声で話してはいけません.\n\n✅ Complete Sentence:「図書館では大きな声で話してはいけません。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "図書館では大きな声で話してはいけません。"
+    },
+    {
+      "id": "p6_9",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n風邪を ＿＿ ＿＿ ★ ＿＿ 学校を休みました。",
+      "options": [
+        "1. ひいて",
+        "2. しまった",
+        "3. ので",
+        "4. 昨日"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Correct sequence: 昨日 (4) ひいて (1) ★しまった (2) ので (3). Position on ★ is しまった.\n\n✅ Complete Sentence:「昨日風邪をひいてしまったので学校を休みました。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "昨日風邪をひいてしまったので学校を休みました。"
+    },
+    {
+      "id": "p6_10",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n母が ＿＿ ＿＿ ★ ＿＿ とてもおいしかったです。",
+      "options": [
+        "1. 作って",
+        "2. くれた",
+        "3. 料理",
+        "4. は"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Relative clause modifier: 作ってくれた料理 (the food mom made for me). Position on ★ is 料理.\n\n✅ Complete Sentence:「母が作ってくれた料理はとてもおいしかったです。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "母が作ってくれた料理はとてもおいしかったです。"
+    },
+    {
+      "id": "p6_11",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n明日 ＿＿ ＿＿ ★ ＿＿ 教えてください。",
+      "options": [
+        "1. 何時に",
+        "2. 駅に",
+        "3. 着く",
+        "4. か"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Embedded question with particle か: [何時に駅に着く] + ★か. Position on ★ is 着く.\n\n✅ Complete Sentence:「明日何時に駅に着くか教えてください。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "明日何時に駅に着くか教えてください。"
+    },
+    {
+      "id": "p6_12",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n来週の ＿＿ ＿＿ ★ ＿＿ 買いに行きます。",
+      "options": [
+        "1. パーティー",
+        "2. で",
+        "3. 着る",
+        "4. 服を"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Correct sequence: パーティー (1) で (2) ★着る (3) 服を (4). Clothes to wear at the party.\n\n✅ Complete Sentence:「来週のパーティーで着る服を買いに行きます。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "来週のパーティーで着る服を買いに行きます。"
+    },
+    {
+      "id": "p6_13",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n早く ＿＿ ＿＿ ★ ＿＿ 出かけましょう。",
+      "options": [
+        "1. 準備",
+        "2. を",
+        "3. して",
+        "4. すぐ"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Te-form sequential action: 準備をしてすぐ出かける. Position on ★ is して.\n\n✅ Complete Sentence:「早く準備をしてすぐ出かけましょう。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "早く準備をしてすぐ出かけましょう。"
+    },
+    {
+      "id": "p6_14",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\nこの靴は ＿＿ ＿＿ ★ ＿＿ 疲れません。",
+      "options": [
+        "1. 軽くて",
+        "2. とても",
+        "3. 歩きやすい",
+        "4. ので"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Adjective link: 軽くてとても歩きやすいので. Position on ★ is 歩きやすい.\n\n✅ Complete Sentence:「この靴は軽くてとても歩きやすいので疲れません。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "この靴は軽くてとても歩きやすいので疲れません。"
+    },
+    {
+      "id": "p6_15",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n日本に ＿＿ ＿＿ ★ ＿＿ １年になります。",
+      "options": [
+        "1. 来て",
+        "2. から",
+        "3. もう",
+        "4. すぐ"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Since arriving: 来てから (1, 2) ★もう (3) すぐ (4). Position on ★ is もう.\n\n✅ Complete Sentence:「日本に来てからもうすぐ１年になります。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "日本に来てからもうすぐ１年になります。"
+    },
+    {
+      "id": "p6_16",
+      "patternId": "p6_star_ordering",
+      "patternName": "Pattern 6: Star ★ Sentence Ordering (文の組み立て・★問題)",
+      "level": "JLPT N5/N4 (Must-Pass Signature Pattern)",
+      "question": "次の文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。\n\n約束の ＿＿ ＿＿ ★ ＿＿ 連絡しました。",
+      "options": [
+        "1. 時間に",
+        "2. 遅れそう",
+        "3. だったので",
+        "4. 事前に"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Conjectural reason: 遅れそうだったので. Position on ★ is だったので.\n\n✅ Complete Sentence:「約束の時間に遅れそうだったので事前に連絡しました。」",
+      "patternRule": "Star Question Formula: Link modifier clauses first, align verb stems with target particles, then identify item on position 3 (★).",
+      "audioText": "約束の時間に遅れそうだったので事前に連絡しました。"
+    },
+    {
+      "id": "p7_1",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n店員：「いらっしゃいませ。温めますか？」\n客：「（　）」",
+      "options": [
+        "はい、お願いします。",
+        "いいえ、温めます。",
+        "ごちそうさまでした。",
+        "どういたしまして。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "When asked if you want convenience store bento heated up, reply politely: 'はい、お願いします。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "店員：「いらっしゃいませ。温めますか？」\n客：「はい、お願いします。」"
+    },
+    {
+      "id": "p7_2",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n同僚：「山田さん、お先に失礼します。」\n山田：「（　）」",
+      "options": [
+        "お疲れ様でした。",
+        "失礼しました。",
+        "ごめんなさい。",
+        "はじめまして。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard workplace response when a colleague leaves before you: 'お疲れ様でした。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "同僚：「山田さん、お先に失礼します。」\n山田：「お疲れ様でした。」"
+    },
+    {
+      "id": "p7_3",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n後輩：「すみません、この機械の使い方がわかりません。」\n先輩：「（　）」",
+      "options": [
+        "じゃあ、教えますね。",
+        "いいえ、使いません。",
+        "どういたしまして。",
+        "こちらこそ。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Colleague asks for assistance; natural response is: 'じゃあ、教えますね' (Alright, I will show you).",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "後輩：「すみません、この機械の使い方がわかりません。」\n先輩：「じゃあ、教えますね。」"
+    },
+    {
+      "id": "p7_4",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n客：「すみません、このサイズの黒い靴はありますか？」\n店員：「（　）」",
+      "options": [
+        "少々お待ちください。確認してきます。",
+        "もう買いました。",
+        "結構です。",
+        "お大事に。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Store clerk checks stock in back room: '少々お待ちください。確認してきます。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "客：「すみません、このサイズの黒い靴はありますか？」\n店員：「少々お待ちください。確認してきます。」"
+    },
+    {
+      "id": "p7_5",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n上司：「この資料を明日までにコピーしておいてくれる？」\n部下：「（　）」",
+      "options": [
+        "はい、かしこまりました。",
+        "いいえ、大丈夫です。",
+        "ごちそうさまでした。",
+        "いってらっしゃい。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Workplace acknowledgment to a manager: 'はい、かしこまりました。' (Certainly, right away).",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "上司：「この資料を明日までにコピーしておいてくれる？」\n部下：「はい、かしこまりました。」"
+    },
+    {
+      "id": "p7_6",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n友人：「日曜日に一緒に映画を見に行きませんか。」\n自分：「（　）」",
+      "options": [
+        "いいですね。ぜひ行きましょう。",
+        "どうもすみません。",
+        "遠慮しておきます。",
+        "お大事に。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Polite acceptance of an invitation: 'いいですね。ぜひ行きましょう。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "友人：「日曜日に一緒に映画を見に行きませんか。」\n自分：「いいですね。ぜひ行きましょう。」"
+    },
+    {
+      "id": "p7_7",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n同僚：「昨日から熱があって頭が痛いんです。」\nあなた：「（　）」",
+      "options": [
+        "無理をしないで、早く病院に行ってくださいね。",
+        "おめでとうございます。",
+        "ごちそうさまでした。",
+        "失礼しました。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Sympathy to an unwell coworker: '無理をしないで、早く病院に行ってくださいね。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "同僚：「昨日から熱があって頭が痛いんです。」\nあなた：「無理をしないで、早く病院に行ってくださいね。」"
+    },
+    {
+      "id": "p7_8",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n客：「お会計は別々にお願いできますか。」\nレジ係：「（　）」",
+      "options": [
+        "はい、別々で計算いたしますね。",
+        "いいえ、食べられません。",
+        "ごちそうさまです。",
+        "お疲れ様です。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Restaurant checkout: 'はい、別々で計算いたしますね。' (Yes, separate checks).",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "客：「お会計は別々にお願いできますか。」\nレジ係：「はい、別々で計算いたしますね。」"
+    },
+    {
+      "id": "p7_9",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n近所の人：「こんにちは、いいお天気ですね。」\nあなた：「（　）」",
+      "options": [
+        "本当に、気持ちがいいですね。",
+        "お疲れ様でした。",
+        "失礼いたします。",
+        "いただきます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Neighborhood greeting small talk about weather: '本当に、気持ちがいいですね。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "近所の人：「こんにちは、いいお天気ですね。」\nあなた：「本当に、気持ちがいいですね。」"
+    },
+    {
+      "id": "p7_10",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n訪問者：「ごめんください。田中さんはいらっしゃいますか。」\n家の人：「（　）」",
+      "options": [
+        "はい、少々お待ちください。",
+        "いいえ、来ませんでした。",
+        "おかえりなさい。",
+        "いってきます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Answering the home door: 'はい、少々お待ちください。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "訪問者：「ごめんください。田中さんはいらっしゃいますか。」\n家の人：「はい、少々お待ちください。」"
+    },
+    {
+      "id": "p7_11",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n店員：「ポイントカードはお持ちですか。」\n客：「（　）」",
+      "options": [
+        "あ、持っていません。",
+        "はい、買いました。",
+        "結構です、持っています。",
+        "いりません、あります。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cashier asks for loyalty point card: 'あ、持っていません。' (Oh, I do not have one).",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "店員：「ポイントカードはお持ちですか。」\n客：「あ、持っていません。」"
+    },
+    {
+      "id": "p7_12",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n同僚：「手伝いましょうか。」\nあなた：「（　）」",
+      "options": [
+        "助かります。ありがとうございます。",
+        "ごめんなさい、手伝います。",
+        "失礼しました。",
+        "はじめまして。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Accepting an offer for help: '助かります。ありがとうございます。' (That would save me, thank you).",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "同僚：「手伝いましょうか。」\nあなた：「助かります。ありがとうございます。」"
+    },
+    {
+      "id": "p7_13",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n上司：「少し時間ある？相談があるんだけど。」\n部下：「（　）」",
+      "options": [
+        "はい、今大丈夫です。何でしょうか。",
+        "いいえ、暇ではありません。",
+        "ごちそうさまでした。",
+        "お大事に。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Manager asks if you have time: 'はい、今大丈夫です。何でしょうか。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "上司：「少し時間ある？相談があるんだけど。」\n部下：「はい、今大丈夫です。何でしょうか。」"
+    },
+    {
+      "id": "p7_14",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n客：「この料理、辛くないですか。」\n店員：「（　）」",
+      "options": [
+        "辛くありませんので、ご安心ください。",
+        "はい、すごく辛いですよ。",
+        "いいえ、甘くないです。",
+        "わかりません。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Reassuring a customer about spicy food: '辛くありませんので、ご安心ください。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "客：「この料理、辛くないですか。」\n店員：「辛くありませんので、ご安心ください。」"
+    },
+    {
+      "id": "p7_15",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n病院の受付：「診察券と保険証をお出しください。」\n患者：「（　）」",
+      "options": [
+        "はい、これですね。お願いします。",
+        "いいえ、出しません。",
+        "ごちそうさまでした。",
+        "失礼します。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Submitting insurance card at clinic: 'はい、これですね。お願いします。'",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "病院の受付：「診察券と保険証をお出しください。」\n患者：「はい、これですね。お願いします。」"
+    },
+    {
+      "id": "p7_16",
+      "patternId": "p7_conversation",
+      "patternName": "Pattern 7: Workplace & Daily Can-Do Dialogues (会話表現・やりとり)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "会話の（　）に入れるのに最も自然な表現を選びなさい。\n\n帰宅時：「ただいま帰りました。」\n家族：「（　）」",
+      "options": [
+        "おかえりなさい。",
+        "いってらっしゃい。",
+        "お邪魔します。",
+        "いただきます。"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard reply to 'Tadaima' (I am back): 'おかえりなさい' (Welcome home).",
+      "patternRule": "Can-Do Dialogue Principle: Honorific level matching social setting and conversational role.",
+      "audioText": "帰宅時：「ただいま帰りました。」\n家族：「おかえりなさい。」"
+    },
+    {
+      "id": "p8_1",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【マンションの皆様へ】\n明日の午前９時から午後１時まで、エレベーターの点検を行います。\n点検中はエレベーターを使うことができません。\n階段をご利用ください。ご協力をお願いいたします。\n\n質問：エレベーターが使えない時間はいつですか。",
+      "options": [
+        "明日の午前９時から午後１時まで",
+        "明日の午後１時から午後５時まで",
+        "今日の午後９時から",
+        "いつでも階段だけ使う"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The notice states: '明日の午前９時から午後１時まで、エレベーターの点検を行います... 点検中は使うことができません。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【マンションの皆様へ】\n明日の午前９時から午後１時まで、エレベーターの点検を行います。\n点検中はエレベーターを使うことができません。\n階段をご利用ください。ご協力をお願いいたします。"
+    },
+    {
+      "id": "p8_2",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【図書館からのお知らせ】\n年末年始の休館日：１２月２９日〜１月３日\n※返却ポストは休み中も２４時間ご利用いただけます。\n新年は１月４日午前１０時より開館いたします。\n\n質問：図書館が休みの期間中、利用できるものはどれですか。",
+      "options": [
+        "本の返却ポスト",
+        "図書館の中の閲覧席",
+        "カードの新規作成窓口",
+        "パソコンの貸出コーナー"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Footnote with asterisk clearly states: '※返却ポストは休み中も２４時間ご利用いただけます' (The return drop-box can be used 24 hours even during holidays).",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【図書館からのお知らせ】\n年末年始の休館日：１２月２９日〜１月３日\n※返却ポストは休み中も２４時間ご利用いただけます。\n新年は１月４日午前１０時より開館いたします。"
+    },
+    {
+      "id": "p8_3",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【社内メール：健康診断のお知らせ】\n日時：１０月１５日（水）９：００〜１２：００\n場所：２階 会議室A\n注意：当日の朝は、朝食を食べないでお越しください。\nお水やお茶は飲んでも構いません。\n\n質問：健康診断を受ける人は、当日の朝どうしなければなりませんか。",
+      "options": [
+        "朝食を食べないで来る",
+        "水やお茶も一切飲まない",
+        "１階の会議室に行く",
+        "午後１時までに来る"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Under '注意': '当日の朝は、朝食を食べないでお越しください。お水やお茶は飲んでも構いません。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【社内メール：健康診断のお知らせ】\n日時：１０月１５日（水）９：００〜１２：００\n場所：２階 会議室A\n注意：当日の朝は、朝食を食べないでお越しください。\nお水やお茶は飲んでも構いません。"
+    },
+    {
+      "id": "p8_4",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【ゴミ収集のお知らせ】\n燃えるゴミ：毎週火曜日・金曜日（朝８時までに出してください）\n燃えないゴミ：第２・第４水曜日\n※前日の夜にはゴミを出さないでください。\n\n質問：ゴミを出すときの正しいルールはどれですか。",
+      "options": [
+        "当日の朝８時までに出す",
+        "前日の夜９時に出しておく",
+        "燃えるゴミは水曜日に出す",
+        "燃えないゴミは毎週出す"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The text states: '朝８時までに出してください' and explicitly prohibits: '※前日の夜にはゴミを出さないでください。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【ゴミ収集のお知らせ】\n燃えるゴミ：毎週火曜日・金曜日（朝８時までに出してください）\n燃えないゴミ：第２・第４水曜日\n※前日の夜にはゴミを出さないでください。"
+    },
+    {
+      "id": "p8_5",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【スーパーの割引チラシ】\n本日夕方５時よりタイムセール実施！\nお肉とお魚が全品２０％引き！\n※お一人様３パックまでとさせていただきます。\n\n質問：このタイムセールで２０％引きになるのは何ですか。",
+      "options": [
+        "お肉とお魚",
+        "野菜とお米",
+        "お菓子とジュース",
+        "すべての店内の商品"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Text clearly states: 'お肉とお魚が全品２０％引き！'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【スーパーの割引チラシ】\n本日夕方５時よりタイムセール実施！\nお肉とお魚が全品２０％引き！\n※お一人様３パックまでとさせていただきます。"
+    },
+    {
+      "id": "p8_6",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【語学スクールからのメール】\n台風接近のため、本日の夜７時以降のレッスンはすべてオンラインで行います。\n各自、自宅からZoomリンクをクリックしてご参加ください。\n\n質問：本日の夜７時以降のレッスンはどうなりますか。",
+      "options": [
+        "自宅からオンライン（Zoom）で受ける",
+        "スクールの教室に行って受ける",
+        "来週にすべて中止延期される",
+        "昼の１２時に行われる"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Notice states: '本日の夜７時以降のレッスンはすべてオンラインで行います。各自、自宅からZoomリンクをクリックしてご参加ください。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【語学スクールからのメール】\n台風接近のため、本日の夜７時以降のレッスンはすべてオンラインで行います。\n各自、自宅からZoomリンクをクリックしてご参加ください。"
+    },
+    {
+      "id": "p8_7",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【市民プールの利用案内】\n開館時間：午前１０時〜午後８時\n利用料金：大人 ５００円 / 中学生以下 ２００円\n※水泳キャップを必ず着用してください。貸出はありません。\n\n質問：プールを利用するときに注意することは何ですか。",
+      "options": [
+        "自分の水泳キャップを持って着用する",
+        "受付で水泳キャップを借りる",
+        "大人も２００円で利用できる",
+        "夜９時まで泳げる"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rule states: '※水泳キャップを必ず着用してください。貸出はありません。' (Must wear swim cap; no rentals available).",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【市民プールの利用案内】\n開館時間：午前１０時〜午後８時\n利用料金：大人 ５００円 / 中学生以下 ２００円\n※水泳キャップを必ず着用してください。貸出はありません。"
+    },
+    {
+      "id": "p8_8",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【宅配便の不在連絡票】\nお荷物をお届けに上がりましたが、ご不在でした。\n再配達をご希望の方は、本日午後６時までに下記QRコードよりお申し込みください。\n\n質問：今日中に荷物を再配達してほしい場合、何をしなければなりませんか。",
+      "options": [
+        "本日午後６時までにQRコードから申し込む",
+        "直接配達店まで荷物を取りに行く",
+        "明日まで何もしないで待つ",
+        "ドライバーに電話して怒る"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Text: '再配達をご希望の方は、本日午後６時までに下記QRコードよりお申し込みください。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【宅配便の不在連絡票】\nお荷物をお届けに上がりましたが、ご不在でした。\n再配達をご希望の方は、本日午後６時までに下記QRコードよりお申し込みください。"
+    },
+    {
+      "id": "p8_9",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【レストランの求人募集】\n職種：ホールスタッフ・調理補助\n時給：１,２００円（研修期間１ヶ月は１,１５０円）\n交通費全額支給、美味しいまかない（食事）付き！\n週２日、１日４時間からOK！\n\n質問：この仕事の嬉しいメリットとして書かれているものはどれですか。",
+      "options": [
+        "交通費が全額支給され、まかない食事が付く",
+        "研修期間の方が時給が高い",
+        "毎日８時間必ず働かなければならない",
+        "交通費は自己負担である"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Benefits listed: '交通費全額支給、美味しいまかない（食事）付き！'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【レストランの求人募集】\n職種：ホールスタッフ・調理補助\n時給：１,２００円（研修期間１ヶ月は１,１５０円）\n交通費全額支給、美味しいまかない（食事）付き！\n週２日、１日４時間からOK！"
+    },
+    {
+      "id": "p8_10",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【駅前駐輪場のご案内】\n最初の２時間は無料です。\nその後、２時間ごとに１００円が加算されます。\n※道路上に放置された自転車は撤去されます。\n\n質問：自転車を３時間駐輪した場合、料金はいくらになりますか。",
+      "options": [
+        "１００円",
+        "無料（０円）",
+        "２００円",
+        "３００円"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "First 2 hours are free. 3 hours = 2 hours (free) + 1 hour (part of next 2 hours block = 100 yen). Total is 100 yen.",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【駅前駐輪場のご案内】\n最初の２時間は無料です。\nその後、２時間ごとに１００円が加算されます。\n※道路上に放置された自転車は撤去されます。"
+    },
+    {
+      "id": "p8_11",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【クリニック休診案内】\n院長学会出席のため、１１月１０日（月）は終日休診となります。\n１１月１１日（火）からは通常通り午前９時より診療いたします。\n\n質問：クリニックがお休みなのはいつですか。",
+      "options": [
+        "１１月１０日（月）",
+        "１１月１１日（火）",
+        "１１月１２日（水）",
+        "毎週月曜日と火曜日"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Text states: '１１月１０日（月）は終日休診となります。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【クリニック休診案内】\n院長学会出席のため、１１月１０日（月）は終日休診となります。\n１１月１１日（火）からは通常通り午前９時より診療いたします。"
+    },
+    {
+      "id": "p8_12",
+      "patternId": "p8_short_reading",
+      "patternName": "Pattern 8: Notices, Emails & Short Memos (短文・掲示読解)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の文章を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【アパートの水道工事お知らせ】\n断水日時：木曜日 午後２時〜午後４時（２時間）\n断水中は水が出ません。事前に飲料水のご準備をお願いいたします。\n\n質問：住人が工事前に準備しておくべきことは何ですか。",
+      "options": [
+        "事前に飲むための水を準備しておく",
+        "木曜日の午後２時に洗濯機を回す",
+        "木曜日はアパートから引っ越す",
+        "お風呂の水を全部捨てる"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Text instructs: '断水中は水が出ません。事前に飲料水のご準備をお願いいたします。'",
+      "patternRule": "Notice Scanning: Match temporal markers (から〜まで) and asterisks (※) for exemptions.",
+      "audioText": "【アパートの水道工事お知らせ】\n断水日時：木曜日 午後２時〜午後４時（２時間）\n断水中は水が出ません。事前に飲料水のご準備をお願いいたします。"
+    },
+    {
+      "id": "p9_1",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【さくらスポーツセンター 料金表】\n区分 | 平日昼間 (10:00-17:00) | 平日夜間 (17:00-21:00) | 土日祝日\n一般 | 400円 | 600円 | 700円\n学生 | 200円 | 300円 | 350円\n※学生の方は受付で学生証をご提示ください。\n※ロッカー代は別途100円（返却式）が必要です。\n\n質問：大学生のリンさんが土曜日の午後２時に利用する場合、利用料はいくらですか。",
+      "options": [
+        "350円",
+        "700円",
+        "200円",
+        "400円"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "リンさん is a student (学生). Day is Saturday (土日祝日). Table cell for 学生 + 土日祝日 = 350円.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "大学生のリンさんが土曜日の午後２時に利用する場合、利用料はいくらですか。"
+    },
+    {
+      "id": "p9_2",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【急行電車 時刻表（さくら駅 発）】\n行先：空港行き（平日）\n7時：05 (普通) | 22 (急行) | 45 (快速)\n8時：10 (急行) | 25 (普通) | 40 (急行)\n9時：00 (普通) | 15 (急行) | 35 (普通)\n※急行（きゅうこう）は空港まで直通30分です。\n\n質問：8時台にさくら駅を出発する「急行」は何分にありますか。",
+      "options": [
+        "8時10分 と 8時40分",
+        "8時25分 だけ",
+        "8時05分 と 8時22分",
+        "8時00分 と 8時15分"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Look at the 8 o'clock row: 8:10 (急行) and 8:40 (急行).",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "8時台にさくら駅を出発する「急行」は何分にありますか。"
+    },
+    {
+      "id": "p9_3",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【居酒屋 歓送迎会コース割引クーポン】\nコース名 | 通常料金 | クーポン提示料金\nAコース (料理7品) | 3,500円 | 3,000円\nBコース (料理9品・飲み放題) | 5,000円 | 4,200円\n※クーポン利用条件：4名様以上、前日までに要予約。\n※金曜日・祝前日はご利用いただけません。\n\n質問：木曜日に友達5人でBコースを予約してクーポンを使うと、1人あたりいくらになりますか。",
+      "options": [
+        "4,200円",
+        "5,000円",
+        "3,000円",
+        "3,500円"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Conditions are met (Thursday != Friday, 5 people >= 4 people). B course with coupon is 4,200円 per person.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "木曜日に友達5人でBコースを予約してクーポンを使うと、1人あたりいくらになりますか。"
+    },
+    {
+      "id": "p9_4",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【市民病院 診療受付時間】\n診療科 | 月・火・木・金 | 水曜日 | 土曜日\n内科 | 9:00-12:00 / 14:00-17:00 | 9:00-12:00 | 9:00-12:00\n歯科 | 9:30-13:00 / 15:00-18:00 | 休診 | 休診\n眼科 | 14:00-17:00 のみ | 休診 | 9:00-12:00\n※日曜・祝日はすべての科が休診です。\n\n質問：眼科で診察を受けたい場合、受診できる時間帯はどれですか。",
+      "options": [
+        "月曜日の午後３時 または 土曜日の午前１０時",
+        "水曜日の午前１０時",
+        "火曜日の午前１０時",
+        "日曜日の午後２時"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "眼科 is open Mon/Tue/Thu/Fri 14:00-17:00 and Saturday 9:00-12:00. Monday 3pm and Saturday 10am both match.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "眼科で診察を受けたい場合、受診できる時間帯はどれですか。"
+    },
+    {
+      "id": "p9_5",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【日本語スピーチコンテスト 応募要項】\n応募資格：日本滞在3年未満の外国人\n部門 | スピーチ時間 | テーマ\n初級部門 (JFT-A2/N4相当) | 3分以内 | 「日本で驚いたこと」\n中級部門 (N3/N2相当) | 5分以内 | 「私の将来の夢」\n※応募締切：9月20日（必着）。原稿と録音データを提出。\n\n質問：来日1年目でJFT-A2レベルのマリアさんが応募する場合、スピーチ時間は何分ですか。",
+      "options": [
+        "3分以内（テーマ：「日本で驚いたこと」）",
+        "5分以内（テーマ：「私の将来の夢」）",
+        "10分以内",
+        "時間は何分でも自由"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Maria matches the 初級部門 (JFT-A2), where time is 3分以内 and theme is 「日本で驚いたこと」.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "来日1年目でJFT-A2レベルのマリアさんが応募する場合、スピーチ時間は何分ですか。"
+    },
+    {
+      "id": "p9_6",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【富士山ツアー バス旅プラン】\nプラン | 出発時刻 | 到着時刻 | 料金（昼食付き）\nプランA (日帰り) | 朝7:30 | 夜19:30 | 8,800円\nプランB (温泉付き日帰り) | 朝8:00 | 夜21:00 | 11,500円\n※子供料金（小学生）は全プラン半額。\n※未就学児（6歳未満）は無料（座席・昼食なし）。\n\n質問：大人2人と小学生1人でプランAに参加する場合、合計料金はいくらですか。",
+      "options": [
+        "22,000円",
+        "17,600円",
+        "26,400円",
+        "19,800円"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Adults: 8,800 * 2 = 17,600円. Child (elementary): 8,800 / 2 = 4,400円. Total = 17,600 + 4,400 = 22,000円.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "大人2人と小学生1人でプランAに参加する場合、合計料金はいくらですか。"
+    },
+    {
+      "id": "p9_7",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【市内循環バス 運賃案内】\n大人（中学生以上）：210円均一\n子供（小学生）：110円均一\n※ICカード（Suica/PASMO）ご利用の場合は大人200円、子供100円。\n※1日乗車券：大人500円、子供250円（車内で購入可能）。\n\n質問：大人がICカードを使って循環バスに1回乗る場合、いくら支払いますか。",
+      "options": [
+        "200円",
+        "210円",
+        "500円",
+        "100円"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Under footnote: IC card fare for adults is exactly 200円.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "大人がICカードを使って循環バスに1回乗る場合、いくら支払いますか。"
+    },
+    {
+      "id": "p9_8",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【さくら日本語学校 奨学金制度】\n奨学金種別 | 支給額 | 応募条件\n出席優秀賞 | 月額 20,000円 | 出席率98%以上かつ成績優秀者\n努力賞 | 月額 10,000円 | 出席率90%以上かつ学習意欲が高い者\n※過去に無断遅刻が3回以上ある場合は対象外となります。\n\n質問：出席率が95%で無断遅刻がない学生が応募できるのはどれですか。",
+      "options": [
+        "努力賞（月額10,000円）",
+        "出席優秀賞（月額20,000円）",
+        "両方同時にもらえる",
+        "対象外で応募できない"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Attendance is 95% (which is >= 90%, but < 98% required for 出席優秀賞). Therefore eligible for 努力賞.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "出席率が95%で無断遅刻がない学生が応募できるのはどれですか。"
+    },
+    {
+      "id": "p9_9",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【映画館 割引サービスのご案内】\n一般通常料金：1,900円\n割引サービス | 適用日・時間 | 割引後料金\nファーストデイ | 毎月1日 | 1,200円\nレディースデイ | 毎週水曜日 | 1,200円\nレイトショー | 毎日20:00以降の回 | 1,400円\nシニア割引 (60歳以上) | 毎日全時間 | 1,200円\n\n質問：金曜日の夜20:30に上映される映画を一般の大人が観る場合、料金はいくらですか。",
+      "options": [
+        "1,400円（レイトショー割引）",
+        "1,900円（通常料金）",
+        "1,200円",
+        "1,500円"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "20:30 is after 20:00 (毎日20:00以降の回), so the レイトショー rate of 1,400円 applies.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "金曜日の夜20:30に上映される映画を一般の大人が観る場合、料金はいくらですか。"
+    },
+    {
+      "id": "p9_10",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【国際交流フェスティバル タイムスケジュール】\n時間 | ステージ演目 | 参加国・団体\n11:00-12:00 | 和太鼓パフォーマンス | 日本伝統芸能部\n12:30-13:30 | アジアの民族舞踊 | フィリピン・ベトナム留学生会\n14:00-15:00 | 世界の音楽コンサート | 国際交流バンド\n15:30-16:30 | 日本語スピーチ発表会 | 市内在住外国人\n\n質問：フィリピンやベトナムの民族舞踊が見られるのは何時からですか。",
+      "options": [
+        "12:30から13:30まで",
+        "11:00から12:00まで",
+        "14:00から15:00まで",
+        "15:30から16:30まで"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Look at the 12:30-13:30 row: アジアの民族舞踊 (フィリピン・ベトナム留学生会).",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "フィリピンやベトナムの民族舞踊が見られるのは何時からですか。"
+    },
+    {
+      "id": "p9_11",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【大型ゴミ（粗大ゴミ）収集手数料一覧】\n品目 | 手数料納付券の枚数 (1枚300円)\n自転車 | 2枚 (600円)\n布団（ふとん）2枚まで | 1枚 (300円)\nベッド（シングル） | 4枚 (1,200円)\nタンス（高さ120cm以上） | 3枚 (900円)\n※事前に電話またはインターネットで収集日を予約してください。\n\n質問：自転車1台と布団2枚を捨てたい場合、納付券は何枚必要で、合計いくらですか。",
+      "options": [
+        "納付券3枚（合計900円）",
+        "納付券2枚（合計600円）",
+        "納付券4枚（合計1,200円）",
+        "納付券1枚（合計300円）"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Bicycle = 2 tickets (600円). Futon (up to 2) = 1 ticket (300円). Total = 3 tickets = 900円.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "自転車1台と布団2枚を捨てたい場合、納付券は何枚必要で、合計いくらですか。"
+    },
+    {
+      "id": "p9_12",
+      "patternId": "p9_info_retrieval",
+      "patternName": "Pattern 9: Information Retrieval & Schedules (情報検索・時刻表・表)",
+      "level": "JFT-Basic A2 & JLPT N4",
+      "question": "次の案内や表を読んで、質問に最も適した答えを１・２・３・４から一つ選びなさい。\n\n【郵便局 配達日数・料金表（東京から発送）】\n種別 | 配達日数 | 料金 (重さ1kgまで)\n普通郵便 | 2〜3日後 | 250円\n速達（そくたつ） | 翌日午前中 | 550円\nゆうパック | 翌日中（日時指定可能）| 850円\n※日曜日・祝日は普通郵便の配達はお休みです。\n\n質問：金曜日に発送して、土曜日の午前中にどうしても届けたい場合、どの方法を選びますか。",
+      "options": [
+        "速達（そくたつ）",
+        "普通郵便",
+        "ゆうパック",
+        "どれでも届く"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "速達 delivers 翌日午前中 (next day morning), which reaches on Saturday morning.",
+      "patternRule": "Table Scanning Matrix: Check row headers, condition notes (*), and time/fee matching.",
+      "audioText": "金曜日に発送して、土曜日の午前中にどうしても届けたい場合、どの方法を選びますか。"
+    }
+  ],
+  "mockExams": [
+    {
+      "testId": "mock_exam_1",
+      "testNumber": 1,
+      "title": "2025/2026 Mock Exam #1: Comprehensive Foundation & Star Sentence Master (基礎総合力・並び替え特訓)",
+      "japaneseTitle": "第1回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_1",
+        "p1_2",
+        "p2_1",
+        "p2_2",
+        "p3_1",
+        "p3_2",
+        "p4_1",
+        "p4_2",
+        "p5_1",
+        "p5_2",
+        "p5_3",
+        "p6_1",
+        "p6_2",
+        "p7_1",
+        "p7_2",
+        "p8_1",
+        "p8_2",
+        "p9_1"
+      ]
+    },
+    {
+      "testId": "mock_exam_2",
+      "testNumber": 2,
+      "title": "2025/2026 Mock Exam #2: Workplace Communication & Can-Do Challenge (職場会話・実務コミュニケーション)",
+      "japaneseTitle": "第2回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_3",
+        "p1_4",
+        "p2_3",
+        "p2_4",
+        "p3_3",
+        "p3_4",
+        "p4_3",
+        "p4_4",
+        "p5_4",
+        "p5_5",
+        "p5_6",
+        "p6_3",
+        "p6_4",
+        "p7_3",
+        "p7_4",
+        "p8_2",
+        "p8_3",
+        "p9_2"
+      ]
+    },
+    {
+      "testId": "mock_exam_3",
+      "testNumber": 3,
+      "title": "2025/2026 Mock Exam #3: Daily Living & Community Notices Dokkai (生活掲示・案内読解攻略)",
+      "japaneseTitle": "第3回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_5",
+        "p1_6",
+        "p2_5",
+        "p2_6",
+        "p3_5",
+        "p3_6",
+        "p4_5",
+        "p4_6",
+        "p5_7",
+        "p5_8",
+        "p5_9",
+        "p6_5",
+        "p6_6",
+        "p7_5",
+        "p7_6",
+        "p8_3",
+        "p8_4",
+        "p9_3"
+      ]
+    },
+    {
+      "testId": "mock_exam_4",
+      "testNumber": 4,
+      "title": "2025/2026 Mock Exam #4: Kanji Orthography & Contextual Collocation (漢字表記・連語マスター)",
+      "japaneseTitle": "第4回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_7",
+        "p1_8",
+        "p2_7",
+        "p2_8",
+        "p3_7",
+        "p3_8",
+        "p4_7",
+        "p4_8",
+        "p5_10",
+        "p5_11",
+        "p5_12",
+        "p6_7",
+        "p6_8",
+        "p7_7",
+        "p7_8",
+        "p8_4",
+        "p8_5",
+        "p9_4"
+      ]
+    },
+    {
+      "testId": "mock_exam_5",
+      "testNumber": 5,
+      "title": "2025/2026 Mock Exam #5: Grammar Form Matrix & Particle Logic (文法形式・助詞完全制覇)",
+      "japaneseTitle": "第5回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_9",
+        "p1_10",
+        "p2_9",
+        "p2_10",
+        "p3_9",
+        "p3_10",
+        "p4_9",
+        "p4_10",
+        "p5_13",
+        "p5_14",
+        "p5_15",
+        "p6_9",
+        "p6_10",
+        "p7_9",
+        "p7_10",
+        "p8_5",
+        "p8_6",
+        "p9_5"
+      ]
+    },
+    {
+      "testId": "mock_exam_6",
+      "testNumber": 6,
+      "title": "2025/2026 Mock Exam #6: Fast Timetable & Information Retrieval (時刻表・料金表・情報検索)",
+      "japaneseTitle": "第6回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_11",
+        "p1_12",
+        "p2_11",
+        "p2_12",
+        "p3_11",
+        "p3_12",
+        "p4_11",
+        "p4_12",
+        "p5_16",
+        "p5_17",
+        "p5_18",
+        "p6_11",
+        "p6_12",
+        "p7_11",
+        "p7_12",
+        "p8_6",
+        "p8_7",
+        "p9_6"
+      ]
+    },
+    {
+      "testId": "mock_exam_7",
+      "testNumber": 7,
+      "title": "2025/2026 Mock Exam #7: Official 2025 JFT-Basic Standard Simulation (2025年度 JFT-Basic 標準模擬)",
+      "japaneseTitle": "第7回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_13",
+        "p1_14",
+        "p2_13",
+        "p2_14",
+        "p3_13",
+        "p3_14",
+        "p4_13",
+        "p4_14",
+        "p5_19",
+        "p5_20",
+        "p5_21",
+        "p6_13",
+        "p6_14",
+        "p7_13",
+        "p7_14",
+        "p8_7",
+        "p8_8",
+        "p9_7"
+      ]
+    },
+    {
+      "testId": "mock_exam_8",
+      "testNumber": 8,
+      "title": "2025/2026 Mock Exam #8: Official 2026 JLPT N5/N4 Direct Predictor (2026年 直前予想模試)",
+      "japaneseTitle": "第8回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_15",
+        "p1_16",
+        "p2_15",
+        "p2_16",
+        "p3_15",
+        "p3_16",
+        "p4_15",
+        "p4_1",
+        "p5_22",
+        "p5_23",
+        "p5_24",
+        "p6_15",
+        "p6_16",
+        "p7_15",
+        "p7_16",
+        "p8_8",
+        "p8_9",
+        "p9_8"
+      ]
+    },
+    {
+      "testId": "mock_exam_9",
+      "testNumber": 9,
+      "title": "2025/2026 Mock Exam #9: Advanced Can-Do & Workplace Task Mastery (高度Can-Do・タスク達成力)",
+      "japaneseTitle": "第9回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_17",
+        "p1_18",
+        "p2_17",
+        "p2_18",
+        "p3_17",
+        "p3_18",
+        "p4_2",
+        "p4_3",
+        "p5_25",
+        "p5_1",
+        "p5_2",
+        "p6_1",
+        "p6_2",
+        "p7_1",
+        "p7_2",
+        "p8_9",
+        "p8_10",
+        "p9_9"
+      ]
+    },
+    {
+      "testId": "mock_exam_10",
+      "testNumber": 10,
+      "title": "2025/2026 Mock Exam #10: Final Master Graduation Grand Test (最終合格判定・総合グラウンドテスト)",
+      "japaneseTitle": "第10回 総合模擬試験",
+      "targetLevel": "JFT-Basic A2 & JLPT N5/N4",
+      "timeLimitMinutes": 35,
+      "totalQuestions": 18,
+      "passingScore": 75,
+      "description": "Standardized 18-question official simulation covering all 9 test patterns (Kanji, Vocabulary, Star ★ Ordering, Workplace Dialogues, Notices & Information Retrieval).",
+      "questionIds": [
+        "p1_19",
+        "p1_20",
+        "p2_19",
+        "p2_20",
+        "p3_19",
+        "p3_20",
+        "p4_4",
+        "p4_5",
+        "p5_3",
+        "p5_4",
+        "p5_5",
+        "p6_3",
+        "p6_4",
+        "p7_3",
+        "p7_4",
+        "p8_10",
+        "p8_11",
+        "p9_10"
+      ]
+    }
+  ]
+}
