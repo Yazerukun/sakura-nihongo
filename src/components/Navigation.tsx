@@ -1,7 +1,9 @@
 import React from 'react';
 import { StudyMode } from '../types';
 import { 
-  FileText, 
+  Zap, 
+  Mic, 
+  Bot, 
   Layers, 
   Sparkles, 
   BookOpen, 
@@ -22,10 +24,24 @@ export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMod
   const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [
     {
       id: 'cbt',
-      label: 'CBT Simulator',
-      icon: <FileText className="w-4 h-4" />,
-      desc: 'Official 60-min timed exam',
-      badge: 'Real Test'
+      label: 'Real-Time CBT Exam',
+      icon: <Zap className="w-4 h-4 text-emerald-500 fill-emerald-500" />,
+      desc: 'Official 60-min live exam',
+      badge: 'Live CBT'
+    },
+    {
+      id: 'realtime-voice',
+      label: 'Real-Time Voice Assessor',
+      icon: <Mic className="w-4 h-4 text-rose-500" />,
+      desc: 'Live microphone pronunciation evaluation',
+      badge: 'Real-time'
+    },
+    {
+      id: 'ai-tutor',
+      label: 'Real-Time AI Sensei',
+      icon: <Bot className="w-4 h-4 text-sakura-500" />,
+      desc: 'Interactive live dialogue tutor',
+      badge: 'Live AI'
     },
     {
       id: 'flashcards',

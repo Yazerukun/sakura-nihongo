@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LevelType, StudyMode, UserProfile } from './types';
-import { getStoredSession, clearSession, DEFAULT_PROFILES } from './utils/auth';
+import { getStoredSession, clearSession } from './utils/auth';
 import { getStudyStats } from './utils/storage';
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation';
@@ -8,6 +8,8 @@ import { SakuraCanvas } from './components/SakuraCanvas';
 import { LoginModal } from './components/LoginModal';
 import { ProfileModal } from './components/ProfileModal';
 import { CBTExamSimulator } from './components/CBTExamSimulator';
+import { RealTimeVoiceTrainer } from './components/RealTimeVoiceTrainer';
+import { RealTimeAITutor } from './components/RealTimeAITutor';
 import { FlashcardDeck } from './components/FlashcardDeck';
 import { QuizView } from './components/QuizView';
 import { GrammarViewer } from './components/GrammarViewer';
@@ -16,7 +18,7 @@ import { KanaMaster } from './components/KanaMaster';
 import { CheatsheetView } from './components/CheatsheetView';
 import { PomodoroTimer } from './components/PomodoroTimer';
 import { AnalyticsView } from './components/AnalyticsView';
-import { Heart, Sparkles, ShieldCheck } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [user, setUser] = useState<UserProfile | null>(null);
@@ -112,6 +114,27 @@ export const App: React.FC = () => {
             onLogout={handleLogout}
           />
 
+          {/* Real-time Indicator banner */}
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-3">
+            <div className="p-2.5 rounded-2xl bg-white/70 dark:bg-slate-900/70 border border-emerald-200/70 dark:border-emerald-900/50 flex items-center justify-between text-xs shadow-sm">
+              <div className="flex items-center gap-2">
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                </span>
+                <span className="font-bold text-slate-700 dark:text-slate-200">
+                  Real-Time Mode Active:
+                </span>
+                <span className="text-slate-500 dark:text-slate-400 hidden sm:inline">
+                  Live voice speech recognition, real-time AI tutor & official timed CBT testing
+                </span>
+              </div>
+              <div className="font-mono text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                Cloudflare Edge Connected ⚡
+              </div>
+            </div>
+          </div>
+
           {/* Navigation Tabs */}
           <Navigation
             currentMode={currentMode}
@@ -122,6 +145,8 @@ export const App: React.FC = () => {
           {/* Active View */}
           <main className="flex-grow">
             {currentMode === 'cbt' && <CBTExamSimulator level={currentLevel} />}
+            {currentMode === 'realtime-voice' && <RealTimeVoiceTrainer level={currentLevel} />}
+            {currentMode === 'ai-tutor' && <RealTimeAITutor level={currentLevel} />}
             {currentMode === 'flashcards' && <FlashcardDeck level={currentLevel} />}
             {currentMode === 'quiz' && <QuizView level={currentLevel} />}
             {currentMode === 'grammar' && <GrammarViewer currentLevel={currentLevel} />}
@@ -141,7 +166,7 @@ export const App: React.FC = () => {
                 <span>by Ian for his girlfriend • 桜日本語 Sakura Nihongo 2025-2026</span>
               </div>
               <p className="text-[11px] text-slate-400">
-                Official JFT-Basic & JLPT N5-N1 Syllabus • Web Speech Audio • Cloudflare & GitHub Pages Ready
+                Official JFT-Basic & JLPT N5-N1 Real-Time System • Cloudflare & GitHub Pages Live
               </p>
             </div>
           </footer>

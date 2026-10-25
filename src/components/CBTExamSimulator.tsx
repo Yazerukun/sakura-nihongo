@@ -211,13 +211,18 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             <Award className="w-10 h-10" />
           </div>
 
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 text-xs font-bold mb-3">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
+            <span>Real-Time Official CBT Examination Environment (リアルタイム本番試験)</span>
+          </div>
+
           <h2 className="text-3xl font-serif font-black text-slate-800 dark:text-white mb-2">
-            {level === 'JFT' ? 'JFT-Basic 2025/2026 CBT Simulation' : `JLPT ${level} Official Mock Examination`}
+            {level === 'JFT' ? 'JFT-Basic 2025/2026 Live CBT Examination' : `JLPT ${level} Official Real-Time Examination`}
           </h2>
           <p className="text-sm text-slate-500 dark:text-slate-400 max-w-xl mx-auto mb-6">
             {level === 'JFT'
-              ? 'Complete computer-based testing (CBT) covering Script & Vocab, Conversation & Expression, Listening, and Reading with official IRT scoring.'
-              : `Timed examination following the official 2025-2026 JLPT ${level} structure, sectional balance, and pass/fail scoring parameters.`}
+              ? 'Real-time proctored test environment covering Script & Vocab, Conversation & Expression, Listening, and Reading with live 60-minute countdown and official IRT scoring.'
+              : `Real-time examination following the official 2025-2026 JLPT ${level} structure, sectional cutoffs, and live scoring engine.`}
           </p>
 
           {/* Test Selector for JFT */}
@@ -233,7 +238,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
                       : 'bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700'
                   }`}
                 >
-                  Simulation Test #{testNum}
+                  Official Test #{testNum}
                 </button>
               ))}
             </div>
@@ -275,7 +280,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level }) => 
             className="px-8 py-3.5 rounded-2xl font-bold text-base text-white bg-gradient-to-r from-sakura-500 to-sakura-600 hover:from-sakura-600 hover:to-sakura-700 shadow-xl shadow-sakura-500/25 active:scale-95 transition-all inline-flex items-center gap-2"
           >
             <Timer className="w-5 h-5" />
-            <span>Begin Official Simulation (試験開始)</span>
+            <span>Begin Real-Time Official Exam (本番試験開始)</span>
           </button>
         </div>
       </div>
