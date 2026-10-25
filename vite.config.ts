@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Automatically detect if building for Cloudflare Pages (or custom domain) vs GitHub Pages
+const isCloudflare = process.env.CF_PAGES === '1' || process.env.DEPLOY_TARGET === 'cloudflare';
+
 export default defineConfig({
   plugins: [react()],
-  base: './', // relative base so it works on both GitHub Pages subpath and Cloudflare Pages root
+  base: isCloudflare ? '/' : '/sakura-nihongo/',
 });
