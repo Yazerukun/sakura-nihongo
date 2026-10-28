@@ -1,6 +1,6 @@
 import React from 'react';
-import { LevelType, UserProfile } from '../types';
-import { Flame, Moon, Sun, Flower2, Volume2, LogOut, Heart } from 'lucide-react';
+import { LevelType, UserProfile, StudentLicenseStatus } from '../types';
+import { Flame, Moon, Sun, Flower2, Volume2, LogOut, Heart, ShieldCheck, Sparkles } from 'lucide-react';
 import { japaneseVoice } from '../utils/audio';
 
 interface HeaderProps {
@@ -14,6 +14,9 @@ interface HeaderProps {
   onTogglePetals: () => void;
   onOpenProfile: () => void;
   onLogout: () => void;
+  onOpenLicensingModal?: () => void;
+  onOpenAdminHub?: () => void;
+  licenseStatus?: StudentLicenseStatus;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -26,7 +29,10 @@ export const Header: React.FC<HeaderProps> = ({
   petalsActive,
   onTogglePetals,
   onOpenProfile,
-  onLogout
+  onLogout,
+  onOpenLicensingModal,
+  onOpenAdminHub,
+  licenseStatus
 }) => {
   const levels: { id: LevelType; label: string; badge: string }[] = [
     { id: 'JFT', label: 'JFT-Basic A2', badge: 'Official A2' },
@@ -90,6 +96,35 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* User Stats & Controls */}
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Admin Hub or VIP License Button */}
+          {user.role === 'admin' || user.username === 'nihon11' || user.username === 'ian' ? (
+            <button
+              onClick={onOpenAdminHub}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-2xl bg-gradient-to-r from-sakura-500 to-pink-600 hover:from-sakura-600 hover:to-pink-700 text-white text-xs font-bold shadow-md shadow-sakura-500/20 active:scale-95 transition-all"
+              title="Open Mariel's Student Licensing Hub"
+            >
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span>Admin Hub</span>
+            </button>
+          ) : (
+            <button
+              onClick={onOpenLicensingModal}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-2xl text-xs font-bold transition-all shadow-sm active:scale-95 ${
+                licenseStatus?.hasValidLicense
+                  ? 'bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300'
+                  : 'bg-sakura-500 hover:bg-sakura-600 text-white shadow-sakura-500/25 animate-pulse'
+              }`}
+              title="View or Activate 30-Day VIP Pass"
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>
+                {licenseStatus?.hasValidLicense
+                  ? `VIP: ${licenseStatus.daysRemaining}d`
+                  : 'VIP Pass (₱199)'}
+              </span>
+            </button>
+          )}
+
           {/* Streak Badge */}
           <div
             className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/50 text-amber-600 dark:text-amber-400 text-xs font-bold shadow-sm"

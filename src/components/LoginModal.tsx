@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { authenticate, registerUser } from '../utils/auth';
+import { activateLicense } from '../utils/licensing';
 import { UserProfile, LevelType } from '../types';
 import { KeyRound, Sparkles, User, Eye, EyeOff, Heart, UserPlus, LogIn, CheckCircle } from 'lucide-react';
 
@@ -20,6 +21,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onSuccess }) => 
   const [regName, setRegName] = useState('');
   const [regUsername, setRegUsername] = useState('');
   const [regPassword, setRegPassword] = useState('');
+  const [regLicenseKey, setRegLicenseKey] = useState('');
   const [regTargetLevel, setRegTargetLevel] = useState<LevelType>('JFT');
   const [regAvatar, setRegAvatar] = useState('🌸');
 
@@ -38,6 +40,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onSuccess }) => 
       setRegName('');
       setRegUsername('');
       setRegPassword('');
+      setRegLicenseKey('');
     }
   }, [isOpen]);
 
@@ -76,6 +79,9 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onSuccess }) => 
       });
 
       if (result.success && result.profile) {
+        if (regLicenseKey.trim()) {
+          activateLicense(regLicenseKey.trim(), regName);
+        }
         setSuccessMsg('Account created successfully! Entering portal...');
         setTimeout(() => {
           onSuccess(result.profile!);
@@ -330,6 +336,19 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onSuccess }) => 
                   ))}
                 </div>
               </div>
+            </div>
+
+            <div>
+              <label className="block text-xs font-semibold text-slate-600 dark:text-slate-300 mb-1">
+                VIP License Voucher (Optional)
+              </label>
+              <input
+                type="text"
+                value={regLicenseKey}
+                onChange={(e) => setRegLicenseKey(e.target.value.toUpperCase())}
+                placeholder="e.g. SAKURA-30D-XXXX-YYYY (From Mariel)"
+                className="w-full px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/80 text-slate-800 dark:text-slate-100 text-xs font-mono uppercase focus:outline-none focus:ring-2 focus:ring-sakura-400 transition-all placeholder:font-sans"
+              />
             </div>
 
             <button

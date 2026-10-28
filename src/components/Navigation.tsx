@@ -1,5 +1,5 @@
 import React from 'react';
-import { StudyMode } from '../types';
+import { StudyMode, UserProfile } from '../types';
 import { 
   Zap, 
   GraduationCap,
@@ -12,17 +12,32 @@ import {
   Grid3X3, 
   Bookmark, 
   Timer, 
-  BarChart3 
+  BarChart3,
+  ShieldCheck
 } from 'lucide-react';
 
 interface NavigationProps {
   currentMode: StudyMode;
   onSelectMode: (mode: StudyMode) => void;
   targetLevel: string;
+  user?: UserProfile | null;
 }
 
-export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMode, targetLevel }) => {
-  const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [
+export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMode, targetLevel, user }) => {
+  const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [];
+
+  // If user is admin (Mariel / Ian), show Admin Licensing Hub right at the front!
+  if (user?.role === 'admin' || user?.username === 'nihon11' || user?.username === 'ian') {
+    tabs.push({
+      id: 'admin-licensing',
+      label: 'Admin Licensing Hub',
+      icon: <ShieldCheck className="w-4 h-4 text-pink-500 fill-pink-500" />,
+      desc: '30-Day keys, student subscriptions & anti-piracy',
+      badge: '👑 Admin Hub'
+    });
+  }
+
+  tabs.push(
     {
       id: 'cbt',
       label: 'Real-Time Official CBT Exam',
@@ -100,7 +115,7 @@ export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMod
       icon: <BarChart3 className="w-4 h-4" />,
       desc: 'Score history & streaks'
     }
-  ];
+  );
 
   return (
     <nav className="max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-3">

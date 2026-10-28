@@ -13,6 +13,17 @@ export interface RegisteredUserRecord {
 
 // Built-in protected accounts (never exposed publicly on UI)
 export const DEFAULT_PROFILES: Record<string, UserProfile> = {
+  nihon11: {
+    username: 'nihon11',
+    displayName: 'Mariel (Admin • 桜)',
+    avatar: '👑',
+    targetLevel: 'JFT',
+    examTargetDate: '2026-06-15',
+    dailyGoalCards: 30,
+    dailyGoalMinutes: 45,
+    sweetNote: "Sakura Nihongo Administrator & Student Licensing Hub 🌸",
+    role: 'admin'
+  },
   mariel: {
     username: 'mariel',
     displayName: 'Mariel (マリエル)',
@@ -39,6 +50,7 @@ export const DEFAULT_PROFILES: Record<string, UserProfile> = {
 
 // Built-in authentication credentials
 const PROTECTED_CREDENTIALS = [
+  { username: 'nihon11', password: 'nihon11', profileKey: 'nihon11' },
   { username: 'mariel', password: '111', profileKey: 'mariel' },
   { username: 'mariel@study.jp', password: '111', profileKey: 'mariel' },
   { username: 'ian', password: '111', profileKey: 'ian' },
@@ -95,7 +107,7 @@ export function registerUser(params: {
   }
 
   // Prevent hijacking protected accounts
-  const reservedNames = ['ian', 'admin', 'mariel', 'sakura'];
+  const reservedNames = ['ian', 'admin', 'mariel', 'sakura', 'nihon11'];
   if (reservedNames.includes(cleanUser)) {
     return { success: false, error: 'This username is reserved. Please choose a different one.' };
   }

@@ -12,7 +12,40 @@ export type StudyMode =
   | 'kana'
   | 'cheatsheet'
   | 'pomodoro'
-  | 'analytics';
+  | 'analytics'
+  | 'admin-licensing';
+
+export interface LicenseRecord {
+  id: string;
+  code: string;
+  studentName: string;
+  planDurationDays: number;
+  pricePaid: number;
+  status: 'active' | 'unused' | 'expired' | 'revoked';
+  createdAt: string;
+  activatedAt?: string;
+  expiresAt?: string;
+  boundDeviceId?: string;
+  boundDeviceName?: string;
+  notes?: string;
+}
+
+export interface StudentLicenseStatus {
+  hasValidLicense: boolean;
+  license?: LicenseRecord;
+  daysRemaining: number;
+  isExpired: boolean;
+  isLockedToOtherDevice: boolean;
+  lockedDeviceName?: string;
+}
+
+export interface LicensingStats {
+  totalLicenses: number;
+  activeLicenses: number;
+  unusedLicenses: number;
+  expiredLicenses: number;
+  estimatedRevenue: number;
+}
 
 export interface UserProfile {
   username: string;

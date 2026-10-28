@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { LevelType, StudyMode, UserProfile } from './types';
+import { LevelType, StudyMode, UserProfile, StudentLicenseStatus } from './types';
 import { getStoredSession, clearSession } from './utils/auth';
 import { getStudyStats } from './utils/storage';
+import { checkCurrentLicense } from './utils/licensing';
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation';
 import { SakuraCanvas } from './components/SakuraCanvas';
 import { LoginModal } from './components/LoginModal';
 import { ProfileModal } from './components/ProfileModal';
+import { LicenseActivationModal } from './components/LicenseActivationModal';
+import { AdminLicensingView } from './components/AdminLicensingView';
 import { CBTExamSimulator } from './components/CBTExamSimulator';
 import { LMSReviewer } from './components/LMSReviewer';
 import { RealTimeVoiceTrainer } from './components/RealTimeVoiceTrainer';
@@ -25,6 +28,8 @@ export const App: React.FC = () => {
   const [user, setUser] = useState<UserProfile | null>(null);
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showProfileModal, setShowProfileModal] = useState(false);
+  const [showLicenseModal, setShowLicenseModal] = useState(false);
+  const [licenseStatus, setLicenseStatus] = useState<StudentLicenseStatus>(checkCurrentLicense(null));
   const [currentLevel, setCurrentLevel] = useState<LevelType>('JFT');
   const [currentMode, setCurrentMode] = useState<StudyMode>('cbt');
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -37,6 +42,10 @@ export const App: React.FC = () => {
     if (session) {
       setUser(session);
       setCurrentLevel(session.targetLevel || 'JFT');
+      setLicenseStatus(checkCurrentLicense(session));
+      if (session.role === 'admin' || session.username === 'nihon11') {
+        setCurrentMode('admin-licensing');
+      }
     } else {
       setShowLoginModal(true);
     }
@@ -65,6 +74,10 @@ export const App: React.FC = () => {
     setCurrentLevel(profile.targetLevel || 'JFT');
     setShowLoginModal(false);
     setStats(getStudyStats());
+    setLicenseStatus(checkCurrentLicense(profile));
+    if (profile.role === 'admin' || profile.username === 'nihon11') {
+      setCurrentMode('admin-licensing');
+    }
   };
 
   const handleLogout = () => {
@@ -76,6 +89,10 @@ export const App: React.FC = () => {
   const handleProfileUpdated = (updated: UserProfile) => {
     setUser(updated);
     setCurrentLevel(updated.targetLevel);
+  };
+
+  const handleRefreshLicense = () => {
+    setLicenseStatus(checkCurrentLicense(user));
   };
 
   return (
@@ -99,6 +116,14 @@ export const App: React.FC = () => {
         />
       )}
 
+      {/* 30-Day Student License Activation Modal */}
+      <LicenseActivationModal
+        isOpen={showLicenseModal}
+        onClose={() => setShowLicenseModal(false)}
+        user={user}
+        onLicenseUpdated={handleRefreshLicense}
+      />
+
       {/* Main Content when Logged In */}
       {user && (
         <>
@@ -113,6 +138,9 @@ export const App: React.FC = () => {
             onTogglePetals={() => setPetalsActive(!petalsActive)}
             onOpenProfile={() => setShowProfileModal(true)}
             onLogout={handleLogout}
+            onOpenLicensingModal={() => setShowLicenseModal(true)}
+            onOpenAdminHub={() => setCurrentMode('admin-licensing')}
+            licenseStatus={licenseStatus}
           />
 
           {/* Real-time Indicator banner */}
@@ -141,10 +169,12 @@ export const App: React.FC = () => {
             currentMode={currentMode}
             onSelectMode={mode => setCurrentMode(mode)}
             targetLevel={currentLevel}
+            user={user}
           />
 
           {/* Active View */}
           <main className="flex-grow">
+            {currentMode === 'admin-licensing' && <AdminLicensingView user={user} />}
             {currentMode === 'lms' && <LMSReviewer level={currentLevel} />}
             {currentMode === 'cbt' && <CBTExamSimulator level={currentLevel} user={user} />}
             {currentMode === 'realtime-voice' && <RealTimeVoiceTrainer level={currentLevel} />}
