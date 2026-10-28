@@ -611,8 +611,8 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
           </div>
         </div>
 
-        {/* 4 Section Navigator Indicators */}
-        <div className="grid grid-cols-4 gap-2 mt-3 pt-3 border-t border-slate-800 text-[11px] font-semibold">
+        {/* 4 Section Navigator Indicators (Mobile 2x2, Desktop 4x1) */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-3 pt-3 border-t border-slate-800 text-[11px] font-semibold">
           {[
             { id: 1, name: '1. 文字・語彙 (Vocab)', range: [0, 14] },
             { id: 2, name: '2. 文法・表現 (Grammar)', range: [15, 29] },
@@ -624,9 +624,9 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
               <button
                 key={sec.id}
                 onClick={() => setCurrentIndex(sec.range[0])}
-                className={`py-1.5 px-2 rounded-lg text-center transition-all truncate ${
+                className={`py-2 px-2.5 rounded-xl text-center transition-all truncate text-xs ${
                   isActiveSec 
-                    ? 'bg-sakura-500 text-white font-bold shadow' 
+                    ? 'bg-sakura-500 text-white font-bold shadow-md shadow-sakura-500/25' 
                     : 'bg-slate-800/80 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -687,9 +687,9 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
 
         {/* Listening Comprehension Soundwave Box when in Section 3 */}
         {isListeningSec && (
-          <div className="mb-6 p-4 rounded-2xl bg-gradient-to-r from-amber-500/10 via-sakura-500/10 to-indigo-500/10 border border-amber-300/40 dark:border-amber-700/40 flex items-center justify-between">
+          <div className="mb-6 p-4 rounded-2xl bg-gradient-to-r from-amber-500/10 via-sakura-500/10 to-indigo-500/10 border border-amber-300/40 dark:border-amber-700/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm">
             <div className="flex items-center gap-3">
-              <Headphones className="w-6 h-6 text-amber-600 animate-bounce" />
+              <Headphones className="w-6 h-6 text-amber-600 animate-bounce shrink-0" />
               <div>
                 <div className="text-xs font-bold text-slate-800 dark:text-white">
                   Section 3: Audio Dialogue Listening Task (聴解音声課題)
@@ -702,7 +702,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
 
             <button
               onClick={playQuestionAudio}
-              className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow transition-all active:scale-95 flex items-center gap-1.5"
+              className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-md transition-all active:scale-95 flex items-center justify-center gap-1.5 shrink-0"
             >
               <Volume2 className="w-4 h-4" />
               <span>{isPlayingAudio ? 'Audio Playing...' : 'Listen to Audio'}</span>
@@ -712,7 +712,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
 
         {/* Question Prompt */}
         <div className="mb-6">
-          <div className="text-base sm:text-lg font-japanese font-medium text-slate-800 dark:text-slate-100 leading-relaxed whitespace-pre-line p-5 rounded-2xl bg-slate-50/70 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-700/60">
+          <div className="text-base sm:text-lg font-japanese font-medium text-slate-800 dark:text-slate-100 leading-relaxed whitespace-pre-line p-5 rounded-2xl bg-slate-50/70 dark:bg-slate-800/40 border border-slate-200/80 dark:border-slate-700/60 shadow-inner">
             {currentQ?.question}
           </div>
         </div>
@@ -725,54 +725,62 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
               <button
                 key={optIdx}
                 onClick={() => handleSelectAnswer(optIdx)}
-                className={`w-full p-4 rounded-2xl text-left text-sm font-medium transition-all flex items-center justify-between border ${
+                className={`w-full min-h-[56px] p-4 rounded-2xl text-left text-sm font-medium transition-all duration-200 flex items-center justify-between border cursor-pointer select-none active:scale-[0.985] ${
                   isSelected
-                    ? 'bg-sakura-50/80 dark:bg-sakura-950/30 border-sakura-500 text-slate-900 dark:text-white shadow-sm ring-2 ring-sakura-400/20'
-                    : 'bg-white dark:bg-slate-800/80 border-slate-200 dark:border-slate-700 hover:border-sakura-300 text-slate-700 dark:text-slate-200'
+                    ? 'bg-gradient-to-r from-sakura-500/10 via-sakura-50/50 to-pink-500/10 dark:from-sakura-950/40 dark:to-pink-950/30 border-sakura-500 text-slate-900 dark:text-white shadow-3d-sakura ring-2 ring-sakura-400/40 translate-y-[-1px]'
+                    : 'bg-white/90 dark:bg-slate-800/80 border-slate-200/90 dark:border-slate-700/80 hover:border-sakura-300 dark:hover:border-sakura-700 text-slate-700 dark:text-slate-200 shadow-sm hover:shadow-md'
                 }`}
               >
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3.5 pr-2">
                   <span
-                    className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-bold ${
+                    className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-bold shrink-0 transition-transform ${
                       isSelected
-                        ? 'bg-sakura-500 text-white'
-                        : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300'
+                        ? 'bg-gradient-to-br from-sakura-500 to-pink-600 text-white shadow-md shadow-sakura-500/30 scale-105'
+                        : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700/60'
                     }`}
                   >
                     {String.fromCharCode(65 + optIdx)}
                   </span>
-                  <span className="font-japanese text-sm sm:text-base">{opt}</span>
+                  <span className="font-japanese text-sm sm:text-base leading-relaxed">{opt}</span>
                 </div>
-                {isSelected && <CheckCircle2 className="w-5 h-5 text-sakura-500" />}
+                {isSelected ? (
+                  <CheckCircle2 className="w-5 h-5 text-sakura-500 shrink-0" />
+                ) : (
+                  <div className="w-5 h-5 rounded-full border border-slate-300 dark:border-slate-600 shrink-0 opacity-40" />
+                )}
               </button>
             );
           })}
         </div>
 
         {/* Prometric Bottom Navigation Bar */}
-        <div className="flex items-center justify-between pt-5 border-t border-slate-100 dark:border-slate-800">
+        <div className="flex items-center justify-between gap-2 pt-5 border-t border-slate-100 dark:border-slate-800">
           <button
             onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
             disabled={currentIndex === 0}
-            className="px-5 py-2.5 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 disabled:opacity-40 transition-colors flex items-center gap-1.5"
+            className="flex-1 sm:flex-initial px-4 sm:px-5 py-3 rounded-xl text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 disabled:opacity-40 transition-all active:scale-95 flex items-center justify-center gap-1.5 shadow-sm"
           >
             <ChevronLeft className="w-4 h-4" />
-            <span>Previous (前へ)</span>
+            <span>Previous</span>
+            <span className="hidden sm:inline">(前へ)</span>
           </button>
 
           <button
             onClick={() => setShowReviewPaletteModal(true)}
-            className="text-xs font-mono text-slate-400 hover:text-sakura-500 transition-colors underline"
+            className="text-xs font-mono text-slate-500 hover:text-sakura-500 transition-colors py-2 px-2 text-center"
           >
-            Question {currentIndex + 1} of {questions.length} • View All Grid
+            <span className="font-bold text-slate-800 dark:text-white">{currentIndex + 1}</span>
+            <span className="text-slate-400">/{questions.length}</span>
+            <span className="hidden sm:inline text-slate-400"> • Review Grid</span>
           </button>
 
           <button
             onClick={() => setCurrentIndex(prev => Math.min(questions.length - 1, prev + 1))}
             disabled={currentIndex === questions.length - 1}
-            className="px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 dark:text-slate-900 disabled:opacity-40 transition-colors flex items-center gap-1.5"
+            className="flex-1 sm:flex-initial px-4 sm:px-5 py-3 rounded-xl text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-100 dark:text-slate-900 disabled:opacity-40 transition-all active:scale-95 flex items-center justify-center gap-1.5 shadow-md"
           >
-            <span>Next (次へ)</span>
+            <span>Next</span>
+            <span className="hidden sm:inline">(次へ)</span>
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>
@@ -780,9 +788,12 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
 
       {/* Review Palette Modal */}
       {showReviewPaletteModal && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 max-w-2xl w-full border border-slate-200 dark:border-slate-800 shadow-2xl animate-scaleUp">
-            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800 mb-4">
+        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4">
+          <div className="bg-white dark:bg-slate-900 rounded-t-[32px] sm:rounded-3xl p-6 sm:p-8 max-w-2xl w-full border border-slate-200 dark:border-slate-800 shadow-2xl animate-scaleUp max-h-[85vh] flex flex-col">
+            {/* Mobile Drag Indicator */}
+            <div className="w-12 h-1.5 bg-slate-300 dark:bg-slate-700 rounded-full mx-auto mb-4 sm:hidden" />
+
+            <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800 mb-4 shrink-0">
               <div>
                 <h3 className="text-base font-bold text-slate-800 dark:text-white">
                   Question Palette & Status Grid (問題一覧)
@@ -801,7 +812,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
             </div>
 
             {/* Grid */}
-            <div className="grid grid-cols-6 sm:grid-cols-10 gap-2 max-h-80 overflow-y-auto p-1 scrollbar-thin">
+            <div className="grid grid-cols-5 sm:grid-cols-10 gap-2 overflow-y-auto p-1 scrollbar-thin flex-1">
               {questions.map((_, idx) => {
                 const isAnswered = userAnswers[idx] !== undefined;
                 const isFlag = flagged[idx];
@@ -818,7 +829,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
                       setCurrentIndex(idx);
                       setShowReviewPaletteModal(false);
                     }}
-                    className={`h-10 rounded-xl text-xs font-mono transition-all flex items-center justify-center relative ${btnBg} ${
+                    className={`h-11 sm:h-10 rounded-xl text-xs font-mono transition-all flex items-center justify-center relative active:scale-95 ${btnBg} ${
                       isCurrent ? 'ring-2 ring-indigo-500 ring-offset-2' : ''
                     }`}
                   >
@@ -831,7 +842,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
               })}
             </div>
 
-            <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+            <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
               <div className="flex items-center gap-4 text-xs text-slate-500">
                 <span className="flex items-center gap-1.5">
                   <span className="w-3 h-3 rounded-full bg-emerald-500" /> Answered
@@ -846,7 +857,7 @@ export const CBTExamSimulator: React.FC<CBTExamSimulatorProps> = ({ level, user 
 
               <button
                 onClick={() => setShowReviewPaletteModal(false)}
-                className="px-5 py-2 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold text-xs"
+                className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold text-xs active:scale-95"
               >
                 Close Palette (閉じる)
               </button>

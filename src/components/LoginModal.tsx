@@ -96,8 +96,11 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onSuccess }) => 
   const avatars = ['🌸', '🦊', '🍙', '🍵', '🐱', '🎋', '⛩️', '🍡'];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md transition-all">
-      <div className="relative w-full max-w-md bg-white dark:bg-slate-900 rounded-3xl shadow-2xl border border-sakura-100 dark:border-slate-800 p-8 overflow-hidden transition-all max-h-[92vh] overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-900/60 backdrop-blur-md transition-all">
+      <div className="relative w-full max-w-md bg-white dark:bg-slate-900 rounded-t-[32px] sm:rounded-3xl shadow-2xl border border-sakura-100 dark:border-slate-800 p-6 sm:p-8 overflow-hidden transition-all max-h-[92vh] overflow-y-auto animate-springPop">
+        {/* Mobile Sheet Grab Handle */}
+        <div className="w-12 h-1.5 rounded-full bg-slate-300 dark:bg-slate-700 mx-auto mb-4 sm:hidden" />
+
         {/* Decorative Top Accent */}
         <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-sakura-300 via-sakura-500 to-aizome-500" />
         

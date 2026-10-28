@@ -144,7 +144,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Test TTS Sound */}
           <button
             onClick={handleTestAudio}
-            className="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-sakura-600 dark:hover:text-sakura-400 transition-colors"
+            className="hidden sm:flex p-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-sakura-600 dark:hover:text-sakura-400 transition-colors"
             title="Test Japanese Voice (TTS)"
             aria-label="Test Japanese audio"
           >
@@ -154,7 +154,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Petals Toggle */}
           <button
             onClick={onTogglePetals}
-            className={`p-2 rounded-xl transition-colors ${
+            className={`hidden sm:flex p-2 rounded-xl transition-colors ${
               petalsActive
                 ? 'bg-sakura-100 dark:bg-sakura-900/40 text-sakura-600 dark:text-sakura-300'
                 : 'bg-slate-100 dark:bg-slate-800 text-slate-400'

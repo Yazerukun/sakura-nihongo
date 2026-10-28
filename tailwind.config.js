@@ -66,11 +66,29 @@ export default {
         pulseGlow: {
           '0%, 100%': { opacity: '0.6' },
           '50%': { opacity: '1' },
+        },
+        springPop: {
+          '0%': { transform: 'scale(0.96)' },
+          '50%': { transform: 'scale(1.02)' },
+          '100%': { transform: 'scale(1)' },
+        },
+        shimmer: {
+          '0%': { backgroundPosition: '-200% 0' },
+          '100%': { backgroundPosition: '200% 0' },
         }
       },
       animation: {
         float: 'float 3s ease-in-out infinite',
         pulseGlow: 'pulseGlow 2s ease-in-out infinite',
+        springPop: 'springPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+        shimmer: 'shimmer 2.5s infinite linear',
+      },
+      boxShadow: {
+        '3d-sakura': '0 10px 25px -5px rgba(244, 63, 94, 0.28), 0 8px 10px -6px rgba(244, 63, 94, 0.15)',
+        '3d-card': '0 14px 30px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.8)',
+        '3d-card-dark': '0 14px 30px rgba(0, 0, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.08)',
+        'glow-sakura': '0 0 25px rgba(244, 63, 94, 0.45)',
+        'glow-emerald': '0 0 25px rgba(16, 185, 129, 0.45)',
       }
     },
   },

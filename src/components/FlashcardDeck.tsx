@@ -192,14 +192,14 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
       {/* 3D Flip Card Container */}
       <div
         onClick={handleFlip}
-        className="w-full h-80 sm:h-96 rounded-3xl cursor-pointer select-none perspective-1000 group relative transition-transform duration-200 active:scale-[0.99]"
+        className="w-full h-80 sm:h-96 rounded-3xl cursor-pointer select-none perspective-1000 group relative transition-transform duration-200 active:scale-[0.985]"
       >
         <div
-          className={`relative w-full h-full rounded-3xl shadow-xl transition-all duration-500 transform-style-3d border ${
+          className={`relative w-full h-full rounded-3xl transition-all duration-500 transform-style-3d border ${
             isFlipped
-              ? 'bg-gradient-to-tr from-sakura-500 to-sakura-600 border-sakura-600 text-white'
-              : 'bg-white dark:bg-slate-900 border-sakura-100 dark:border-slate-800 text-slate-800 dark:text-white'
-          } p-8 flex flex-col justify-between overflow-hidden`}
+              ? 'bg-gradient-to-tr from-sakura-500 via-pink-500 to-sakura-600 border-sakura-400 text-white shadow-3d-sakura'
+              : 'bg-white/95 dark:bg-slate-900 border-sakura-100/80 dark:border-slate-800 text-slate-800 dark:text-white shadow-3d-card'
+          } p-6 sm:p-8 flex flex-col justify-between overflow-hidden`}
         >
           {/* Subtle background calligraphy watermark */}
           <div className="absolute right-4 bottom-2 text-7xl font-serif opacity-5 pointer-events-none select-none">
@@ -209,10 +209,10 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
           {/* Card Top Meta */}
           <div className="flex items-center justify-between text-xs font-semibold">
             <span
-              className={`px-2.5 py-1 rounded-full ${
+              className={`px-3 py-1 rounded-full text-xs font-bold ${
                 isFlipped
-                  ? 'bg-white/20 text-white'
-                  : 'bg-sakura-50 dark:bg-slate-800 text-sakura-600 dark:text-sakura-400'
+                  ? 'bg-white/20 text-white backdrop-blur-md'
+                  : 'bg-sakura-50 dark:bg-slate-800 text-sakura-600 dark:text-sakura-400 border border-sakura-100 dark:border-slate-700'
               }`}
             >
               {currentCard.category}
@@ -221,7 +221,7 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
             {/* Audio Button */}
             <button
               onClick={handleSpeech}
-              className={`p-2 rounded-full transition-colors ${
+              className={`p-2.5 rounded-full transition-transform active:scale-90 ${
                 isFlipped
                   ? 'bg-white/20 hover:bg-white/30 text-white'
                   : 'bg-slate-100 hover:bg-sakura-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
@@ -238,7 +238,7 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
               <>
                 {/* Furigana */}
                 {showFurigana && currentCard.furigana && (
-                  <div className="text-sm sm:text-base font-serif text-sakura-500 dark:text-sakura-400 mb-2 tracking-widest">
+                  <div className="text-sm sm:text-base font-serif text-sakura-500 dark:text-sakura-400 mb-2 tracking-widest font-medium">
                     {currentCard.furigana}
                   </div>
                 )}
@@ -246,17 +246,17 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
                 <div className="text-4xl sm:text-6xl font-serif font-black tracking-tight mb-3">
                   {currentCard.kanji}
                 </div>
-                <div className="text-xs text-slate-400 flex items-center justify-center gap-1">
-                  <RotateCw className="w-3 h-3" />
-                  <span>Click or press Space to reveal meaning</span>
+                <div className="text-xs text-slate-400 flex items-center justify-center gap-1.5 font-medium">
+                  <RotateCw className="w-3.5 h-3.5" />
+                  <span>Tap to reveal English meaning</span>
                 </div>
               </>
             ) : (
               <div className="space-y-3">
-                <div className="text-sm font-serif opacity-80 tracking-widest">
+                <div className="text-sm font-serif opacity-85 tracking-widest font-medium">
                   {currentCard.furigana}
                 </div>
-                <div className="text-2xl sm:text-4xl font-sans font-bold leading-snug">
+                <div className="text-2xl sm:text-4xl font-sans font-black leading-snug tracking-tight">
                   {currentCard.meaning}
                 </div>
                 <div className="text-xs opacity-75 font-mono">
@@ -267,44 +267,44 @@ export const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ level }) => {
           </div>
 
           {/* Card Bottom Helper */}
-          <div className="text-center text-[11px] opacity-60">
-            {isFlipped ? 'How well did you know this word?' : 'Hint: Press Space to flip • 1-4 for SRS rating'}
+          <div className="text-center text-[11px] opacity-70 font-medium">
+            {isFlipped ? 'Tap SRS rating below based on your recall' : 'Hint: Tap card to flip • Rate 1-4 below'}
           </div>
         </div>
       </div>
 
       {/* SRS Rating Buttons (Visible when flipped or ready) */}
-      <div className="mt-6 grid grid-cols-4 gap-2">
+      <div className="mt-5 grid grid-cols-4 gap-2.5">
         <button
           onClick={() => handleSRS(-1)}
-          className="p-3 rounded-2xl bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/50 border border-rose-200 dark:border-rose-900 text-rose-700 dark:text-rose-300 text-xs font-bold transition-all text-center"
+          className="min-h-[52px] p-2.5 rounded-2xl bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/50 border border-rose-200 dark:border-rose-900 text-rose-700 dark:text-rose-300 text-xs font-bold transition-all text-center active:scale-95 shadow-sm"
         >
-          <div className="text-sm font-mono">1</div>
-          <div>Again (重)</div>
+          <div className="text-sm font-mono font-black">1</div>
+          <div className="text-[11px]">Again (重)</div>
         </button>
 
         <button
           onClick={() => handleSRS(1)}
-          className="p-3 rounded-2xl bg-amber-50 hover:bg-amber-100 dark:bg-amber-950/40 dark:hover:bg-amber-900/50 border border-amber-200 dark:border-amber-900 text-amber-700 dark:text-amber-300 text-xs font-bold transition-all text-center"
+          className="min-h-[52px] p-2.5 rounded-2xl bg-amber-50 hover:bg-amber-100 dark:bg-amber-950/40 dark:hover:bg-amber-900/50 border border-amber-200 dark:border-amber-900 text-amber-700 dark:text-amber-300 text-xs font-bold transition-all text-center active:scale-95 shadow-sm"
         >
-          <div className="text-sm font-mono">2</div>
-          <div>Hard (難)</div>
+          <div className="text-sm font-mono font-black">2</div>
+          <div className="text-[11px]">Hard (難)</div>
         </button>
 
         <button
           onClick={() => handleSRS(2)}
-          className="p-3 rounded-2xl bg-sky-50 hover:bg-sky-100 dark:bg-sky-950/40 dark:hover:bg-sky-900/50 border border-sky-200 dark:border-sky-900 text-sky-700 dark:text-sky-300 text-xs font-bold transition-all text-center"
+          className="min-h-[52px] p-2.5 rounded-2xl bg-sky-50 hover:bg-sky-100 dark:bg-sky-950/40 dark:hover:bg-sky-900/50 border border-sky-200 dark:border-sky-900 text-sky-700 dark:text-sky-300 text-xs font-bold transition-all text-center active:scale-95 shadow-sm"
         >
-          <div className="text-sm font-mono">3</div>
-          <div>Good (良)</div>
+          <div className="text-sm font-mono font-black">3</div>
+          <div className="text-[11px]">Good (良)</div>
         </button>
 
         <button
           onClick={() => handleSRS(3)}
-          className="p-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:hover:bg-emerald-900/50 border border-emerald-200 dark:border-emerald-900 text-emerald-700 dark:text-emerald-300 text-xs font-bold transition-all text-center"
+          className="min-h-[52px] p-2.5 rounded-2xl bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:hover:bg-emerald-900/50 border border-emerald-200 dark:border-emerald-900 text-emerald-700 dark:text-emerald-300 text-xs font-bold transition-all text-center active:scale-95 shadow-sm"
         >
-          <div className="text-sm font-mono">4</div>
-          <div>Easy (易)</div>
+          <div className="text-sm font-mono font-black">4</div>
+          <div className="text-[11px]">Easy (易)</div>
         </button>
       </div>
 

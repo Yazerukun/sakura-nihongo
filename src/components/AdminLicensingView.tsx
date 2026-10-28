@@ -508,8 +508,146 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
               ))}
             </div>
 
-            {/* Table */}
-            <div className="overflow-x-auto">
+            {/* Mobile Card List (Thumb-friendly for smartphone screens) */}
+            <div className="block md:hidden divide-y divide-slate-100 dark:divide-slate-800 p-4 space-y-4">
+              {filteredLicenses.length === 0 ? (
+                <div className="py-12 text-center text-slate-400 text-xs">
+                  No licenses found matching your filter.
+                </div>
+              ) : (
+                filteredLicenses.map(lic => {
+                  const daysLeft = getDaysRemaining(lic.expiresAt);
+                  return (
+                    <div
+                      key={lic.id}
+                      className="p-4 rounded-2xl bg-slate-50/70 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-700/80 space-y-3.5 shadow-sm"
+                    >
+                      {/* Student Header */}
+                      <div className="flex items-start justify-between gap-2">
+                        <div>
+                          <div className="font-bold text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
+                            <span>{lic.studentName}</span>
+                          </div>
+                          <div className="text-[11px] text-slate-400 mt-0.5">
+                            {lic.notes || '1-Month VIP'} • <span className="font-semibold text-emerald-600 dark:text-emerald-400">₱{lic.pricePaid}</span>
+                          </div>
+                        </div>
+
+                        {/* Status Badge */}
+                        <div>
+                          {lic.status === 'active' && (
+                            <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                              Active • {daysLeft}d left
+                            </span>
+                          )}
+                          {lic.status === 'unused' && (
+                            <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 border border-blue-200 dark:border-blue-800">
+                              Unused / Ready
+                            </span>
+                          )}
+                          {lic.status === 'expired' && (
+                            <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-slate-100 dark:bg-slate-800 text-slate-500 border border-slate-200 dark:border-slate-700">
+                              Expired
+                            </span>
+                          )}
+                          {lic.status === 'revoked' && (
+                            <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 border border-rose-200 dark:border-rose-800">
+                              Revoked
+                            </span>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* License Key Box with Quick Copy */}
+                      <div className="flex items-center justify-between p-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-700 font-mono">
+                        <span className="font-bold text-xs tracking-wider text-slate-900 dark:text-slate-100 select-all">
+                          {lic.code}
+                        </span>
+                        <button
+                          onClick={() => handleCopy(lic.code)}
+                          className="px-2.5 py-1 rounded-lg text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 active:scale-95 transition-all flex items-center gap-1"
+                        >
+                          {copiedCode === lic.code ? (
+                            <>
+                              <Check className="w-3.5 h-3.5 text-emerald-500" />
+                              <span className="text-emerald-600 dark:text-emerald-400">Copied</span>
+                            </>
+                          ) : (
+                            <>
+                              <Copy className="w-3.5 h-3.5" />
+                              <span>Copy</span>
+                            </>
+                          )}
+                        </button>
+                      </div>
+
+                      {/* Device & Expiry Info */}
+                      <div className="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-1">
+                        <div className="flex items-center gap-1.5">
+                          <Smartphone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                          <span className="truncate max-w-[150px]">
+                            {lic.boundDeviceId ? (lic.boundDeviceName || 'Locked Device') : '🔓 Any Device (Unbound)'}
+                          </span>
+                        </div>
+                        <div>
+                          {lic.expiresAt ? (
+                            <span>Exp: {new Date(lic.expiresAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+                          ) : (
+                            <span>30d upon first login</span>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Touch Action Toolbar */}
+                      <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-200/60 dark:border-slate-700/60">
+                        <button
+                          onClick={() => handleCopyMessengerInvite(lic)}
+                          className="w-full py-2.5 rounded-xl bg-sakura-500 hover:bg-sakura-600 text-white text-xs font-bold flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-all"
+                        >
+                          {copiedInvite === lic.id ? <Check className="w-3.5 h-3.5" /> : <Send className="w-3.5 h-3.5" />}
+                          <span>{copiedInvite === lic.id ? 'Invite Copied!' : 'Messenger Invite'}</span>
+                        </button>
+
+                        <button
+                          onClick={() => handleExtend(lic.id)}
+                          className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 dark:bg-slate-800 dark:text-slate-200 text-xs font-bold flex items-center justify-center gap-1 border border-slate-200 dark:border-slate-700 active:scale-95 transition-all"
+                        >
+                          <Plus className="w-3.5 h-3.5 text-emerald-500" />
+                          <span>+30 Days Pass</span>
+                        </button>
+
+                        {lic.boundDeviceId && (
+                          <button
+                            onClick={() => handleResetDevice(lic.id)}
+                            className="col-span-1 py-2 rounded-xl bg-blue-50 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 text-xs font-bold flex items-center justify-center gap-1 border border-blue-200 dark:border-blue-900 active:scale-95 transition-all"
+                          >
+                            <RotateCcw className="w-3.5 h-3.5" />
+                            <span>Reset Device</span>
+                          </button>
+                        )}
+
+                        <button
+                          onClick={() => handleToggleRevoke(lic.id)}
+                          className={`py-2 rounded-xl text-xs font-bold flex items-center justify-center gap-1 active:scale-95 transition-all border ${
+                            lic.boundDeviceId ? 'col-span-1' : 'col-span-2'
+                          } ${
+                            lic.status === 'revoked'
+                              ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 border-emerald-200'
+                              : 'bg-rose-50 dark:bg-rose-950/40 text-rose-600 border-rose-200 dark:border-rose-900'
+                          }`}
+                        >
+                          <Ban className="w-3.5 h-3.5" />
+                          <span>{lic.status === 'revoked' ? 'Restore VIP' : 'Revoke Pass'}</span>
+                        </button>
+                      </div>
+                    </div>
+                  );
+                })
+              )}
+            </div>
+
+            {/* Desktop Table View */}
+            <div className="hidden md:block overflow-x-auto">
               <table className="w-full text-left text-xs">
                 <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-500 dark:text-slate-400 font-semibold border-b border-slate-100 dark:border-slate-800">
                   <tr>

@@ -11,6 +11,7 @@ import { ProfileModal } from './components/ProfileModal';
 import { LicenseActivationModal } from './components/LicenseActivationModal';
 import { AdminLicensingView } from './components/AdminLicensingView';
 import { RealTimeStudyCountdown } from './components/RealTimeStudyCountdown';
+import { MobileBottomDock } from './components/MobileBottomDock';
 import { CBTExamSimulator } from './components/CBTExamSimulator';
 import { LMSReviewer } from './components/LMSReviewer';
 import { RealTimeVoiceTrainer } from './components/RealTimeVoiceTrainer';
@@ -186,16 +187,18 @@ export const App: React.FC = () => {
             onOpenAdminHub={() => setCurrentMode('admin-licensing')}
           />
 
-          {/* Navigation Tabs */}
-          <Navigation
-            currentMode={currentMode}
-            onSelectMode={mode => setCurrentMode(mode)}
-            targetLevel={currentLevel}
-            user={user}
-          />
+          {/* Navigation Tabs (Desktop / Tablet) */}
+          <div className="hidden md:block">
+            <Navigation
+              currentMode={currentMode}
+              onSelectMode={mode => setCurrentMode(mode)}
+              targetLevel={currentLevel}
+              user={user}
+            />
+          </div>
 
           {/* Active View */}
-          <main className="flex-grow">
+          <main className="flex-grow pb-28 md:pb-8">
             {currentMode === 'admin-licensing' && user.username === 'nihon11' && (
               <AdminLicensingView user={user} />
             )}
@@ -212,6 +215,15 @@ export const App: React.FC = () => {
             {currentMode === 'pomodoro' && <PomodoroTimer user={user} />}
             {currentMode === 'analytics' && <AnalyticsView user={user} />}
           </main>
+
+          {/* Mobile Bottom Dock for Thumb-Friendly Cashier & Student Ergonomics */}
+          <MobileBottomDock
+            currentMode={currentMode}
+            onSelectMode={mode => setCurrentMode(mode)}
+            user={user}
+            licenseStatus={licenseStatus}
+            onOpenUpgrade={() => setShowLicenseModal(true)}
+          />
 
           {/* Romantic & Japanese Footer */}
           <footer className="mt-16 py-8 border-t border-sakura-100 dark:border-slate-800/80 bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm text-center text-xs text-slate-500 dark:text-slate-400">
