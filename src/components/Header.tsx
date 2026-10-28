@@ -35,9 +35,12 @@ export const Header: React.FC<HeaderProps> = ({
   licenseStatus
 }) => {
   const levels: { id: LevelType; label: string; badge: string }[] = [
-    { id: 'JFT', label: 'JFT-Basic A2', badge: 'Official A2' },
+    { id: 'JFT', label: 'JFT A2', badge: 'Prometric' },
+    { id: 'N5', label: 'JLPT N5', badge: 'Beginner' },
     { id: 'N4', label: 'JLPT N4', badge: 'Official N4' },
-    { id: 'N5', label: 'JLPT N5', badge: 'Foundation' }
+    { id: 'N3', label: 'JLPT N3', badge: 'Intermediate' },
+    { id: 'N2', label: 'JLPT N2', badge: 'Business' },
+    { id: 'N1', label: 'JLPT N1', badge: 'Master' }
   ];
 
   const handleTestAudio = () => {
@@ -96,8 +99,8 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* User Stats & Controls */}
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Admin Hub or VIP License Button */}
-          {user.role === 'admin' || user.username === 'nihon11' || user.username === 'ian' ? (
+          {/* STRICT SINGLE ADMIN: Only nihon11 gets the Admin Hub button */}
+          {user.username === 'nihon11' ? (
             <button
               onClick={onOpenAdminHub}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-2xl bg-gradient-to-r from-sakura-500 to-pink-600 hover:from-sakura-600 hover:to-pink-700 text-white text-xs font-bold shadow-md shadow-sakura-500/20 active:scale-95 transition-all"
@@ -111,16 +114,20 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={onOpenLicensingModal}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-2xl text-xs font-bold transition-all shadow-sm active:scale-95 ${
                 licenseStatus?.hasValidLicense
-                  ? 'bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300'
+                  ? licenseStatus.isTrial
+                    ? 'bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-300'
+                    : 'bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300'
                   : 'bg-sakura-500 hover:bg-sakura-600 text-white shadow-sakura-500/25 animate-pulse'
               }`}
               title="View or Activate 30-Day VIP Pass"
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>
+              <span className="font-mono text-[11px]">
                 {licenseStatus?.hasValidLicense
-                  ? `VIP: ${licenseStatus.daysRemaining}d`
-                  : 'VIP Pass (₱199)'}
+                  ? licenseStatus.isTrial
+                    ? `Trial: ${licenseStatus.timeRemaining?.formatted || '24h'}`
+                    : `VIP: ${licenseStatus.timeRemaining?.formatted || `${licenseStatus.daysRemaining}d`}`
+                  : 'Get VIP (₱199)'}
               </span>
             </button>
           )}

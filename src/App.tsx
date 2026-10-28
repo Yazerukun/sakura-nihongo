@@ -10,6 +10,7 @@ import { LoginModal } from './components/LoginModal';
 import { ProfileModal } from './components/ProfileModal';
 import { LicenseActivationModal } from './components/LicenseActivationModal';
 import { AdminLicensingView } from './components/AdminLicensingView';
+import { RealTimeStudyCountdown } from './components/RealTimeStudyCountdown';
 import { CBTExamSimulator } from './components/CBTExamSimulator';
 import { LMSReviewer } from './components/LMSReviewer';
 import { RealTimeVoiceTrainer } from './components/RealTimeVoiceTrainer';
@@ -43,8 +44,11 @@ export const App: React.FC = () => {
       setUser(session);
       setCurrentLevel(session.targetLevel || 'JFT');
       setLicenseStatus(checkCurrentLicense(session));
-      if (session.role === 'admin' || session.username === 'nihon11') {
+      // STRICT SINGLE ADMIN GATE: Only nihon11 starts in Admin Hub
+      if (session.username === 'nihon11') {
         setCurrentMode('admin-licensing');
+      } else {
+        setCurrentMode('cbt');
       }
     } else {
       setShowLoginModal(true);
@@ -75,10 +79,20 @@ export const App: React.FC = () => {
     setShowLoginModal(false);
     setStats(getStudyStats());
     setLicenseStatus(checkCurrentLicense(profile));
-    if (profile.role === 'admin' || profile.username === 'nihon11') {
+    // STRICT SINGLE ADMIN GATE: Only nihon11 starts in Admin Hub
+    if (profile.username === 'nihon11') {
       setCurrentMode('admin-licensing');
+    } else {
+      setCurrentMode('cbt');
     }
   };
+
+  // Route security guard: force students out of admin view if attempted
+  useEffect(() => {
+    if (user && user.username !== 'nihon11' && currentMode === 'admin-licensing') {
+      setCurrentMode('cbt');
+    }
+  }, [user, currentMode]);
 
   const handleLogout = () => {
     clearSession();
@@ -164,6 +178,14 @@ export const App: React.FC = () => {
             </div>
           </div>
 
+          {/* Real-time Running Countdown Study Timer Banner */}
+          <RealTimeStudyCountdown
+            user={user}
+            licenseStatus={licenseStatus}
+            onOpenUpgrade={() => setShowLicenseModal(true)}
+            onOpenAdminHub={() => setCurrentMode('admin-licensing')}
+          />
+
           {/* Navigation Tabs */}
           <Navigation
             currentMode={currentMode}
@@ -174,7 +196,9 @@ export const App: React.FC = () => {
 
           {/* Active View */}
           <main className="flex-grow">
-            {currentMode === 'admin-licensing' && <AdminLicensingView user={user} />}
+            {currentMode === 'admin-licensing' && user.username === 'nihon11' && (
+              <AdminLicensingView user={user} />
+            )}
             {currentMode === 'lms' && <LMSReviewer level={currentLevel} />}
             {currentMode === 'cbt' && <CBTExamSimulator level={currentLevel} user={user} />}
             {currentMode === 'realtime-voice' && <RealTimeVoiceTrainer level={currentLevel} />}

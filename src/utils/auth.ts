@@ -44,7 +44,7 @@ export const DEFAULT_PROFILES: Record<string, UserProfile> = {
     dailyGoalCards: 30,
     dailyGoalMinutes: 45,
     sweetNote: "Studying alongside my beloved Mariel ✨",
-    role: 'admin'
+    role: 'student'
   }
 };
 
@@ -117,6 +117,9 @@ export function registerUser(params: {
     return { success: false, error: 'Username is already registered. Please log in or choose another.' };
   }
 
+  const now = new Date();
+  const trialEnd = new Date(now.getTime() + 24 * 60 * 60 * 1000); // 24-Hour Real-time Instant Access
+
   const newProfile: UserProfile = {
     username: cleanUser,
     displayName: cleanName,
@@ -126,7 +129,9 @@ export function registerUser(params: {
     dailyGoalCards: 20,
     dailyGoalMinutes: 30,
     sweetNote: `Welcome to Sakura Nihongo, ${cleanName}! Ganbatte kudasai! 🌸`,
-    role: 'student'
+    role: 'student', // STRICT: Every registered classmate is always student
+    registeredAt: now.toISOString(),
+    trialExpiresAt: trialEnd.toISOString()
   };
 
   const newRecord: RegisteredUserRecord = {
@@ -189,6 +194,11 @@ export function authenticate(username: string, password: string): UserProfile | 
 }
 
 export function updateProfile(updated: UserProfile): void {
+  // STRICT SECURITY GATE: Only nihon11 can ever have the 'admin' role
+  if (updated.username.toLowerCase() !== 'nihon11') {
+    updated.role = 'student';
+  }
+
   localStorage.setItem(STORAGE_KEY_PROFILE, JSON.stringify(updated));
   saveSession(updated);
 

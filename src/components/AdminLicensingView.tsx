@@ -39,6 +39,23 @@ interface AdminLicensingViewProps {
 }
 
 export const AdminLicensingView: React.FC<AdminLicensingViewProps> = ({ user }) => {
+  // STRICT SECURITY GATE: Only nihon11 can ever view or interact with this view
+  if (user.username !== 'nihon11') {
+    return (
+      <div className="max-w-md mx-auto my-16 p-8 rounded-3xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900 text-center space-y-3 animate-fadeIn">
+        <div className="w-12 h-12 mx-auto rounded-2xl bg-rose-100 dark:bg-rose-900/50 text-rose-600 dark:text-rose-300 flex items-center justify-center">
+          <Ban className="w-6 h-6" />
+        </div>
+        <h2 className="text-lg font-bold font-serif text-rose-900 dark:text-rose-100">
+          Access Restricted • Student Account
+        </h2>
+        <p className="text-xs text-rose-700 dark:text-rose-300 leading-relaxed">
+          Classmates do not have permission to generate license voucher keys or manage subscriptions. Only the administrator (<strong>nihon11</strong>) can access this center.
+        </p>
+      </div>
+    );
+  }
+
   const [licenses, setLicenses] = useState<LicenseRecord[]>([]);
   const [stats, setStats] = useState<LicensingStats>({
     totalLicenses: 0,
@@ -84,7 +101,8 @@ export const AdminLicensingView: React.FC<AdminLicensingViewProps> = ({ user }) 
       studentName: studentName.trim(),
       durationDays: planDays,
       pricePaid: Number(pricePaid) || 199,
-      notes: notes.trim() || `GCash ₱${pricePaid} - 1 Month VIP`
+      notes: notes.trim() || `GCash ₱${pricePaid} - 1 Month VIP`,
+      adminUser: user
     });
 
     setNewlyCreatedKey(newLic);
@@ -716,7 +734,8 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
                           studentName: regUser.profile.displayName,
                           durationDays: 30,
                           pricePaid: 199,
-                          notes: `Direct Account Activation: @${regUser.username}`
+                          notes: `Direct Account Activation: @${regUser.username}`,
+                          adminUser: user
                         });
                         setNewlyCreatedKey(newLic);
                         setActiveViewMode('licenses');

@@ -26,8 +26,8 @@ interface NavigationProps {
 export const Navigation: React.FC<NavigationProps> = ({ currentMode, onSelectMode, targetLevel, user }) => {
   const tabs: { id: StudyMode; label: string; icon: React.ReactNode; desc: string; badge?: string }[] = [];
 
-  // If user is admin (Mariel / Ian), show Admin Licensing Hub right at the front!
-  if (user?.role === 'admin' || user?.username === 'nihon11' || user?.username === 'ian') {
+  // STRICT SINGLE ADMIN: Only nihon11 can ever access the Admin Licensing Hub!
+  if (user?.username === 'nihon11') {
     tabs.push({
       id: 'admin-licensing',
       label: 'Admin Licensing Hub',

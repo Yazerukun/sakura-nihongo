@@ -1,4 +1,4 @@
-import { LicenseRecord, StudentLicenseStatus, LicensingStats, UserProfile } from '../types';
+import { LicenseRecord, StudentLicenseStatus, LicensingStats, UserProfile, TimeRemainingDetail } from '../types';
 
 const STORAGE_KEY_LICENSES = 'sakura_licenses_db';
 const STORAGE_KEY_ACTIVE_LICENSE = 'sakura_active_license_code';
@@ -34,6 +34,58 @@ export function getDeviceName(): string {
   if (/Windows/i.test(ua)) return '💻 Windows PC';
   if (/Linux/i.test(ua)) return '💻 Linux Station';
   return '🌐 Web Browser';
+}
+
+/**
+ * Calculate high-precision live countdown ticker breakdown (Days, Hours, Minutes, Seconds)
+ */
+export function getTimeRemainingDetailed(expiresAt?: string): TimeRemainingDetail {
+  if (!expiresAt) {
+    return {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      totalSeconds: 0,
+      isExpired: true,
+      formatted: '00d 00h 00m 00s'
+    };
+  }
+
+  const expiry = new Date(expiresAt).getTime();
+  const now = Date.now();
+  const diff = expiry - now;
+
+  if (diff <= 0) {
+    return {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      totalSeconds: 0,
+      isExpired: true,
+      formatted: 'Expired'
+    };
+  }
+
+  const totalSeconds = Math.floor(diff / 1000);
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  const pad = (n: number) => n.toString().padStart(2, '0');
+  const formatted = `${days > 0 ? `${days}d ` : ''}${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+
+  return {
+    days,
+    hours,
+    minutes,
+    seconds,
+    totalSeconds,
+    isExpired: false,
+    formatted
+  };
 }
 
 /**
@@ -152,7 +204,13 @@ export function generateLicenseKey(params: {
   durationDays?: number;
   pricePaid?: number;
   notes?: string;
+  adminUser?: UserProfile | null;
 }): LicenseRecord {
+  // STRICT SECURITY GATE: Only nihon11 can generate license keys!
+  if (params.adminUser && params.adminUser.username !== 'nihon11') {
+    throw new Error('Unauthorized: Only administrator account (nihon11) can generate licenses.');
+  }
+
   const duration = params.durationDays || 30;
   const price = params.pricePaid !== undefined ? params.pricePaid : 199;
   
@@ -275,74 +333,95 @@ export function activateLicense(
 }
 
 /**
- * Check if the current user has active VIP license
+ * Check if the current user has active VIP license (or 24h newly created trial)
  */
 export function checkCurrentLicense(user?: UserProfile | null): StudentLicenseStatus {
-  // Admins always have unlimited lifetime access
-  if (user?.role === 'admin' || user?.username === 'nihon11' || user?.username === 'ian') {
+  // STRICT: Only nihon11 is the true administrator
+  if (user?.username === 'nihon11') {
     return {
       hasValidLicense: true,
+      isTrial: false,
       daysRemaining: 9999,
       isExpired: false,
       isLockedToOtherDevice: false
     };
   }
 
+  // 1. Check paid 30-day license
   const activeCode = localStorage.getItem(STORAGE_KEY_ACTIVE_LICENSE);
-  if (!activeCode) {
-    return {
-      hasValidLicense: false,
-      daysRemaining: 0,
-      isExpired: false,
-      isLockedToOtherDevice: false
-    };
+  if (activeCode) {
+    const list = getLicenses();
+    const lic = list.find(l => l.code.toUpperCase() === activeCode.trim().toUpperCase());
+    if (lic) {
+      const currentDeviceId = getDeviceId();
+      if (lic.boundDeviceId && lic.boundDeviceId !== currentDeviceId) {
+        return {
+          hasValidLicense: false,
+          license: lic,
+          daysRemaining: 0,
+          isExpired: false,
+          isLockedToOtherDevice: true,
+          lockedDeviceName: lic.boundDeviceName
+        };
+      }
+
+      const timeDetail = getTimeRemainingDetailed(lic.expiresAt);
+      if (timeDetail.isExpired) {
+        lic.status = 'expired';
+        saveLicenses(list);
+        return {
+          hasValidLicense: false,
+          license: lic,
+          daysRemaining: 0,
+          timeRemaining: timeDetail,
+          isExpired: true,
+          isLockedToOtherDevice: false,
+          expiresAt: lic.expiresAt
+        };
+      }
+
+      return {
+        hasValidLicense: true,
+        isTrial: false,
+        license: lic,
+        daysRemaining: getDaysRemaining(lic.expiresAt),
+        timeRemaining: timeDetail,
+        isExpired: false,
+        isLockedToOtherDevice: false,
+        expiresAt: lic.expiresAt
+      };
+    }
   }
 
-  const list = getLicenses();
-  const lic = list.find(l => l.code.toUpperCase() === activeCode.trim().toUpperCase());
-
-  if (!lic) {
+  // 2. Check 24-Hour Instant Access Trial for newly created student account
+  if (user?.trialExpiresAt) {
+    const trialDetail = getTimeRemainingDetailed(user.trialExpiresAt);
+    if (!trialDetail.isExpired) {
+      return {
+        hasValidLicense: true,
+        isTrial: true,
+        daysRemaining: 1,
+        timeRemaining: trialDetail,
+        isExpired: false,
+        isLockedToOtherDevice: false,
+        expiresAt: user.trialExpiresAt
+      };
+    }
     return {
       hasValidLicense: false,
+      isTrial: true,
       daysRemaining: 0,
-      isExpired: false,
-      isLockedToOtherDevice: false
-    };
-  }
-
-  const currentDeviceId = getDeviceId();
-
-  // Check device lock
-  if (lic.boundDeviceId && lic.boundDeviceId !== currentDeviceId) {
-    return {
-      hasValidLicense: false,
-      license: lic,
-      daysRemaining: 0,
-      isExpired: false,
-      isLockedToOtherDevice: true,
-      lockedDeviceName: lic.boundDeviceName
-    };
-  }
-
-  // Check expiry
-  if (lic.expiresAt && new Date(lic.expiresAt).getTime() < Date.now()) {
-    lic.status = 'expired';
-    saveLicenses(list);
-    return {
-      hasValidLicense: false,
-      license: lic,
-      daysRemaining: 0,
+      timeRemaining: trialDetail,
       isExpired: true,
-      isLockedToOtherDevice: false
+      isLockedToOtherDevice: false,
+      expiresAt: user.trialExpiresAt
     };
   }
 
-  const daysLeft = getDaysRemaining(lic.expiresAt);
   return {
-    hasValidLicense: lic.status === 'active',
-    license: lic,
-    daysRemaining: daysLeft,
-    isExpired: lic.status === 'expired',
+    hasValidLicense: false,
+    daysRemaining: 0,
+    isExpired: false,
     isLockedToOtherDevice: false
   };
 }

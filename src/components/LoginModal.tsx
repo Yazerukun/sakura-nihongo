@@ -307,11 +307,14 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onSuccess }) => 
                 <select
                   value={regTargetLevel}
                   onChange={(e) => setRegTargetLevel(e.target.value as LevelType)}
-                  className="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/80 text-slate-800 dark:text-slate-100 text-xs focus:outline-none focus:ring-2 focus:ring-sakura-400 transition-all"
+                  className="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/80 text-slate-800 dark:text-slate-100 text-xs focus:outline-none focus:ring-2 focus:ring-sakura-400 transition-all font-medium"
                 >
-                  <option value="JFT">JFT-Basic (A2)</option>
-                  <option value="N4">JLPT N4</option>
-                  <option value="N5">JLPT N5</option>
+                  <option value="JFT">JFT-Basic A2 (Prometric CBT)</option>
+                  <option value="N5">JLPT N5 (Beginner / 初級)</option>
+                  <option value="N4">JLPT N4 (Elementary / SSW Caregiver)</option>
+                  <option value="N3">JLPT N3 (Intermediate / 中級)</option>
+                  <option value="N2">JLPT N2 (Pre-Advanced / 上級)</option>
+                  <option value="N1">JLPT N1 (Advanced / 最上級)</option>
                 </select>
               </div>
 

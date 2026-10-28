@@ -79,6 +79,26 @@ export const LicenseActivationModal: React.FC<LicenseActivationModalProps> = ({
           </p>
         </div>
 
+        {/* Trial Status Display */}
+        {currentStatus.isTrial && currentStatus.hasValidLicense && (
+          <div className="mb-6 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-slate-800 dark:text-slate-100 space-y-2.5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <Clock className="w-5 h-5 text-amber-500 animate-pulse" />
+                <span className="font-bold text-sm text-amber-800 dark:text-amber-300">
+                  24-Hour Demo Trial Active
+                </span>
+              </div>
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-amber-500 text-white">
+                {currentStatus.timeRemaining?.formatted || 'Ticking Live'}
+              </span>
+            </div>
+            <p className="text-xs text-amber-700 dark:text-amber-300 leading-relaxed">
+              Your account has 24 hours of real-time trial access. Enter your personal 30-day voucher code below to upgrade to the official 1-Month VIP pass!
+            </p>
+          </div>
+        )}
+
         {/* Active Status Display */}
         {currentStatus.hasValidLicense && currentStatus.license && (
           <div className="mb-6 p-4 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 text-slate-800 dark:text-slate-100 space-y-3">

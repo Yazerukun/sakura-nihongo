@@ -30,13 +30,26 @@ export interface LicenseRecord {
   notes?: string;
 }
 
+export interface TimeRemainingDetail {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+  totalSeconds: number;
+  isExpired: boolean;
+  formatted: string;
+}
+
 export interface StudentLicenseStatus {
   hasValidLicense: boolean;
+  isTrial?: boolean;
   license?: LicenseRecord;
   daysRemaining: number;
+  timeRemaining?: TimeRemainingDetail;
   isExpired: boolean;
   isLockedToOtherDevice: boolean;
   lockedDeviceName?: string;
+  expiresAt?: string;
 }
 
 export interface LicensingStats {
@@ -57,6 +70,8 @@ export interface UserProfile {
   dailyGoalMinutes: number;
   sweetNote: string;
   role?: 'admin' | 'student';
+  registeredAt?: string;
+  trialExpiresAt?: string;
 }
 
 export interface CBTQuestion {
