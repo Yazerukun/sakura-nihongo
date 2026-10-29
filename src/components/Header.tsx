@@ -119,15 +119,17 @@ export const Header: React.FC<HeaderProps> = ({
                     : 'bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300'
                   : 'bg-sakura-500 hover:bg-sakura-600 text-white shadow-sakura-500/25 animate-pulse'
               }`}
-              title="View or Activate 30-Day VIP Pass"
+              title="View or Activate VIP Pass"
             >
               <Sparkles className="w-3.5 h-3.5" />
               <span className="font-mono text-[11px]">
                 {licenseStatus?.hasValidLicense
                   ? licenseStatus.isTrial
                     ? `Trial: ${licenseStatus.timeRemaining?.formatted || '24h'}`
+                    : licenseStatus.daysRemaining && licenseStatus.daysRemaining > 365
+                    ? '👑 Lifetime VIP'
                     : `VIP: ${licenseStatus.timeRemaining?.formatted || `${licenseStatus.daysRemaining}d`}`
-                  : 'Get VIP (₱199)'}
+                  : 'Get VIP (₱100)'}
               </span>
             </button>
           )}

@@ -24,13 +24,13 @@ export async function onRequest(context: any) {
       });
     }
 
-    const pattern = /^SAKURA-(30D|14D|60D|999D)-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
+    const pattern = /^SAKURA-(30D|14D|7D|60D|999D|LIFE)-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
     const isValidFormat = pattern.test(code);
 
     return new Response(JSON.stringify({
       code,
       validFormat: isValidFormat,
-      plan: code.includes('30D') ? '30 Days VIP' : code.includes('14D') ? '14 Days' : 'Custom',
+      plan: code.includes('LIFE') ? 'Lifetime VIP' : code.includes('30D') ? '30 Days VIP' : code.includes('14D') ? '14 Days Rush' : 'Custom VIP',
       serverTime: new Date().toISOString()
     }), {
       status: 200,

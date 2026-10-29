@@ -239,28 +239,87 @@ export const LicenseActivationModal: React.FC<LicenseActivationModalProps> = ({
         </form>
 
         {/* Pricing & Onboarding Instructions */}
-        <div className="mt-6 pt-5 border-t border-slate-100 dark:border-slate-800 text-xs space-y-2">
+        <div className="mt-6 pt-5 border-t border-slate-100 dark:border-slate-800 text-xs space-y-3">
           <div className="flex items-center justify-between">
-            <span className="font-bold text-slate-700 dark:text-slate-300">Need a 1-Month Access Pass?</span>
-            <span className="font-bold text-sakura-600 dark:text-sakura-400 bg-sakura-50 dark:bg-slate-800 px-2 py-0.5 rounded-md">
-              ₱199 / 30 Days
+            <span className="font-bold text-slate-800 dark:text-white text-xs sm:text-sm">
+              ✨ Official Student VIP Tiers
             </span>
+            <span className="text-[11px] text-slate-400">GCash Instant Activation</span>
           </div>
-          <p className="text-slate-500 dark:text-slate-400 text-[11px] leading-relaxed">
-            Message <strong>Mariel</strong> directly on Messenger or send <strong>₱199</strong> via GCash to receive your personal 30-day activation voucher code instantly!
+
+          {/* 3 Tier Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+            {/* 2 Weeks / ₱100 */}
+            <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-850 border border-slate-200/80 dark:border-slate-700 flex flex-col justify-between space-y-1.5 shadow-sm">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="font-bold text-slate-800 dark:text-white text-xs">2 Weeks Rush</span>
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-100 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300">14 Days</span>
+                </div>
+                <div className="font-black text-base text-slate-900 dark:text-white mt-1">
+                  ₱100
+                </div>
+                <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
+                  Sprint review right before your CBT exam date
+                </p>
+              </div>
+            </div>
+
+            {/* 1 Month / ₱199 (Popular) */}
+            <div className="p-3 rounded-2xl bg-sakura-50/70 dark:bg-sakura-950/30 border-2 border-sakura-400/80 dark:border-sakura-600 flex flex-col justify-between space-y-1.5 shadow-sm relative">
+              <span className="absolute -top-2.5 right-3 text-[9px] font-black uppercase tracking-wider bg-gradient-to-r from-sakura-500 to-pink-600 text-white px-2 py-0.5 rounded-full shadow-sm">
+                Most Popular
+              </span>
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="font-bold text-sakura-800 dark:text-sakura-200 text-xs">1-Month Pass</span>
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-sakura-100 text-sakura-700 dark:bg-sakura-900/60 dark:text-sakura-300">30 Days</span>
+                </div>
+                <div className="font-black text-base text-sakura-600 dark:text-sakura-400 mt-1">
+                  ₱199
+                </div>
+                <p className="text-[10px] text-slate-600 dark:text-slate-400 leading-tight">
+                  Full JFT & N4 mastery with Edge Audio & SRS cards
+                </p>
+              </div>
+            </div>
+
+            {/* Lifetime / ₱499 (Best Value) */}
+            <div className="p-3 rounded-2xl bg-gradient-to-br from-amber-500/10 via-pink-500/10 to-indigo-500/10 dark:from-amber-950/30 dark:to-indigo-950/30 border-2 border-amber-300/80 dark:border-amber-700/80 flex flex-col justify-between space-y-1.5 shadow-sm relative">
+              <span className="absolute -top-2.5 right-3 text-[9px] font-black uppercase tracking-wider bg-gradient-to-r from-amber-500 to-orange-500 text-white px-2 py-0.5 rounded-full shadow-sm">
+                Best Value
+              </span>
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="font-bold text-amber-900 dark:text-amber-200 text-xs">👑 Lifetime VIP</span>
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-200 text-amber-800 dark:bg-amber-900/60 dark:text-amber-200">No Expiry</span>
+                </div>
+                <div className="font-black text-base text-amber-600 dark:text-amber-400 mt-1">
+                  ₱499
+                </div>
+                <p className="text-[10px] text-slate-600 dark:text-slate-400 leading-tight">
+                  Permanent access across all levels: N5, N4, N3, N2, N1 & JFT
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-slate-500 dark:text-slate-400 text-[11px] leading-relaxed pt-1">
+            Send <strong>₱100</strong> (2 Weeks), <strong>₱199</strong> (1 Month), or <strong>₱499</strong> (Lifetime) via GCash to <strong>Mariel</strong> on Messenger to receive your personal activation voucher code instantly!
           </p>
-          <div className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 text-[11px] text-slate-600 dark:text-slate-400 space-y-1">
+
+          <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 text-[11px] text-slate-600 dark:text-slate-400 space-y-1.5">
             <div className="flex items-center gap-1.5">
               <span>🌸</span>
-              <span><strong>Full JFT-Basic A2 & JLPT N4:</strong> 720 authentic CBT questions</span>
+              <span><strong>Full JFT-Basic A2 & JLPT N5–N1:</strong> 720+ authentic CBT questions & explanations</span>
             </div>
             <div className="flex items-center gap-1.5">
               <span>🔊</span>
-              <span><strong>Cloudflare Edge Audio:</strong> Real-time Japanese pronunciation</span>
+              <span><strong>Cloudflare Edge Audio:</strong> Real-time Japanese listening dialogues & pronunciation</span>
             </div>
             <div className="flex items-center gap-1.5">
               <span>📜</span>
-              <span><strong>Official Certificates:</strong> IRT scoring & downloadable pass cards</span>
+              <span><strong>Official Certificates:</strong> IRT scoring, single-device lock, & downloadable pass cards</span>
             </div>
           </div>
         </div>

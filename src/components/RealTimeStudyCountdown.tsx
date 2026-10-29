@@ -76,6 +76,8 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
   // If user is a student (classmate)
   const isTrial = licenseStatus.isTrial;
   const isExpired = timeDetail.isExpired || (!licenseStatus.hasValidLicense && !isTrial);
+  const isLifetime = (licenseStatus.daysRemaining && licenseStatus.daysRemaining > 365) || (licenseStatus.license?.planDurationDays && licenseStatus.license.planDurationDays >= 900);
+  const isTwoWeeks = !isLifetime && !isTrial && licenseStatus.license?.planDurationDays === 14;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-3 animate-fadeIn">
@@ -83,6 +85,8 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
         className={`p-3.5 sm:p-4 rounded-2xl border shadow-sm transition-all flex flex-col md:flex-row md:items-center justify-between gap-3 ${
           isExpired
             ? 'bg-rose-50/90 dark:bg-rose-950/40 border-rose-200 dark:border-rose-900/60'
+            : isLifetime
+            ? 'bg-gradient-to-r from-amber-500/10 via-pink-500/10 to-indigo-500/10 dark:from-amber-950/30 dark:to-indigo-950/30 border-amber-300 dark:border-amber-700/80'
             : isTrial
             ? 'bg-gradient-to-r from-amber-50/90 via-orange-50/80 to-amber-50/90 dark:from-amber-950/40 dark:to-orange-950/30 border-amber-200 dark:border-amber-800/60'
             : 'bg-gradient-to-r from-emerald-50/90 via-teal-50/80 to-emerald-50/90 dark:from-emerald-950/40 dark:to-teal-950/30 border-emerald-200 dark:border-emerald-800/60'
@@ -94,12 +98,14 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
             className={`w-10 h-10 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-inner ${
               isExpired
                 ? 'bg-rose-100 text-rose-600 dark:bg-rose-900/60 dark:text-rose-300'
+                : isLifetime
+                ? 'bg-gradient-to-tr from-amber-400 to-amber-500 text-white shadow-md shadow-amber-500/20'
                 : isTrial
                 ? 'bg-amber-100 text-amber-600 dark:bg-amber-900/60 dark:text-amber-300'
                 : 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/60 dark:text-emerald-300'
             }`}
           >
-            <Clock className="w-5 h-5 animate-pulse" />
+            {isLifetime ? <Sparkles className="w-5 h-5 animate-spin-slow" /> : <Clock className="w-5 h-5 animate-pulse" />}
           </div>
 
           <div>
@@ -107,12 +113,12 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
               <span className="relative flex h-2.5 w-2.5">
                 <span
                   className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${
-                    isExpired ? 'bg-rose-400' : isTrial ? 'bg-amber-400' : 'bg-emerald-400'
+                    isExpired ? 'bg-rose-400' : isLifetime ? 'bg-amber-400' : isTrial ? 'bg-amber-400' : 'bg-emerald-400'
                   }`}
                 ></span>
                 <span
                   className={`relative inline-flex rounded-full h-2.5 w-2.5 ${
-                    isExpired ? 'bg-rose-500' : isTrial ? 'bg-amber-500' : 'bg-emerald-500'
+                    isExpired ? 'bg-rose-500' : isLifetime ? 'bg-amber-500' : isTrial ? 'bg-amber-500' : 'bg-emerald-500'
                   }`}
                 ></span>
               </span>
@@ -121,6 +127,8 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
                 className={`text-xs font-black uppercase tracking-wider ${
                   isExpired
                     ? 'text-rose-700 dark:text-rose-300'
+                    : isLifetime
+                    ? 'text-amber-800 dark:text-amber-300'
                     : isTrial
                     ? 'text-amber-800 dark:text-amber-300'
                     : 'text-emerald-800 dark:text-emerald-300'
@@ -128,6 +136,10 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
               >
                 {isExpired
                   ? 'Access Expired'
+                  : isLifetime
+                  ? '👑 Lifetime VIP Pass Active • No Expiration'
+                  : isTwoWeeks
+                  ? '⚡ 2-Week Exam Rush Pass Active'
                   : isTrial
                   ? '⚡ 24-Hour Instant Access Active'
                   : '🌸 1-Month VIP Pass Active'}
@@ -140,9 +152,11 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
 
             <p className="text-[11px] text-slate-600 dark:text-slate-400 mt-0.5">
               {isExpired
-                ? 'Your access has ended. Contact Mariel on Messenger to renew your 30-Day VIP Pass.'
+                ? 'Your access has ended. Contact Mariel on Messenger to renew your VIP Pass (from ₱100).'
+                : isLifetime
+                ? `Student: ${user.displayName} • Unlimited permanent access across all JLPT & JFT levels.`
                 : isTrial
-                ? 'Real-time countdown ticking! Upgrade to 1-Month VIP for unlimited CBT exams & audio.'
+                ? 'Real-time countdown ticking! Upgrade to VIP (from ₱100) for unlimited CBT exams & audio.'
                 : `Student: ${user.displayName} • Single-device protected access.`}
             </p>
           </div>
@@ -151,30 +165,37 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
         {/* Right Side: Live Digital Running Clock & Upgrade Button */}
         <div className="flex flex-wrap sm:flex-nowrap items-center justify-between md:justify-end gap-2.5 w-full md:w-auto pt-1 sm:pt-0 border-t border-slate-200/40 dark:border-slate-800/40 md:border-t-0">
           {!isExpired && (
-            <div className="flex items-center gap-1.5 px-3 py-2 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-slate-200/80 dark:border-slate-700/80 font-mono shadow-inner text-xs sm:text-sm font-black text-slate-800 dark:text-white">
-              {timeDetail.days > 0 && (
+            isLifetime ? (
+              <div className="flex items-center gap-1.5 px-3 py-2 rounded-2xl bg-amber-500 text-white font-mono shadow-md text-xs sm:text-sm font-black">
+                <Sparkles className="w-4 h-4" />
+                <span>∞ Permanent Access</span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-1.5 px-3 py-2 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-slate-200/80 dark:border-slate-700/80 font-mono shadow-inner text-xs sm:text-sm font-black text-slate-800 dark:text-white">
+                {timeDetail.days > 0 && (
+                  <div className="flex items-baseline">
+                    <span className="text-sakura-600 dark:text-sakura-400 font-extrabold">{timeDetail.days}</span>
+                    <span className="text-[10px] text-slate-400 mr-1.5 font-normal">d</span>
+                  </div>
+                )}
                 <div className="flex items-baseline">
-                  <span className="text-sakura-600 dark:text-sakura-400 font-extrabold">{timeDetail.days}</span>
-                  <span className="text-[10px] text-slate-400 mr-1.5 font-normal">d</span>
+                  <span>{timeDetail.hours.toString().padStart(2, '0')}</span>
+                  <span className="text-[10px] text-slate-400 mr-1 font-normal">h</span>
                 </div>
-              )}
-              <div className="flex items-baseline">
-                <span>{timeDetail.hours.toString().padStart(2, '0')}</span>
-                <span className="text-[10px] text-slate-400 mr-1 font-normal">h</span>
+                <span className="text-slate-300 dark:text-slate-600">:</span>
+                <div className="flex items-baseline">
+                  <span>{timeDetail.minutes.toString().padStart(2, '0')}</span>
+                  <span className="text-[10px] text-slate-400 mr-1 font-normal">m</span>
+                </div>
+                <span className="text-slate-300 dark:text-slate-600">:</span>
+                <div className="flex items-baseline">
+                  <span className="text-sakura-500 dark:text-sakura-400 animate-pulse font-extrabold">
+                    {timeDetail.seconds.toString().padStart(2, '0')}
+                  </span>
+                  <span className="text-[10px] text-slate-400 font-normal">s</span>
+                </div>
               </div>
-              <span className="text-slate-300 dark:text-slate-600">:</span>
-              <div className="flex items-baseline">
-                <span>{timeDetail.minutes.toString().padStart(2, '0')}</span>
-                <span className="text-[10px] text-slate-400 mr-1 font-normal">m</span>
-              </div>
-              <span className="text-slate-300 dark:text-slate-600">:</span>
-              <div className="flex items-baseline">
-                <span className="text-sakura-500 dark:text-sakura-400 animate-pulse font-extrabold">
-                  {timeDetail.seconds.toString().padStart(2, '0')}
-                </span>
-                <span className="text-[10px] text-slate-400 font-normal">s</span>
-              </div>
-            </div>
+            )
           )}
 
           <button
@@ -188,7 +209,7 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
             }`}
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>{isExpired ? 'Renew VIP (₱199)' : isTrial ? 'Get 30-Day VIP (₱199)' : 'VIP Details'}</span>
+            <span>{isExpired ? 'Renew VIP (from ₱100)' : isTrial ? 'Get VIP (from ₱100)' : 'VIP Details'}</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>

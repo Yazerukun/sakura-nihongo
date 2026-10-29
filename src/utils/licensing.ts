@@ -197,7 +197,7 @@ export function saveLicenses(licenses: LicenseRecord[]): void {
 }
 
 /**
- * Generate a new random 30-day license key
+ * Generate a new random license key (14-day, 30-day, or Lifetime)
  */
 export function generateLicenseKey(params: {
   studentName: string;
@@ -212,12 +212,25 @@ export function generateLicenseKey(params: {
   }
 
   const duration = params.durationDays || 30;
-  const price = params.pricePaid !== undefined ? params.pricePaid : 199;
+  let defaultPrice = 199;
+  if (duration >= 900) defaultPrice = 499;
+  else if (duration === 14) defaultPrice = 100;
+  else if (duration === 7) defaultPrice = 60;
+  else if (duration === 60) defaultPrice = 349;
+
+  const price = params.pricePaid !== undefined ? params.pricePaid : defaultPrice;
   
-  // Format: SAKURA-30D-XXXX-YYYY
+  // Format: SAKURA-LIFE-XXXX-YYYY, SAKURA-14D-XXXX-YYYY, or SAKURA-30D-XXXX-YYYY
   const chunk1 = Math.random().toString(36).substring(2, 6).toUpperCase();
   const chunk2 = Math.random().toString(36).substring(2, 6).toUpperCase();
-  const code = `SAKURA-${duration}D-${chunk1}-${chunk2}`;
+  const prefix = duration >= 900 ? 'SAKURA-LIFE' : `SAKURA-${duration}D`;
+  const code = `${prefix}-${chunk1}-${chunk2}`;
+
+  const defaultNote = duration >= 900 
+    ? 'Lifetime VIP Pass (₱499)' 
+    : duration === 14 
+    ? '2-Week Exam Rush (₱100)' 
+    : `${duration}-Day VIP Access (₱${price})`;
 
   const newRecord: LicenseRecord = {
     id: `lic_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
@@ -227,7 +240,7 @@ export function generateLicenseKey(params: {
     pricePaid: price,
     status: 'unused',
     createdAt: new Date().toISOString(),
-    notes: params.notes || '1-Month VIP Access'
+    notes: params.notes || defaultNote
   };
 
   const list = getLicenses();
@@ -289,7 +302,12 @@ export function activateLicense(
   if (lic.status === 'unused') {
     const now = new Date();
     const expiry = new Date(now);
-    expiry.setDate(expiry.getDate() + lic.planDurationDays);
+    if (lic.planDurationDays >= 900) {
+      // 10 years for Lifetime
+      expiry.setFullYear(expiry.getFullYear() + 10);
+    } else {
+      expiry.setDate(expiry.getDate() + lic.planDurationDays);
+    }
 
     lic.status = 'active';
     lic.activatedAt = now.toISOString();
@@ -306,9 +324,15 @@ export function activateLicense(
       localStorage.setItem(STORAGE_KEY_ACTIVE_LICENSE, lic.code);
     } catch {}
 
+    const planLabel = lic.planDurationDays >= 900
+      ? 'Lifetime VIP Pass (No Expiration)'
+      : lic.planDurationDays === 14
+      ? '2-Week Exam Rush Pass'
+      : `${lic.planDurationDays}-Day VIP Pass`;
+
     return {
       success: true,
-      message: `🌸 Welcome ${lic.studentName}! Your 30-day VIP pass is now active on this device!`,
+      message: `🌸 Welcome ${lic.studentName}! Your ${planLabel} is now active on this device!`,
       license: lic
     };
   }

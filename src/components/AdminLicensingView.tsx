@@ -118,8 +118,15 @@ export const AdminLicensingView: React.FC<AdminLicensingViewProps> = ({ user }) 
   };
 
   const handleCopyMessengerInvite = (lic: LicenseRecord) => {
+    const isLife = lic.planDurationDays >= 900;
+    const planName = isLife 
+      ? '👑 Lifetime VIP Pass (No Expiration)' 
+      : lic.planDurationDays === 14 
+      ? '⚡ 2-Week Exam Rush Pass' 
+      : `${lic.planDurationDays}-Day VIP Access`;
+
     const inviteText = `🌸 Sakura Nihongo VIP Access 🌸
-Hi ${lic.studentName}! Here is your 1-Month VIP License Code:
+Hi ${lic.studentName}! Here is your ${planName} Voucher Code:
 👉 ${lic.code}
 
 🔗 Website: https://sakura-nihongo.pages.dev
@@ -128,7 +135,7 @@ Hi ${lic.studentName}! Here is your 1-Month VIP License Code:
 • Cloudflare Edge Audio Speech for Listening & Pronunciation
 • 3D Spaced Repetition (SRS) Flashcards & Cheatsheets
 • Official IRT Scaled Scoring & Passing Certificate
-
+${isLife ? '• 👑 Permanent Lifetime Access across all JLPT levels (N5, N4, N3, N2, N1 + JFT)\n' : ''}
 Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌✨`;
 
     navigator.clipboard.writeText(inviteText);
@@ -341,24 +348,26 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
 
           <div>
             <label className="block text-xs font-bold text-slate-700 dark:text-slate-300 mb-1.5">
-              Plan Duration
+              Plan Duration & Tier
             </label>
             <select
               value={planDays}
               onChange={(e) => {
                 const days = Number(e.target.value);
                 setPlanDays(days);
-                if (days === 30) setPricePaid(199);
-                else if (days === 14) setPricePaid(119);
+                if (days === 14) setPricePaid(100);
+                else if (days === 30) setPricePaid(199);
+                else if (days === 999) setPricePaid(499);
+                else if (days === 7) setPricePaid(60);
                 else if (days === 60) setPricePaid(349);
-                else if (days === 999) setPricePaid(0);
               }}
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-white text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-sakura-400"
             >
-              <option value={30}>30 Days (1 Month Pass) - Standard</option>
-              <option value={14}>14 Days (Exam Rush) - 2 Weeks</option>
-              <option value={60}>60 Days (2 Months Pass)</option>
-              <option value={999}>VIP Lifetime Pass</option>
+              <option value={14}>14 Days (2 Weeks Exam Rush) - ₱100</option>
+              <option value={30}>30 Days (1 Month Standard Pass) - ₱199</option>
+              <option value={999}>👑 VIP Lifetime Pass (No Expiry) - ₱499</option>
+              <option value={7}>7 Days (1 Week Sprint) - ₱60</option>
+              <option value={60}>60 Days (2 Months Pass) - ₱349</option>
             </select>
           </div>
 
@@ -537,7 +546,7 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
                         <div>
                           {lic.status === 'active' && (
                             <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
-                              Active • {daysLeft}d left
+                              {lic.planDurationDays >= 900 ? '👑 Lifetime VIP' : `Active • ${daysLeft}d left`}
                             </span>
                           )}
                           {lic.status === 'unused' && (
@@ -590,10 +599,12 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
                           </span>
                         </div>
                         <div>
-                          {lic.expiresAt ? (
+                          {lic.planDurationDays >= 900 ? (
+                            <span className="text-amber-500 font-bold">👑 Lifetime (No Expiry)</span>
+                          ) : lic.expiresAt ? (
                             <span>Exp: {new Date(lic.expiresAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
                           ) : (
-                            <span>30d upon first login</span>
+                            <span>{lic.planDurationDays}d on activation</span>
                           )}
                         </div>
                       </div>
@@ -721,9 +732,13 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
 
                           <td className="py-4 px-4 font-semibold">
                             {lic.status === 'active' ? (
-                              <span className={daysLeft <= 3 ? 'text-rose-500 font-bold' : 'text-emerald-600 dark:text-emerald-400 font-bold'}>
-                                {daysLeft} days
-                              </span>
+                              lic.planDurationDays >= 900 ? (
+                                <span className="text-amber-500 font-bold">👑 Lifetime</span>
+                              ) : (
+                                <span className={daysLeft <= 3 ? 'text-rose-500 font-bold' : 'text-emerald-600 dark:text-emerald-400 font-bold'}>
+                                  {daysLeft} days
+                                </span>
+                              )
                             ) : (
                               <span className="text-slate-400">—</span>
                             )}
@@ -741,14 +756,16 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
                           </td>
 
                           <td className="py-4 px-4 text-[11px] text-slate-500 dark:text-slate-400">
-                            {lic.expiresAt ? (
+                            {lic.planDurationDays >= 900 ? (
+                              <span className="text-amber-500 font-bold">👑 No Expiry</span>
+                            ) : lic.expiresAt ? (
                               new Date(lic.expiresAt).toLocaleDateString('en-US', {
                                 month: 'short',
                                 day: 'numeric',
                                 year: 'numeric'
                               })
                             ) : (
-                              <span className="text-slate-400">30d on activation</span>
+                              <span className="text-slate-400">{lic.planDurationDays}d on activation</span>
                             )}
                           </td>
 
