@@ -214,13 +214,13 @@ export function generateLicenseKey(params: {
   const duration = params.durationDays || 30;
   let defaultPrice = 199;
   if (duration >= 900) defaultPrice = 499;
-  else if (duration === 14) defaultPrice = 100;
-  else if (duration === 7) defaultPrice = 60;
+  else if (duration === 7) defaultPrice = 100;
+  else if (duration === 14) defaultPrice = 150;
   else if (duration === 60) defaultPrice = 349;
 
   const price = params.pricePaid !== undefined ? params.pricePaid : defaultPrice;
   
-  // Format: SAKURA-LIFE-XXXX-YYYY, SAKURA-14D-XXXX-YYYY, or SAKURA-30D-XXXX-YYYY
+  // Format: SAKURA-LIFE-XXXX-YYYY, SAKURA-7D-XXXX-YYYY, or SAKURA-30D-XXXX-YYYY
   const chunk1 = Math.random().toString(36).substring(2, 6).toUpperCase();
   const chunk2 = Math.random().toString(36).substring(2, 6).toUpperCase();
   const prefix = duration >= 900 ? 'SAKURA-LIFE' : `SAKURA-${duration}D`;
@@ -228,8 +228,10 @@ export function generateLicenseKey(params: {
 
   const defaultNote = duration >= 900 
     ? 'Lifetime VIP Pass (₱499)' 
+    : duration === 7 
+    ? '1-Week Sprint (₱100)' 
     : duration === 14 
-    ? '2-Week Exam Rush (₱100)' 
+    ? '2-Week Exam Rush (₱150)' 
     : `${duration}-Day VIP Access (₱${price})`;
 
   const newRecord: LicenseRecord = {
@@ -326,6 +328,8 @@ export function activateLicense(
 
     const planLabel = lic.planDurationDays >= 900
       ? 'Lifetime VIP Pass (No Expiration)'
+      : lic.planDurationDays === 7
+      ? '1-Week Sprint Pass'
       : lic.planDurationDays === 14
       ? '2-Week Exam Rush Pass'
       : `${lic.planDurationDays}-Day VIP Pass`;

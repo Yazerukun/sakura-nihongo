@@ -77,6 +77,7 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
   const isTrial = licenseStatus.isTrial;
   const isExpired = timeDetail.isExpired || (!licenseStatus.hasValidLicense && !isTrial);
   const isLifetime = (licenseStatus.daysRemaining && licenseStatus.daysRemaining > 365) || (licenseStatus.license?.planDurationDays && licenseStatus.license.planDurationDays >= 900);
+  const isOneWeek = !isLifetime && !isTrial && licenseStatus.license?.planDurationDays === 7;
   const isTwoWeeks = !isLifetime && !isTrial && licenseStatus.license?.planDurationDays === 14;
 
   return (
@@ -138,6 +139,8 @@ export const RealTimeStudyCountdown: React.FC<RealTimeStudyCountdownProps> = ({
                   ? 'Access Expired'
                   : isLifetime
                   ? '👑 Lifetime VIP Pass Active • No Expiration'
+                  : isOneWeek
+                  ? '⚡ 1-Week Sprint Pass Active'
                   : isTwoWeeks
                   ? '⚡ 2-Week Exam Rush Pass Active'
                   : isTrial

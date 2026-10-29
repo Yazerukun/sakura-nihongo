@@ -121,6 +121,8 @@ export const AdminLicensingView: React.FC<AdminLicensingViewProps> = ({ user }) 
     const isLife = lic.planDurationDays >= 900;
     const planName = isLife 
       ? '👑 Lifetime VIP Pass (No Expiration)' 
+      : lic.planDurationDays === 7
+      ? '⚡ 1-Week Sprint Pass (7 Days)'
       : lic.planDurationDays === 14 
       ? '⚡ 2-Week Exam Rush Pass' 
       : `${lic.planDurationDays}-Day VIP Access`;
@@ -355,18 +357,18 @@ Open the link, click "Activate VIP" and paste your code! Ganbatte kudasai! 🎌�
               onChange={(e) => {
                 const days = Number(e.target.value);
                 setPlanDays(days);
-                if (days === 14) setPricePaid(100);
+                if (days === 7) setPricePaid(100);
                 else if (days === 30) setPricePaid(199);
                 else if (days === 999) setPricePaid(499);
-                else if (days === 7) setPricePaid(60);
+                else if (days === 14) setPricePaid(150);
                 else if (days === 60) setPricePaid(349);
               }}
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-white text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-sakura-400"
             >
-              <option value={14}>14 Days (2 Weeks Exam Rush) - ₱100</option>
+              <option value={7}>7 Days (1 Week Sprint) - ₱100</option>
               <option value={30}>30 Days (1 Month Standard Pass) - ₱199</option>
               <option value={999}>👑 VIP Lifetime Pass (No Expiry) - ₱499</option>
-              <option value={7}>7 Days (1 Week Sprint) - ₱60</option>
+              <option value={14}>14 Days (2 Weeks Pass) - ₱150</option>
               <option value={60}>60 Days (2 Months Pass) - ₱349</option>
             </select>
           </div>

@@ -249,18 +249,18 @@ export const LicenseActivationModal: React.FC<LicenseActivationModalProps> = ({
 
           {/* 3 Tier Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-            {/* 2 Weeks / ₱100 */}
+            {/* 1 Week / ₱100 */}
             <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-850 border border-slate-200/80 dark:border-slate-700 flex flex-col justify-between space-y-1.5 shadow-sm">
               <div>
                 <div className="flex items-center justify-between">
-                  <span className="font-bold text-slate-800 dark:text-white text-xs">2 Weeks Rush</span>
-                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-100 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300">14 Days</span>
+                  <span className="font-bold text-slate-800 dark:text-white text-xs">1-Week Sprint</span>
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-100 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300">7 Days</span>
                 </div>
                 <div className="font-black text-base text-slate-900 dark:text-white mt-1">
                   ₱100
                 </div>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-tight">
-                  Sprint review right before your CBT exam date
+                  High-speed review & drills right before your CBT exam date
                 </p>
               </div>
             </div>
@@ -305,7 +305,7 @@ export const LicenseActivationModal: React.FC<LicenseActivationModalProps> = ({
           </div>
 
           <p className="text-slate-500 dark:text-slate-400 text-[11px] leading-relaxed pt-1">
-            Send <strong>₱100</strong> (2 Weeks), <strong>₱199</strong> (1 Month), or <strong>₱499</strong> (Lifetime) via GCash to <strong>Mariel</strong> on Messenger to receive your personal activation voucher code instantly!
+            Send <strong>₱100</strong> (1 Week), <strong>₱199</strong> (1 Month), or <strong>₱499</strong> (Lifetime) via GCash to <strong>Mariel</strong> on Messenger to receive your personal activation voucher code instantly!
           </p>
 
           <div className="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/60 text-[11px] text-slate-600 dark:text-slate-400 space-y-1.5">

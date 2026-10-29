@@ -30,7 +30,7 @@ export async function onRequest(context: any) {
     return new Response(JSON.stringify({
       code,
       validFormat: isValidFormat,
-      plan: code.includes('LIFE') ? 'Lifetime VIP' : code.includes('30D') ? '30 Days VIP' : code.includes('14D') ? '14 Days Rush' : 'Custom VIP',
+      plan: code.includes('LIFE') ? 'Lifetime VIP' : code.includes('7D') ? '1 Week Sprint' : code.includes('30D') ? '30 Days VIP' : code.includes('14D') ? '14 Days Rush' : 'Custom VIP',
       serverTime: new Date().toISOString()
     }), {
       status: 200,
