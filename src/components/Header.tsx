@@ -14,7 +14,8 @@ import {
   User,
   ChevronRight,
   Calendar,
-  Zap
+  Zap,
+  Menu
 } from 'lucide-react';
 import { japaneseVoice } from '../utils/audio';
 
@@ -32,6 +33,7 @@ interface HeaderProps {
   onOpenLicensingModal?: () => void;
   onOpenAdminHub?: () => void;
   licenseStatus?: StudentLicenseStatus;
+  onToggleSidebar?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -47,7 +49,8 @@ export const Header: React.FC<HeaderProps> = ({
   onLogout,
   onOpenLicensingModal,
   onOpenAdminHub,
-  licenseStatus
+  licenseStatus,
+  onToggleSidebar
 }) => {
   const [showMobileHub, setShowMobileHub] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
@@ -94,6 +97,17 @@ export const Header: React.FC<HeaderProps> = ({
           
           {/* Brand & Active Level */}
           <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+            {onToggleSidebar && (
+              <button
+                onClick={onToggleSidebar}
+                className="p-1.5 sm:p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:text-sakura-600 dark:hover:text-sakura-400 hover:bg-sakura-50 dark:hover:bg-slate-800 transition-colors active:scale-95 border border-transparent hover:border-sakura-200 dark:hover:border-slate-700"
+                title="Toggle Study Modules Side Panel"
+                aria-label="Toggle Navigation Sidebar"
+              >
+                <Menu className="w-5 h-5" />
+              </button>
+            )}
+
             <div className="relative group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-gradient-to-tr from-sakura-500 via-rose-500 to-sakura-400 text-white shadow-md shadow-sakura-500/25 flex items-center justify-center ring-2 ring-white/90 dark:ring-slate-800 group-hover:scale-105 active:scale-95 transition-transform">
                 <span className="text-lg sm:text-xl transform group-hover:rotate-12 transition-transform select-none">🌸</span>

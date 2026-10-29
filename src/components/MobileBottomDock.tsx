@@ -15,7 +15,9 @@ import {
   Bookmark,
   Timer,
   BarChart3,
-  Mic
+  Mic,
+  Compass,
+  LayoutGrid
 } from 'lucide-react';
 
 interface MobileBottomDockProps {
@@ -24,6 +26,7 @@ interface MobileBottomDockProps {
   user: UserProfile;
   licenseStatus: StudentLicenseStatus;
   onOpenUpgrade: () => void;
+  onOpenSidebar?: () => void;
 }
 
 export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
@@ -31,7 +34,8 @@ export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
   onSelectMode,
   user,
   licenseStatus,
-  onOpenUpgrade
+  onOpenUpgrade,
+  onOpenSidebar
 }) => {
   const [showMoreSheet, setShowMoreSheet] = useState(false);
   const isAdmin = user.username === 'nihon11';
@@ -49,23 +53,23 @@ export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
       icon: <GraduationCap className="w-5 h-5 text-sakura-500 fill-sakura-500" />
     },
     {
+      id: 'ai-tutor',
+      label: 'AI Sensei',
+      icon: <Bot className="w-5 h-5 text-sakura-500" />
+    },
+    {
       id: 'flashcards',
       label: 'Flashcards',
       icon: <Layers className="w-5 h-5 text-indigo-500" />
-    },
-    {
-      id: 'realtime-voice',
-      label: 'Voice Lab',
-      icon: <Mic className="w-5 h-5 text-rose-500" />
     }
   ];
 
   const secondaryItems: { id: StudyMode; label: string; icon: React.ReactNode; desc: string }[] = [
     {
-      id: 'ai-tutor',
-      label: 'AI Sensei',
-      icon: <Bot className="w-5 h-5 text-sakura-500" />,
-      desc: 'Real-time interactive dialogue tutor'
+      id: 'realtime-voice',
+      label: 'Voice Lab',
+      icon: <Mic className="w-5 h-5 text-rose-500" />,
+      desc: 'Live microphone speech assessment'
     },
     {
       id: 'grammar',
@@ -110,10 +114,18 @@ export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
     setShowMoreSheet(false);
   };
 
+  const handleOpenMore = () => {
+    if (onOpenSidebar) {
+      onOpenSidebar();
+    } else {
+      setShowMoreSheet(true);
+    }
+  };
+
   return (
     <>
-      {/* Floating Bottom Island Dock (Strictly Mobile md:hidden) */}
-      <div className="fixed bottom-3 inset-x-3 z-40 md:hidden animate-springPop">
+      {/* Floating Bottom Island Dock (Strictly Mobile lg:hidden) */}
+      <div className="fixed bottom-3 inset-x-3 z-40 lg:hidden animate-springPop">
         <div className="max-w-md mx-auto bg-white/92 dark:bg-slate-900/92 backdrop-blur-2xl rounded-[28px] p-1.5 shadow-2xl border border-white/60 dark:border-slate-800 flex items-center justify-between gap-1 shadow-sakura-500/10">
           {primaryItems.map((item) => {
             const isActive = currentMode === item.id;
@@ -123,7 +135,7 @@ export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
                 onClick={() => onSelectMode(item.id)}
                 className={`relative flex-1 py-2 px-1 flex flex-col items-center justify-center rounded-2xl transition-all duration-200 active:scale-95 ${
                   isActive
-                    ? 'bg-sakura-500 text-white shadow-lg shadow-sakura-500/30'
+                    ? 'bg-gradient-to-r from-sakura-500 to-rose-600 text-white shadow-lg shadow-sakura-500/30'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
                 }`}
               >
@@ -144,7 +156,7 @@ export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
             );
           })}
 
-          {/* 5th slot: Admin Hub if nihon11, or VIP Upgrade button for Classmates */}
+          {/* 5th slot: Admin Hub if nihon11, or All Modules Drawer Trigger */}
           {isAdmin ? (
             <button
               onClick={() => onSelectMode('admin-licensing')}
@@ -159,34 +171,25 @@ export const MobileBottomDock: React.FC<MobileBottomDockProps> = ({
             </button>
           ) : (
             <button
-              onClick={onOpenUpgrade}
-              className="relative flex-1 py-2 px-1 flex flex-col items-center justify-center rounded-2xl bg-gradient-to-tr from-amber-500 to-sakura-500 text-white shadow-md shadow-sakura-500/25 active:scale-95 transition-all"
+              onClick={handleOpenMore}
+              className={`relative flex-1 py-2 px-1 flex flex-col items-center justify-center rounded-2xl transition-all duration-200 active:scale-95 ${
+                secondaryItems.some(i => i.id === currentMode)
+                  ? 'bg-sakura-500 text-white shadow-md shadow-sakura-500/25'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+              title="All Study Modules"
             >
-              <Sparkles className="w-5 h-5 text-white animate-pulse" />
-              <span className="text-[10px] font-black mt-0.5">
-                {licenseStatus.hasValidLicense && !licenseStatus.isTrial ? 'VIP' : 'Get VIP'}
-              </span>
+              <LayoutGrid className="w-5 h-5" />
+              <span className="text-[10px] font-bold mt-0.5">Modules</span>
             </button>
           )}
 
-          {/* More Sheet Trigger */}
-          <button
-            onClick={() => setShowMoreSheet(true)}
-            className={`p-2 rounded-2xl transition-all active:scale-95 text-slate-500 dark:text-slate-400 hover:text-slate-800 ${
-              secondaryItems.some(i => i.id === currentMode)
-                ? 'bg-sakura-100 dark:bg-sakura-900/40 text-sakura-600 dark:text-sakura-300'
-                : ''
-            }`}
-            title="More Modules"
-          >
-            <MoreHorizontal className="w-5 h-5" />
-          </button>
         </div>
       </div>
 
-      {/* Mobile Drawer Sheet ("More Features") */}
+      {/* Fallback Mobile Drawer Sheet ("More Features") */}
       {showMoreSheet && (
-        <div className="fixed inset-0 z-50 flex items-end justify-center md:hidden animate-fadeIn">
+        <div className="fixed inset-0 z-50 flex items-end justify-center lg:hidden animate-fadeIn">
           {/* Backdrop */}
           <div
             className="fixed inset-0 bg-slate-950/60 backdrop-blur-sm"
